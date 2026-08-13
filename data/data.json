@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-08-13T11:56:42.516Z",
+ "updatedAt": "2026-08-13T13:40:18.775Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 87.4,
+   "price": 86.77,
    "prevClose": 88.98,
-   "changePct": -1.78,
+   "changePct": -2.48,
    "change24hPct": null,
    "spark": [
     {
@@ -112,9 +112,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 81.61,
+   "price": 80.97,
    "prevClose": 83.27,
-   "changePct": -1.99,
+   "changePct": -2.76,
    "change24hPct": null,
    "spark": [
     {
@@ -210,9 +210,9 @@
    "symbol": "NG=F",
    "name": "Henry Hub Gas",
    "unit": "USD/MMBtu",
-   "price": 2.77,
+   "price": 2.74,
    "prevClose": 2.8,
-   "changePct": -1.36,
+   "changePct": -2.21,
    "change24hPct": null,
    "spark": [
     {
@@ -308,9 +308,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 99.92,
+   "price": 99.91,
    "prevClose": 99.98,
-   "changePct": -0.07,
+   "changePct": -0.08,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -321,9 +321,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4383.45,
+   "price": 4377.83,
    "prevClose": 4408.07,
-   "changePct": -0.56,
+   "changePct": -0.69,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -331,6 +331,353 @@
   }
  ],
  "news": [
+  {
+   "title": "Iran says no vessels can safely transit Strait of Hormuz without permission - VIDEO",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWV9pY1J0a0lNYk43VV9odTZQY0NkOURhWFB3aGtnUE9ERWM2dzM3cVVVbnVnek9TNkpMQlRLUHVBMHNTaE9jYlBVN2JBUU1mem5fd21CVUZNNVVRRjVqQXpISVZjNWFVOU5Fall6VldkUlFkVy1IRXR4TUZJWWlSN0xoVTktZ01IUVgyTXVUdGdfall4Q29USUg3RU5QZWtSdnpWaw?oc=5",
+   "source": "Latest news from Azerbaijan",
+   "pubDate": "2026-08-13T13:36:27.000Z",
+   "description": "Iran says no vessels can safely transit Strait of Hormuz without permission - VIDEO&nbsp;&nbsp;Latest news from Azerbaijan",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US and Iran both claim 'total control' of Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSjFlb0JvenZnN3BkUHZZdjRzTExrR0ZDeHhpYnNOcFMwdXJfT2VYbGx5Y1h5M1A1anR4WGFzbjBxRHZkZHpVck9ITjdId29sWVh0eEdWWWVWY3dSZUVuRkJ0Z0NyVTF2SVVodDBwc1F2aDA1Tk9UODhfT2o4Zk5FeHdRa3FpdVI0WTVYNU8tZ1VUMk5ZX3M5LTVB?oc=5",
+   "source": "RBC-Ukraine",
+   "pubDate": "2026-08-13T13:31:15.000Z",
+   "description": "US and Iran both claim 'total control' of Strait of Hormuz&nbsp;&nbsp;RBC-Ukraine",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "No Vessel Can Safely Transit Strait of Hormuz Without Iranian Authorization",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3NmQVJSQTdtTFBfTTJUOEV3SkZTa3NLbEljQmNGZDVIblo4eTdjeHYwYUVNazB3SHlST2FpT1pSQzhYT19hbGpGUE9ycy00clJzQ0Y2QlRFeDhHSFR3bFpjVDlkSWMxbXZaS044Tk4tWXg4elF6TjNiaHhpV0twSkNocHVLLXpRaEo3eTdPYVBWanlYV3RwZ1k4UQ?oc=5",
+   "source": "WANA News Agency",
+   "pubDate": "2026-08-13T13:21:59.000Z",
+   "description": "No Vessel Can Safely Transit Strait of Hormuz Without Iranian Authorization&nbsp;&nbsp;WANA News Agency",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iran says Trump is relying on ‘fake intelligence,’ makes new demands over Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSV9sQXExNzBlaWFNXzJTd2tWZzduODRPeDIySzhJQkIyWDFBdTZxaElmX0JFNnk5NjVEejFxMThFSG9laGY1dVlwSU1QR21qRV93dU5YaDlicmxWUXVQNTg5dm9NODlBWWtTM2xZMHE4bVdGeU4xZHhfNjBNUktWRUF0QnU2bmYyTmpwYVI2TFEtUUVITW15TEVkZzQxa0pPZ0k0cjVTM01LN1NXUFJvRDd4bGdIZXM?oc=5",
+   "source": "Washington Times",
+   "pubDate": "2026-08-13T13:16:16.000Z",
+   "description": "Iran says Trump is relying on ‘fake intelligence,’ makes new demands over Strait of Hormuz&nbsp;&nbsp;Washington Times",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Ukrainian Refinery Strikes Drive Russian Trucking Costs Up by Up to 50%",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTWt4ZEprT01kS3hjQ01KWmJMM2NzLThfQU5iQldZd1pCR05BYWp5M2U1U2hGaFk4eDRiQVdsTHQ3ZHQ5MVFPd3hrdjFJTlp2Z05ic2ZqNDJlbW1wTm1PbGQ0WkVNQlpYMHhNTWJQWDhCTHRyWkRqQjQ4LXdxN0R2ZmpYUHZ0WHBCS3U5cWpNNkFjRGVPQ3ZoeFpsQ2pyTnNwazE4c0I3ZHVrajhHSTc2My1PNEtiQkpR?oc=5",
+   "source": "UNITED24 Media",
+   "pubDate": "2026-08-13T13:14:49.000Z",
+   "description": "Ukrainian Refinery Strikes Drive Russian Trucking Costs Up by Up to 50%&nbsp;&nbsp;UNITED24 Media",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent Headrick continues his improbable rise with Yankees",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0ZuRWpTcnhrbnNEZ1UtcUJmUjZ5MHBhZVAyRW5nTWphWlROTmJ6OFdOb2VIcGpoZW8xSmVnc3pNTENHRFlqbnVuUmF1dDgzQl9XUER4a2FpUlVVUnpYZ2xyLW5JRmtyZzZlWDJBX2tqaEZQNGZQZUVnd183TTIyWDNnRnVZVXctSDlSdkE3Ui04SGp2Mzd6NllhanIwVC1Tb2c?oc=5",
+   "source": "Audacy",
+   "pubDate": "2026-08-13T13:13:00.000Z",
+   "description": "Brent Headrick continues his improbable rise with Yankees&nbsp;&nbsp;Audacy",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Donald Trump is getting a new tariff weapon against Russia",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNem9OcEJjZGJ5YTloM1lNNHFrbE50aHNiNGhQcUVzSkVqaUtSanFJcXZ1NFdsQnk4cWlSVVdEUFBSNEhMYnFkX1lhN0RkTW9FTWJoMUtaeDFqeTJKc0s3NzkwV2V6ZWRsdEljMlp0UGlZRjlEMElQVnhpYUY0RTRkejVvakJiaVFTaTBWQktkcldlX3lQNG5Md1hsVXN6V2tRMVZqWlVNVmVmUnM0ZVE?oc=5",
+   "source": "The Economist",
+   "pubDate": "2026-08-13T13:12:35.000Z",
+   "description": "Donald Trump is getting a new tariff weapon against Russia&nbsp;&nbsp;The Economist",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russian seaborne oil product exports dropped 33% in July, data from sources shows",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc0pHWXdMTHRIcDFGcE90aEN3WkxpSHl1dXBxSnpZc2lzWTNjX1ZkS1ZsbXZHbTNCcGItWFVUYTl3cEN4TDJPNTlwT29DVXdWYms3VkZkZ0EtOGtCcUtlX2dyblVMTU9qenNTaEdpbjNKVjQwUmwwaE1HeUdlbjdwZmZ4UkNkdmlPYkxkb0VmUDNDY0NfX3B5OVBBbFRIeWhOYlRtV1BWV2pUZHBjNjZTSGZsTzd3VnZndWptekZYR3U?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-13T13:07:43.000Z",
+   "description": "Russian seaborne oil product exports dropped 33% in July, data from sources shows&nbsp;&nbsp;Reuters",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran dismisses US claims of full control over Strait of Hormuz as ‘baseless lies’",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ0dEYUxfd21ERDl1d3RpRmdzVzdISnNGd1EzOGRuUzQxNHVRTTQ1cWd4eF9IVE1tMXpoTDcxb0FEcnZvMU5veWt5WEItVGIyN051MmlHRnZ4VzlQM1FaVnN1bldSbVdTbU9WVXQySS03NXg1WWhiVHV1d3Rwc1N3VlNRZzFaaGdYaldQS1NZbUdtQzRSdmdacnRqMU1XSExNT1pEejJLcktaV196OS1OYVJLOGdBMjhlUVFuTmxmTnY?oc=5",
+   "source": "The Malaysian Reserve",
+   "pubDate": "2026-08-13T13:07:38.000Z",
+   "description": "Iran dismisses US claims of full control over Strait of Hormuz as ‘baseless lies’&nbsp;&nbsp;The Malaysian Reserve",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Expected Rep. Brent Taylor (R), Tennessee's 9th District",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZGRZRmp2QXVuVjVHc3dkb2R0bHozRnp1Z1M1T2QxV0ZOQ3UzTUtsUXBvWlpCbzdyVU13S1dOaXgwUU5NSXBWMVVGRV9IX3p1NmE1UFlPRGpwWko2U1dHdmE1dldlU0E5RGYzcFU1QUFTdkxfUWdKUWdzS0JfSmtIbjlqdFZ3N2RjMEVwYUZxMGY?oc=5",
+   "source": "Substack",
+   "pubDate": "2026-08-13T13:03:09.000Z",
+   "description": "Expected Rep. Brent Taylor (R), Tennessee's 9th District&nbsp;&nbsp;Substack",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Iran and US compete over control of the Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMzFuaVgxSmNKdWF4SDdNOXBsdWtDaUZtTkFfTk95ekZLcTV4ZHBZaEdId1RpSmdaZ0xwQ3pTUmJGcW1PcVJJNklEVF8wME83OW54emtxWWxNRmhQblMtbl9PcTRLaTgyM2xQWm5aZ2FCdmdZRzdqalY5b0hsUjZQTU5OdUFBZ1dRem9yeUFXc1dMNzJZdy16ZEp5b0hCdm00MHhrTlRQS3JqWEZUbkZOOVlR?oc=5",
+   "source": "The Straits Times",
+   "pubDate": "2026-08-13T13:02:17.000Z",
+   "description": "Iran and US compete over control of the Strait of Hormuz&nbsp;&nbsp;The Straits Times",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
+   "link": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+   "source": "The Guardian",
+   "pubDate": "2026-08-13T12:56:57.000Z",
+   "description": "Japanese PM says islands seized by Soviets late in second world war are part of Japan under international lawThe Japanese government has reacted angrily to Vladimir Putin’s first visit to the disputed Kuril Islands, which are claimed by both Tokyo and Moscow.Japan’s foreign minister, Toshimitsu Mote",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "UAE’s ADNOC Offers To Shuttle Iraqi Oil Through Strait Of Hormuz To Asian Refiners",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSDQ5NUFUSVZxWGtHWm91c3h6NGtsa2V3R3RQZ3dRa0VfUWpXajVKbFQ3UVNuS1A5eG9YU094TThtNV9iLUxNdVRzYU9wRG0yVG9VLVdFVFZXc3lxZjBVZVl6b3FlZUJpZF91SnJDZW9vOFFidmZER0ZEOVJjc0ZOcVBjWWw1eTU3eWQxN2hNa1owekxCUnd4TjEtekRNXzZueHZlNHpwWTNYYkVxT3E0MERn?oc=5",
+   "source": "Marine Insight",
+   "pubDate": "2026-08-13T12:56:18.000Z",
+   "description": "UAE’s ADNOC Offers To Shuttle Iraqi Oil Through Strait Of Hormuz To Asian Refiners&nbsp;&nbsp;Marine Insight",
+   "categories": [
+    "hormuz_redsea",
+    "supply_other"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthi drone strike kills two at military camp in eastern Yemen",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDZrRmlwb0pETVR6dWN5bXozWEYyU010MEZDdHF0UGZGc2dCYWo5YzEyRFoyRlJvODBIQ29lRXFvaU1fOG1rN3o3U0RiOGttOEJ3WklTUVJNWGZ0Vjk0clQ5MUZ1djdLeVZOZXRRVlVwZENvbGZaSjdXQjQ5eDZSdWRLQlJaTmtybzZGWTlIbmFHQ1FucTkyVXlpeVBuZThISWhmdA?oc=5",
+   "source": "Yeni Safak English",
+   "pubDate": "2026-08-13T12:45:08.000Z",
+   "description": "Houthi drone strike kills two at military camp in eastern Yemen&nbsp;&nbsp;Yeni Safak English",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "2 killed, 15 injured in Houthi drone attack in eastern Yemen",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl95NE9nanFIMDdYcjBJX0dUd0lLMzhFTkNZZzRYTHhBQzJ4QWdISE1iM1YwNVlZWEhTTHZCSXpXZ25wVUc4bGhLNEMzMWlHaXhHLWltaTdNZC1rUXBQR2VJeDdPbThvUkNQQUhETzBXMjhHV0lHWlpYb0xsV0doVTdrWXlTZ0UwRXVMWXB4TGlONDVNTGlFWWF1N3lITlViWFFxVElOTQ?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-08-13T12:44:00.000Z",
+   "description": "2 killed, 15 injured in Houthi drone attack in eastern Yemen&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Turkiye lays out ‘mechanisms’ of defence pact with Pakistan, Saudi Arabia",
+   "link": "https://www.aljazeera.com/news/2026/8/13/turkiye-lays-out-mechanisms-of-defence-pact-with-pakistan-saudi-arabia?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-13T12:42:28.000Z",
+   "description": "Three nations to group ministers, hold ⁠joint exercises and deepen defence industry cooperation under the pact.",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Ukraine confirms attack on major refinery in Bashkortostan",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLVpEUnk5ZnpodDV1a2RmTjQ1RHkxa3lrUXppSWFOclowTTFCd3o0b1JzRGhnYWg2MDVQSklHX2dvdHFvbFNtSVg3bTJpbTJTNF9IZ2VSc1d6Q09tbXQwU1RCN3dRMHNna0g0ODYzTlB4VGFDLUI5akNGXzI4dm4zMUp5dWtBakJTZ2FxcE1PdkdoVDdWMjJGMzZhN0dMUG5oRVdidnMydjk1SUF3WHJxYWJ6Y2s3QnFaWVhCQWFpaFJSbTVMVEZZdmNaVTZpUdIBygFBVV95cUxOSFo4QTNTRkx3RVhyb3FiYUJ2NXBRbFdGc0hRNnFnNlJaYnVLWHdWLUpLU3kzVTI2M1dtbVlBVnRsdW1jWEhIUFdZYVJNNmg5LUFLc0w0NXF0eVNoc2VUWjFkR2xZSHUzUjh5MzFUTzdJeFFXVGp4V1JQS3hfWTZSQi1oQ0VjY3BpVWtqVUpaQ1YyZHQ3NndnUG5IVjlmLUdnZzAwQnlpLU5wcmgzYlJuQ21COUxWSXZIcHZMWWRmVTczYXowRV9iNGpB?oc=5",
+   "source": "The New Voice of Ukraine",
+   "pubDate": "2026-08-13T12:40:00.000Z",
+   "description": "Ukraine confirms attack on major refinery in Bashkortostan&nbsp;&nbsp;The New Voice of Ukraine",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "WTI Oil Price Forecast: Momentum turns flat as Bollinger Bands expand",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZXJlUFZOSXRkRkdFdTlxWEN1cW1zU0dLRmlaMzlOc3N3LVB3OW9RVzA1TlBScXloem1xaE40cS0yV19lYkwyRi16UFVNV2NKUDNOQTUxYUFxUnJwV19NeFBtNjV1WUV5X043RG1lNllVNTQ0ZW5yRjlWRExzcHBBVVQyM1E4RFgyVTJMSUc3TlZHNDVlV0ZqbUdVQzlyME1YQUdKNmNNUXh1NHVZY05USA?oc=5",
+   "source": "FXStreet",
+   "pubDate": "2026-08-13T12:34:20.000Z",
+   "description": "WTI Oil Price Forecast: Momentum turns flat as Bollinger Bands expand&nbsp;&nbsp;FXStreet",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "India Eyes Two New Sites to Expand Strategic Oil Reserves",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Eyes-Two-New-Sites-to-Expand-Strategic-Oil-Reserves.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-08-13T12:30:00.000Z",
+   "description": "State-controlled Indian Strategic Petroleum Reserves Ltd (ISPRL) is finalizing feasibility studies for two new strategic petroleum reserves facilities as the world’s third-largest crude oil importer looks to boost its energy security. ISPRL, a government-owned special purpose vehicle, is finalizing ",
+   "categories": [
+    "usa_policy",
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Blow to Houthi propaganda apparatus",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OTE1ScGJScUNROHgwdXh2QW1tdkJsTHI1SVphUDRJdHhaNzJIZktjVG1jUG9fajM4N2xpQXc0NXoyS3FOcWFKMTJ6X0tubmJFeTBhV2NLemZyQQ?oc=5",
+   "source": "Israel National News",
+   "pubDate": "2026-08-13T12:27:00.000Z",
+   "description": "Blow to Houthi propaganda apparatus&nbsp;&nbsp;Israel National News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russia, Ukraine trade strikes as 2 killed in Odesa, Russian oil refinery hit",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRS1qYmtaRHFHNWNmSzhkNFF0RWNWR3ZNNm1VMGRNVDRMR0pGTnExd3Q3bU9TR1Q5UjdueGstb3dYeHg4S3VuWVcwclc1ZnhIbkRXOHdRSlRiak8zcWpYSGtrOGVEQ2RkYnF1M1NRSFFaRXhQODFzdDZrQm1wYVZLWEdJSnNSbXFrdTh2elhIS29sWjBTdmdRWVExcDV3UDhBZG1mVjFMRHA3d1FQdWxTYWhzT2NHRnfSAb8BQVVfeXFMUFZVNkVZVUVQR1BRQWFva1Q3RS1IblY2anMySGk1SGFsMmh4b2Z6SzB5MUxwVEozcUtFSjA0dWVxRzFEY1pYY3VFV0Z0ck1wZG5Hdm5iNkNZeGRvUmVna0lvSkhDbDJlT1A5VkxtOUFTSnJIUVlvZ1pxX1lDdlNwYnVkWS0yV0R3cWN0RnVGNU52S09xeHIxMVpvSzFDeF9EVHhLU3ZwZVZPYU9WbzVrMGlVQXVUMVZJWWhubGhuT0E?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-08-13T12:24:36.000Z",
+   "description": "Russia, Ukraine trade strikes as 2 killed in Odesa, Russian oil refinery hit&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY0NTckRTcC0zR1RtemR1M1lla1ptdUlPZEkyTnJzelc4YnlnZ1oxemd3ZG9uUUF5emp6ZllmZ3JwV3VfWHZLV29pOVB0ZFRTbUtfZU1NZ2tsQm10dFhhZ2hGczNfNDMxeHFWVFVKdzIwRnZ4VmhtdE41ekR3RHdycV9qZkpZUWd3dVI3TVZmc0FJSmtNSmhON2tvUWgzWGszYTdxS0lVdXM2NlE1LVB5bVdHZ25uTWlCN3JRLXpBLVZnZWo2Z0Vva0xHa3N2emhMTlhfV0VBZ3kxMkE?oc=5",
+   "source": "TradingView",
+   "pubDate": "2026-08-13T12:24:28.000Z",
+   "description": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth&nbsp;&nbsp;TradingView",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Kyiv hits fourth oil refinery in 3 days deep inside Russia",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcUVUQk02bGI2MUhuR1hIWXpFNm1sc1dFbWZqYW9VVDRwOWwwenh5SHo3UXJGTmk4YVV2WDZUYk5vRk5OSjl2NUx6UEFTNFdMV21mQ3BXSFcydl8ybXowN1FmV3pSY0VpUG00cHpqTVhjWlp2LUhVa2tEbHFxdXJLWE5JME9IWjNRMWdadEtwT1R2bzNHVjQySHhlWm85dFRIcVYtTGZxamRvTjVTZG90LVRvanI0ajdwRUhIbjY3U3FlSjE2ZkhydGp3?oc=5",
+   "source": "The Nightly",
+   "pubDate": "2026-08-13T12:19:30.000Z",
+   "description": "Kyiv hits fourth oil refinery in 3 days deep inside Russia&nbsp;&nbsp;The Nightly",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Ukrainian Drones Strike Wildberries Hub, Russian Oil Refinery In Bashkortostan",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObldkcmdCRW03R2lsMjhmd3p1djU3UUpfOWlSSS1IMU5BaGNGVm93S05DMUN1YWEwT1BzNEJsZ3lHMVpxNS1VelMyWFlWNFdGV1RtVnlWendtM3ZVR0M0NkJIVF92OXI3WGNzQ0NKNDVJaFhlb094c3pKcjdQaUlrMlZPMEN4V0k4WGMtcENGNGRCalZIakN1cjBR0gGcAUFVX3lxTE5neTJmeE91eEstVU1haUNEWnRIUThSZjVneTF2TWdFajZ3MnYtN29xQWtTc0ZJWkdfTF9ZTG9kTW9DUmd4Qkl1aWhRRVZBbEpBeEhHblMtQ0FScXhFTm9xTkZiRjlhX2dPOHdqWmFzRlNOSHlmZ2luQWEwYWgwZTZRVWpibDFXeDFxa1dEeWhLOTI4dldGdlpvdjJUSw?oc=5",
+   "source": "Radio Free Europe/Radio Liberty",
+   "pubDate": "2026-08-13T12:07:48.000Z",
+   "description": "Ukrainian Drones Strike Wildberries Hub, Russian Oil Refinery In Bashkortostan&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iowa companies still pay taxes in Russia as US debates more sanctions",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZXl0V3BqbkpVX2dSZ2pud0Q4eHdSU0d1NEJpZnduUmRBNW92OGZiZ3FiNGNYSDNVaFJhX0NwOEpWN05JYkdlcUYxVDdLdUI3RXp4Sm1FczhSS2ZncUdRZmtVX1NyTVJPV2pLQ2xaUmJSWWNsRkNEdTJsOEFNSXEwMUpXTUpvQ0dXUmJmM0k3WlR6Sl9kOW5NTjZOZm91bWxFZFNpNkFWS0V2Vk1HM1FWZVFDZG5tTWtQWURYTWZLck5TanZoUzU0Tkp6LWcxSTdtaFNDN2JWQko2QQ?oc=5",
+   "source": "The Des Moines Register",
+   "pubDate": "2026-08-13T12:02:27.000Z",
+   "description": "Iowa companies still pay taxes in Russia as US debates more sanctions&nbsp;&nbsp;The Des Moines Register",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran Rejects Trump’s Strait of Hormuz Claim as ‘Fake Intelligence’",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1R2xGc3BMZXlsLV9HbWt6VENPZWVTZ3hETmN0eE5feU8wUXdUVWxVQ0Z0M1E2SjdjZk5wMVBxTmRmRU1oakIyTThsU0lUQTFYZzMxNQ?oc=5",
+   "source": "bloomingbit",
+   "pubDate": "2026-08-13T12:01:50.000Z",
+   "description": "Iran Rejects Trump’s Strait of Hormuz Claim as ‘Fake Intelligence’&nbsp;&nbsp;bloomingbit",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iowa companies pay Russian taxes amid calls for more sanctions",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeXA5REt2dGJKVWtqUDdyRmpIVm5NZGJYUTFBbEFmWWtacktZd1gxaVB6OVVLaTZEWS12RGNwekw1Z0lfTUFud2hTMGN1UnBub2FmdmhYTUduNnhVanQ1Y3MwbWVhVV9OeGdjUGI4a3F4dm5RcWxwSjNXMDlqSHZXTndoc0t5ek1VeGRCNzVwTzUtcGJRZHhMRTV6ak1zQlhpaDh2Mzl4QWlFYjNzT2xfNHQ4T05XTnN2a1VWZ2dUdUI5Wkcy?oc=5",
+   "source": "The Des Moines Register",
+   "pubDate": "2026-08-13T12:01:00.000Z",
+   "description": "Iowa companies pay Russian taxes amid calls for more sanctions&nbsp;&nbsp;The Des Moines Register",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "India closely watching US Russia sanctions bill, remains in touch with Washington: Govt sources",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnBoZVRUbVZYTXBNZTB2RVh4RXExQmN5N0FUcmR1OUpPZ1NhYTF3SGlMSGxqell2R2JNa2pEMEU4c2RFdGJvYnNUel9SNzFBT29xY1o5dVVDOWI3anVzNkd6dFVrSUpZYl9ZV0t1M29Zc1NWcW1TOU04Q0NQNFd0VE9JN2d2djk5NVpwMjZTRHJULXdGU1p2YzdYUThualgwYlhsOUhFRVA1MjJRMzZiVDczdVBPVlJWbmxJQnh5SkV6dlljekZwTGhWcDJiS1NMaHE00gHYAUFVX3lxTE0tNDZnakl2TlZ6SU1FRDBnQ2FOYkxlcW5SU3lJWGNxVGgtSnZsQVh5bjNwUUFYYXJ5T3FHSjVnX0EwbTAxbGVSMTBOWGpMQkUwU1ZQWDJPOHBUMi1rUEtqd2FnTGZ0WHZmcXN1X3BhQ2t0ZmdSVjZxNHdTNF9NNDFmMkdCbFZqcEctNmVsSFNPT2wtblhzOUUyaURrX0htNDBRVFFad0VlQzhGVGNCWHJVUlN2Vzh0OG90LUctRUY0Zm5OeGZ0M2hzMUhQMEk1N0FrUzBCWGtYZA?oc=5",
+   "source": "CNBC TV18",
+   "pubDate": "2026-08-13T12:00:47.000Z",
+   "description": "India closely watching US Russia sanctions bill, remains in touch with Washington: Govt sources&nbsp;&nbsp;CNBC TV18",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "How will the EU’s 21st sanctions package affect the Russian Arctic?",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEpXZGtHbkJId3lZNXJrVWMwc3RPYUxQdERIV1pqbURXR05Pa2VLVDl4NVZKNXJNSmQ3MjhUOEZZQldQTVJSSVlpVW9UVkNFYzhtQk5OU2QyeVFRbXllMktHOF9yV1B4VUpOaXBjV3kyRXN5YmZnTTJIQzZtVGtmV0paUDM0bjlPLWtiaFpXWEJWbEJ3NWg4eVhXUC1SNzcwMFlFa1c0Z01ROWMwSm5wd3B3?oc=5",
+   "source": "The Barents Observer",
+   "pubDate": "2026-08-13T11:59:54.000Z",
+   "description": "How will the EU’s 21st sanctions package affect the Russian Arctic?&nbsp;&nbsp;The Barents Observer",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US-Iran talks in deadlock – what’s the latest?",
+   "link": "https://www.aljazeera.com/news/2026/8/13/us-iran-talks-in-deadlock-whats-the-latest?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-13T11:56:40.000Z",
+   "description": "The US and Iran continue their standoff in the Strait of Hormuz as mediators try to coax talks.",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
   {
    "title": "Corporate Earnings Season, Oil Price Movement Elevate European Bourses Midday",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObzVqTnZjbHRQM1pBbUZGNnB1dlNIbm9zRzlMeHA3bWZmd1RrVXlLSk92ME83bnp2OVJEelJCZWlzWm1kdGJ3aG5zYmlQamdFa1ZvUGRSbzhXZ281bk04dDZYWTN2cjRhbXdHN09wT1JfVzBhbzJOSHFiN09JUDZINU9HVlNuNFdkZnlaRmRkb3dETXBQTnU0NTFFM3VRSG4xcmVhTDJvMFBKQ202cG1hUjJ0UzViVUR6SXplcDJfWDhTaWZBUjJfag?oc=5",
@@ -343,6 +690,41 @@
    "severity": "low"
   },
   {
+   "title": "Iran-backed Houthi rebels clash with Yemeni government forces and other Mideast developments",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2xURUdxd3E4WWRRZkVmOFBCOWIzaXNSLTJZbTkyRVVHNXlXaEd5Sk4yQ3VHcFBFNjR5YW9wOUZMSkpRYkpJZHQwNzNUQ0dQUjZfS25iUTRFY1FFbHRBQWtZb0pVenFRZC1UNG0wZjR2aUZ5cEwzWGc2SjFJLUh4Ym16eTJhVG5JLU4xNVdhRUc3NnRsWHdjMGgtZ09UaHRLMjMzM2tvTDRzblNZd2c?oc=5",
+   "source": "AP News",
+   "pubDate": "2026-08-13T11:50:00.000Z",
+   "description": "Iran-backed Houthi rebels clash with Yemeni government forces and other Mideast developments&nbsp;&nbsp;AP News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "More strikes on Russian oil refineries benefit Belarus' economy, Knyrovich says",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQnhsSXZUcjhpbVBfeThacG4tOHpHWGRBRWJWVGdCUmQtbmpxLUZRNEE2VXhOZlZiUm15WkxiUmlnektqc2RoWFNvbUdSdjdra3RwblhlT2xPUWhmZVJhV3owMFFUckdHWFlVQTNrVXhXZHlGZ0l4ZWZKZ3M5MGxzc2FYSjJsejlmaEtmZGZpYTlndmlyQ2xWVFBVYWJLaElfMFg0bm9mczFnVm8?oc=5",
+   "source": "Belsat",
+   "pubDate": "2026-08-13T11:49:00.000Z",
+   "description": "More strikes on Russian oil refineries benefit Belarus' economy, Knyrovich says&nbsp;&nbsp;Belsat",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iran, US make competing claims over control of Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-13T11:45:05.000Z",
+   "description": "Iran, US make competing claims over control of Strait of Hormuz&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "India, US \"completely committed\" to trade deal, Russia sanctions bill is American legislative process: Commerce Secy",
    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPci1DdVpISFJjbU51TlpOTHNCeERBOUc0Wk50T0dfelVzMEFRdnA2R0lnQTFFdzJBRFlPWXpDaURSWnRrXzR1WjktQkVodlFSN0diVUt1NndqQ18xWDRmTXgxc1FHT2hoMXFOb2dGdU50cUxBLTdrQVZuVm5jN2gzVUs2NHBDYVdaWnNKV21NX0lURk9pTGU4Ym9wN3lWWkg2dTFmemhoSFpOM2hYVV9uOHA5elRWeUhLalloWW8zY3JBWnRrRk16N3RmVXZwVzRXdXhyck11SjkzXzZ4U1QzcjlTcGFRWUdJelhSYzJmSkRfemhF?oc=5",
    "source": "ANI News",
@@ -353,18 +735,6 @@
     "usa_policy"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "Russia covers oil tankers with anti-drone nets — FT",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWWJDR2x1Z0lXUG5IMDNuejNRNmxZNUlFdWFvVEVoX3lpb2ppekNQclJaQkxwaGhHVGdQQzVLUWg1Sk01ei02TDlNQnUwdHR1ekQzWFdMVXVNMUV1ekowWXp3WWlzemVmR2xMSmhzbHZrV1JkYldObi1WeTI0MlVXTW85Qm5SeWQ1ZHFtYTZfWjZ6UlFxbGlwaVRSbVhfTDNQMjBwajR0blEwZkhGRURHNmdMVlgxVFhqdmN5b3VqX3lQVFB00gG-AUFVX3lxTE5RalhiWDRfUnJyM01tS0t4SEhWSVhCRFV1ZGV1cUlGTHF5Y05IV3ZzVjVmOEp5VUZYYXFQMThtX1dLMG5CTEZ1MmZVWVVtVlBXYzV0ZkI0UzlsczlIT00tZmc4TVc5UEh0WVVPT05mUnotNjJOU0N5RDRrNHk0UkJRLUQ3VHFibXNhQ1JRMERFbUdVLWthZDNfZ3dGRGM0aGpTSVRPOTVnVFFhVlM0TlB4UU1ZcTBQd0J3aFdEbWc?oc=5",
-   "source": "The New Voice of Ukraine",
-   "pubDate": "2026-08-13T11:41:00.000Z",
-   "description": "Russia covers oil tankers with anti-drone nets — FT&nbsp;&nbsp;The New Voice of Ukraine",
-   "categories": [
-    "hormuz_redsea",
-    "russia_ukraine"
-   ],
-   "severity": "high"
   },
   {
    "title": "Ukraine Says It Hit Oil Refinery in Russia’s Urals Region",
@@ -412,6 +782,17 @@
    "severity": "low"
   },
   {
+   "title": "Watch: Strait of Hormuz control in question; Grand jury to investigate controversial Pirro cases",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTBlRlZUTDlfZTY5UFBTbnRXQWk2aEZqdWFrUkFiNWNURDNyb3c5SDdfX3JlcnFDeE5qVTVJaGk4VU44LXpQcXpKZjEtM1hUTnBJU3RGa2pVZms4dVNDNTU5U2NNZGx4OWdETC1XM2tuREkyRFd0WHRXQm1vMkFYMUFkbHlYOWRnc2dPVkRZX0VPQkhKSGdHYXBReUhNampPbzJCR1E4SklBY3lOd0hfRWRiQThzZjUyRGdTdGtpbw?oc=5",
+   "source": "Straight Arrow",
+   "pubDate": "2026-08-13T11:30:00.000Z",
+   "description": "Watch: Strait of Hormuz control in question; Grand jury to investigate controversial Pirro cases&nbsp;&nbsp;Straight Arrow",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Strait of Hormuz control in question; Grand jury to investigate controversial Pirro cases",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQREY3clNrZ2lTUG16OVBmd1ExU0NCMGhMdHgxNnFPbEFMWFBxSzNOeDc0MWk5bXdmWV9VcmkxR0EtU05DZlZ5X1ZvVFdtcGtqem5WcmR0STJFLVBtclEyYy0xZktJWDg1djBpZkttUVJCZGtEdE9uLVIwYlZBelpFU3JiVzI2RUcwOGY4bXdzSHFkQ3IyMTBCN3ozZlhUeDN4aVREOXNINlV3Z3E1?oc=5",
    "source": "Straight Arrow",
@@ -434,33 +815,57 @@
    "severity": "high"
   },
   {
-   "title": "Ukraine’s drones hit a major Russian refinery 800 miles from the border, sparking a fire",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOV9XSlhlMkpFeGY5NkJrQWFYTDQ0T1lSTFQzZ1FXU2NKZVNGNmRNNU5HWVVuWDU4ZElaSWNQMXlHWVdrM1U1d0FsT3NKOFk2X0NadUhnRjlvbzdFUnZaYlRadDJMZ0o2TVNzcnA2M0FfTjZzeEtlbzZWTmpJQ1F4MVdUZTdva09ULUx1RDFha2M4QXdDQ2UxcjRITTRldFdJaWNNZFk3bVdNZ0l1ekdXMGg4TVc2MEhQS3FoTk44Y2o?oc=5",
-   "source": "WRAL",
-   "pubDate": "2026-08-13T11:27:11.000Z",
-   "description": "Ukraine’s drones hit a major Russian refinery 800 miles from the border, sparking a fire&nbsp;&nbsp;WRAL",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Russia's oil and products exports fall nearly 14% from 2022 levels",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOHc0UTFCalpwVHNuR0hvdTJEWlJ5M3JMZTJqaHlVSXBqalBFRERBeDlHRDRoTHlXZXA3R1pjWDFLdnVnSHJZczF4RkdMNHZ3cjhYU1AtdUIwaDA2WEZFcVhBM3djaENqYmozM1pRdmtqZmtKd2gwd0o4bGdsaGppZE1ZN0VTc0F5LVJtQXNDb2NvQ3IxS2VOU2hlUm1UZ043OFY0bUVNZlRNLUFUaGp3?oc=5",
-   "source": "aa.com.tr",
-   "pubDate": "2026-08-13T11:26:07.000Z",
-   "description": "Russia's oil and products exports fall nearly 14% from 2022 levels&nbsp;&nbsp;aa.com.tr",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0sxMjV2Y1ROZ2FlVzliM25hcWN5bGprMHdVelc1eGtnWi1GcVlhcDFBdUxxNm5yWk1FWkFvOEc2T3V4MGdhdmNxekdWcElSNlZpMlR2WFZlTTRCOGRkRkJkVkNLVllxR2R6NWFMV3Ntdy1Sd0F3NzcwcFNKQUNPLURqLTM0S1dMLUFHNkF2THNXOGs5NzZyNnk4RldsbDZmX0RCSjdOdi1qT1hxTU9oM001SFdrMW8?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-08-13T11:26:08.000Z",
+   "description": "Russia's oil and products exports fall nearly 14% from 2022 levels&nbsp;&nbsp;Anadolu Ajansı",
    "categories": [
     "russia_ukraine"
    ],
    "severity": "medium"
   },
   {
+   "title": "Not just crude import bill, how US’ Russia sanctions law could raise costs for Indian exporters",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWjllT0lfdUVLY0VSQVV4dGlCVUZmcXVhcS1seDJzTzNkbXRmY2NwaDVJZDMzOHdsb3FZa0xzT2R2X19jRWl3TkRoU1htMmh3WDR3NXZ2T0gxNTR1anJFZXAyOTdBR3ZXd0hYaUxZcGRMcUllbF85ZUw5ZzhGOHE1bmlSeko1ZXFpUlpoS1RIWk5WZWpDaUhnQWZWS1JUeXF4dnQxRHpPRlM0UGpiT21RVi1HWUZhR2tMbUtEamtxOWZYMnM4QVRSa3BR0gHPAUFVX3lxTE5ieWtGU2lOSlNLSUg5bDZXa3NHajY4Q1lqMW03aEVNTVJxS2kzMUtYaW81eGF3YTY0UGQxWUJnc2tFQ0xlTjZuc1RIb0RIeWNTVExvQ2E2UFR4aVRoTEluN25FTW1xZGw2Y1MzOGU4QnF5Ym9xS1ZISVlPMzNTSnFVaTI2YVNWeFBnMExmZWZvbEtfZkxFM09fNUxlbU55bmcxZk8yV0h4LVNWWmpwNkEybEI4RkVEUEVjXzJ4ZHVhMTFFekFIVWdudzlUNThJMA?oc=5",
+   "source": "ThePrint",
+   "pubDate": "2026-08-13T11:21:59.000Z",
+   "description": "Not just crude import bill, how US’ Russia sanctions law could raise costs for Indian exporters&nbsp;&nbsp;ThePrint",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Ukraine’s drones hit a major Russian refinery 800 miles from the border, sparking a fire",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVzE4d0tiaThOZzhaa05uT2Z2V0JSMVJjUi1UVkthOXNoNXUxY1YyTjM3X1oxOEk0MDNyYUtWZGExUXVCUjBFTUpLS1FsRzdDSXVEQXg3T3UyRzJqcG0wU1dJc3FQNkNzLXJ2bWRDc01HVUNQZ0tOZGkwQm5yUnUyd0FCSnlYN3hrR3lTa3pNYUZ6Vk0?oc=5",
+   "source": "Yahoo",
+   "pubDate": "2026-08-13T11:20:31.000Z",
+   "description": "Ukraine’s drones hit a major Russian refinery 800 miles from the border, sparking a fire&nbsp;&nbsp;Yahoo",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump Claims ‘Total Control’ of Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVS1leU14UEFrQzJEcmNnNl9HM3lLb2I3T254czFPNFh6WTZ2ODJkNkpoS0l6cW8yN0dXZFlEb1RqeW5nY0VpMGZNSkc0SDN0dlhwOEJFanU0QllCcXJpeFlXN3ZhSnpZVjU1OHhqYVVNNmpCMGVhMzczNGZGb0szS2ttbjVBS291TjNZcThqVHU1bzEwbUZoMkhnUy1nUkstTFZJQVlR?oc=5",
+   "source": "RealClearDefense",
+   "pubDate": "2026-08-13T11:19:32.000Z",
+   "description": "Trump Claims ‘Total Control’ of Strait of Hormuz&nbsp;&nbsp;RealClearDefense",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Yemen Houthi Ship Attack",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkFYWjNESzFlLWppVEdiVkhYcVlvRWhxeVJGZTVYaGw1bHVEcUxTMThUbUNGTGlndWtlT0wzS01MUmZhU1BUek1SSWNOXzhZNjZZbUZkbHZ3VHpsbzBKd3hoSDVGbU16clh2YThZdXQ0aEVRQjVsOFBENVJoeURfM2xWV2ZmVGdwQXZpV0VleXpudzRNN1BfWFM5SHZ0aFRCZDd6N0hiU01WVFZQUzFEaWw2czV6Zm9fZWNDMg?oc=5",
-   "source": "Bluefield Daily Telegraph",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnBNanhKZ0RNbHZMQ1lLZzJVaFZQOWtZNTlvY2JuMWxkWGxVMEg0Nm1KRWZYeDNFbUtEUFJ6VFk3ZTBZQnZxd19LemJHRDM5X3l4bl9jQUhJaDljRUFERURfeEppdndCMGEtVlVwRWxxMk4tb2wtREZ1cmN6eV9XRkhDOGxjV0pFelh2aUtVQmoyTEdyTUhncm5HSTJyR0h3TEVR?oc=5",
+   "source": "The Herald Journal",
    "pubDate": "2026-08-13T11:19:12.000Z",
-   "description": "Yemen Houthi Ship Attack&nbsp;&nbsp;Bluefield Daily Telegraph",
+   "description": "Yemen Houthi Ship Attack&nbsp;&nbsp;The Herald Journal",
    "categories": [
     "hormuz_redsea"
    ],
@@ -478,38 +883,16 @@
    "severity": "low"
   },
   {
-   "title": "Satellite images show naval, grain and oil sites hit at Russia's Black Sea hub",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaldzZlBoTlJ3bXowQXhQdGhoOHNIdWQxZXZjTWZlcW43Q21hRXFJbi15VmhucWRxblNUZmpKcUx5eFNVb1JXbDZ1a0lZS2I2ZHVUT3Q5N1g0aExSX0YwUjlaNlh5UktWZWlMU3JkMExqV0RVVlF2TEJLalBrdFRRX2k3NE85cjVrakxQVGdFUGo4T3BWc05Fc0FjNzFWLUVOd1VsVFBVWlhVU25nbnBiaDBoX0JfUHZlZ0ZsMGIzVDZnVzN5T2NFY1VwZDhaTzhqd2lHbFBxOEgydG8zREM0R1U4cTMtNDBq0gHuAUFVX3lxTE9kUnk5cHBoSWM3ME5uLUZ5Qmd3Zk56MFJXN3AxRjh2QlV0aUhqNEZudnRaYm9aVU5zd19EVWZ5cHF2TzhIZHVOU0pVYXRtdW9Rc2JJcnlGeVMySWdCWmVwem9kelhBeXFXeVk3ZFU2MlF4Y1hnUnNRWmFzX2IwdEY1N181b0xWdThEWGY5R0NzcW85Tk92Q2k4Q19XZFExZXdFZjNEN2pLU1FOcW9VNGpuaW9BckVOT3kwLUVPXzczdUplcmpIR1FyWmpSN1JOX21LNlJ5dzh1SnJDRzVSWkNlbUxpTy14ZHZqRFdQZVE?oc=5",
-   "source": "India Today",
-   "pubDate": "2026-08-13T11:18:41.000Z",
-   "description": "Satellite images show naval, grain and oil sites hit at Russia's Black Sea hub&nbsp;&nbsp;India Today",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran, US make competing claims over control of Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-08-13T11:16:15.000Z",
-   "description": "Iran, US make competing claims over control of Strait of Hormuz&nbsp;&nbsp;Reuters",
+   "title": "Iran warns US against ‘even bigger miscalculation’ over Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeEJvSFZvX2FLa0FZenYtb2ZEODc2T2t2cDVGS1luN3VCbTNHYVFjTUI5dHBvZm9GY2FMN0JoWlkzanFZenZuVGZQTV9oUXhjTFBhdmg2NV9pMDlFcFFWLVdWRlZLaldiU3FyNElRaktocl9kQzljcGZnaUlOUmJiZzNNTzY4RlVJX0tOSDRPaWpMQmctQXc?oc=5",
+   "source": "Latest news from Azerbaijan",
+   "pubDate": "2026-08-13T11:16:16.000Z",
+   "description": "Iran warns US against ‘even bigger miscalculation’ over Strait of Hormuz&nbsp;&nbsp;Latest news from Azerbaijan",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Russia's Orsk oil refinery shut down for 6 months",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZG1XcDZRTVdIVm5kZUR1SW5QcV9vYnRreVRhWGp3WXRZT0YwcTlKQ1ZJc0RnMkoyOWo0WElPaUxUREhEZGhra2hUQk5LV01KOUwxakV3dy05ZWtobjlrX3NZSFp3Ym1SV0Q3VWpCV3c4VUhjM2k5QWpVTlBSaWFjeUhXVnIxVlduS1pNRk1KNU5HUQ?oc=5",
-   "source": "newsukraine.rbc.ua",
-   "pubDate": "2026-08-13T11:15:00.000Z",
-   "description": "Russia's Orsk oil refinery shut down for 6 months&nbsp;&nbsp;newsukraine.rbc.ua",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Civilian deaths in Ukraine in July hit highest level since May 2022: UN",
@@ -536,9 +919,9 @@
   },
   {
    "title": "US-Israel-Iran War Live News: Iran Claims 2 US-Israeli Intelligence Operatives Killed, Hapag-Lloyd Loses $600 Million Over Hormuz Closure — Pakistan Pushes for Fresh Peace Talks",
-   "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOc2RyZEJXUkNWVDRTeEhZbU9hOVlkQURjdmdBMmNwZFFYRTJON1V0ZWQxZDhDSVBxb001V3pEOGpmWV9LYXJkbUlMcVdfUWFKREhrZE50a0hfczdXZW5NbGt6SVB3TDVTbE5yWW56cnNvbWN6M1UycUl4OFlzY2RnRl91TVpoOXhuQ29zVU1jc25oamR6S2JpRU5YR2RsVDNsMHQ0UjBIQk51UXhXUUlYaUhKVjN1V0tJcWd2NGlyMmlja2NqUDlRSmtoU3I4cnB0MkppYW5vWS0zeEVkcnQyMlR4bkU0c2k2V0ZWUFZ6YU9NRHgzS1pIQjlaSXVJZlVESHJmaWg5d3cwQ1JhakxQUHRTTFZFdjROTWFuM1hON3A3MmVyTnVpWTVjOTdPNTlWRnlWT3NQTmMzdFlwdHfSAcMCQVVfeXFMUDZZRG40anJoazlfaldHOXpEcHZVNlJpMlJXTXNtRGdiblNGUU9kM3pDN09UQVNINmwtNzFIVDJ2UU5zRUFEdHQtR1pQbGhXZjhuZmZBQjRVbEg1Vl84MFJnbVlfQ0lJR1BjS1ZLN3hrVV9pR2Q4aE52VFRwaDRZejRVQkVYT3NnNG1qbjZ4UjAyZFdpTkNrYnpHcGVGenl2dmZvZ3VKZ3dRZHVkMXdCb3JSb21tMndmdUVTTGZsM1E2YUphZ1JwUEFCREhZNjBqbzNyMHZIRVNOUjZnNmFaeVV3blkzRXpZOXVrMGpFekV5cDBfNEN4RXJCWklMSkgwb09GOVBOcWlRa3YxLWRXQmJHTFYzLTJiSks5Z0RyNFpjNmtZaHpPcWd2YjVqZ1NNUlR1ZDg5d0FqZDBCVXZiTU1LdW8?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQNllEbjRqcmhrOV9qV0c5ekRwdlU2UmkyUldNc21EZ2JuU0ZRT2QzekM3T1RBU0g2bC03MUhUMnZRTnNFQUR0dC1HWlBsaFdmOG5mZkFCNFVsSDVWXzgwUmdtWV9DSUlHUGNLVks3eGtVX2lHZDhoTnZUVHBoNFl6NFVCRVhPc2c0bWpuNnhSMDJkV2lOQ2tiekdwZUZ6eXZ2Zm9ndUpnd1FkdWQxd0JvclJvbW0yd2Z1RVNMZmwzUTZhSmFnUnBQQUJESFk2MGpvM3IwdkhFU05SNmc2YVp5VXduWTNFelk5dWswakV6RXlwMF80Q3hFckJaSUxKSDBvT0Y5UE5xaVFrdjEtZFdCYkdMVjMtMmJKSzlnRHI0WmM2a1loek9xZ3ZiNWpnU01SVHVkODl3QWpkMEJVdmJNTUt1b9IBwwJBVV95cUxQNllEbjRqcmhrOV9qV0c5ekRwdlU2UmkyUldNc21EZ2JuU0ZRT2QzekM3T1RBU0g2bC03MUhUMnZRTnNFQUR0dC1HWlBsaFdmOG5mZkFCNFVsSDVWXzgwUmdtWV9DSUlHUGNLVks3eGtVX2lHZDhoTnZUVHBoNFl6NFVCRVhPc2c0bWpuNnhSMDJkV2lOQ2tiekdwZUZ6eXZ2Zm9ndUpnd1FkdWQxd0JvclJvbW0yd2Z1RVNMZmwzUTZhSmFnUnBQQUJESFk2MGpvM3IwdkhFU05SNmc2YVp5VXduWTNFelk5dWswakV6RXlwMF80Q3hFckJaSUxKSDBvT0Y5UE5xaVFrdjEtZFdCYkdMVjMtMmJKSzlnRHI0WmM2a1loek9xZ3ZiNWpnU01SVHVkODl3QWpkMEJVdmJNTUt1bw?oc=5",
    "source": "The Sunday Guardian",
-   "pubDate": "2026-08-13T11:09:11.000Z",
+   "pubDate": "2026-08-13T11:09:21.000Z",
    "description": "US-Israel-Iran War Live News: Iran Claims 2 US-Israeli Intelligence Operatives Killed, Hapag-Lloyd Loses $600 Million Over Hormuz Closure — Pakistan Pushes for Fresh Peace Talks&nbsp;&nbsp;The Sunday Guardian",
    "categories": [
     "iran_israel",
@@ -560,11 +943,22 @@
   {
    "title": "Strait of Hormuz crisis costs German shipping giant $600 million",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWVzdXFnM1V2dmtoa1FQaUtfd1YtM2tUanY0ZDMycktjbnhPSDdzUDBmbVJldUZITVRTcWpwREZrLXN3QUdxUHFfUTBCOEtpZFc3WUN1cmMzazh6V3pIbU1nemZBU0RMdktheVh4NGprN3ZfbVhMbnAxSWxmLUxHcTFRRmh6SHJpZnRvWA?oc=5",
-   "source": "news.az",
+   "source": "Latest news from Azerbaijan",
    "pubDate": "2026-08-13T10:59:51.000Z",
-   "description": "Strait of Hormuz crisis costs German shipping giant $600 million&nbsp;&nbsp;news.az",
+   "description": "Strait of Hormuz crisis costs German shipping giant $600 million&nbsp;&nbsp;Latest news from Azerbaijan",
    "categories": [
     "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US-Israel-Iran War Live News: Iran Says ‘We Have Learned To Fight US,’ Warns War Could Last Until Trump Leaves Office – Will the Iran-US War End in 2029?",
+   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPY0dKZTU3WFdIc0lwWGJWdHhERTVseWpnOUZZQ2ZEYXVFTVM5RTNRWmtBdWVQWXZ5MnBtYV9pdjJWbFFZMm9KSHBzc2NRZnZJd3FiWV9yVkNIYnF0TTVzVE1BUGZuN3Z1MjFONnVLWFpLdThPdWg5S2p5SXNJRnJBcDJ3V3JhOGZlNFZPcm4xeUJ6NVdrUzBHa29DZzBVak1rYmR5bW44OElLdGNaQ1F0cTVMcUJNMW1IRzQtbThPYkRoLTZpRU53LWlrMzR6SEhGYXpmRmtoX0xVVzFqdHJjNktLOUxhOWwzU05zclVnUlJhMUhlUm5pRmcxRGx4NjQ5SkNubkpxeFVCbmhYeGFQWS1la2stNWh4bUxORjRDYXDSAaACQVVfeXFMT2NHSmU1N1hXSHNJcFhiVnR4REU1bHlqZzlGWUNmRGF1RU1TOUUzUVprQXVlUFl2eTJwbWFfaXYyVmxRWTJvSkhwc3NjUWZ2SXdxYllfclZDSGJxdE01c1RNQVBmbjd2dTIxTjZ1S1haS3U4T3VoOUtqeUlzSUZyQXAyd1dyYThmZTRWT3JuMXlCejVXa1MwR2tvQ2cwVWpNa2JkeW1uODhJS3RjWkNRdHE1THFCTTFtSEc0LW04T2JEaC02aUVOdy1pazM0ekhIRmF6ZkZraF9MVVcxanRyYzZLSzlMYTlsM1NOc3JVZ1JSYTFIZVJuaUZnMURseDY0OUpDbm5KcXhVQm5oWHhhUFktZWtrLTVoeG1MTkY0Q2Fw?oc=5",
+   "source": "The Sunday Guardian",
+   "pubDate": "2026-08-13T10:59:17.000Z",
+   "description": "US-Israel-Iran War Live News: Iran Says ‘We Have Learned To Fight US,’ Warns War Could Last Until Trump Leaves Office – Will the Iran-US War End in 2029?&nbsp;&nbsp;The Sunday Guardian",
+   "categories": [
+    "iran_israel"
    ],
    "severity": "high"
   },
@@ -593,17 +987,6 @@
    "severity": "high"
   },
   {
-   "title": "Choose your fighter! Darren, Jackie, and Brent’s ‘love triangle’ on “It’s Showtime”",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR2p2TFRKNUlMRDBNNmFzdXVBZ2RqZ2IwWFp0V1RkSzVVcGNWRzdjVmZmcjFBTEE2b3ZWdFhoTGZ2RnJqUm1Ba1FrWjcwbzlTYXFQUzQ3R1JfM1dPamJuVUJlU1Z0WG1KNjZyNDhrbi1OYTRoRmMxclVsNmlxUGN3WS0wdGpFcDNZLVBrUWZsZjlyb2JlRHp5STRnRDBNb1Bsd0FTbTRLeTF1VjRZSEl5cE5BczFpbkdJUUFCaWlndFJfcndIcFJsV0hONng2NWNUbkNGeFdOcw?oc=5",
-   "source": "ABS-CBN",
-   "pubDate": "2026-08-13T10:56:29.000Z",
-   "description": "Choose your fighter! Darren, Jackie, and Brent’s ‘love triangle’ on “It’s Showtime”&nbsp;&nbsp;ABS-CBN",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Russian Oil Tankers Add Anti-Drone Nets and Cages as Ukrainian Attacks Intensify",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQndIY2ZtT19sdmxEdU1vWDJ6aTc0azhIZkFCYzhXMlFSZG5GSnBMdk5CZUdsY3VqMVFPMUdET0VzY0ROc2swMUlSVmVVZDFacXpWOW1iNUk4a1E3aWRrNkFOOGk0UlBQblZwb2xwV2Zxclk4RDJnaGxSRVhOekZQRm83Mm9CamVobjNDRlBnNVFNTTlWSTctM0JGUUI2elpNTTk1a0ZpZXgyQmxfWlJveHRwaWNzb3lfcHc?oc=5",
    "source": "UNITED24 Media",
@@ -624,6 +1007,18 @@
    "categories": [
     "iran_israel",
     "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Russia starts importing gasoline from India after Ukrainian strikes on refineries cause fuel shortages",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CcWVMUGd1elVVcVRtYWVtQ2FYLVZHeER0cTZESDN5Ui1IUlFuRTFFYkFhUDZVTGdpWnJoZlc0bWtRNmJ2SVprYTZEakxCOUpCUG5aMm9CVUNrQ3QxTWV1ZXRSWVpRdFliVzh5WFlqbWJfUQ?oc=5",
+   "source": "Rubryka",
+   "pubDate": "2026-08-13T10:54:08.000Z",
+   "description": "Russia starts importing gasoline from India after Ukrainian strikes on refineries cause fuel shortages&nbsp;&nbsp;Rubryka",
+   "categories": [
+    "russia_ukraine",
+    "market"
    ],
    "severity": "high"
   },
@@ -652,16 +1047,16 @@
    "severity": "high"
   },
   {
-   "title": "Iran-backed Houthi rebels clash with Yemeni government forces and other Mideast developments",
-   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPbWlzZDVHck95eWgxVlByT0oxRUlNTUh0bkFOSy01Tll2TkVTQmlPMk43elZFZlV0VlJRbkx5VU1ySl9vZ0lDREVzeDZsMzg3bDl5MVh2cTZ4d3M0MGV3NGVSNy00ZnBFamNFMXFCWkZKQVRWUlliUTFzeGZhcU5lRTJkellsWTVMWGUwYWNBZmNLdExHWURjWDZ0ZF9DYnE1S0o5WXhHZlhQV0VmUFp4aTJkN0hmZ2ZBbHlFamgzRFpBV043c1UzQ1BsS05zM1BTRHAxeWE4WnFnc1ZuUWoxblU2amNFOFVsbUhLTzJWUGw5aVJjWlZkWHNCeVltd09YdVFMTVZLN1M3WEVGYkttSzVvaGVZMEc4TEE?oc=5",
-   "source": "Bozeman Daily Chronicle",
-   "pubDate": "2026-08-13T10:42:01.000Z",
-   "description": "Iran-backed Houthi rebels clash with Yemeni government forces and other Mideast developments&nbsp;&nbsp;Bozeman Daily Chronicle",
+   "title": "Iran War Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQTBtVWs1ZUxfYXd4TFYzVjFSU09lZ3NPOExkV0lWMjJZYU1vOEpaV0p6WGVQMGIyQ0tPcXhWQkw2N19OekE3R0dpX2FEbUliMFgyOTQ0RUtoQ1RyTTZEVTB6dDd6VDRUSGRDOGZQT3ZaeWtQYjM0NlU5MS1PckxqRWp5ZXVabmpzZjBGT00wZjhta0I1a2JfbDVxSDhmaHVWM2NVR3V3MEk3YXpvTndzWmMyZEFuVWpiSHc?oc=5",
+   "source": "Dayton Daily News",
+   "pubDate": "2026-08-13T10:45:09.000Z",
+   "description": "Iran War Strait of Hormuz&nbsp;&nbsp;Dayton Daily News",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
    ],
-   "severity": "medium"
+   "severity": "high"
   },
   {
    "title": "Eurovision to bar countries at war from hosting: What that means",
@@ -675,14 +1070,26 @@
    "severity": "high"
   },
   {
-   "title": "Ukraine Attacks Cut Russia's Oil Output Below OPEC Target",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc3VPQkNaS2pJaXhhNHkwZy1sY1hpa3VBdndEbkcxdHNDRmVDbVVaVGtISkRPckl1Qlh6dnlKZjNHd0w3VTd6ODBxUVNZSHdUQjJDQTNzQlFha2tMNnZpd3VOUW0wTEtnYkdVLXQxWUZ0YWZaWThaaHFGRHdfaDloT0JwQXdnUV9sWlB0VWQ2cjVwdw?oc=5",
-   "source": "Briefs Finance",
-   "pubDate": "2026-08-13T10:40:25.000Z",
-   "description": "Ukraine Attacks Cut Russia's Oil Output Below OPEC Target&nbsp;&nbsp;Briefs Finance",
+   "title": "Middle East Risks Hold Brent Near $90 as US Inflation Data Shifts Rate and FX Pricing",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaV9VQzJhbGQwTDEtVXpIbFNSNTZJSTBMS3M1bm56WDlfWmxFTi1EbkV0LTdYQWozSERocFJlVWtEaldPOWVJbnBWOVdHdjBFalVucElWZ2tqNGJ0YVBPdTU4aDlqVm96WWNhNXBseXhwVnJ1Yk5jVEpNWEF1azFaMkltcXpLUWozay15VWNNenpmOU96Mm5hTzQ2c25DZDJjUEs2TF9XYUJETHQ2T3F5Z1gzMllQZ041LTVZLTlEVW12SExLbXRNSE5B?oc=5",
+   "source": "VT Markets",
+   "pubDate": "2026-08-13T10:40:14.000Z",
+   "description": "Middle East Risks Hold Brent Near $90 as US Inflation Data Shifts Rate and FX Pricing&nbsp;&nbsp;VT Markets",
    "categories": [
-    "russia_ukraine",
-    "opec"
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "WTI climbs above $82 as Hormuz shipping falls, despite OPEC cutting oil demand forecast",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdHpSWGk5Z0NyR0taYlBRam5JSWplN3pMNGZObEJ3YzlZQkl2dlN3UUROV2pySHJVNHR1clZKczRVXzRuQWlvY2Q4cmZjaEctMzZueG1JeWExSG1HazZYNnVsMHNJWWRXYkJiLXctcXNzck5sU2dwNHpnS3V3dkhLTTdDblN5WE43RXhTWExEVFpleFZPMmFPU01qeEotZV9FTEVwU0FxVHJMQWZVdzM0anc3Q3U5cFRuY1ZzYkJRR1M4WWRWQzQ5ZUVpZw?oc=5",
+   "source": "VT Markets",
+   "pubDate": "2026-08-13T10:40:14.000Z",
+   "description": "WTI climbs above $82 as Hormuz shipping falls, despite OPEC cutting oil demand forecast&nbsp;&nbsp;VT Markets",
+   "categories": [
+    "hormuz_redsea",
+    "opec",
+    "market"
    ],
    "severity": "high"
   },
@@ -692,6 +1099,28 @@
    "source": "The Business Journals",
    "pubDate": "2026-08-13T10:40:00.000Z",
    "description": "Federal highway administrator tours $4.5 billion Brent Spence replacement bridge as work ramps up&nbsp;&nbsp;The Business Journals",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Trump says U.S. has \"total control\" over Strait of Hormuz and might \"keep it\"",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?oc=5",
+   "source": "CBS News",
+   "pubDate": "2026-08-13T10:39:48.000Z",
+   "description": "Trump says U.S. has \"total control\" over Strait of Hormuz and might \"keep it\"&nbsp;&nbsp;CBS News",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent Oil Price Drops 14.07% | Breaking News Kelowna Weather (SHEQ7wQg7h)",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Hd2c2SFhoUFBHQXh3MG1xSkIweDJsUzdGVUJiOGFPVS1Wbm9aa1p5Qm5LU0k2ODM5RnB1ZWlsVGI3WUxRbFI2VmxVMEs0NDFuQ0FjYjVBbVo5dFE?oc=5",
+   "source": "Mshale",
+   "pubDate": "2026-08-13T10:35:45.000Z",
+   "description": "Brent Oil Price Drops 14.07% | Breaking News Kelowna Weather (SHEQ7wQg7h)&nbsp;&nbsp;Mshale",
    "categories": [
     "market"
    ],
@@ -713,9 +1142,9 @@
   {
    "title": "Yemen conflict escalates with Houthi attacks on Saudi vessel",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSDZDdXVzbm1FRzV3TFg4empDQm5wN0tqRGpfbE1tTlFlM254eS1Wc3o5ZkUyZEdaU2pROTNoSGc1NVNmX042RGpzR09QZENqZW1aMGlTRVV5QndsWEoxVmdjYklyZU1yUTZaZVdwcnQ0VmFBYkFpcXRKclVTU19FZ0owY1NmSHNUWHQweUU0bHR3eGNSWWVndk9hYllsZGNhdGZoazNONnpuSVBiU2dSOFVR?oc=5",
-   "source": "巴士的報",
+   "source": "bastillepost.com",
    "pubDate": "2026-08-13T10:32:20.000Z",
-   "description": "Yemen conflict escalates with Houthi attacks on Saudi vessel&nbsp;&nbsp;巴士的報",
+   "description": "Yemen conflict escalates with Houthi attacks on Saudi vessel&nbsp;&nbsp;bastillepost.com",
    "categories": [
     "hormuz_redsea",
     "opec"
@@ -735,22 +1164,10 @@
   },
   {
    "title": "APTOPIX Iran War Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMWZMSmg4WmpDTWxZRUhJNWEydjUyai1RazBlb0J1VEprVi1QbVY4aS10Y3BobUhhT0luVjBTYzBhNGxwQUxaWUJ6aExZR1FLb1NDUnpRMDc5d1A4MXlrbGVDWnhMSXFFRG1qSWZmV0lNeEh5eXZhdk9JRzFfbzFqSk0yNU1xQlJsbjZIRHZmX1pUZkl4T0RoVkIyQjRHaDZrSWdLdzYzMWlReU9EWWpLOXQ4ZlJsYnNoZFdadG1UeEU2NUV4?oc=5",
-   "source": "Idaho State Journal",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNEZ1UHFKSko5UjBZeUgwSGdVM2hDWVZtNWczUjZheW9zbWE5TEFyZ2JvWmlqT0dNcDM3b3dOVEM3X3ljTGNIRHhxcDNQWEVGYUQ4QUh1d0Q0WE9NNEhmSXVlc0VQYnpSWmw0QWNzMGlSMG5hMDZFYWdPcEtRazd0MFdTLUVsV0psX0pmWkZMSzZQMm04cGc1c0UwbmFKcDA3cTVUUzFnRElTeE1GN2JzT0ItVGgxekd1Tmt0emVMNXBRcnp4bFE?oc=5",
+   "source": "GazetteXtra",
    "pubDate": "2026-08-13T10:29:32.000Z",
-   "description": "APTOPIX Iran War Strait of Hormuz&nbsp;&nbsp;Idaho State Journal",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran War Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV29oa1NiaWowSkhLQTNJSDJVNlFUTVh1aXU4a21SNEhUNG4zUVRDY002bks0SzYyc2RwREloXzRNTDREUG5RMVpqVXNqYmpVZmx6SjBwalE4RzlaNThaSUhCVExfcE41VWtkQjdpUklmMnhDbFVmZkRucUF3T1g0SGhNbDhwZ0YwN3NnNmZaQjJUNk9vSll0SzNySUl2TnYzZXJGbUhreUxfRHgyanVKNk1mNWR2RmV5a0lr?oc=5",
-   "source": "gazettextra.com",
-   "pubDate": "2026-08-13T10:27:31.000Z",
-   "description": "Iran War Strait of Hormuz&nbsp;&nbsp;gazettextra.com",
+   "description": "APTOPIX Iran War Strait of Hormuz&nbsp;&nbsp;GazetteXtra",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -817,11 +1234,22 @@
   {
    "title": "Yemeni forces repel Houthi attack along southwest border",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZmdjZTZBb3czNDd5T1hic2owVi1Vb2tlWC14Y0xaVVpJeGdPZExoaWVpcGszTktVeFh3V2tidmdFcW5LOEJQdGZaZEVvM3JGa2tlWWUtSW9ySkpORmlsZXkxcnp4SC1DYm1NWDhabldlT1V5M2NLRU1fUFFiSGhiWW5GbDZ3dXJFNWsxdHJNM3lrYTEyOWRjeUhzSFBWQ1VkS2hF?oc=5",
-   "source": "aa.com.tr",
+   "source": "Anadolu Ajansı",
    "pubDate": "2026-08-13T10:08:00.000Z",
-   "description": "Yemeni forces repel Houthi attack along southwest border&nbsp;&nbsp;aa.com.tr",
+   "description": "Yemeni forces repel Houthi attack along southwest border&nbsp;&nbsp;Anadolu Ajansı",
    "categories": [
     "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Russia’s Orsk Oil Refinery Halted After Drone Strike",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU3VfcVVQZWZZWVVYOXRHNWtqbVlhMGRObm0xRWpCMzJoVEFPNU4tTnpYODNyWHdnSGJiWE5kMjRaUDh6dlEwVDVVaGJ1c2RVYmRkMnVwUldzMjdYNUVIS0FTbDBDYXNPZHZMbGJpZGYxc3E1el9CQm4zQ3B0WklPQzRB0gGGAUFVX3lxTE5lZlpQVUg5dkZtQUxjQ3NxanF3RGZDZUhjTTVQYWNKX2dSUkV4c2xTOHQxeDNwX2JzZ3FrTm9xbmRvb2t0bDZPeVNPTXZLVXI0TDFVV2NHcWYwZGxCSTFRUm53RHpsU2ZraEZIZjR0Ylg5bWVUTXZGVFZtbl85SVJLWWtYYTR3?oc=5",
+   "source": "REFORM.news (ранее REFORM.by)",
+   "pubDate": "2026-08-13T10:06:21.000Z",
+   "description": "Russia’s Orsk Oil Refinery Halted After Drone Strike&nbsp;&nbsp;REFORM.news (ранее REFORM.by)",
+   "categories": [
+    "russia_ukraine"
    ],
    "severity": "high"
   },
@@ -862,18 +1290,6 @@
    "severity": "high"
   },
   {
-   "title": "Iran Keeps Strait of Hormuz Blocked After Trump Declares Deal Over: how 16 outlets framed it",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcUd1QVFsWjFxTThXeU5CWEVITXJtT1dlaEw5SlFnRnU4aDg1OW9NbVozcU5IZDBlU01aVzY0ZTcxV0N5RXFwdmNma1dlMW41ZWdZa08wOVhjTmQxaVJkaHk1V2kxZHBuNGttTEV3N0tWQmNjVTFRNndLSG4teU1BTkxkR21aN2lVRkRLZVBmdHd1bWJKQlZZdHFkY2o1T3AyZGdfeG1xbHhRUldSelNMY3ZUc1dWVnB3Z3JwOS1iZUNub0NVSVF6VklpUXFybnkzOHJTNjR3cw?oc=5",
-   "source": "NewsCord",
-   "pubDate": "2026-08-13T09:52:48.000Z",
-   "description": "Iran Keeps Strait of Hormuz Blocked After Trump Declares Deal Over: how 16 outlets framed it&nbsp;&nbsp;NewsCord",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Life and loss as a first responder in southern Lebanon",
    "link": "https://www.aljazeera.com/news/2026/8/13/life-and-loss-as-a-first-responder-in-southern-lebanon?traffic_source=rss",
    "source": "Al Jazeera",
@@ -897,7 +1313,7 @@
   },
   {
    "title": "Oil drops as cratering demand forecasts overshadow deadlocked Strait of Hormuz peace talks",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbkZ0ZDBoS0pSdHJCNzd6UHlMTUNtbncwa1dlWWNadnhqOHlMM0dIbXFvQmVCcGJrNHk5alczVDR0RHhjZ055aVBWejBjRDNyMjNiMXNIX0xCczdJVTZlUE1IcURSZWxBNy1iRm44NjZQZkJHZTBYOFBFYmZlcGlVS3dFbU1Dd1Fob0ZaazNyVkZ1eWY1MnFST1dxajVFbU96d0FnQmZUWWhCMkx4VmlFVS1ycXVTWkhMeEhyay1BdEV1WUlQMDhqYk52MHRzeE9TcHdTQURSbmxQa1Za0gHWAUFVX3lxTE9QMVY3bFpUTmRIM3ZGMUVmVkVld19CUThTMFcxYUM5ckZEWDJtcTJycTUyMWhScGVGRU5EVTZxeEdHWlBmb1pMRVpWTWZjRlROX1FNYjMxUnJ2eGlINWJ6VkpjeFFETFZzSERVck5GaXJrUVFvaUczRHJXQTlTS1JWbFFhNnJCV1FXYnNSMGpMT2xPN3lHUVFQclhHUXlpdlRGbmk4QWZkaXdaZllIbkl3b2wzTGpMREN4eWZlNk9sTThoTHh6eGFscUp4WjJLVjB5R25SWFE?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUDFWN2xaVE5kSDN2RjFFZlZFZXdfQlE4UzBXMWFDOXJGRFgybXEycnE1MjFoUnBlRkVORFU2cXhHR1pQZm9aTEVaVk1mY0ZUTl9RTWIzMVJydnhpSDVielZKY3hRRExWc0hEVXJORmlya1FRb2lHM0RyV0E5U0tSVmxRYTZyQldRV2JzUjBqTE9sTzd5R1FRUHJYR1F5aXZURm5pOEFmZGl3WmZZSG5Jd29sM0xqTERDeHlmZTZPbE04aEx4enhhbHFKeFoyS1YweUduUlhR0gHWAUFVX3lxTE9QMVY3bFpUTmRIM3ZGMUVmVkVld19CUThTMFcxYUM5ckZEWDJtcTJycTUyMWhScGVGRU5EVTZxeEdHWlBmb1pMRVpWTWZjRlROX1FNYjMxUnJ2eGlINWJ6VkpjeFFETFZzSERVck5GaXJrUVFvaUczRHJXQTlTS1JWbFFhNnJCV1FXYnNSMGpMT2xPN3lHUVFQclhHUXlpdlRGbmk4QWZkaXdaZllIbkl3b2wzTGpMREN4eWZlNk9sTThoTHh6eGFscUp4WjJLVjB5R25SWFE?oc=5",
    "source": "The New Voice of Ukraine",
    "pubDate": "2026-08-13T09:49:00.000Z",
    "description": "Oil drops as cratering demand forecasts overshadow deadlocked Strait of Hormuz peace talks&nbsp;&nbsp;The New Voice of Ukraine",
@@ -964,6 +1380,17 @@
    "severity": "high"
   },
   {
+   "title": "Russian Businesses Turn to Chinese AI Models as Demand Surges",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzU1cmJsUTZkZFp4QXBxeVhYZW9DZjktNHBvRGN5REhLWTBNMlFtMGNJcUFIN1hERm9VWExzeF8yZXVHd3ZKekYwSElmREQ0ME02OVNzVjR0cjVyMkdpVHM3MHJoRFNTV2k4UEVrX2N3YjgzTzloUVpBRmdCNzhmMWdacmxlSVdUd2FUM3otSXU0eFRCalo5ZF9nTGREOHd1c2lhMUZoR1lhcXlVLUFF?oc=5",
+   "source": "The Moscow Times",
+   "pubDate": "2026-08-13T09:39:06.000Z",
+   "description": "Russian Businesses Turn to Chinese AI Models as Demand Surges&nbsp;&nbsp;The Moscow Times",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Ukraine Strikes Major Gazprom Refinery in Russia’s Bashkortostan, Sparks Fire",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0bVhkY2ZrNEJjVWpITjNDTWVuLXFjYVE0azYwS05UeEtLYWFLMW9NUi05RmZwT3hMcTZzWmh0WVN2d2U3bmFNWHFydw?oc=5",
    "source": "Kyiv Post",
@@ -1010,7 +1437,7 @@
   },
   {
    "title": "Ukraine's General Staff confirms strike on Russian refinery 1,300 km from border",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nbjNXeVVoZkNnZGxoaFFkNERjb3N1WTJzRlRXcVhTd3JlWHNWaDU4M21VX2RwMEFLNVVrMUlQeGNEWDdlczYwbm9HcWhpOXcycThWVmVPTk5UcmVRc0FVV3NWT3LSAXBBVV95cUxNUjcyM2laSE1lMFdKSWdhZkVWUnRRWkRaZlhyelZQak40WjlhMjlUUElkVmlRRVAtT2hzMUg4OTM2NTE0Qk5Qc0ZmUmQ3b1RfdU5NM2dxb0MzUmgyR3o1RmZ4c0pQbkdEeGl0a1E4cnR5?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SNzIzaVpITWUwV0pJZ2FmRVZSdFFaRFpmWHJ6VlBqTjRaOWEyOVRQSWRWaVFFUC1PaHMxSDg5MzY1MTRCTlBzRmZSZDdvVF91Tk0zZ3FvQzNSaDJHejVGZnhzSlBuR0R4aXRrUThydHnSAXBBVV95cUxNUjcyM2laSE1lMFdKSWdhZkVWUnRRWkRaZlhyelZQak40WjlhMjlUUElkVmlRRVAtT2hzMUg4OTM2NTE0Qk5Qc0ZmUmQ3b1RfdU5NM2dxb0MzUmgyR3o1RmZ4c0pQbkdEeGl0a1E4cnR5?oc=5",
    "source": "Українська правда",
    "pubDate": "2026-08-13T09:30:00.000Z",
    "description": "Ukraine's General Staff confirms strike on Russian refinery 1,300 km from border&nbsp;&nbsp;Українська правда",
@@ -1018,17 +1445,6 @@
     "russia_ukraine"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Putin Makes First Visit to Disputed Kuril Islands Amid Protests From Japan",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeG9HMGlIclR4eVZwenJMdFRheVJITHhpeWNTX1l2Q3dITnA5dzNyUTNMaWJWMlNScEVPSHZCVWVkd2ZuRjBMT3NxTGlNSC1pdWp6dnZ1U21XOWk0YjMzYUhWRll6ZWhYbkFSalRuR2FYRlRIUEdjX19HX0ZlTENYWHJnbzk1WDlIWnN3WDd6QzZVa2wtemdRRm5FZ29rclVNanI2Y1UybjRsR0U0bG5ZSW9peU02R2ZwN2JjLWxIREQ?oc=5",
-   "source": "The Moscow Times",
-   "pubDate": "2026-08-13T09:27:20.000Z",
-   "description": "Putin Makes First Visit to Disputed Kuril Islands Amid Protests From Japan&nbsp;&nbsp;The Moscow Times",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Iran updates: Tehran vows to prolong war until Trump is out of office",
@@ -1044,9 +1460,9 @@
   {
    "title": "17 months without new Russia sanctions: US senators demand answers from Trump",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX055VkNmNWY3a21JOWFZRmVBbmJaVlUza3dGdDY3SlF2UUFZc1REU0RTaE51MmYzYlNzVFluZEdiQmdJWU1rY0FZMHdPRVRrVzM1enJCajhINXdHSkE0emdZb1llQ1RvZGRVNUh6dE1KY3Jkekt3ZTJDS3BtRnBCU3pRVmpSeHhiUDd5MHk0bFZEQjQ?oc=5",
-   "source": "newsukraine.rbc.ua",
+   "source": "RBC-Ukraine",
    "pubDate": "2026-08-13T09:25:00.000Z",
-   "description": "17 months without new Russia sanctions: US senators demand answers from Trump&nbsp;&nbsp;newsukraine.rbc.ua",
+   "description": "17 months without new Russia sanctions: US senators demand answers from Trump&nbsp;&nbsp;RBC-Ukraine",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -1085,17 +1501,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Refinery attacks cripple Russia's logistics as flights shrink and prices soar",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRzRsUkFNME1PNkZqTGhQc3VWU0djNlhCekhscTdlR1BCTU15dXFTT2FVbkFRMDNmZ01GUlAtRUJXUXR5UzFZS3hCdExGVzdjcU96VVVaYnc3OG5hNGU2djVhUV9BaE9XQzZsQ0Izbnc4b05EMTZNMGxRRWd3aEloMmhZLU1DbHBYUDkzc05Tekl6bnVqRkE?oc=5",
-   "source": "newsukraine.rbc.ua",
-   "pubDate": "2026-08-13T09:15:32.000Z",
-   "description": "Refinery attacks cripple Russia's logistics as flights shrink and prices soar&nbsp;&nbsp;newsukraine.rbc.ua",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
   },
   {
    "title": "Ukraine's military says they hit Russia's oil refinery in Bashkortostan",
@@ -1167,9 +1572,9 @@
   {
    "title": "Strait of Hormuz Remains Closed, Iran Rejects Trump’s Claim of US Control",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcDFNaE4yRHhmNmFSMkx1amQ4NWhWbjIwVU14MEppQW1sQjR3S3NoMVRCalEwZkw4LVc2a0t1ZzkyUmpwRnVuV0hPMHdHM1RhNlFBajZZcDNEbmhBTW5VNVNsMHd5UGxleWdod2RlTHRLRFZFVDY1TU5SeFpPakFvaVh4YmJ5bkFhM2wyN0JGTGh5ODRGMmdFSEpyWjFqTUZnclVzU2FQbVVubUE?oc=5",
-   "source": "Palestine Chronicle",
+   "source": "palestinechronicle.com",
    "pubDate": "2026-08-13T09:00:55.000Z",
-   "description": "Strait of Hormuz Remains Closed, Iran Rejects Trump’s Claim of US Control&nbsp;&nbsp;Palestine Chronicle",
+   "description": "Strait of Hormuz Remains Closed, Iran Rejects Trump’s Claim of US Control&nbsp;&nbsp;palestinechronicle.com",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -1179,9 +1584,9 @@
   {
    "title": "Iran dismisses US claims to reiterate control over Strait of Hormuz | Daily Sabah",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMDg1cjRKaGhLYVVoY0VmQVVwamczNUtZSXVxRnl5NzZCdTdVSk9CNUNCUkY2S2RQOVBBNHltSTVvTFphd2N1WU9peFhmVHJvMHczb2MxOXVVTk45cjg1QWJ4alp1cDRIWEROVDFITjhvZ09SbEtNQV9pbG5meDlmQXVaaTMzV0lvZjBxR01LczFZTDMxSlRST3I0LWZLWWhkMXg0dzcwM2cteVRzVnfSAbMBQVVfeXFMT1FGTy1ocGRIS2VHalhTM3lYbVY2amZ2ZEp6bGE5UjlFQnkwLXE0dkM1R1QzS2VKZkttUEdXS25CRXVpbHNaU3d3Zy1FMlZUbGxJRGE0Y0lFNXZSU0I1bmNRcXNLY2xOTGVfQWljZEpMOHJvcnFicjBsR21TM2VLUVJNMzE2SjZVWmtleWhPa2hDZWRuN0duRF9JeWgwaUpXc1g2TkdVcm1udHRubUsyWXQwZzQ?oc=5",
-   "source": "Daily Sabah",
+   "source": "dailysabah.com",
    "pubDate": "2026-08-13T08:58:00.000Z",
-   "description": "Iran dismisses US claims to reiterate control over Strait of Hormuz | Daily Sabah&nbsp;&nbsp;Daily Sabah",
+   "description": "Iran dismisses US claims to reiterate control over Strait of Hormuz | Daily Sabah&nbsp;&nbsp;dailysabah.com",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -1250,9 +1655,9 @@
   {
    "title": "Gulf states scramble for Strait of Hormuz alternatives",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbGthRmN4a29fM3VjdXM2QUdwNjZFY2ZQbl8zYno4aXhndDRIR2t1TjIzQlY5OThOZ3JfLWZWN3ZuazYtOGE1VkhqeVhKRzVxYVhIZHZ1RUtMRW9LMHlTcHJpQTNzeUY3cEJaMlMtZm9mcDl5Y0ZXX1l3X2FSNlR4ZWpzeWc0VWJXdTBPalF1UnZNamxlc1pDR0hGRjdyTE9hU3duNnN3a1lJRHJTV2RxYTVlMURwZ9IBtgFBVV95cUxNbGthRmN4a29fM3VjdXM2QUdwNjZFY2ZQbl8zYno4aXhndDRIR2t1TjIzQlY5OThOZ3JfLWZWN3ZuazYtOGE1VkhqeVhKRzVxYVhIZHZ1RUtMRW9LMHlTcHJpQTNzeUY3cEJaMlMtZm9mcDl5Y0ZXX1l3X2FSNlR4ZWpzeWc0VWJXdTBPalF1UnZNamxlc1pDR0hGRjdyTE9hU3duNnN3a1lJRHJTV2RxYTVlMURwZw?oc=5",
-   "source": "dw.com",
+   "source": "DW.com",
    "pubDate": "2026-08-13T08:40:17.000Z",
-   "description": "Gulf states scramble for Strait of Hormuz alternatives&nbsp;&nbsp;dw.com",
+   "description": "Gulf states scramble for Strait of Hormuz alternatives&nbsp;&nbsp;DW.com",
    "categories": [
     "hormuz_redsea"
    ],
@@ -1261,9 +1666,9 @@
   {
    "title": "Araqchi Warns US of ‘Bigger Miscalculation’ over Strait of Hormuz",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3hvbXRVTFZRQWhrWHBHQk9PLVFZcktJbWtxa08wQ21xS3NydkZOMW1jUnRpWFc1T2hVUDk3LVJLMHROSG1NVEs4X1Y1TGo5clM1RHVzRVZ4ZXBjcmNsVjBObWZYajFXZDViSzB6QWhLLTlROXo4TjJjaW15OGNZLUR1NFRnaUZIMXNuR2FGUzFpd1NOd3pvMXFXQXhueXltbGZwR0JmeXVlV0ZNU3B5am1kU09IY0nSAbwBQVVfeXFMT0psc1FtVzZhdHRaQjZsSmdaSzJlbVNfZW1vRkRfSTZOX01ySG9uYkpkQ1dGU0dUbEdiZzNXLUwyY3RGT2VTRjBOMFcwUF9wRngzYnNkZjdKd1dJZno3ZjE4aDI2M21EbEdQdndzVXhYUEZLSWxJWTBybTBscFVuR2NmQzdHbm5Eb1ZWbjROOTd1SERWMjR2aXc0ckFFY0Zta1ZfQ0psc01jd21vZmxqRC1qVF9HUExKVkNBd20?oc=5",
-   "source": "تسنیم",
+   "source": "tasnimnews.ir",
    "pubDate": "2026-08-13T08:39:13.000Z",
-   "description": "Araqchi Warns US of ‘Bigger Miscalculation’ over Strait of Hormuz&nbsp;&nbsp;تسنیم",
+   "description": "Araqchi Warns US of ‘Bigger Miscalculation’ over Strait of Hormuz&nbsp;&nbsp;tasnimnews.ir",
    "categories": [
     "hormuz_redsea"
    ],
@@ -1302,454 +1707,49 @@
     "russia_ukraine"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Araghchi Warns U.S. Over \"Fake Intelligence\" and Strait of Hormuz Miscalculations",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDBaWXdqVnhGX0p2eThvRFhNOGN4Ry1xV3BLcG5RRUN3SEEyWWZJX1g2NndyRTdRcTU3ZkYzdXVwcDYtdkVXUDRNa0lJVG1SY2VjX3NJMjVfTTZaOGxNQ3JIYi1hdmc5dVU3eFpONjhibl9RbXQ4eTctTjNwbm5TLTUxaS1JVk1QdU9hUmxlalZBZ3pHa0JlczByNVdSOGc?oc=5",
-   "source": "WANA News Agency",
-   "pubDate": "2026-08-13T08:26:55.000Z",
-   "description": "Araghchi Warns U.S. Over \"Fake Intelligence\" and Strait of Hormuz Miscalculations&nbsp;&nbsp;WANA News Agency",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Video shows drone strike targeting one of Russia's largest oil refineries in Salavat",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa01RTHJ3SDJXWXJYSjR5NWZUSUx0SGMta2xzNXFiVGpvZFF4UmFLc1hjUnZfUjdxU1lkMENucWdQV1lEcnVoNmpqY1BVVkpjV2h2YWVXb3JlaVB3RWFtUXBQS2VTZm53UDN5RnpOaWhYT3FlTi1OZFhBNU9aMmRBS05jOVluXzFfN21kd0NTeGg3Wkcza0ExdjFtbmpqWC1QeHAzNU5PSlZ3SktNdGlhbXgxYnNMeWlNbnlvQkIzOFFSQXdEcFk5bGdROGVpMjJWVkdz0gHIAUFVX3lxTFBpcC0xMFZTNVVSM2x6VFVUY0NmUEdhTmtFWDd0cTNrMnk0bXFnWGNLZXNvWFd4UTdTVmo4M21PdFRIVHNtOGZXaWJHei1xY3V1VUxBVjFXdDFUZ2tkcjBCLU0zdTZlMkF4ZmVMTUZnek5NY3BncFJfdTlyT0dwY3M2LVhoTmN4TmZKWmpMTFl5NElSVzVMQU9Oa0V6SC1uQUdqZEpueU8tLWs1eHVvdi1NUjR1bHVZRm9DTTEwSnNMOFZIclpGOWE0?oc=5",
-   "source": "The New Voice of Ukraine",
-   "pubDate": "2026-08-13T08:20:00.000Z",
-   "description": "Video shows drone strike targeting one of Russia's largest oil refineries in Salavat&nbsp;&nbsp;The New Voice of Ukraine",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US-Israel-Iran War Live News: Iran Claims Ballistic Missile Output Exceeds Usage as USS Abraham Lincoln Faces Crisis, US Redirects 4 More Ships Near Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNV3MyMU92RnZPWlF4ODhJbUVrMFdhY2doS3lsMkZnQTEyYTZxOWpSTzE1OGNWSlQ3NDNFN1JMSWxkSEw1aUpWbUowb1dsamk5em00c1UyaURER29ZQUlseVU4X25xdWFVUWlUX19pN2U4bl9zNVR6NV81UkpfLWUyZmhsNUkxNWVKNndEeGtXa2pMUmxqbEFhOVd1ZGQxT1Z5WllZNFU0OG0xZ18xb3k3c3N1Um1Bc3N4ZGhoSkVVSFNyNF9qQzNzNXJpRTdqVEhMUmVJZU9TU2hBLXRsT2I3dm4xRDF2Q3cwTnZBNW1lZVdRU01Na1FsNzRRVEN5b3Y1ZXhyNmhpNENrWDg5M0lmbV9ESThzM0ZwQW4yY1JlRG1NWExt0gGqAkFVX3lxTFBaNjh1LUI0dVI4OTVWUDBiejk4SHFOVDcxTmx4blpFTFgzNGxPQUpEUmRkSXRma29sLVVqQnhZRDYtTDlYT3lGak5rWXo1ZHVBeHQ1YTA3SEJFUTRSS3lzcFBGRUxrSE5MWnFnaHdZbDV3djBOMVcwTHpSUGdjVFFoLVhkRjlwakJIUmRRTl9NRTNhcnd2WHFlcF91b1hieWt6b0NPeGFSOG5OYnRwUFNPcW03a3J0bDl0VkxSTktScUNaZkdIT0x2WnhOOE9tOHNYc1NaWk5EZXhDU2FjMkszbG9GdjUyYTJ0cDhnMktlYjh3RU93TTVEYXpVNFJJOXVfZUtsSk0ydXZmVmVPbXdIRDJabWlJdm5JdTRjQ21QSUJucGM0N3ZYb1E?oc=5",
-   "source": "The Sunday Guardian",
-   "pubDate": "2026-08-13T08:17:46.000Z",
-   "description": "US-Israel-Iran War Live News: Iran Claims Ballistic Missile Output Exceeds Usage as USS Abraham Lincoln Faces Crisis, US Redirects 4 More Ships Near Hormuz&nbsp;&nbsp;The Sunday Guardian",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Gulf Oil Giants Are Spending Billions to Build Ways Around Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01V2kwZ25wZzhtU0NQQUR3Yk44Y2xidVZtV1FyLWVNTHZ0REd0eWtsM2xFVF9vaEtueHZDd2c3Yk9xN0ZHcFhVdmF6MjB4eXFTd1FZOG13QkNVcmJacWdDQ2JiZ3BveXprX3U2LWdiVDdNNzlOaUxR?oc=5",
-   "source": "The New York Times",
-   "pubDate": "2026-08-13T08:17:00.000Z",
-   "description": "Gulf Oil Giants Are Spending Billions to Build Ways Around Strait of Hormuz&nbsp;&nbsp;The New York Times",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Who controls the Strait of Hormuz? Iran and Trump issue opposing claims",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRUMxZkU2S2c5eWsyN01zN29NMEVnQXR6WHpGS0NOR2V6aG1mWlJhTTVncUQzQnptemJxLWRyTTdFZlBLNVhTcU5YeUdhclFCTzRieXp0aG0taFdCQXhocDBfNGZPRXFweEhEUXF3Y1dKQU4xeUFNN21tZHBNZXNtSVBUNEsyNGRzelBwc1hqaVVjc2NOelE?oc=5",
-   "source": "news.az",
-   "pubDate": "2026-08-13T08:15:36.000Z",
-   "description": "Who controls the Strait of Hormuz? Iran and Trump issue opposing claims&nbsp;&nbsp;news.az",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran to join Brics development bank soon amid sanctions and conflict with US and Israel",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGRYUXBmNXAySkVQcnBLWENNXzdYSlk4M2NLa0FxN3A2VkRtU1o0RjJlU200eElzQnowSzQtWEE3alVIdWl6eVU2cHE3N3gyMEFJNVM0b1dGRUdWMHhDZjA1Yjk3Szc1QjZrQ19OMWhjU01Ic1NzUUctRmhiRENQZ2Fabld0cVljRDFRckxCcVR3ZHdtSFd5YWhqNU9pWURCRjFVNWRwYU1zWWRpTktHa2V6eDNKQWVIb3ptMmRvVzFveV83blIzcWVLYU5oUFNOOEHSAdcBQVVfeXFMTmxUSGNkU1FSdlZsSV8xUTNJWUFDTWhKdnp3WG9yTmZxNXFMRDF6Q0t4eFREdmp2UXJDRFljS3Q2R0JMclh0c2Z2czNmWDdOQURwcTF3dEVCd2lJWmFiYlJFRmJLOFZkallrSi1JczI0YTA5bEdqd05JZjVPcjNyVmgyTFdEeHU0VHF6aFRfWjE3UWtSTGpPOVFfYVVULVRGbWdwT2MtU0YtczNhakRacEhWMldhYTljVENWSHdmdlk4RDhpNGtJaW1fTG5KRmJmY3hQbTZOdkk?oc=5",
-   "source": "Telegraph India",
-   "pubDate": "2026-08-13T08:14:44.000Z",
-   "description": "Iran to join Brics development bank soon amid sanctions and conflict with US and Israel&nbsp;&nbsp;Telegraph India",
-   "categories": [
-    "iran_israel",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Arctic Ice Damages Tanker as Russia Ramps Up Northern Sea Route Oil Shipments",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMHdRSmExSVRJZGZaM3pjU3ZFa0oyMjZ0Vm94NF92WlRacFVqVnQzMmtneGdQSk1tQmxrQ1VUcE1uRmNoN08tdXRGdVVsY2luRktLTTZhVWhKa2I5OThqWmZ2T0UxMlNtWWswNkRJODRBWXEzLXI3X3ZYVUxoX3ZOZjJvT3NuLVZoQmFfc0cyMHBKZF9SRkZsRlNUal94TEx6?oc=5",
-   "source": "gCaptain",
-   "pubDate": "2026-08-13T08:14:42.000Z",
-   "description": "Arctic Ice Damages Tanker as Russia Ramps Up Northern Sea Route Oil Shipments&nbsp;&nbsp;gCaptain",
-   "categories": [
-    "hormuz_redsea",
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "More troops to be sent to West Bank village besieged by Israeli settlers",
-   "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-08-13T08:12:53.000Z",
-   "description": "Two Palestinian families in the village of Qusra say they have been trapped in their homes, with water and power cut off, since Sunday.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Houthi Blockade Shatters Safe Passage Leaving 6 Dead in Bab el-Mandeb Double-Tap Strike",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXpidGkxeXlkVFpiMW9YMXU3Y1BwMjlSY292WjRkMUhrbFVfc2c5cEV5R1ZuZ2liVlZ5b0pySGw4SFN6TWJlaEJfQkxsckJrYlBWV0JjZ0dxSHlONWtNSFVDbGtEWEFkdHczcVp1cHdMZzY3eEFIUVJvLUdtaFNDeTZ3RjM3R0tFclo0TUk5RlJlaWRoUTZZaWVqYTVmNkpGZTM4MDhoZEJfQXlaUmc?oc=5",
-   "source": "SOFX",
-   "pubDate": "2026-08-13T08:10:24.000Z",
-   "description": "Houthi Blockade Shatters Safe Passage Leaving 6 Dead in Bab el-Mandeb Double-Tap Strike&nbsp;&nbsp;SOFX",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Stocks edge up with oil price below $90, dollar at 2-week high, Iran in focus",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNGJmQTJDOENZQ0s1WlVLRFZFbkZKdzdCQTNhZjY0cHNfODM5TkluZ2t3NkFNZ283NHBKazlqdldsd01sWjExYkR2OWI0eUJHN2djY0JmNnhram1oY2dweEt1dHZrMVM4S1MtaS02eTBVVWZtZDQwdXpIV19qTk8teVlhcnJhSHpwcHBHNXduLXN5aXRhdm1EYXFkaU9Tc0xDai1YNE9sR3VRenh0ZFNDUHdDc25wWF9IYlZkRENuU3QybTM5aXVpTXphQ2ZGZlU2U3g3Rm9tTUl0bnZYeFAwZzZDaDlTbXpLYnl0U0EzWHY4U2I0TXZzTFlHVDg?oc=5",
-   "source": "lufkindailynews.com",
-   "pubDate": "2026-08-13T08:10:09.000Z",
-   "description": "Stocks edge up with oil price below $90, dollar at 2-week high, Iran in focus&nbsp;&nbsp;lufkindailynews.com",
-   "categories": [
-    "iran_israel",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran says Strait of Hormuz is under its control, Fars news reports By Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSW1HM2ZJcjJ3Qnp2TmQ4NmxrdHdkcmRJTHRNUTdUbUdJWVJwYUs0NUR5WlVfZURGa1lreUtYcDlzR2t1WGZoN1pkQ00yaDI3QjdhWHVjY3ZmZV9Ca3JkejdoWkJrdXNZUGlHWTJ5enhtcUlUck9PMURUQWh2V1BvbExwTDBUU3hkR3hJeE9LVGljNlB5OHZ1XzF0dUx1a3F5WmxZa2xVNWVxbDRJMjJLS2M0M0xmXzVCYmZrdTZTYVZFSzRrRXk5dA?oc=5",
-   "source": "Investing.com",
-   "pubDate": "2026-08-13T08:07:00.000Z",
-   "description": "Iran says Strait of Hormuz is under its control, Fars news reports By Reuters&nbsp;&nbsp;Investing.com",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "China Stocks Close Lower Amid Oil Price Declines",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQlViek8yTzBNQjRyVjhLdlhSNjVfaHpRNTctVmFCWk5BZjZLOEJKZDNQNURhVWdLS0pKaTRsMTBPSF9neEEtaTNabEJULTZhMk9SSWU3c1NnSEo3Y0ZJMV9mY0VacUUyQTNhVENvU0pGZ1MxbXBueGNQcllfV2hNZC0yeXdCemxzMWRWUnFMRndXSEowLVl1cTBPNFFTaVF0dnhJ?oc=5",
-   "source": "marketscreener.com",
-   "pubDate": "2026-08-13T08:06:29.000Z",
-   "description": "China Stocks Close Lower Amid Oil Price Declines&nbsp;&nbsp;marketscreener.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-   "source": "LiteFinance",
-   "pubDate": "2026-08-13T08:01:53.000Z",
-   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "OPEC crude production jumps 1.7M bpd in July",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRnNNYWR2MDVEYjl4XzV1Vy1RNnpyUjNCdUxrNHdGVHRaaFVFbjZSOU5XaWhfVEJuVnZqdk56VzFwVGdQS2dUZzloN3RFM0RSNWUxVDF5S3RYdHdtSHVDckN4djBfZEJWMUdEckR5bXBiNUJDWjFrZHdGYmc4aG5CNE9hNHBFQQ?oc=5",
-   "source": "AZƏRTAC",
-   "pubDate": "2026-08-13T08:00:00.000Z",
-   "description": "OPEC crude production jumps 1.7M bpd in July&nbsp;&nbsp;AZƏRTAC",
-   "categories": [
-    "opec",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran claims control of Strait of Hormuz, rejecting Trump’s claim of US total dominance",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OeUdiY0JrdExwZjFLSnozbktiUnU1OEh3S1RibnZYNUM1TGM5NVZ0UXlsc1NSN3hFOVJHYmpXci1xMWFtYUE1THZldVAzZ0tmR1lzU2NGWndFdlQy?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-08-13T07:57:29.000Z",
-   "description": "Iran claims control of Strait of Hormuz, rejecting Trump’s claim of US total dominance&nbsp;&nbsp;The Jerusalem Post",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran says Strait of Hormuz is under its control, Fars news reports",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSFR6NkZMbExya0otLTI2UV9zMkxRV3ZNTk5ib0hQYWM2MVBDeVoyUWN3RjhhUmNCRjFLb0doSWhDQUdRZXZvcENUU3RuQ1NIWjJzWG43US1NeDQyNTJQUXlYVGdwUl9FckRzWlZybnV3SUNTVlJNdzRUTk92NTUxeEJnN2VLdS1zaTdrM0ExbTN1RUdXMWRFQzNnVG5hOVpVaEcxcjNIS1JKckt1MERobQ?oc=5",
-   "source": "The Times of Israel",
-   "pubDate": "2026-08-13T07:56:42.000Z",
-   "description": "Iran says Strait of Hormuz is under its control, Fars news reports&nbsp;&nbsp;The Times of Israel",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Democratic senators press Trump administration on lack of counter-evasion sanctions on Russia",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNalM3U2R4V3ZkMEpoeHBwQnU5d3JJUEcwZm1IUVNUb1JFTzJmM1hzS25VSHlOSEJpTHBBSWd6bU5OTnprRTdpdTJXUDhORk15cUlDNndPT3JOelJRaWh2MExmWEZ5NnJTY0VRbnl3bEctTy12WWc3Zm9iaFVFRzU1Vk9ZcFcwTmkwYTNpb242TkluUGU0d1pYcC04QV9oT283ejg3OXRvaldrRkk5VEhEU3Z3Z1Q5NmNaSUhoWkhzY9IBuwFBVV95cUxOUjJ5SEJsc3FZbS1rTkFWOEx0V3RVcktCbnhlLV9TZ1dmRHB6ZTVMbXJsTTFTMjl1Xy0zdGdBZkVOZGxQLU9sQllYc20wZUdPbnJ3VW1oUUZhR2psSi1mSG5rUGstNWF1WDdUdEZWRXlOUEFXV205NHQyUEs4UTFtSmFOSkJKbEMtTVlISC1Hckc4MzlkRW90a2pWTlE0NW9tMzVNN1BMck1ZcE0tOUtpcnR3WUZkTnVHUWYw?oc=5",
-   "source": "The New Voice of Ukraine",
-   "pubDate": "2026-08-13T07:56:00.000Z",
-   "description": "Democratic senators press Trump administration on lack of counter-evasion sanctions on Russia&nbsp;&nbsp;The New Voice of Ukraine",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent Halts 6-Day Rally",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DMktKQ3FvM2U5dzc3MFo4MFZMMHpDM2pUVVF0Nmw4VkpkZTZVZXVwUE96Q245Z19oUkhPVG1uNmR1WDh4LXlJMUpJUmNFQllNMXFaM1FwRVJYZU5YYWxsUDdtSERtM2RDRjBYR21QbUxXZTFVR0kzeXN4U0xrOVE?oc=5",
-   "source": "TradingView",
-   "pubDate": "2026-08-13T07:53:29.000Z",
-   "description": "Brent Halts 6-Day Rally&nbsp;&nbsp;TradingView",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Russia’s Bashkortostan to Sell Remaining Bashneft Stake to Rosneft",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzNfRjVtS1pxbURFZXU1WFFMZXFqNEJQWmtRWDdac2JQNXhkMWhiOWNxNURkeTlHTVY0dTBtYWxXNkF2TnVlOVd1bzgyeWNJS2FsT0tPQ1hBVGpWODdSa1JaNHBtd3draU4xMllXcV9DUGlNdVdscFhkZzhRWTU4VWM2T2FGX0hKLW5DMU4ydmk4YkVwcjEwY0xuT2hPZXBickJHS2VBTlRhaE52ejlnYzNwWjI?oc=5",
-   "source": "The Moscow Times",
-   "pubDate": "2026-08-13T07:48:17.000Z",
-   "description": "Russia’s Bashkortostan to Sell Remaining Bashneft Stake to Rosneft&nbsp;&nbsp;The Moscow Times",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Russian Ruble: Trade boost from Oil seen fading – Commerzbank",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU1BrNTlXYlZVVXhnM1NyVzMyM1JHMXR3Z1JXSGdhTlR6VkltbjRnRzRRTUNfRlR2WWk1c3h1eVFranhSUXZUNjdISE15OVV3c1gtc0JZMG5vVHp5NU5XRmdzNm9iSGRCQ2pHYWhvMW5UZHJRZE9zTlJQdzZQV0cxTG1yV1Z5dWpyOWVNMzhZMVQtWVdzOE1BREhkN3doT2hxSVBV?oc=5",
-   "source": "FXStreet",
-   "pubDate": "2026-08-13T07:46:17.000Z",
-   "description": "Russian Ruble: Trade boost from Oil seen fading – Commerzbank&nbsp;&nbsp;FXStreet",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Fire at oil refinery and Wildberries warehouse reported following Ukrainian attack on Russia’s Bashkortostan",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODNuVDVKckVvX3kwSHJYUHUyT0RFcFVoSHB4d3QtOEZySU5PdldJUDlCTk9ZdUxjNzN3SUhReXlTMG5paUpnTjl1eWFMRFVWTVpFT1ptTTBNUW1iRUNLdDFEZWliRnVXWG40LWFXbHdCc0w2Z21EU0ItQjVQd2swRElrSktFajJ1bU1ZU2JlSV9aQmVMSWw3UV8tRU4zY3N3ajVXTW8xbkVlSkxRb2Y3X3J5eTBaMHk5d3pOUjU2ZVBUcXpPMEVxTzdQd0thX0gxU1hySkFPcG1jU2gya2fSAeMBQVVfeXFMUFZ3cDFMQWpKbnJWVUNqR2pEUW16c3BqNk9xbnF1R1kwSGZlQ20zdWRnbjI5dnRmcl9MODFfOE5nZjR1c2ZPV2FnZXNXeURUV1hQdkNJcnF2SHFXVktaRDVzckxrM284MzdOSElRcFp4SDZKUEdyb3ZXdTJPTzJKbUt1RWgyWDdZRUIwckxualFoVWJWRktXUVdiSlFCbGx1d2ZoU3BPanZuTTV5OUpZbDhJOWFvSmhRby1LbnhqSzh1eHJkd1RvSVk2YXhCZG5LYW9lVjN3c0FDbnloNi1uWWFUVUE?oc=5",
-   "source": "Meduza",
-   "pubDate": "2026-08-13T07:44:00.000Z",
-   "description": "Fire at oil refinery and Wildberries warehouse reported following Ukrainian attack on Russia’s Bashkortostan&nbsp;&nbsp;Meduza",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "X suspends account of Houthi spokesperson for ‘violating rules’",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYjkycnQ5ck5BeWNiS3NoVGxPMlFEbkhQOXRLU1dPcU9iUTQ2OHlsa1pQQUFsa2lMMHNSMndCNHV0SS02YTMxTDU1YlVoMGppMzZhRDBheWN5VEdVVUtJeF9hZm16SHJKb2dkSkk4WXRJM0pGUEQwYW5TT1pZWm9lQmY5aXREa2QzRHFZdWdQcnMzMU5raEFTTjhjc3ZjT2pJUDJYaFVLZklWTGs?oc=5",
-   "source": "The Times of Israel",
-   "pubDate": "2026-08-13T07:41:15.000Z",
-   "description": "X suspends account of Houthi spokesperson for ‘violating rules’&nbsp;&nbsp;The Times of Israel",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "What is the Strait of Hormuz deal being negotiated between Iran and Oman?",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUDlkMTExbGpJYVc5MmN6TzIyekxxOW1PbHdaaXFCRm9acGxfZjY3NWxadUo4N1pwT1RuZzgtZEUyRXlVMnBPdWF4ck9fRkx4UldIZzE0VFlGdDBUR2ZiWUFnUk9QNUVNT21nZjd0cVgta0lKUUFiSF9qTVhudFgyeXljdWZ2cGNKQkJRM1p6RlN3NGFVY2REVVlWbVJ3UWYwT1lqT1hfVmRxUjZmQk5VYlBuUW4weVU4LXZtV0lsRzJBdGxB?oc=5",
-   "source": "thenationalnews.com",
-   "pubDate": "2026-08-13T07:27:09.000Z",
-   "description": "What is the Strait of Hormuz deal being negotiated between Iran and Oman?&nbsp;&nbsp;thenationalnews.com",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Ukraine Hits Russia’s Industrial Heartland Again—Gazprom Giant Burns as Wildberries Site Is Struck Too",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcS02RzJmMHZ1MVJaS2hibHRqYzN6RnpOYjlra2NwX2ZzRXBGSTJIUHZ3STVvQkExQ2VHS1RtNU5MSkwzSjFrU2VEdERsbmJhb1JjUV9BRk43UmQxeWZLS2hGaFlFUTBKejhFdzFlV0hNTjBHemJfSS1OSkdnazI3ZFI3dFlidkVIRHBRWGZlSDFaUDdxU1Y2QjlhUjF0ZGloQ0JzSDNfMWY0cDAwaGFJTkVYaUhtWjBxOG5wU0FYdnBkc243a2NxSEwwNlhfekZXR0hjZjBpbTBFZjItV05iYi13?oc=5",
-   "source": "UNITED24 Media",
-   "pubDate": "2026-08-13T07:26:24.000Z",
-   "description": "Ukraine Hits Russia’s Industrial Heartland Again—Gazprom Giant Burns as Wildberries Site Is Struck Too&nbsp;&nbsp;UNITED24 Media",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Analysis • The Hormuz model moves to the Red Sea – and Yemen's Houthis determine its rules",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSEVnckprMHEwTk1ETEgzT3R1aS1aeHgxUWk1Y09TN2h4c1JpVFE4TmoyUW54S285OUxhQjVhUDkyWHhKb0JHdFg2ZF8wTXNVaEp2TFBmSHpRV0k4bDI5UEROd3dvcVhVUDhDOTFmRktsdXRfUFNuR3NyWnBiQVJLX3IzWHp1bk1ZX0F0RFlsQk5GSGo3N1pOYll0TTlRNzd6X1B4VmFWNDhjZmFZclZSVTNtd29IUkNuQ3ppTXg4WVJCY1dhX2xpLXhWcllUTXMxRGc3ckw3MGlPcGNoU1BWaWhHdHp5bElnOUtTYWFIUnlpMDlYel9IcC02WHdPMFJYUGN2enRjejRBLWVCcWFZ?oc=5",
-   "source": "Haaretz",
-   "pubDate": "2026-08-13T07:24:00.000Z",
-   "description": "Analysis • The Hormuz model moves to the Red Sea – and Yemen's Houthis determine its rules&nbsp;&nbsp;Haaretz",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "U.S. senators demand explanation for lack of new sanctions on Russia",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRVNDSE10cThyRElJZ2hzVGt1ZUp1R0hveDVFT3hOYnphRnhaVlBIcE1iN2RsVTNadTRxUFFOUTdrenEwNTNfVmxpaWNVUS1sWU96Y3pWODMyMXl6c0VIeDB3U0hGbmE0elRCNzFCYnItaTNPOWpuaTAwa0JaaEJNZzdFUE5ieFdUWWd6QU53alpob3k4VDhtSV81RXppcUl2TUszaVR4Rnh6emswTDNGTTg1QdIBuAFBVV95cUxPTi04SWpiTlpEWHNnS2ZqRWZVLUJqTTdVaS1sN1N3WHR3QlNjRjVnLUtuakJiekI3aWt1N0sySmtfZDFvTXVxTndxbzYzR3k1eG9lcm9TU2dUNVhqUWZfRkwzU2lfTmRGbG5FSHA3dFR3XzltVXJRcmVFczFMTkxDZ3Y5dkRiRUJldHJaay1SLWZtcFZuWDVHTUdvX21HZFdMcVF1YUVQZGhFTXNlZEluUkhyTHRZMHNm?oc=5",
-   "source": "LIGA.net",
-   "pubDate": "2026-08-13T07:23:57.000Z",
-   "description": "U.S. senators demand explanation for lack of new sanctions on Russia&nbsp;&nbsp;LIGA.net",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Saudi Crude Exports Go Dark as Houthi Threat Rises",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLUx4RVNhN0pDRWlMUjlER0RYRHhPYnN5M3F0Q1UwMWtkbUhXSkNOWkREMU9tUE42UTBLbFVJSEpLZVpSeTlKVUNpLWFyYy1KMHA5NXVPTzI3RjBxRGNFSVlMZDhMNWRRWS1yalBySEp0eVZNMWo5T09vMTVBdHBOMXRfUGFWaXVz?oc=5",
-   "source": "Egypt Oil & Gas",
-   "pubDate": "2026-08-13T07:23:33.000Z",
-   "description": "Saudi Crude Exports Go Dark as Houthi Threat Rises&nbsp;&nbsp;Egypt Oil & Gas",
-   "categories": [
-    "hormuz_redsea",
-    "opec",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran refutes Trump's claim of 'total control' over Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMcF9TbVRNWFhxUUw1cFlOSW5CbVRZMHNMYlRfVTkwYVdWbktjYWRDNU1WcTJkVzY0UmdrT0l4a3lTTjkyZWNEdmJIMWRFdEJvVGfSAVdBVV95cUxPVDdUams3THVUMmhvemFFZkhrYkxubjgwNTZBR3JDU2VHX0tPc2h2alVhNmdDODNmMWItd2o0WnVqV2hHZ0w1LWtmQlc5RmNocExZQTV6MDg?oc=5",
-   "source": "armenpress.am",
-   "pubDate": "2026-08-13T07:23:00.000Z",
-   "description": "Iran refutes Trump's claim of 'total control' over Strait of Hormuz&nbsp;&nbsp;armenpress.am",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russia has been attacked by drones again. An oil refinery and a Wildberries warehouse are on fire in Bashkortostan—video",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVzhQUW5MSFZwdWVJZ0g1NUFrMC0tZDhpa3hhNFJOQXdRLXFvdnBmVElOcWlrRkprZElVcXNhSjVGallfYW5Ub3ZSYkZHZHh0cldyc1ctSm9mUkhpa09JOHBLN2hxa0ctYjREb1dXQnlyNVZNSWJBQmlGSmJkd1FieldpMGEtWnhKaFE0SVFlMnEzYWpSNk9BRkJqSG5FYU9BTnJQOVZ2aUs4U1NOM0pxamJmeGhCazRfYnI1MTVUQ3NOeFR5VFcyd0NzVm5uOFhHd0VpSFVaa0dZeEQ3RzRLX2pTZlZXQ3N60gHuAUFVX3lxTE56U0dkcTM4Tl9sSmh5YmxKekpOVk9BWkxYaC1tVGdZQjU4aTlZZ2I2TC1tMzk3M1hralNyRllLdTk0QkhWY2dWbFVkSXJnVTNJMlh2YlNEMThaTExqb3RDM3R3R21MWkh3NERHZXNyMFRYLVNGbkFIaEVzVmFJTTlvT2U0T2N4eFFDOVFiRHFhS3lYWVBnNWY3Z2trcklyRzB3U21nZE9ubmM0SUlmTHVlWFFIYmtuUGlKTWJSV3ZhUl9mdjd3Sjh6R3BHRl9tNEd3dEM3SjQxRlBtZXUzV21iY0RHSFI2eUZmN2Q5M3c?oc=5",
-   "source": "LIGA.net",
-   "pubDate": "2026-08-13T07:19:41.000Z",
-   "description": "Russia has been attacked by drones again. An oil refinery and a Wildberries warehouse are on fire in Bashkortostan—video&nbsp;&nbsp;LIGA.net",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran cites environmental damage to justify Strait of Hormuz fee",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkNHMHpyVTBybjE4LVFrLU9JMFhGTFh3XzJpell0djFxX2dOWWdDUWx4MVAzbTM1VjYwdlZONDVpcVlHOHdYTkYybkR4UmFrR0F2RGZvTUx5dXR1VkNkUmhxdjhmQ2cxUi1lWFQ5ZFN0QVUzNmJFaWRuUGo4S1o5UDdBeWFBUWJFWjFHYWZxXzZfTlQxQ09LeGRycXg2bThyVXFKM0xpOVlVNExRemZXRdIBtgFBVV95cUxPOE8wWGY5TkpqTVIwXy1tZm5tWGNzR2l4NW1iWHg5TGlVdEFhY01QQUY2UGhTT2VUa3F3RjRBMC1LT3VtYU41Vm94cDJVUUMyOW1QSFNVVEgzaU5ETW90a3d5bGc0Q2pCOGcyRVUxNG04d1V5bmxLajczQkNWa09oZG5GWGxEQ1Zfc0FDUlpFd1VHSmRSYmxXVWxYQXNxbktZQnMzbDhlRi16anhPMEdvSS1wRFR1UQ?oc=5",
-   "source": "A News",
-   "pubDate": "2026-08-13T07:17:23.000Z",
-   "description": "Iran cites environmental damage to justify Strait of Hormuz fee&nbsp;&nbsp;A News",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Environment must feature in future Strait of Hormuz arrangements, Iran's Baghaei says",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZFBQUlZfTkVqWWZvVi1sdmdoT2pmQzFyWXR3N1NxUl9oejVjZnc1a0dEZmN4Q3NsbkZPcDBiQnVPNkNKR3Atd3QzcmxGLUw0dkFuR2lWUkNDcXFNal8zZVVjNkZTRWt2dkN1dFZDUTRzaGFSeUNYRXhjaUlpTlhHb1o4VUlXRkJwd0ZjMUQ2aDBYV3NsT1lzVzRXUXBzVTFGZjhIV0R1YzM?oc=5",
-   "source": "news.az",
-   "pubDate": "2026-08-13T07:04:38.000Z",
-   "description": "Environment must feature in future Strait of Hormuz arrangements, Iran's Baghaei says&nbsp;&nbsp;news.az",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "OPEC cuts 2026 oil demand growth",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1naFN1bnlmXzZVU19CNk5hWHBlYTduZmcwYkJRRzJYRkkyeTVVYWJLQW01MzFsVldlNHBpa2xZM3hGS0dTQUJtXzk2YW5rU1U4a2JDQUxzc0dOQTRYV2tOcHhtSU5SMTRpc0FyLVZuOTVEeHpB?oc=5",
-   "source": "Qazinform",
-   "pubDate": "2026-08-13T07:03:52.000Z",
-   "description": "OPEC cuts 2026 oil demand growth&nbsp;&nbsp;Qazinform",
-   "categories": [
-    "opec",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Market Quick Take - Cooler CPI lifts chipmakers as Brent extends its run - 13 August 2026",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORnQ0TG5wQzM0eF8zdUhLUFVOZy0wUFFXdWE3Z0prOTVPNHZJQ1pVRGRNRzM2bk16Uk9SZlQ1TXRwLUg2LVg1bkVHWWxYaXppcnZNTUpLZTJvbkI0MXpPN2dyOWdFX0VhWVJFc0JJbEFUX29qM1ZWWC1sQzJQRWowR2Y1SlZucmVEakdxMFFLOGdvcG5WS3ZPVkdsMjR5bk9YR2xib0N2T3UwWldWaUxDX040ZC1RdDY3b3JCeXRHc2x1aDVGSXQ4LUVMdFk0T1dXblZ2TUZpSzFtZkk?oc=5",
-   "source": "Saxo",
-   "pubDate": "2026-08-13T07:01:29.000Z",
-   "description": "Market Quick Take - Cooler CPI lifts chipmakers as Brent extends its run - 13 August 2026&nbsp;&nbsp;Saxo",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "UK economic growth slows down as Iran war pushes up energy prices",
-   "link": "https://www.theguardian.com/business/2026/aug/13/uk-economic-growth-slows-iran-war-energy-prices-gdp-ons",
-   "source": "The Guardian",
-   "pubDate": "2026-08-13T06:59:58.000Z",
-   "description": "GDP expanded by 0.4% in three months to June, but analysts warn growth is ‘likely to fade’UK economy shows surprising resilienceBusiness live – latest updatesEconomic growth slowed in the second quarter of the year, as the disruption unleashed by the Iran war began to take its toll, official figures",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Senators demand that the Trump administration explain the 17-month pause in sanctions against Russia",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFdRaDVVbWZkMm5TQnBHTkY2cTY3cEFpekRtNHQ4bmNGRW12U2dteGt3eDlMVHJSUXcxWnhEN3ktbUFWSmt3MzdNeEhadVpnd2hSUWxKX3ZpQi1hVlkxMGtDSzB6NG1DblMtQTVKbkgzTEdLcUNyRFJKamtCSmQ1eXNuMWFnZ3RQaEN6cFg1Q19nNU5kMTUzaVViSmlZWS01VG5VOFlmazZfNTlVbk1jZ1RVMkg0ODNDVmU2ZExXWdIBvwFBVV95cUxQMFdRaDVVbWZkMm5TQnBHTkY2cTY3cEFpekRtNHQ4bmNGRW12U2dteGt3eDlMVHJSUXcxWnhEN3ktbUFWSmt3MzdNeEhadVpnd2hSUWxKX3ZpQi1hVlkxMGtDSzB6NG1DblMtQTVKbkgzTEdLcUNyRFJKamtCSmQ1eXNuMWFnZ3RQaEN6cFg1Q19nNU5kMTUzaVViSmlZWS01VG5VOFlmazZfNTlVbk1jZ1RVMkg0ODNDVmU2ZExXWQ?oc=5",
-   "source": "Українські Національні Новини (УНН)",
-   "pubDate": "2026-08-13T06:59:34.000Z",
-   "description": "Senators demand that the Trump administration explain the 17-month pause in sanctions against Russia&nbsp;&nbsp;Українські Національні Новини (УНН)",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 42,
-   "high24h": 36,
+   "count24h": 38,
+   "high24h": 35,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 50,
-   "high24h": 45,
+   "count24h": 49,
+   "high24h": 46,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 40,
-   "high24h": 20,
+   "count24h": 42,
+   "high24h": 22,
    "level": "kritisch"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 11,
+   "count24h": 10,
    "high24h": 3,
    "level": "angespannt"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 8,
+   "count24h": 11,
    "high24h": 0,
-   "level": "erhöht"
+   "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 3,
-   "high24h": 1,
+   "count24h": 4,
+   "high24h": 2,
    "level": "erhöht"
   }
  ]
