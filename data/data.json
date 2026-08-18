@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-08-18T15:42:56.672Z",
+ "updatedAt": "2026-08-18T16:46:17.488Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 91.83,
+   "price": 91.6,
    "prevClose": 90.87,
-   "changePct": 1.06,
+   "changePct": 0.8,
    "change24hPct": null,
    "spark": [
     {
@@ -112,9 +112,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 84.81,
+   "price": 84.55,
    "prevClose": 84.5,
-   "changePct": 0.37,
+   "changePct": 0.06,
    "change24hPct": null,
    "spark": [
     {
@@ -210,9 +210,9 @@
    "symbol": "NG=F",
    "name": "Henry Hub Gas",
    "unit": "USD/MMBtu",
-   "price": 2.73,
+   "price": 2.75,
    "prevClose": 2.69,
-   "changePct": 1.52,
+   "changePct": 2.27,
    "change24hPct": null,
    "spark": [
     {
@@ -308,9 +308,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 99.61,
+   "price": 99.6,
    "prevClose": 99.58,
-   "changePct": 0.03,
+   "changePct": 0.02,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -321,9 +321,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4360.03,
+   "price": 4366.83,
    "prevClose": 4415.91,
-   "changePct": -1.27,
+   "changePct": -1.11,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -332,12 +332,248 @@
  ],
  "news": [
   {
+   "title": "Missouri gas prices jump nearly 15 cents as Strait of Hormuz closure persists",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkFqOHJ4MDNHWjF0YW4tSF81YURnbWYzNXZCbG9abVdsR3JOVUFwNHZUV1JLSURxblNIektMQXduRkFlaEg5SWkybUIyUEtPQU1ESVBWRUtwWHUtTnFXS1pxS3RBSzR2eEhENlNEZ1RZTXBHdzJqTGdwVldNbVZnLWJlby1XaThINmJaV0xjYmhBMzBRcWw2WkZqTlZLWkNSVWN3d0dZTHNmMi1UTWYw?oc=5",
+   "source": "hannibal.net",
+   "pubDate": "2026-08-18T16:29:47.000Z",
+   "description": "Missouri gas prices jump nearly 15 cents as Strait of Hormuz closure persists&nbsp;&nbsp;hannibal.net",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "FILE PHOTO: A drone view shows vessels in the Strait of Hormuz, as seen from Musandam",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOR3BJLUxDYnNuVGdEUVY5Zk9Kd2dIMi13Z3czQWlaQ0prZGh2Y1YtbC0zMWFEMFJXcEVZV0oxRXdaWUVKclhRbzI4TjBseHlvTTIxcWFkMWprTlNHeUtxUVhmQzlKNkpwcFNWZ2c0MVpXM19OdkZnZVQzRHhaUTBJRDZObmZleF9BZDlYMW1LXzFuUG5xQzFUUkczWkREMXdWYlBpY0tKNXBWbzYxc19mZ2VSUzBHNWRCSEs3VFVCanROMEFjdjBBa1I5M0FWakdFX3RVS0NGMTA0U1VybjlvYmJpNkVwemVPNEFteHZJd3BncjNRWEoxTHg5NUlxWW1PN3c?oc=5",
+   "source": "The Lufkin Daily News",
+   "pubDate": "2026-08-18T16:22:29.000Z",
+   "description": "FILE PHOTO: A drone view shows vessels in the Strait of Hormuz, as seen from Musandam&nbsp;&nbsp;The Lufkin Daily News",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iran prepares to keep economy alive as US threatens further sanctions",
+   "link": "https://www.aljazeera.com/news/2026/8/18/iran-prepares-to-keep-economy-alive-as-us-threatens-further-sanctions?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-18T16:21:49.000Z",
+   "description": "Iran’s authorities say they could shift to offensive operations as Washington considers further sanctions.",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Yemeni forces shoot down Houthi drone in Hadramout",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLWQ1cl9HUUNONWZtLXgyQ1l6WlphRG9VSWpFRGt0RVBzVUoyeEx0NnpvNnQwamx3MUVCV3JpdWFSTlZzeGxyak1DMXh2N2tjOXZScGdldUpJWDdNZTZmVldJZUR2V0tyUnNtejBfUFhiWnFpRWpYRUFibVhvR3o5b2RKRUNHNk5SMGpQVzNjdG9vTUk3Q3U3YUxfTURLdTBrS3pYSVVMS256cmNIakRtNlB0aTJFN3FTZUlwU2xOaE9sR01qWncxbU1kbnh0N3h3dE5GaGpfemNpQXFYcnJrX1pjaXBtZnc?oc=5",
+   "source": "Middle East Eye",
+   "pubDate": "2026-08-18T16:21:00.000Z",
+   "description": "Yemeni forces shoot down Houthi drone in Hadramout&nbsp;&nbsp;Middle East Eye",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Middle East: No talks or conversations with Iran, Trump says",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQekRaMXhRMTg5cE9LbnNTRlFzSGk5cFBjTTJtR2ZDdkIzc1hoTGR4Ymc3Vk9sY0JqMHRITGFVNFlrWVpZa0VDekxPX1dDV2IyV21Qano1N3JiVlVVZUtIQjVzRWktb05DSkhGZlNGLVMtZXpyN0hPODhURHdybjVXT0hUMDdnRC1SN3lsYTZDTGcwdUtyclRtbXV3?oc=5",
+   "source": "DW.com",
+   "pubDate": "2026-08-18T16:15:39.000Z",
+   "description": "Middle East: No talks or conversations with Iran, Trump says&nbsp;&nbsp;DW.com",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Chief Engineer Killed as Bulker is Attacked Exiting Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVBfXzNFUUdvR3RFLWp0X0FnWERDSlpES0tnTGxaT2VsWmp3VlFobjNxN0hRS2RZT3NHSk9aamJTNHZWY1JKMjdSZ2tIcG5mVlBOZ2x2SHZtbEFQUEtnLU5kSkh6aWpkalUwWFlfS3lOSmJZSFNwSDNEV1RQMTZ0RlhzUDV2a2pvaTgycDl6UWFXdEp1eDVtN1RnemVrOGdiX1BlaW0xWG4taW8?oc=5",
+   "source": "The Maritime Executive",
+   "pubDate": "2026-08-18T16:15:35.000Z",
+   "description": "Chief Engineer Killed as Bulker is Attacked Exiting Strait of Hormuz&nbsp;&nbsp;The Maritime Executive",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Strait of Hormuz tensions still impacting US-Iran negotiations",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTJQR1VHLWhQajF2Q0UzT0EwQmt2N0g0VkVLSGduUWJqanVyRV9ZR3pDbEtqT1JGZF8xR3ZtQU1CVWI4TlRjakR4S01oSE1sZkdjb0lHYl9DVy1RSTRlR3RrcXdOS1R6UDg4aTdUbVBXX0ppMTJjNFFKdU84SmhucjhILWlYcmU3bXBTeUdGdFF1enJ2MEduenBOelF0S3ZN?oc=5",
+   "source": "cbsnews.com",
+   "pubDate": "2026-08-18T16:12:00.000Z",
+   "description": "Strait of Hormuz tensions still impacting US-Iran negotiations&nbsp;&nbsp;cbsnews.com",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Chevron Shares Gain 0.8% with Brent at $91, Analysts See 5.7% Upside",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeUFOOUloNGRzamtGVTEtd2VDWlBnZ1otWGhYSkdxQ25HSUpzY3lKekNlUktfX3RLN09UTzR2ZXFDamFsNWkxUGEza3ZBRHdadnZWTlhCWUZXaVJ1ODJBZVRzSVlNZ0Y1RE1fZ243YWZOR1p3QjdONThtS2w2dVdzOGN5Q1FMN1ZGWmc?oc=5",
+   "source": "TechStock²",
+   "pubDate": "2026-08-18T16:09:01.000Z",
+   "description": "Chevron Shares Gain 0.8% with Brent at $91, Analysts See 5.7% Upside&nbsp;&nbsp;TechStock²",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "FTSE 100 holds modest gains as Brent tops USD90",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVUVnbzJoVDFqSkVrbjFXRXBicW4ybUFtb1BRa1RqNk1UMTNMUmhvQzlmd0d4UnNleTFIYVcxSXgxMkZJTW10UW1OcnNRMlo1MloxTXAxajAwMG9LR01HMkQxbmxzd1F0TDhLWnFtTm9wTTdBeDRoeDcyMTNuSHoyVlRxNFJIMy1kTFI1OUZHQ0R0bmdZWTVZdWN6ZF81NF9yMFE?oc=5",
+   "source": "marketscreener.com",
+   "pubDate": "2026-08-18T16:02:28.000Z",
+   "description": "FTSE 100 holds modest gains as Brent tops USD90&nbsp;&nbsp;marketscreener.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Russia Bars Anti-War Opposition Party From Election",
+   "link": "https://oilprice.com/Geopolitics/Europe/Russia-Bars-Anti-War-Opposition-Party-From-Election.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-08-18T16:00:00.000Z",
+   "description": "Russia's Supreme Court has rejected an appeal by the Yabloko party, the sole officially registered party to openly oppose Moscow's war on Ukraine, against its removal from the ballot for September parliamentary elections. In a separate hearing on August 17, a court in the city of Pskov sentenced an ",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Burnham confirms West Midlands to take public control of local bus network – as it happened",
+   "link": "https://www.theguardian.com/politics/live/2026/aug/18/disabled-people-england-bus-travel-andy-burnham-labour-reform-nigel-farage-conservatives-kemi-badenoch-uk-politics-live-news",
+   "source": "The Guardian",
+   "pubDate": "2026-08-18T16:00:00.000Z",
+   "description": "The prime minister says the ‘absolutely massive’ move would protect thousands of jobsMoscow has threatened the UK with “consequences” after reports that British drones have been used to strike targets on Russia’s mainland for the first time.Ukraine used drones made by two UK companies as part of a s",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump Threatens Oman Over Iran Contacts, Raising Tensions Around the Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpWHIza3dDenplLU54UGVHSnBhZ1ZrS3I5S0xsYjBocVRTbzdTc256SjRBUktOVTZ3dEhNYzQ4Njg4S0E3YlBUS05JbTBMV1RFV0RWOFBQVFVyWVpKRDVpNUtsWlF3YWFpSXc?oc=5",
+   "source": "Межа. Новини України.",
+   "pubDate": "2026-08-18T15:58:58.000Z",
+   "description": "Trump Threatens Oman Over Iran Contacts, Raising Tensions Around the Strait of Hormuz&nbsp;&nbsp;Межа. Новини України.",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump says US has no talks planned with Iran and other news from the Middle East",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
+   "source": "apnews.com",
+   "pubDate": "2026-08-18T15:58:00.000Z",
+   "description": "Trump says US has no talks planned with Iran and other news from the Middle East&nbsp;&nbsp;apnews.com",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump floats Strait of Hormuz as US territory; cost still unclear",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQzlGcmJVSkZGNkZTYjROOGczdVRuRU1CeE1Sb2JnRjZmQVR2NjBjMXFoMExLNFNMbmhDekh1QU94bkt0ZElmQTZ1MklsNU5ETFR4NHFPSlRVWFp5SHRtVlJ3TEZCZVMycm1maEplUVV6QlZzLUw0b1dmX3A3d0dFaU5Bd3FqR2JkNnRpZ2JuanMyYVloRFEtQg?oc=5",
+   "source": "heartlandernews.com",
+   "pubDate": "2026-08-18T15:54:20.000Z",
+   "description": "Trump floats Strait of Hormuz as US territory; cost still unclear&nbsp;&nbsp;heartlandernews.com",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Palestinian living in caves older than Israel",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/palestinian-living-in-caves-older-than-israel?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-18T15:53:38.000Z",
+   "description": "Farhan al Rashaydeh lives in a cave in the occupied West Bank with his family.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "“I fear for my family’s lives” says Loui Ridi as settlers besiege home",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/i-fear-for-my-familys-lives-says-loui-ridi-as-settlers-besiege-home?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-18T15:53:12.000Z",
+   "description": "Palestinian-American Loui Ridi expressed distress over how Israeli settlers have roamed around Qusra unchallenged.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil prices rise as Brent hits highest level since July 30",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wQ2FvSm50TEFsRElYRlNnVVk0bU5xckdfNzFoX2M1S3lwMktVZTJaU1lRNkZtZWN0bFpEZDBvQWoxYTJOUkZ0ZDJEdFBBM3NYM29BTHRxN0piTHdT?oc=5",
+   "source": "Sharjah24",
+   "pubDate": "2026-08-18T15:50:21.000Z",
+   "description": "Oil prices rise as Brent hits highest level since July 30&nbsp;&nbsp;Sharjah24",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Trump circles the Strait of Hormuz on map and proclaims it as ‘new US territory’",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQalRrZjBHM1l2RlFfOUwzOE11QXJLTVhCQTNydVBnMHBObEVJdERhVk5vZXVwWkZXTlE4OVBhbWxsSV90VUpzdEVPbzNCWWZBUmFLMDlUZGI4bVp6cTNSM3pkWmV6RXJLV2VnR2pubXFZamhHZ0hEbm9xZ3hrWGZ4TlFzV3NIY0dzLWs2QUJDV3dLTkZfY2ZEN08yaXRQRzJyUXNhdUxfUERCVFJY?oc=5",
+   "source": "The Independent",
+   "pubDate": "2026-08-18T15:47:00.000Z",
+   "description": "Trump circles the Strait of Hormuz on map and proclaims it as ‘new US territory’&nbsp;&nbsp;The Independent",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump labels Strait of Hormuz 'New U.S. Territory' as Iran threatens response",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pOVIxTXhzRFR4eGE1WFNoRzd5WWhiTzV4Q0Vmb1VaOXhYRndpZENYb1QyRk1HUGxwMDRib1JsRE5BMTBYTTdLMUFGREh0YjZOS1lwdkZLOFRIMlRIb3fSAWNBVV95cUxPa0xEQjlDODYtOEFVSFdaS0wyVWRWX2xwcEhCWG1DdEFtSkFWd1NXTDRrNjVGQWtSSEhINUwxWk4xVzdMRkd0UVNmMHVwYTdkRVU1SXR5QXEtSXJjQmZ2cDNic2c?oc=5",
+   "source": "FOX 5 New York",
+   "pubDate": "2026-08-18T15:40:14.000Z",
+   "description": "Trump labels Strait of Hormuz 'New U.S. Territory' as Iran threatens response&nbsp;&nbsp;FOX 5 New York",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Bulk Carrier Attacked in Strait of Hormuz",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oMTRGSkhSRW85ZkhVZG9FbHpvYXNVWHFseFZYcG9oTEQtTWJ2alQ1LU5SNVdwN3QwVDJtd3RfWTE2UlgwLVowblRteEc4U1pEajJuVGJhS0JFWWo3ZTJUT3JUQVpwRm05cFN1Q0VB?oc=5",
-   "source": "WANA News Agency",
+   "source": "wanaen.com",
    "pubDate": "2026-08-18T15:39:37.000Z",
-   "description": "Bulk Carrier Attacked in Strait of Hormuz&nbsp;&nbsp;WANA News Agency",
+   "description": "Bulk Carrier Attacked in Strait of Hormuz&nbsp;&nbsp;wanaen.com",
    "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump posts image depicting Strait of Hormuz as new \"U.S. Territory\"",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOelo2TE5tbnlmd0IwUjV6V0NmRFZSck9iNXBqcTRPZXVyWWZpb1lMQklGWUo0dGNQSE9vUEFqekQzZmM2ZU55UXhCSTlKU2IwWXpmSE1ZeWtkY1ZNYVZsQzN0WV9fbVY1YmE5cFdER1VSUVJpNXE4R3pELXpMSTlpb1k2R0xMSTJPVkxaWUdLUFJBcEFVQlBVRWtPMGV3VG9abDNhX0tWc0E2bFBvdjJvenYtTmVVdTJzYjJGdmNOSFJGb0g5Z2lGcVllZmJodzl4dVVLUk1rcTdKaTNvOUM0?oc=5",
+   "source": "cnn.com",
+   "pubDate": "2026-08-18T15:37:33.000Z",
+   "description": "Trump posts image depicting Strait of Hormuz as new \"U.S. Territory\"&nbsp;&nbsp;cnn.com",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-18T15:32:45.000Z",
+   "description": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel",
     "hormuz_redsea"
    ],
    "severity": "high"
@@ -367,6 +603,17 @@
    "severity": "high"
   },
   {
+   "title": "Trump posts image portraying Strait of Hormuz as 'US territory'",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nRk05cDJ6Und4OWxIcnVwTkNhZ3c0UHY3cWxpa3gzbkl0ZzhEZVZTampZV1BqMVZ4R3kyZGVKS21oWFlncmpzc20tT013WDZGSEo5T1NwMXg?oc=5",
+   "source": "TRT World",
+   "pubDate": "2026-08-18T15:26:40.000Z",
+   "description": "Trump posts image portraying Strait of Hormuz as 'US territory'&nbsp;&nbsp;TRT World",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Trump marks Strait of Hormuz as ‘new U.S. territory’ in unexplained map",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSWE3ZGkwQUNib3hhU3ZpV1VBODloSUhScnhjajFVTEh5SE9sby1VZDhYTEkwMi0yNDRzdjNBZ0RQc3FObzhaSi02TExXMVhzR3Job0lhd1dGRnhUNE9kalpKSGhRM2tEMHNMVjRZd2hFU3FxS0UzWGpMMzNKbUo1aTFwR1pGQ2tScGExNVFvR0ZONUxxX2cxb3RmUERVUdIBmgFBVV95cUxNeFh4MzB3QVFsd3NhS18tREh0RXNGUnJCUWtYZlIxcUJMbmQ1NGF5RXl6X0luWlJHbV9ydGMyalpmcnVSMmZCOHdhV0lUeDJISmN3NTZMOXh6LVhYMnVDVHhCS012QnNUTy1hTlVZbGxBSU1xelE5RUFnaTlBZGMxZmQ0UnltQ19zRFJVbmtPZkY0aHNidmdSck1n?oc=5",
    "source": "The New Voice of Ukraine",
@@ -375,18 +622,6 @@
    "categories": [
     "hormuz_redsea",
     "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-08-18T15:21:46.000Z",
-   "description": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut&nbsp;&nbsp;Reuters",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
    ],
    "severity": "high"
   },
@@ -412,6 +647,17 @@
     "market"
    ],
    "severity": "low"
+  },
+  {
+   "title": "Opec-Plus: July Output Bounce Begins to Disappear in August",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE44VUEwZk41d2tjSXBMMGtjeDdYQzNILV9qNFJEMFlkbC1NNnk4cnpTU2RWbmRiVlJpR2ZrZVlzYzFkVk1DZjZoWGVnNXdpaVV6aWRyaHRfam1pWXBEV21lSFNFbzlxRGJvWG5qRFlhVllsZw?oc=5",
+   "source": "Energy Intelligence",
+   "pubDate": "2026-08-18T15:15:03.000Z",
+   "description": "Opec-Plus: July Output Bounce Begins to Disappear in August&nbsp;&nbsp;Energy Intelligence",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
   },
   {
    "title": "Non-Opec-Plus: Americas Churn Out Barrels at Record Levels",
@@ -462,13 +708,13 @@
    "severity": "high"
   },
   {
-   "title": "Burnham confirms West Midlands to take public control of local bus network – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/aug/18/disabled-people-england-bus-travel-andy-burnham-labour-reform-nigel-farage-conservatives-kemi-badenoch-uk-politics-live-news",
-   "source": "The Guardian",
-   "pubDate": "2026-08-18T15:01:43.000Z",
-   "description": "The prime minister says the ‘absolutely massive’ move would protect thousands of jobsMoscow has threatened the UK with “consequences” after reports that British drones have been used to strike targets on Russia’s mainland for the first time.Ukraine used drones made by two UK companies as part of a s",
+   "title": "President Trump threatens Oman over the Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ2p1S0F4em1ibWhuYmk3VXpJbXZMaUVtU2tZZXU3UTA1Q1NySklXZTZnX2JPemFRX0dvUVpub3NmQXRJRDJLaEYwZHltNV9aUmRpbnN4anR3eFRnZklGeC1uNEFzTmhNaENlb1lFZUVINnBLLTZZV3NDU0F1bVc1ejNSQVZ3UlpfanZQN09YbTY1OFVOclF1TWI3dWlLUEFSeEloVmFGak43dUFnZjFKbDQwTHllTXh0TEE1Q1Jfdk5mVV9reDZuUkU2enRuaXlJN3RUMVZHZVI5ZmFBSF9JWWhxZTAyOFhRX1U3Mg?oc=5",
+   "source": "KSDK",
+   "pubDate": "2026-08-18T15:08:00.000Z",
+   "description": "President Trump threatens Oman over the Strait of Hormuz&nbsp;&nbsp;KSDK",
    "categories": [
-    "russia_ukraine"
+    "hormuz_redsea"
    ],
    "severity": "high"
   },
@@ -498,10 +744,21 @@
    "title": "Kyrgyzstan Liquidates More Companies Over Sanctions Risks",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDNiSEJHQTZZT3Q0VUNYUmVvQW9mWkVYUVFnZnVBaGFTVnFDcFgzRHJ0N0tWZ1Z0SGFYbHg0aU56UDhsU0lrOVRyVkpjQnp0djVPQnNmbnlDdExGaDdzMTRwZkxrUGFGZldEa3BHbThPcW5WdHZidGgwM1doOThZbjJKa2RERVg5dnZoc3F1SFZEb2k4?oc=5",
    "source": "The Diplomat – Asia",
-   "pubDate": "2026-08-18T14:56:08.000Z",
+   "pubDate": "2026-08-18T14:56:59.000Z",
    "description": "Kyrgyzstan Liquidates More Companies Over Sanctions Risks&nbsp;&nbsp;The Diplomat – Asia",
    "categories": [
     "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent Taylor Launches July First Literary",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkFGR05PZldnN3ExS1RqajVZVkFNMXhZSTBZenh5N1hGQzkwcl9UZkNoR0cyLUhvTXBVMHFpQUJZckkyRmlTaTM0STVaVVQ2dHBJb1BTWUloYWNwN1lPOFNUOTIxZl91VUFIZDVqWHV6SmRRM2dFNFN6MU1fWUUxeXYtX2w2eWtXbHVlZFJSSHJXU3lCV3lGTHhNY1lsVnQzYUxOT2VLSDJ0Q0lrTVBaYzhSUHdJSl9fd045ZzJkRW9XeHFheFBXa0paa1R3ZmFsQ2VHcUo0aw?oc=5",
+   "source": "Publishers Weekly",
+   "pubDate": "2026-08-18T14:56:42.000Z",
+   "description": "Brent Taylor Launches July First Literary&nbsp;&nbsp;Publishers Weekly",
+   "categories": [
+    "market"
    ],
    "severity": "low"
   },
@@ -539,6 +796,17 @@
    "severity": "low"
   },
   {
+   "title": "Seafarer killed as bulker struck in latest Strait of Hormuz attack",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVXhKaktJQ0lnODB0UzZrdFBhMkd4cHZvU2lJUWxRazhHVkNxOVo3ODdzbmJiSGswZkR2R2ZRbWZTQ3VzSWJYNHNXTEIzUndTUlM3MXU0VjNoNVRYYVhVRURpWFpjUFFHNnBVMlVUWTlTTXVMNU1lSW5lSkpSRjY0WHdn?oc=5",
+   "source": "Lloyd's List",
+   "pubDate": "2026-08-18T14:47:44.000Z",
+   "description": "Seafarer killed as bulker struck in latest Strait of Hormuz attack&nbsp;&nbsp;Lloyd's List",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Patrick Vieira appointed Senegal head coach with AFCON qualifiers looming",
    "link": "https://www.aljazeera.com/sports/2026/8/18/patrick-vieira-appointed-senegal-head-coach-with-afcon-qualifiers-looming?traffic_source=rss",
    "source": "Al Jazeera",
@@ -548,6 +816,17 @@
     "iran_israel"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "Seafarer Killed in Latest Strait of Hormuz Attack on Commercial Shipping",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLWRoQy1ybV9pY3hOdTU0T0Z3azZ6Qjh6Q1QwZDVfVFFqSG1mVWxrS3ZjckoxZC1tRjNiR3hycHJGUGpPNnJsX0dHRkt0ZWg4WHlMaXVkZWVIYjNKUEg1dDB2U0JUZ2ZkUGNHdFpOdlJzWnhxLXlTcE5heXlsNkpITjlPVlJtV0RGWkpTQjNlbV9LaUo5NW90VjhB?oc=5",
+   "source": "gCaptain",
+   "pubDate": "2026-08-18T14:46:42.000Z",
+   "description": "Seafarer Killed in Latest Strait of Hormuz Attack on Commercial Shipping&nbsp;&nbsp;gCaptain",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
   },
   {
    "title": "Trump posts map declaring Strait of Hormuz 'new US territory'",
@@ -561,11 +840,22 @@
    "severity": "high"
   },
   {
+   "title": "Brent Venables Searching for Consistency as Oklahoma’s Young Pieces Emerge",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNXJZUnRGeXVzS2VKb0tvemJFekZteTIzRHJvNFh1cTNULWpEX2tvd0NZa2hDWmdiZlQyTjZCSWJyaEtCRTEwVExyZWN4MXVWTGtpX01nYThQNi0yR2NfOTlORWsxOVZJemY2WFpVQm1WMmpacUhZdFBPSGtZTEgwT0hKMHQ5d2JreGJrRDdqNlZZM0I3RDh1ZGsyZ1FyZlBIT3ln?oc=5",
+   "source": "The Franchise 107.7",
+   "pubDate": "2026-08-18T14:42:24.000Z",
+   "description": "Brent Venables Searching for Consistency as Oklahoma’s Young Pieces Emerge&nbsp;&nbsp;The Franchise 107.7",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Trump threatened to bomb Oman because he’s unhappy with country’s deal with Iran, officials say",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVU19leXN1c0gyMV9ib0U1Y1FQampuX3Jqa0ctRUxTS1hBa0hEV2FlRkFocVgxa3NOc3pxQVVTdHZ4UWZfb1VLQ2pOc3EyZTNWWDB0LUFNLXZWaWlaa1dmXzFHVEkyMWxxNUlIdmhuVXVBbXU2d09qNll3?oc=5",
-   "source": "twincities.com",
+   "source": "Pioneer Press",
    "pubDate": "2026-08-18T14:42:04.000Z",
-   "description": "Trump threatened to bomb Oman because he’s unhappy with country’s deal with Iran, officials say&nbsp;&nbsp;twincities.com",
+   "description": "Trump threatened to bomb Oman because he’s unhappy with country’s deal with Iran, officials say&nbsp;&nbsp;Pioneer Press",
    "categories": [
     "iran_israel"
    ],
@@ -583,17 +873,6 @@
    "severity": "low"
   },
   {
-   "title": "Trump shares map showing Strait of Hormuz as US territory",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUXZiNXYwWW5uT2U5OHRYOWVwa0lZRmNJMmFFNjJuemY0ODJOYjRFdzhHYVNiTjNoSVZLSFdiQ0VCek1yenFscVExaDhVcXNMMC1icnd2LVJ1TUdXWUk5UjlEcmpYVXhuQXBwVWFvdlpyTlU1TkVadUZlTWMxU1BZTFZSbHY3LVNMWGpEYmlKMVVQUHpONklLNjNKU2UxMVhVdGc?oc=5",
-   "source": "Deccan Herald",
-   "pubDate": "2026-08-18T14:41:00.000Z",
-   "description": "Trump shares map showing Strait of Hormuz as US territory&nbsp;&nbsp;Deccan Herald",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Oil: Tight market keeps Brent elevated – TD Securities",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQWtvYnJHMjQ2Nl9WRU04dGozTjB1eHp5dVAzeVJDMlhyRk4xYXZqVGc2ZTFJVV95QkdSZm5rMUpHMFRCVkFIb1VNaXBnbVlWMWxUVl9uMS0wb1B5Q1EzeTJGOVRoSnMwWDRLcVU3TDd2Sk1SMHEzdHE5Q0NHRXRXNkVFd2NpNTZHQXp1djRfMUhqdEtOMmUtMndn?oc=5",
    "source": "FXStreet",
@@ -605,22 +884,11 @@
    "severity": "low"
   },
   {
-   "title": "Trump Labels Map Of Strait Of Hormuz ‘New U.S. Territory’ After Passing 60-Day Deadline For Deal",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWHlRX3RjajJSVGxDOHBxQWN4TDdTSzdMRk13T0R5LUZWWDJ0a1F0bUh5dVkyRmo5VkNfS09Mb0lTZzI2V21SVkYyVkp4WERGejBhaktENDlmQzI4UndNZkp6dGwxY0V2TjIzcVhEeHFab3RHcGhKQ1l3cXc1NTJBSENpQW1ReWtBeThQMzJkMkstVlBHaTdPSEtORjNYRU5XRjMwRXF4VHE1REJ3TC1zSm1HSk44Uld3aUUtWDhodTN2eXJBUl9HS0l5aUZLLVFfMmgxbl82Y1VEUWtDT1E?oc=5",
-   "source": "Forbes",
-   "pubDate": "2026-08-18T14:36:09.000Z",
-   "description": "Trump Labels Map Of Strait Of Hormuz ‘New U.S. Territory’ After Passing 60-Day Deadline For Deal&nbsp;&nbsp;Forbes",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Iran strikes ship, doubles down on closing Strait of Hormuz | Morning in America",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQjkxekEwQW9LcXdxaUNhb1R1QjJLYWhWeDNzcURrRWUzNkl0YzZ3TjFIaTZzZE9SVkFGZDM1X3pxUzZISWlBVnFUTlBYbllDNE81ek54RjFJMzNjUE40SEdLS01kYXFZNGtiZ2RxMEVNdzN6NDI3cERBdlhFaDRjeFotY2VlX2tmQm5ZaTZ6dWZaMGtMa3hjZDNsVjh1amVULTE5WnNYVGFSSlpjSnJtbFNHRHpLTFNpeUthaEJrSFY?oc=5",
-   "source": "newsnationnow.com",
+   "source": "NewsNation",
    "pubDate": "2026-08-18T14:34:01.000Z",
-   "description": "Iran strikes ship, doubles down on closing Strait of Hormuz | Morning in America&nbsp;&nbsp;newsnationnow.com",
+   "description": "Iran strikes ship, doubles down on closing Strait of Hormuz | Morning in America&nbsp;&nbsp;NewsNation",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -653,9 +921,9 @@
   {
    "title": "Gharibabadi: Trump’s Illusions Over Strait of Hormuz Will Soon Be Corrected",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZXhIcUJPMkdVYjUtenNqN0Utd1oyMndyckFvUi04QmdxdHdwOUYySHdhMk5tZ2hIaWxmX0RWaDVTRnpHYkRoZ1FfT015VERzekpNakR6N3I1TW5SZ2puQXBHUUxFTmZIeWRpU25vUzZsVE04VU02cDNHZHRSSDliZ1dYWXBqT3pjcTFPR0FPSWRLSzUzdjhoSA?oc=5",
-   "source": "WANA News Agency",
+   "source": "wanaen.com",
    "pubDate": "2026-08-18T14:29:44.000Z",
-   "description": "Gharibabadi: Trump’s Illusions Over Strait of Hormuz Will Soon Be Corrected&nbsp;&nbsp;WANA News Agency",
+   "description": "Gharibabadi: Trump’s Illusions Over Strait of Hormuz Will Soon Be Corrected&nbsp;&nbsp;wanaen.com",
    "categories": [
     "hormuz_redsea"
    ],
@@ -685,6 +953,17 @@
    "severity": "high"
   },
   {
+   "title": "Trump declares Strait of Hormuz as 'new US territory,' day after MoU deadline expires",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NczBOaDg4Z1FsQ1I1N05PVTA5YUxiUTFvTUZXamgwZXJmME9ndFdtRk94VkphQnBNa1lIQkJvdUp2ZTdyZE9CeG9uNWItU0RiSk1PZW9MeXBMRE83Wno2RkR4eHlsZVlQVlE?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-08-18T14:23:22.000Z",
+   "description": "Trump declares Strait of Hormuz as 'new US territory,' day after MoU deadline expires&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Trump posts map labeling Strait of Hormuz 'new US territory' before announcing no talks with Iran planned",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVVFVNEphMXJ6eHY1UEpfa0FRU0Jvb0x5NTRsRGVudkVfaEI2djVxQ2haeDRFSmktdUFwTHlULXRubWRYVVVhRjVtSHZkeERKLWxZZkhubUhjWDlSTlFrZTZ1TEpsWENDVkJtSE9WOTFULUJLQ2hqdDFjbXM4S21HQ0F3d0hRM1Z0RHhYNVVkUHk2LWZmeTc5RmFlcUtxTXR6Q2VFNnA5Tm16Sk1BS05Nb1Bhb0Frcks5a1hBT2RFNkN1M1VKU1pKTk1CR2o5YUJhdHEyN28xbTJKQQ?oc=5",
    "source": "New York Post",
@@ -692,6 +971,29 @@
    "description": "Trump posts map labeling Strait of Hormuz 'new US territory' before announcing no talks with Iran planned&nbsp;&nbsp;New York Post",
    "categories": [
     "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil prices at near three-week high as US-Iran peace hopes fade",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaHlyS3lteU42bE9CbEE0UDllVWxfVmIyTGRrTmw3SWMzc0dpMEE4VFFrZjVZb3BiclFOUUhMUVVTZVlub25ldk42OU9ud2pWdHVyRmYyZGhlOVg5RThBb0xIUTFiWGxDeTJhLWE5cDBscWxoVTk4ZUlfRmFyR0JFS0hxTUttaml3bHh0TEtjZXFwWG9WRHFTRWlrQkrSAaQBQVVfeXFMT2sxUDR1VUItTDE0SGhCRmlSc0xUVEQ5NFhPNno4VzJiVGxVTnBiSjViQ2VIUGtmTkZJVF83OWFKSzV3MVFwZ25PRDcyVFJaZGFyYUdsbl9pX1JxOFMtNlNKWDRTS0E0ay1OT3NZUTJkcGlRSUtnSUhhc09vRXQ2b2FKOUFuekRYWlZrcXNyMG5jUXRTMkRKVktRQ2haclNRV3JJSU4?oc=5",
+   "source": "The Express Tribune",
+   "pubDate": "2026-08-18T14:15:00.000Z",
+   "description": "Oil prices at near three-week high as US-Iran peace hopes fade&nbsp;&nbsp;The Express Tribune",
+   "categories": [
+    "iran_israel",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump shares image depicting Strait of Hormuz as ‘US territory’",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV3E5cGV1Yzh3TXUwZGQ3OUNDaDNQT2JVTnFONVRMc21VeWNBRlJNUW4tWjhfVFRjVE1KWFJBaGpuZ2ZFS2kzN2Zva3FhNlZYc3lCNmhWWG9xV0NTZlg0SXNmcWxkeGNlLTZnS0JtcWNpY3VJWUpQeklfUVN2T3JCNm5EOUo2ZURDSDNKUUc3bmFPNEFIUGZ1UjhXc0pWMU9qUHZFelJTOXA?oc=5",
+   "source": "Middle East Monitor",
+   "pubDate": "2026-08-18T14:15:00.000Z",
+   "description": "Trump shares image depicting Strait of Hormuz as ‘US territory’&nbsp;&nbsp;Middle East Monitor",
+   "categories": [
     "hormuz_redsea"
    ],
    "severity": "high"
@@ -742,17 +1044,6 @@
    "severity": "high"
   },
   {
-   "title": "Trump posts image portraying Strait of Hormuz as 'US territory'",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS2hQMng4N2hZQnJFaGpoSkNXVDY5VWtLd2NWOGI5QkRQUmhTS0pVRGtZR2xsWXpWZUk1ZVo2ZlM4NXI3bWl5SFhOdndOdEtreUxyWHJoZ1VUUy1Pek1NZE9JcTQxcl9FelFyRUNMckVONlpPalJ2VXFuOS1oZVhFdDZ1dEoyZ1R3UXo3OHBESzFoaUZBTHF0djRyYjdYWlBVX3YtZE1CQk82dWZOZk9IS0phbWlOcl9HQTZ1V1R0bkt2Vm41ZFRySzVaSVptQ1JCVTc4dFBqTi11SHVwcW56bWs4bzI4Zw?oc=5",
-   "source": "TRT World",
-   "pubDate": "2026-08-18T13:59:10.000Z",
-   "description": "Trump posts image portraying Strait of Hormuz as 'US territory'&nbsp;&nbsp;TRT World",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "What to know about Gaza working groups and their mandate?",
    "link": "https://www.aljazeera.com/news/2026/8/18/what-to-know-about-gaza-working-groups-and-their-mandate?traffic_source=rss",
    "source": "Al Jazeera",
@@ -786,22 +1077,11 @@
    "severity": "high"
   },
   {
-   "title": "Trump says US has no planned talks with Iran and other news from the Middle East",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
-   "source": "AP News",
-   "pubDate": "2026-08-18T13:54:00.000Z",
-   "description": "Trump says US has no planned talks with Iran and other news from the Middle East&nbsp;&nbsp;AP News",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "Russia Is Swimming in Oil—Yet Fuel Is Reportedly Available at Just 28% of Its Gas Stations",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOWNtNDhTZ2gtUzFUVmxpN0ZtRkV4VmxNRDNyRlRic0VNb3hUaDAwbUh2ZHNxQmxRc0Q3UURBcGlibUY0UXRiWDJZWkxXaFpIbS1zNmt2TmVzNzYyaUdrbzJSa3VtX1V0dUFEcUJ6LUt0YzJzWFFQUmJOTnVkdjEzN2ZnelVrdk9PZWRRbzNQQ1NHV1RDWDhnempQTk05MnM0cDBrU2ZTd0I3OUNUY3MwQ01SZ0x4LVF4STNoNXBXanNfUHk4VVAtMU02dkJWem94Znc?oc=5",
-   "source": "UNITED24 Media",
+   "source": "united24media.com",
    "pubDate": "2026-08-18T13:53:42.000Z",
-   "description": "Russia Is Swimming in Oil—Yet Fuel Is Reportedly Available at Just 28% of Its Gas Stations&nbsp;&nbsp;UNITED24 Media",
+   "description": "Russia Is Swimming in Oil—Yet Fuel Is Reportedly Available at Just 28% of Its Gas Stations&nbsp;&nbsp;united24media.com",
    "categories": [
     "russia_ukraine"
    ],
@@ -814,18 +1094,6 @@
    "pubDate": "2026-08-18T13:51:33.000Z",
    "description": "Fighting intensifies across Yemen as Houthis clash with internationally recognised government forces across many fronts.",
    "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Trump intensifies pressure on Iran as Strait of Hormuz standoff escalates",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pcDEzOXEzQk1VeW1wa004bWdTZGVJLWxad2E2dEhUd2xJODhWVzdFbjdNNVgxLUFBWUMtakV4a2dxZUJZOWhEbks3QktGME95dUhyUU5R?oc=5",
-   "source": "Fox News",
-   "pubDate": "2026-08-18T13:51:31.000Z",
-   "description": "Trump intensifies pressure on Iran as Strait of Hormuz standoff escalates&nbsp;&nbsp;Fox News",
-   "categories": [
-    "iran_israel",
     "hormuz_redsea"
    ],
    "severity": "high"
@@ -845,9 +1113,9 @@
   {
    "title": "Iran strikes ship, doubles down on closing Strait of Hormuz",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTExRTmtjckNNaHc5QXdUVlFScVNYeEU0Y3NfYU80SHNwU0trNG11bjJ2c2d6LV9iaVpDeU13VnAyV3lieEU1cGVQOHJYd1gyRGtBTDRfdDBPNG5iWS1kc3doc3JUSi1IbG1WbmxiV1hSQnNNa2J6MjFfTU9mTVNxc0FB0gGHAUFVX3lxTE9mMzFXb3hGcEI5UjhjRkNIZGpMZzBpTXZvV0ViM3h4cWJZLURFMWNUSmhkT3ZZTXZYVnVMdFdyNjZzVEZsMTVPc2hpdGNMLU5Ic3JkdURKMTR6cjRTRDBmaTZoUFhuTkkwb3EyNzNmX0RORXAzRWVuWVNNeldMTzNjRTBQbzRnVQ?oc=5",
-   "source": "newsnationnow.com",
+   "source": "NewsNation",
    "pubDate": "2026-08-18T13:47:54.000Z",
-   "description": "Iran strikes ship, doubles down on closing Strait of Hormuz&nbsp;&nbsp;newsnationnow.com",
+   "description": "Iran strikes ship, doubles down on closing Strait of Hormuz&nbsp;&nbsp;NewsNation",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -958,24 +1226,12 @@
    "severity": "low"
   },
   {
-   "title": "Iran Missile Attack Warning: Former Israeli Official Speaks",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBQ3NOMXk5WDg1S1ZtVlBYRHdWblZSV181TjE5aDRTSUVpdy1YYTJEdWZUelg0RHo5VTdqeWZYbEREcGhyUlBmaDhCTHgwTVBkRzBvcng3dlFkQ0NfX3IybWpIdkhDd3RIZDI3dzNR?oc=5",
-   "source": "JFeed",
-   "pubDate": "2026-08-18T13:24:42.000Z",
-   "description": "Iran Missile Attack Warning: Former Israeli Official Speaks&nbsp;&nbsp;JFeed",
+   "title": "Trump Labels Map Of Strait Of Hormuz ‘New U.S. Territory’ After Passing 60-Day Deadline For Deal",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWHlRX3RjajJSVGxDOHBxQWN4TDdTSzdMRk13T0R5LUZWWDJ0a1F0bUh5dVkyRmo5VkNfS09Mb0lTZzI2V21SVkYyVkp4WERGejBhaktENDlmQzI4UndNZkp6dGwxY0V2TjIzcVhEeHFab3RHcGhKQ1l3cXc1NTJBSENpQW1ReWtBeThQMzJkMkstVlBHaTdPSEtORjNYRU5XRjMwRXF4VHE1REJ3TC1zSm1HSk44Uld3aUUtWDhodTN2eXJBUl9HS0l5aUZLLVFfMmgxbl82Y1VEUWtDT1E?oc=5",
+   "source": "Forbes",
+   "pubDate": "2026-08-18T13:28:40.000Z",
+   "description": "Trump Labels Map Of Strait Of Hormuz ‘New U.S. Territory’ After Passing 60-Day Deadline For Deal&nbsp;&nbsp;Forbes",
    "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran hits back at Trump over Strait of Hormuz map, says ‘delusion’ will be corrected- Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVFN2VG14Z3VkVjBiSF8xNWs3anhvOW5pR19Yd3NiaFl4WjFoMG9FMzkyTHozajhiZE1NOXFPQ0ZfN0JwbmpwdEZOMElLREdLNnVQd3ZjdGIyVUZhZlBlUTU3cGIwTkJkeVlZQ0tGNUkyUkE3S0g1V3BHblR1ZFk5TTZmdXc2ZjFDbGY2T3pqa3RXNzk2Mk1hQVpFWENMLWRCVXdNNDFHcHVPTXlnQjBLODFkYWU4aV9udnNrMG5iLTI?oc=5",
-   "source": "linkedin.com",
-   "pubDate": "2026-08-18T13:20:51.000Z",
-   "description": "Iran hits back at Trump over Strait of Hormuz map, says ‘delusion’ will be corrected- Moneycontrol.com&nbsp;&nbsp;linkedin.com",
-   "categories": [
-    "iran_israel",
     "hormuz_redsea"
    ],
    "severity": "high"
@@ -1001,17 +1257,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Trump shares image depicting Strait of Hormuz as ‘US territory’",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUWd6cl82SEdkdE5MdVkyOFpZLWJEdkFfWngwSkRiZXFpeXJCcjJBWGpLdF9MdHBSejhWZEhfWWY2QkRrVDFUQzFkM1VSaGlmMnZJeGhwTjBBSHdSckVsaVBuaHBsWjdVQXBLQXdSZjJ0NDQxWlY4MlBxQkJMSEJoT0FMVjItSjRhek05bmNTdkVFYjBrTk1MR1dOM3htbnBzSGJPMG5uaw?oc=5",
-   "source": "Anadolu Ajansı",
-   "pubDate": "2026-08-18T13:14:28.000Z",
-   "description": "Trump shares image depicting Strait of Hormuz as ‘US territory’&nbsp;&nbsp;Anadolu Ajansı",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
   },
   {
    "title": "What is Brent Industries? Crews battle fire after 2 explosions at the south Toledo facility",
@@ -1071,9 +1316,9 @@
   {
    "title": "Trump published a map with the Strait of Hormuz marked as a \"new U.S. territory\"",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRzlheVlxUnRrUmtpaW4tWm56V1dXWDBEOGlBSEpuNmJLb1d6U0xyMzBwSmFyeU9YMzBLaUs2MF85dDNMbjZSQW9tazA2dlczdnZoVjhjQnJPajlBWkNtcEZsaDdmUk13RmpDaF9Kbm9pNGdNOGFzNWNScjEtS29pSG55UDN3OHI4YktrREV2NHVWMmdJMDNF0gGWAUFVX3lxTE9XQUhlZjFXY01EbXh0TGZRc3J2dE1DMlh0NFlWVnVQekFaMUZFNk1YMkJRR0xoSk90RzBjZ2lkZmVvYWFoMU1UQjF3THFvVS1ZenJGbFBWcTJwUXpZcDk4V091N3hzb05xc3RVa0tZM2hkQWp0enZyTGxhaWYzYU00S2tqUFFXdnJzSk90eFF5VFlTMWg5QQ?oc=5",
-   "source": "Українські Національні Новини (УНН)",
+   "source": "unn.ua",
    "pubDate": "2026-08-18T13:04:12.000Z",
-   "description": "Trump published a map with the Strait of Hormuz marked as a \"new U.S. territory\"&nbsp;&nbsp;Українські Національні Новини (УНН)",
+   "description": "Trump published a map with the Strait of Hormuz marked as a \"new U.S. territory\"&nbsp;&nbsp;unn.ua",
    "categories": [
     "hormuz_redsea"
    ],
@@ -1126,17 +1371,6 @@
    "severity": "high"
   },
   {
-   "title": "Trump labels part of Strait of Hormuz new US territory",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91cm9sMDVMM3IzbnZDb09NNk5RbkdlVDlDYVk1cFVmMlRlYlo3NzhtUkxyNXBNVkJoekNmNFRHODdzSVlpNk55aGUyQUE2aWdMWHd5R0R2ZXRlVDhxNjRXLVdPX0J1UQ?oc=5",
-   "source": "Межа. Новини України.",
-   "pubDate": "2026-08-18T12:47:57.000Z",
-   "description": "Trump labels part of Strait of Hormuz new US territory&nbsp;&nbsp;Межа. Новини України.",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Russia Reimposes Fuel Sales Restrictions as Gasoline Shortages Return",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUVNUVh2bV9sWk5tcXVmRlVJSTdEZjJxMEItX01oSWlqVkF5aFJWYl9fbmJGS2dmVmZIM3dNMS1McUFWNUIydEFGLUhRNUVXMF9TTHBVN1d5aGk3aF8za2NES18yTlZEUmxhb2lRUGhTRVdfOEZjZndMY2tjQW9TVUptYVNhcEdtMmtGVUIxUUR3Y2RveDh6bXZuemowenQtdUE?oc=5",
    "source": "Egypt Oil & Gas",
@@ -1158,18 +1392,6 @@
     "iran_israel"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "Trump acknowledges Iran backchannel, threatens Oman over Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoblZHTzN0aGk2eWpEYURKSlFaSi1DU2dyVkR2M3dCRzFFNGZBaWt1d1FsTVRENHJGLThHOVpoTUs2eFJKOHNSMTJhSVdxM0MyM1JoZw?oc=5",
-   "source": "AzerNews",
-   "pubDate": "2026-08-18T12:47:00.000Z",
-   "description": "Trump acknowledges Iran backchannel, threatens Oman over Strait of Hormuz&nbsp;&nbsp;AzerNews",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
   },
   {
    "title": "Ship attacked while exiting Strait of Hormuz",
@@ -1194,6 +1416,19 @@
    "severity": "high"
   },
   {
+   "title": "Iran closes Strait of Hormuz as diesel prices surge to $5.46 a gallon across the United States",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMHlNQmFIblRjVl9XU0xrb29xVzhrTzBRZm5hSjZqMUhiVHh1ZFh6TFVYZ1J6MnB6VlR5UjZCTjhJTDRubUZURXU0bllvQVpVcEdWa3NpM1Ezdk5JaVhfSzVzLU53cXJfT0FvQTEzNFg1LU9xU3k4R2ZMTWl3cUF6eEpnZ0NHTkpzR2dxNkt6SUNjSHRSN2FGTzVGRXFjMGxRRklUNk01RzlnM2pWWC11VkZ5VndrektYelQyRGxTUk52Q0tZR0JKN1NtQ2hhMHRnazFVYw?oc=5",
+   "source": "Scripps News",
+   "pubDate": "2026-08-18T12:40:06.000Z",
+   "description": "Iran closes Strait of Hormuz as diesel prices surge to $5.46 a gallon across the United States&nbsp;&nbsp;Scripps News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Qatar rejects Iran’s ‘false’ claims about missing pilots",
    "link": "https://www.aljazeera.com/news/2026/8/18/qatar-rejects-irans-false-claims-about-missing-pilots?traffic_source=rss",
    "source": "Al Jazeera",
@@ -1205,11 +1440,22 @@
    "severity": "medium"
   },
   {
+   "title": "UK Weekly Sanctions Update - Weeks of August 3 and August 10, 2026",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZTdBQmYxU29mZGNYRDJfaFo2aHI2T3ZCazNTMS1iYVRacEFNZnRZOWpfZmxvUTQ3bU1EU0FVaXVhdXhhNm5qY0J4UnBzUUZRekVYdWNEZ0ZkNHI5RlVSX3RjOXJkVkpNcDJzS2ZNZFJfZ0ROOEdXTFA1cUc0bTJKenVhM0MwdHBtNm1oVjBDX3RJX2cyYlBfWVQ0bU9TQWRkemRfYVdxbklWSVNJY0JtUFhIbTdQSk5IdXpRSE9SNGRJbE1OdWo4cWRXcjVldmt4MlZ3cXYtVWpmRC1iUGk1VjRPVE4?oc=5",
+   "source": "Mayer Brown",
+   "pubDate": "2026-08-18T12:39:12.000Z",
+   "description": "UK Weekly Sanctions Update - Weeks of August 3 and August 10, 2026&nbsp;&nbsp;Mayer Brown",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Chevron Corporation (CVX) Drops as Oil Price Retreats",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWG5FRld5U1psbTZvT0Zzd2prN3dDd1ljUTZOVWtrRENwbC12bko0OHQtTmFoUnBQLTBIOGktTnYzdDBrSWZfblJVSlhGT2duR1NZS1FUaUdVZ1NaOGMybDhZYklGU3RBbFN2YVJ4SzEtdXA3QnltakxlcXhjX1NCeUJxVFdnV3JxMjJUakpxRS1tcVJG?oc=5",
-   "source": "Yahoo Finance",
+   "source": "finance.yahoo.com",
    "pubDate": "2026-08-18T12:33:22.000Z",
-   "description": "Chevron Corporation (CVX) Drops as Oil Price Retreats&nbsp;&nbsp;Yahoo Finance",
+   "description": "Chevron Corporation (CVX) Drops as Oil Price Retreats&nbsp;&nbsp;finance.yahoo.com",
    "categories": [
     "market"
    ],
@@ -1253,21 +1499,22 @@
   {
    "title": "Ship Exiting the Strait of Hormuz Is Attacked",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGRpNm9fblB2cTJiOHJmbzI5OTlPZmJrNUlWaUtyVDA3STdiTllISTBvNDIzLUFIMUlUMU8tcHJUazh5MmdrVlRwNUtZeHBqeVdsTFVuLVg0SDF0STVTSDlNUEVING82UWs3RmZvX1VsSzBMeTNkZER0ZmlfMWdiZUo0VQ?oc=5",
-   "source": "The New York Times",
+   "source": "nytimes.com",
    "pubDate": "2026-08-18T12:27:21.000Z",
-   "description": "Ship Exiting the Strait of Hormuz Is Attacked&nbsp;&nbsp;The New York Times",
+   "description": "Ship Exiting the Strait of Hormuz Is Attacked&nbsp;&nbsp;nytimes.com",
    "categories": [
     "hormuz_redsea"
    ],
    "severity": "high"
   },
   {
-   "title": "Trump declares Strait of Hormuz as 'new US territory,' day after MoU deadline expires",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NczBOaDg4Z1FsQ1I1N05PVTA5YUxiUTFvTUZXamgwZXJmME9ndFdtRk94VkphQnBNa1lIQkJvdUp2ZTdyZE9CeG9uNWItU0RiSk1PZW9MeXBMRE83Wno2RkR4eHlsZVlQVlE?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-08-18T12:26:59.000Z",
-   "description": "Trump declares Strait of Hormuz as 'new US territory,' day after MoU deadline expires&nbsp;&nbsp;The Jerusalem Post",
+   "title": "Tehran plans to maintain its grip on Strait of Hormuz until U.S. meets Iran’s conditions",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ISTRmWDdjM1hMTGdoZFJ6bU9JUmhKbGs0Z2U3TTNWWEsyazF2VzJucHRndzZzNHFydmhVSDFva1hMNDdCYTB0YU9zRGRUS0hyREFsejFtZzkzUC1tRVBTVzlZdlVLakkzRlhTZmhDSlRNbnFVaGxLX0c0MDRfZw?oc=5",
+   "source": "The Globe and Mail",
+   "pubDate": "2026-08-18T12:23:37.000Z",
+   "description": "Tehran plans to maintain its grip on Strait of Hormuz until U.S. meets Iran’s conditions&nbsp;&nbsp;The Globe and Mail",
    "categories": [
+    "iran_israel",
     "hormuz_redsea"
    ],
    "severity": "high"
@@ -1287,9 +1534,9 @@
   {
    "title": "Iranian official: Strait of Hormuz will remain closed until U.S. meets terms of defunct memorandum",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTlByOHV1a2tsaWpUUWZGZmFldVJsaVpfd0JmYlVJZjZ6WmdtRF91M1N5QWIyeDNXZGtfUHN3TExlR3JRdkFkNWIxbmVGMEo0Q3BEUVpWV2pHd2EyQXprb0JpcmJ6N2ppRzZ6UG0yZFM3VlhjUEdPNmhPNzdaaUxrVXNpaEpBQUppYW90Q05TRDNHaUp2dE1IeXdDanI2QkN4ZHRuR2prTS1Pc1J6YkJLVGhhTlJqcHNT?oc=5",
-   "source": "washingtontimes.com",
+   "source": "Washington Times",
    "pubDate": "2026-08-18T12:21:56.000Z",
-   "description": "Iranian official: Strait of Hormuz will remain closed until U.S. meets terms of defunct memorandum&nbsp;&nbsp;washingtontimes.com",
+   "description": "Iranian official: Strait of Hormuz will remain closed until U.S. meets terms of defunct memorandum&nbsp;&nbsp;Washington Times",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -1322,19 +1569,6 @@
    "severity": "high"
   },
   {
-   "title": "Iran closes Strait of Hormuz as diesel prices surge to $5.46 a gallon across the United States",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMHlNQmFIblRjVl9XU0xrb29xVzhrTzBRZm5hSjZqMUhiVHh1ZFh6TFVYZ1J6MnB6VlR5UjZCTjhJTDRubUZURXU0bllvQVpVcEdWa3NpM1Ezdk5JaVhfSzVzLU53cXJfT0FvQTEzNFg1LU9xU3k4R2ZMTWl3cUF6eEpnZ0NHTkpzR2dxNkt6SUNjSHRSN2FGTzVGRXFjMGxRRklUNk01RzlnM2pWWC11VkZ5VndrektYelQyRGxTUk52Q0tZR0JKN1NtQ2hhMHRnazFVYw?oc=5",
-   "source": "Scripps News",
-   "pubDate": "2026-08-18T12:20:51.000Z",
-   "description": "Iran closes Strait of Hormuz as diesel prices surge to $5.46 a gallon across the United States&nbsp;&nbsp;Scripps News",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Brent: War-linked range trading outlook – BBH",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcDR2SE9fSVpjLWhYMDJjekVHck9yc19FN08xdUpWOVFlamNoTndGYkFPQVZZbUU1Sm15TUZzY2w4MzRWSlRKTWxXNWZkUkZmbGw5eFpGVjZMXzRkaGhuMzYtMmNhNUstOUQ0dHVzc3BxZEJnQmMzQ2QycEZ1R2Z5TkIwanJFZjVhZmI3NzJR?oc=5",
    "source": "FXStreet",
@@ -1358,7 +1592,7 @@
   },
   {
    "title": "Ship attacked during Strait of Hormuz transit",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbjRDdmtNcEYxXzZNcVQ0TXdLemtXcWhJdlQweENJTzZyc19ULTBob3NKWUVTYVA5bzJCd3FZWW5obXZ1Q05CMGhLQmhvSlhTMXc3Y2VPV04yVERnYUtlVzIxMVNiUTdvTThPV1NYMUFJbEowd0NlcGlJM3QzZVJtaWhZVmlHVE92aTlnLV9Pd3YySmJ2Zlo3dmtvb0JjbkowYkJlX1V0YVEyZTNZ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNzZrcEZndGo1MHItdlhCVVhoRXduU0tCaVdmaFR0NXNZNnVWZWlqajhjTjhnUFFWRmRuYV9DTmNkWm9WWUlFV1JYRDdPSkc2eUpKaW9EZC1WLUNEMkZXU1VGSnIwcWhiRGFhclAzbk05LU9MLS1fQU9xWUFrY3luSS0xVmtuSmpPSTVpWmlPSUIyVW0xRDY0dE1xbmIzZ1k1QUx5SF9BeGZBcVVsd2VlOFRtRWc1TmhPMFhtM293?oc=5",
    "source": "Spectrum News",
    "pubDate": "2026-08-18T12:19:00.000Z",
    "description": "Ship attacked during Strait of Hormuz transit&nbsp;&nbsp;Spectrum News",
@@ -1382,9 +1616,9 @@
   {
    "title": "Iranian Diplomat Warns Trump over Strait of Hormuz Claim",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRDNDcUYwcE9EUWQ1bnNNblQ1ejZuNkItS0tGM1djTEtOSUozV09ReTRvVnAxWk93UXlSaWlNNGQ1V05abDZxNmViTzNIWGEtLVFOVnpDY29Kb01PdDBMSkFibFFXNTQtdjAzcFFVcUdCaVBuLUstZl83VkQ5NGtPdFZrUmRuUklrd2dZN0FHTjRWNXFwX0l3SFY4WGYxWDlhZThEZ2JnaTNxQlhWdXfSAbMBQVVfeXFMTzd1VHF4b0FwaTNwaEl4UlpzLWs2SHlHMnduWjF3dmFWOVNUQ3hINjZIZV9SRmpZM1FteUd1UzdXcGxMdURVYm1jSnNGRlRwZE9BY2tYNkJvZmk3aWZjWGZ4aHJQSGtPaTlFWDBYNi10YmFiaEhYcGtQSUVMelZYTzF5akFtZzFMR1R3dVU0dTFoczFkNElVSVphdWo4aG5EMFIwRGJ5ZGlob3JJS3M0alVBXzQ?oc=5",
-   "source": "تسنیم",
+   "source": "tasnimnews.ir",
    "pubDate": "2026-08-18T12:18:08.000Z",
-   "description": "Iranian Diplomat Warns Trump over Strait of Hormuz Claim&nbsp;&nbsp;تسنیم",
+   "description": "Iranian Diplomat Warns Trump over Strait of Hormuz Claim&nbsp;&nbsp;tasnimnews.ir",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -1436,29 +1670,6 @@
    "severity": "low"
   },
   {
-   "title": "Ship ‘damaged by projectile’ and crew member hurt in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPamFVd2xQZElOWVJQdzRNeWxtbHFzcjZuWU1zOUsyZk5uVFBsR3FuTHEtYzI1cjl3US1sbmF3RkhoYklPRWNxQ3FFTVYza1NxNnBvSG5FT2F2TzVzcnBRdC1KelVFMGtwUTE1T1ZEV01mNk5iMDNVWDRodl9VV21XVlRVWEtPTDJhaURtOWVLNzN0c3lY?oc=5",
-   "source": "The Times",
-   "pubDate": "2026-08-18T11:55:00.000Z",
-   "description": "Ship ‘damaged by projectile’ and crew member hurt in Strait of Hormuz&nbsp;&nbsp;The Times",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMGFhOW9EVURqUW90N3BYNUN5c2V4bElfYWNzYzlncE12RkJ2eWhudzAxOFJMa1V6VXFmOGsyWERBbnZla1lGTG1aZjZZa1FPWTQ0ak9ldFpEeXFLWjNwbHZ3TVJXN0J4ZldheEltZFNOQ0NZa1puc1N4YTd1NE5zSXVydHRDeVJZakh3bVlIZEtQQUZFRjlKQ0U0aUllVlR4SWN2ZzJhek5YWkx6Q1l0azJlejR4YnBvZ25mS2o0TGxyMWliQWx5eWlVQU1qc0haQ1BzVEthZ9IB3AFBVV95cUxNSVBvRmFZNl9WV0NQcmtnWG53ODRuV2QyMm9KbmgtUHAtVHJTNElNR0lBdWRXcC1GRmQzbTVZb1JER1ZnSzlQVWp0NzFBQ2t2X0hOSnJrSEtjYWVndkJEdFhIT2ZhMGIwNzBVM19EQ2R6c2NZUExEZFpZSXlxaWxrLUlJR3lVNEtrWktrallfMlAtajBEYkg5TVRuNGFuMmRCTlJGaTFuT1pEUjhnTVJNWGhDR3Y3c2ExVVo1R29malloQThMcTRKZ0V5RHlUclRvSllnVEIzUGNMMm1S?oc=5",
-   "source": "Al Arabiya English",
-   "pubDate": "2026-08-18T11:44:00.000Z",
-   "description": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails&nbsp;&nbsp;Al Arabiya English",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "‘Our task is to laugh at these enemies’: the Ukrainian unit posting drone videos of Russian soldiers’ last moments",
    "link": "https://www.theguardian.com/world/2026/aug/18/ukraine-drone-chase-videos-russian-soldiers",
    "source": "The Guardian",
@@ -1479,258 +1690,41 @@
     "hormuz_redsea"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Russia protests Japan PM’s comments after Putin’s Kuril visit",
-   "link": "https://www.aljazeera.com/news/2026/8/18/russia-protests-japan-pms-comments-after-putins-kuril-visit?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-18T11:39:34.000Z",
-   "description": "Russia summons Japan's ambassador to Moscow over Prime Minister Sanae ⁠Takaichi's 'anti-Russian' remarks.",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Record diesel-crude oil price gap signals risin...",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaExiLVFPOUVZeXpCTlVZNmtnYVJETUVDdkZTOS10OFY4aGp2blVYdEdqVnZZTW1naTNqSGN1Nzd1VEo0dV9wRFZHV1NhcWRfdmtrOVItUWI0eUJaUUh2QmZoQm12V2ZpM2U3aHh0akUtdlY0OHgwYXVnc3Azek1nZVBoeXB1ZzQ2MXRLSk1TTmpTbW5TRlYyeTcxUGZRMmVyRnFzUGNYbm9wdw?oc=5",
-   "source": "Pluang",
-   "pubDate": "2026-08-18T11:35:50.000Z",
-   "description": "Record diesel-crude oil price gap signals risin...&nbsp;&nbsp;Pluang",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Why has Trump threatened to bomb Oman – for a second time?",
-   "link": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-18T11:33:15.000Z",
-   "description": "The US president threatened to bomb Oman over Hormuz, with US-Iran peace negotiations in a deadlock.",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran fails to strike deal with US as deadline passes and Trump calls for ‘white flag of surrender'",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSVB0a2FwMG1yNWtLYzMzYmpSLUJHcllKSHRtWDZVVnZwRFE2OF9OYlJoSnV4QUpKSFlMLXktOFhiTzBmcVd4RUp4LTlRY2JsVjlSZmZWN0VDNm8yWmkwOU9BbV9kQTlVVmtocFcwVVJqVW1tVm5LUnJ4QUxJZ3dRbEFKcVFBMVFDX0w5ODdMZEpOYmVHVzBLM2NnYTZOUF9lNzZVbkxEZ2h0M1pNb1U3VdIBsAFBVV95cUxOSVB0a2FwMG1yNWtLYzMzYmpSLUJHcllKSHRtWDZVVnZwRFE2OF9OYlJoSnV4QUpKSFlMLXktOFhiTzBmcVd4RUp4LTlRY2JsVjlSZmZWN0VDNm8yWmkwOU9BbV9kQTlVVmtocFcwVVJqVW1tVm5LUnJ4QUxJZ3dRbEFKcVFBMVFDX0w5ODdMZEpOYmVHVzBLM2NnYTZOUF9lNzZVbkxEZ2h0M1pNb1U3VQ?oc=5",
-   "source": "Fox News",
-   "pubDate": "2026-08-18T11:32:41.000Z",
-   "description": "Iran fails to strike deal with US as deadline passes and Trump calls for ‘white flag of surrender'&nbsp;&nbsp;Fox News",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Major oil exporter Russia imports Indian gasoline amid domestic shortages",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbkNEazlvYlVFcjRndy1IX1BoeXVZZzByN08xTUpodjBnZnFiNXRaRU5lRGo4RzVxU2w1X0otUkFGNUhiTDNLcU9lMkVfaXFfbHZyaHZzV044bG1vT0t4Z2t2ZVMwMnAwZjVsN2k2eDIyc3pVSktJcFM5MDZ6VUZ1VmlYZEVmMVdTdDgzZW40c1pYZVJBbTdjX0gtZmNsMWtZMEdDeE9lLVNpdW1fY1lnYTVGNnotdw?oc=5",
-   "source": "Anadolu Ajansı",
-   "pubDate": "2026-08-18T11:29:47.000Z",
-   "description": "Major oil exporter Russia imports Indian gasoline amid domestic shortages&nbsp;&nbsp;Anadolu Ajansı",
-   "categories": [
-    "russia_ukraine",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Putin’s Donbas Offensive Just Backfired",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EbnZKRTd0dDJ0M3lRODJPbjF2TzltclB0MlI1VlJ4MG5vSU1LSDlEbHNPUjlmTDNSMmZIeExtMks3RnE5bzQ0TXZnWnctUQ?oc=5",
-   "source": "Kyiv Post",
-   "pubDate": "2026-08-18T11:26:30.000Z",
-   "description": "Putin’s Donbas Offensive Just Backfired&nbsp;&nbsp;Kyiv Post",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Strait of Hormuz to remain closed until US fulfils memorandum commitments: Iran",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xcUpMUUpmMVZRWFlnb1FYT3pha1lEVnRZQ0RRRXVqTy1RTUdIT0ZSdkY2T3FDdExjTlQ0ZlI1ZGdXc19ZcGc5XzU2T21FVExDN3IwY0lnTFI?oc=5",
-   "source": "TRT World",
-   "pubDate": "2026-08-18T11:21:10.000Z",
-   "description": "Strait of Hormuz to remain closed until US fulfils memorandum commitments: Iran&nbsp;&nbsp;TRT World",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Sydney Swans will sanction players for ‘serious breach’ over sexual assault allegations",
-   "link": "https://www.theguardian.com/australia-news/2026/aug/18/afl-chief-breaks-silence-over-deeply-concerning-sydney-swans-sexual-assault-allegations-ntwnfb",
-   "source": "The Guardian",
-   "pubDate": "2026-08-18T11:18:19.000Z",
-   "description": "Club’s board meets on Tuesday night to decide penalties after league boss calls reports ‘deeply concerning’The Sydney Swans AFL club will decide on sanctions for players for “serious breach” of standards over an incident that led to a report of sexual assault.Victorian police on Tuesday confirmed th",
-   "categories": [
-    "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Qatar renews mediation efforts in US-Iran conflict amid Strait of Hormuz tensions",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeFQ4ZUpXYUphV280bFVqZTFPbHNkaDFPajdYNnBTZFdBaE5LNV92LTFtZEh4QTF3NUFoUmpqV2RZVndiT3ViYUdSQkZMZUVkTl9pUnNONXdaMkY0Z0NScWMzeGdoN0ZVWC1YVFdvNHVjVXBXalRiZTZ6NG5KazFGWWk4Qkc5VGlSYmM2WDFLUGtTeXcyOTRCYmhIMlF0N0s3X3c?oc=5",
-   "source": "Crypto Briefing",
-   "pubDate": "2026-08-18T11:17:27.000Z",
-   "description": "Qatar renews mediation efforts in US-Iran conflict amid Strait of Hormuz tensions&nbsp;&nbsp;Crypto Briefing",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Forecast update for Brent -18-08-2026",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWMwZFl2UlB0cWhuYVFhQnZxNlZCclRrYmVxb2JCVW42NWpqWVRLSlplV2E2NG9mNTdjbVV2SjRGblQyYzY3X1hFdVFacV9CUGRIeHJWQmwzRTRQZ01LNVdGODdfOWVMRTRDaGJhYVQyUkk2bklZOExiTWJSUVlBbHpZbFdNWGh6dzVSbV8wcHI0VWZTODUtaGFqTHVVQUZZbVNZ?oc=5",
-   "source": "Economies.com",
-   "pubDate": "2026-08-18T11:15:00.000Z",
-   "description": "Forecast update for Brent -18-08-2026&nbsp;&nbsp;Economies.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Ship attacked during Strait of Hormuz transit and other news from the Middle East",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSUxPcG54UEx4ZkZyRTQyeFgyLV9WaHpRS2t4NVZ3QWxhcGhHTVRmaHBWRjBKVm4zMEVIMjJ1MldqZTlKX2g2bkpzWEZqRkJYZlh4cG9oVUxxdVVDQmpZTzNwcG45WDVodW0xdWdvSGNZdXhMZXF0ankzd3Z4dDZYX0tYRUlERDRCb0ZVbzVLZw?oc=5",
-   "source": "Orange County Register",
-   "pubDate": "2026-08-18T11:10:27.000Z",
-   "description": "Ship attacked during Strait of Hormuz transit and other news from the Middle East&nbsp;&nbsp;Orange County Register",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "What to know about California’s special election to replace Eric Swalwell",
-   "link": "https://www.aljazeera.com/news/2026/8/18/what-to-know-about-californias-special-election-to-replace-eric-swalwell?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-18T11:09:24.000Z",
-   "description": "A race that once received little attention has seen outside spending from the American Israel Public Affairs Committee.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Russian Crude Oil Production Enters New Era of Constraint",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRHZ1Z2VFRlUxcnduc05QWWYtMHBkeHJXcFZWU09FS2tGalhia2NJZkZ5RS1lR3lJV1g5X2VDMXQ3dlFFeHhMZzRLa2dETmxtc21Ba3JKMHpjakxXRWtjV3FLZVlTNnNxZ2RYZDRFc0NQVm0ySWUxelprcWUzTFJMT2hKcUJVM05JXzY4dDdER2hKRDU1RW1BWGo3M3dmZlRpeUNxLTdSUm9VN20yMFVob0VvbEY?oc=5",
-   "source": "Rigzone",
-   "pubDate": "2026-08-18T11:08:19.000Z",
-   "description": "Russian Crude Oil Production Enters New Era of Constraint&nbsp;&nbsp;Rigzone",
-   "categories": [
-    "russia_ukraine",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Trump proposes declaring Strait of Hormuz US territory",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Bb1E2QzlsT1YyWjdTcG5lZWhYSU5JMDdYU3AzcldjazRJeklBNFBxRThPUTFoUEVaNEt6aXJxUDJuSnV3Z3p4ZEcxTVVwaDh2NVp3eGdkdmFkMTA?oc=5",
-   "source": "Fox Business",
-   "pubDate": "2026-08-18T11:07:01.000Z",
-   "description": "Trump proposes declaring Strait of Hormuz US territory&nbsp;&nbsp;Fox Business",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Naphtha prices rise in tandem with Brent",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEhOeVd3QmI1R1ZpU2JhRElZbldvUHhSVnQyUWUtZFlxazZUTVlPUDdvNC1iREZQRkpmVzgySFJTX2xOdzN4aG0xTVZzRHhGMXNIMDRtSE5IeDNDcEJxUTJLdGplMHVxc2czRjRuWVlBSWlxbFlwQzZSWmNsaUtRblJfMHl0Z1V3eDFQQUt3bmtZQnAyNFU4MVhxZDlJSWk1QzRxTjRNTUxlTDk1WmtJ?oc=5",
-   "source": "TradingView",
-   "pubDate": "2026-08-18T11:05:48.000Z",
-   "description": "Naphtha prices rise in tandem with Brent&nbsp;&nbsp;TradingView",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Brent and WTI Surge Amid Middle East Tensions and Strait of Hormuz Standoff",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTFZZWGp2aERfWVhjRndodVoxRDhHTGhIRG9tWUM3bDJ2VWZtdnZZZUYxdjFNRzJkVlg5WHY0dzZnalBVcDVQUnNTSnFPTV9ueG9scURzUTJ4cTVVYmU1d2dZdHFnd0V5dnlRMmRFQTBqN3pRakFmWTNFUGlfLVlGTU4tdXNhOWgyVEhiWEFLUVZ6VWkteVVFeW9aaVdWYV9zZTBDTEQ3SWNCakh0SkQ3R1o1ZHh5OXBoYldnVjUwb01wZWV1TXc1WVBsYmZTVlRWWEJrZFFQVdIB3AFBVV95cUxOOVpxYTZlOFh2bFllMC1ieUZyWGkwc1BscWtxa3ppTl83aExWbUl2REVSaURISlY3V2hCajgzWHFyN3E2SlptYm1lRFQ2N005S3cyWVZoVHJZcWtHV3dRVmJQbFRuMnMteUpCZDNWR1Badm5rUk9UTWV5NTdkbmY4R0VGSkg0Z0ZLS2trNk5aYlRYWEJBQ1kwSHVLdmVKZTdneGpnNWJ5VGdGSGxwNEEwclJtOS1XYmp6Q3E4alVuVXY3V2ZwOERHUGF5UUpOS3lOc2NwajNvQkxRaEY1?oc=5",
-   "source": "Devdiscourse",
-   "pubDate": "2026-08-18T11:02:12.000Z",
-   "description": "Brent and WTI Surge Amid Middle East Tensions and Strait of Hormuz Standoff&nbsp;&nbsp;Devdiscourse",
-   "categories": [
-    "hormuz_redsea",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "One Dead After Vessel Struck in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTZETHl1dlA4dzhNcld5SmR6S0NnQThUclRXTVNPSkJoZVJCOGZiOUw4enFpbFRfM1lCMERvWlNnYS1pcHpud2Q2SGpEaDhyQW1MNVgwMkRuYTRsVG50R21Va0txb1Y2eWF4R2hFVE9nMHAzTnlUbVI5OWhCVW5md1YxSHVXTEVoNlJmRE1B?oc=5",
-   "source": "IranWire",
-   "pubDate": "2026-08-18T10:57:39.000Z",
-   "description": "One Dead After Vessel Struck in Strait of Hormuz&nbsp;&nbsp;IranWire",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Houthi Threat to Red Sea Shipping Rises",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQVo2MUJRemZfRUxrMUF4Mkc4YngzQS01RnpySlhETXZ3bkp0U09jZHduLV9pcElYdjhTR3hjUl9HR2Q0aV91QXMyRVhzamNpR0NIQWNnSFdZT2s3VE40TXhKTnJ0MlgyelJJRkQ5RDVockRud2F2TTcxZVZqTlpudlNmbDIyeE92UXdCTEJB?oc=5",
-   "source": "WSJ",
-   "pubDate": "2026-08-18T10:55:00.000Z",
-   "description": "Houthi Threat to Red Sea Shipping Rises&nbsp;&nbsp;WSJ",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Oil price rises to $91/barrel as US-Iran peace talks stall",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdVE3QnRRZWM5bzhCZHlrT2p5Vk9OeW5za3Exa1Z6ZW8wODlSTWdpa2NsUnNnOEZ5Z0JDMndjUFg4SzhzdTNJZUl0TWJBVEY1MC05V1pXZ0UtZ3lpSXVHT2RfVVFvY0E5dWlTREl0MURDd1I3UEp1MjhuSy1Ud1VmUHg3Um5nRVBGTEE?oc=5",
-   "source": "TheCable",
-   "pubDate": "2026-08-18T10:54:00.000Z",
-   "description": "Oil price rises to $91/barrel as US-Iran peace talks stall&nbsp;&nbsp;TheCable",
-   "categories": [
-    "iran_israel",
-    "market"
-   ],
-   "severity": "medium"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 43,
-   "high24h": 33,
+   "count24h": 40,
+   "high24h": 27,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 67,
+   "count24h": 66,
    "high24h": 65,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 16,
-   "high24h": 6,
+   "count24h": 13,
+   "high24h": 7,
    "level": "angespannt"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 3,
+   "count24h": 4,
    "high24h": 1,
    "level": "erhöht"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 4,
+   "count24h": 5,
    "high24h": 1,
    "level": "erhöht"
   },
