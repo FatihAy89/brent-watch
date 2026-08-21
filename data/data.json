@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-08-21T16:48:58.910Z",
+ "updatedAt": "2026-08-21T17:40:22.597Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 94.11,
+   "price": 94.66,
    "prevClose": 93.78,
-   "changePct": 0.35,
+   "changePct": 0.94,
    "change24hPct": null,
    "spark": [
     {
@@ -112,9 +112,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 86.74,
+   "price": 87.18,
    "prevClose": 86.83,
-   "changePct": -0.1,
+   "changePct": 0.4,
    "change24hPct": null,
    "spark": [
     {
@@ -212,7 +212,7 @@
    "unit": "USD/MMBtu",
    "price": 2.77,
    "prevClose": 2.73,
-   "changePct": 1.43,
+   "changePct": 1.17,
    "change24hPct": null,
    "spark": [
     {
@@ -308,9 +308,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 98.82,
+   "price": 98.8,
    "prevClose": 98.84,
-   "changePct": -0.02,
+   "changePct": -0.04,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -321,9 +321,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4623,
+   "price": 4623.52,
    "prevClose": 4518.45,
-   "changePct": 2.31,
+   "changePct": 2.33,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -331,6 +331,61 @@
   }
  ],
  "news": [
+  {
+   "title": "OU football: Brent Venables provides update on Jake Maikkula; who will replace him at center?",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQVNZNmRFbU9EVUdKaFVfQXk4X3JJb2NFdWY5dE9nYjVHdFo2QzA4d0ZwVDRibGR0bTBVV1FaWkg5bHdIQzhnb2VLQTFEYzI5STdveTE3VE5wYmtGeWJEMTVJRDdpU3gtY2k1QTdpMWtfQkZFWVBlTVVTeVJjaHo1YjRtX2xNZ3dBa0Jmb1JlLWU2YjhZT0FqVUtyRFViS3VLVHJmYkowajBXR2I0eERWdVR4WjllcWc3TTZvWjB2OGFzMW9JZE02eDdLeE1ScnRsUGsybmdB?oc=5",
+   "source": "On3",
+   "pubDate": "2026-08-21T17:26:03.000Z",
+   "description": "OU football: Brent Venables provides update on Jake Maikkula; who will replace him at center?&nbsp;&nbsp;On3",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent Venables 'Thankful, Grateful' for Oklahoma's Commitment in Contract Extension",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQclpVZ1huZ3JTeU5OYUZ6QXJDazZMNERCUUxUNTBKNE9XYVpub3o5d3FVNzNjWjNmZVB2aFRGZTNMSnNyY0N4R3FMNVpiWDhLenB5UldPTDNQQlEtbmd1VUZtcTdyS0QyNnNwMVI4clFHQWhVX0lOTFI5dUMxQm9lcEoyQTVzTG9SLUFWd09wOGRPZXZ4cVp1ZGZpSno3N2FLY2ctZ1g1XzFva21mZWlmSWI4UFNsYnRPektxdndDLUdHdXpVZ29GTlYxTndWVGpDZWxWZQ?oc=5",
+   "source": "Sports Illustrated",
+   "pubDate": "2026-08-21T17:26:01.000Z",
+   "description": "Brent Venables 'Thankful, Grateful' for Oklahoma's Commitment in Contract Extension&nbsp;&nbsp;Sports Illustrated",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "US Oil Drillers See Pullback as Oil Prices Rise",
+   "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drillers-See-Pullback-as-Oil-Prices-Rise.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-08-21T17:16:00.000Z",
+   "description": "The total number of active drilling rigs for oil and gas in the United States fell this week, according to new data that Baker Hughes published on Friday, with the total rig count in the US falling to 588, up 50 from this same time last year. The number of active oil rigs fell by 3, sinking to 452 d",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Injury update: Brent Venables provides encouraging news on Jake Maikkula",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNncxRjh5LS0xSGpWMF9jU0xqRHduQ0dNTnpuVFlnZFNXYmx3eUtJajV1TlAyOUhvSXVXRnU2OUVNQkJxVWg5eVlxZEd6WnB0SWZGdXZ5VnNLNmxTWVJvTjlBQWY5S1B4ZUcxMkVjejk3TjFhSzJqcXdIRThNVUNJRzFFQzlPa1lfTGQwS3VOSzA2VjVyX21iOEJOOW8xQXlLbUlLb0RYTVpYODNmRVVDWjN6VWdjZjJGUGc?oc=5",
+   "source": "247Sports",
+   "pubDate": "2026-08-21T16:57:45.000Z",
+   "description": "Injury update: Brent Venables provides encouraging news on Jake Maikkula&nbsp;&nbsp;247Sports",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Ukraine’s Shakhtar to use ex-Russian-owned Chelsea as Champions League home",
+   "link": "https://www.aljazeera.com/sports/2026/8/21/ukraines-shakhtar-donetsk-to-play-champions-league-home-games-at-chelsea?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-21T16:53:57.000Z",
+   "description": "Shakhtar have not played at home since 2014 when Russia annexed the Donetsk region and now switch to Stamford Bridge.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
   {
    "title": "Strait of Hormuz ship traffic Drops 90% Amid Escalating Security Risks",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1JTUUp2aElyNXQwVnZDNTVQM3ZZWVFtQ0xtb1VFNkw3M3cyUWZuYVFjV2pQaUpISHZGSG44UDVSaTg4S21GRmtmU3RVMXlBUHo3aTBRVVkzQlRDamJyTlVGOHNpQjdCZWZPbVVUNWZKdV9ROE5senYxWXJMeXFvTnRab3NFbVlWWHpUR3p5ZmRtWHBKY1N5a3ktcjdvUE1RSFBSTmJBdVlhYnBFOG9ZSEFtcExzX0NnM18xUWRR?oc=5",
@@ -343,11 +398,23 @@
    "severity": "high"
   },
   {
+   "title": "Iran and Oman discuss resuming talks over Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOcG9fVnZDMktTV2JBckI5N1Q3RTRSOUQyNld5X1FZaFB0ZXQ4NjFnb0NRa3ExMzdnZjZCQW84aV83ZjhEbnNPa01pX0Z5bDdLWHAzU3BHTWJKcTFoUUg5WFVWNEMwUllGVkpZVG5aRTFmdFBzdkJ2b3BzVzhfNjNkZ2l0eWhoSEp2OG1HNjNRdkEzeUtRVHBYc2p4QzdGZHd0V1B1QXlGU0Ixel8wNXdBSzI2cFNIUi1kLUZtV1ZWLWlzbGF3aHJuRHNiOVpFUFN6Rlg5bXZKZ0V3NWFYYkFZc005VE1vUndjSTZwZm9HQ3RJSVkz?oc=5",
+   "source": "Middle East Eye",
+   "pubDate": "2026-08-21T16:42:00.000Z",
+   "description": "Iran and Oman discuss resuming talks over Strait of Hormuz&nbsp;&nbsp;Middle East Eye",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Ukraine sanctions popular Russian cartoon ‘Masha and the Bear’",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVZNUGFHY20tdjBNYWZPTHJiQ0RVRXUxajZOQ1pVZWpNRXVxb1BsSlJBYXZmUTdqdVk2cl9LOEdSRUJva2s5dTltQWpsd0oxU1RDcjlGNzhBT0hGWld5VmhMeTRPVTJ6WElCWVB2UkcwWHNJZEt1QXlOblpRU3hod252ZEZwbzdwZk9kWHdpRG44akJoS3dIVEVwS3DSAaIBQVVfeXFMUE1LY3dCUDRESjBWNjY3SnRFVk1zSXdiUlZYczBILVJZSmpIWUZxTzZmT0tLRDhfelk4c19iOWRxNUYtbjBoSHd4WDJodVZ4dk85Nzg2ZjFZNTN5aENIWHU1OGlpZGVmdjNtWGJOV2tjUWNqTGJYakF2OW5XS0NJVFlTb3pTZ3c2a1dSd2RadTdRUVBHVjFHWjlpQ2Y0WjVNeS1R?oc=5",
+   "link": "https://www.aljazeera.com/news/2026/8/21/ukraine-sanctions-popular-russian-cartoon-masha-and-the?traffic_source=rss",
    "source": "Al Jazeera",
-   "pubDate": "2026-08-21T16:39:45.000Z",
-   "description": "Ukraine sanctions popular Russian cartoon ‘Masha and the Bear’&nbsp;&nbsp;Al Jazeera",
+   "pubDate": "2026-08-21T16:38:15.000Z",
+   "description": "Zelenskyy signs decree imposing sanctions on producers, accuses cartoon show of spreading 'pro-Russian propaganda'.",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -355,11 +422,11 @@
    "severity": "medium"
   },
   {
-   "title": "NATO Members Discuss Strait of Hormuz Options Without Alliance Involvement",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNak1lcWphS0QwU2s1YnQyUTBKbGRyOVJJZWtJWjNiQkVNY25fd3Q0LXlVb0pVT0FaSGNIbGFraDdNVmluekxyUWM4aUxRVXFDQkphRXV4YUFQYjBScTlXM2E5TV93U0tNRm1HcloyaTBCQkJ2eW0zc0NhY3ZRTnpRWWNOd0l1Y0NFNkItY1lXNV9xdFpJdnlBSUdLdUFVMDUyd3BIbXlGYi1NaW15NkVUTl9RdlZZT0g5QjZTUTlWeVlpTVJPUTJJ?oc=5",
-   "source": "U.S. News & World Report",
-   "pubDate": "2026-08-21T16:37:00.000Z",
-   "description": "NATO Members Discuss Strait of Hormuz Options Without Alliance Involvement&nbsp;&nbsp;U.S. News & World Report",
+   "title": "NATO members discuss Strait of Hormuz options without alliance involvement",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFZlSDdNZWhWaVY3TEF6MmN5MlBJZEhhVW0xcDQ2bU5GYjAxWnRNSWJBQ1FPc0lreGItUGJmWDBzdUUtQXRyR21nc3NXVFB0bWRqNGkzbzZxNmpuSlh6OTEtOGJFaXJuVEhnQ0VHQVFueEFPWndER21uRGkyQk9ybA?oc=5",
+   "source": "Yahoo News UK",
+   "pubDate": "2026-08-21T16:37:05.000Z",
+   "description": "NATO members discuss Strait of Hormuz options without alliance involvement&nbsp;&nbsp;Yahoo News UK",
    "categories": [
     "hormuz_redsea"
    ],
@@ -377,11 +444,34 @@
    "severity": "high"
   },
   {
+   "title": "Israeli PM Netanyahu urges global leaders to join Tel Aviv and Washington in confronting Tehran",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMGd2bEcxZ0s4LTJPa0FTT1FTQnBua1VCdTNBQlAyZy1sMGVyZHg5QVNMMDlvSjlXNXBBSWdpTS1qRnhYX3Z1VDQ1NUlqaGtGODR5X0tkbGE0MFNHcW5pQ0E3UklzU3NUMGdiT3RSc001azJiLWlpUFVTMUVaclB5M1hoV0Z1TEwweWJrNlpNT1NxUllXeVBFejBhVXp1bnFjTWd5ZGtqUnFjVXdiTDBmMFZyOXNyOGZzeHZLLU5n?oc=5",
+   "source": "News On AIR",
+   "pubDate": "2026-08-21T16:23:13.000Z",
+   "description": "Israeli PM Netanyahu urges global leaders to join Tel Aviv and Washington in confronting Tehran&nbsp;&nbsp;News On AIR",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil rises as Trump threatens sanctions on Iran partners",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-21T16:13:12.000Z",
+   "description": "Oil rises as Trump threatens sanctions on Iran partners&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Ukraine sanctions ‘Masha and the Bear’ cartoon over alleged Russian propaganda",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTUM1LTE1R2lRSVNYVW56SzYyUm5XQXdjMmJiVWx1a0xJc0pWNG55a2x3SFRMdlg4OW5sTEFRTE85U3FEOVpCTUJuQ0lDOTFsOHVGcUFpYU1NcjU1NV9wVlFJWnlKd2RyenFXdVktME9kTkhiRF93anhGZW9YSW5IMTc5NFhNU0xjT19HQXp2MDg3eDdnQnNTSml1OGdvVmVTdTRIR3A5V21VdWg2el80cGpQNWJLOVNVbVpQc2lRWQ?oc=5",
-   "source": "Euronews.com",
+   "source": "Euronews",
    "pubDate": "2026-08-21T16:11:47.000Z",
-   "description": "Ukraine sanctions ‘Masha and the Bear’ cartoon over alleged Russian propaganda&nbsp;&nbsp;Euronews.com",
+   "description": "Ukraine sanctions ‘Masha and the Bear’ cartoon over alleged Russian propaganda&nbsp;&nbsp;Euronews",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -444,16 +534,16 @@
    "severity": "high"
   },
   {
-   "title": "Iran's Strait Control Erodes Amid Tanker Evasions",
+   "title": "Tankers Evade Iran’s Strait of Hormuz Control Amid Weakening Grip",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTFkQXUwV3Itclc3a0pNLWdXR0REUUV1R0IzdEtSVXRha1ZBYXdVNU0wb0FlbWx5dTBlaTQ4WTZ2d1poR2sxVkdIMWdOcURscEU1Z2RCZ255cmxNSTNsVXlkWWJfNU42aUlnU0JIemhYdmpsd2ZLQktUbVNEX1ZfV09Cemk?oc=5",
    "source": "조선일보",
    "pubDate": "2026-08-21T15:46:09.000Z",
-   "description": "Iran's Strait Control Erodes Amid Tanker Evasions&nbsp;&nbsp;조선일보",
+   "description": "Tankers Evade Iran’s Strait of Hormuz Control Amid Weakening Grip&nbsp;&nbsp;조선일보",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
    ],
-   "severity": "medium"
+   "severity": "high"
   },
   {
    "title": "Oklahoma coach Brent Venables agrees to new 6-year contract",
@@ -479,6 +569,17 @@
    "severity": "high"
   },
   {
+   "title": "Russian stuff blowing up: Russian refinery in Perm up in flames",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQckc0cXpHV1IxTm1ocU5fN29DWXIwUnpMYnhRcENQc0dmS0xEdU1tYWt5cy1WMXY2bzFpMTdEcWZBXzhlemZWZXNMS2hoYUVMN2JiQkdTdkItN01TRXE1d2t4b2Jld3FCbGJCdDdJcHgzMVdqejJuS3VQb0dQejdWQzQ2dFh4VjNNR2xVQ1pEejMtQQ?oc=5",
+   "source": "Daily Kos",
+   "pubDate": "2026-08-21T15:38:04.000Z",
+   "description": "Russian stuff blowing up: Russian refinery in Perm up in flames&nbsp;&nbsp;Daily Kos",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "China’s Teapots Look Beyond Iranian Oil amid U.S. Blockade",
    "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Teapots-Look-Beyond-Iranian-Oil-amid-US-Blockade.html",
    "source": "OilPrice.com",
@@ -491,15 +592,15 @@
    "severity": "high"
   },
   {
-   "title": "Lukoil’s Perm refinery struck 1,530 km from Ukraine’s northern border, Kyiv confirms",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaHhJeHA1UFdIdzVIMnFRMjlNN3haUHJVSWdxSUhTZkVhbExzZmd2N0lpNDEyMWxLSzVsV3JudkFob1ROZXNwZzNVVzc4bm5uVE1GaW95djhETE9kck91WEdaM1gzWGs2c0NZOVBlaDhCVWZWUDVJSkgwMjItUFkwcDBkSTMtMHFPT1Bfdk1zSjg1TUpxYUNJTFNYT1hERjBOdW5tUmdreTdpUm1tWTgwN0xiVlgzUlFvdDJiMQ?oc=5",
-   "source": "Euromaidan Press",
-   "pubDate": "2026-08-21T15:19:30.000Z",
-   "description": "Lukoil’s Perm refinery struck 1,530 km from Ukraine’s northern border, Kyiv confirms&nbsp;&nbsp;Euromaidan Press",
+   "title": "Iraq working to expand oil exports via Türkiye, Syria, Jordan: PM",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ24yZE9KRWM1VjJ5YzRFeS1mT3lQeDZhU08zWEloQlNSNXhHNVlBem9DWkU0MnBvTXhuNnZiYzBIYXJfSXhUOXhkQURGZGF6UlhvM3VJWGQzN2t1aTE4VEtOdTRCMlNzb0dkdGFPbnVDSlN3OUdJS2o4M1plWERLaV90MndkSlM2ZWdKb093S19jTHZTYUtYc3NPZ2YxNkM0by1GM1Ztd2JoYjh5WjlZ?oc=5",
+   "source": "Daily Sabah",
+   "pubDate": "2026-08-21T15:18:36.000Z",
+   "description": "Iraq working to expand oil exports via Türkiye, Syria, Jordan: PM&nbsp;&nbsp;Daily Sabah",
    "categories": [
-    "russia_ukraine"
+    "supply_other"
    ],
-   "severity": "high"
+   "severity": "low"
   },
   {
    "title": "‘My leg was hanging on by the skin’: Russian captain tells of 24-hour ordeal after Houthi ship strike",
@@ -743,11 +844,34 @@
    "severity": "high"
   },
   {
+   "title": "Russian Urals crude reportedly flipped back to a premium over Brent in India amid strong demand and tighter supply, sources state",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeE05TEM3SGw3bmFkc3R5VENWaWpZZ2NMZGJWZkthNlQ0UUxiWFVmcW9tcEVBM3ZxaHNLdGJITkNuQ3hzbU5mR1JZTUxqXzJQaHRJemRRV3JoWmNtdTJFY0M2aXBGOXd5V0w2OVRJX0RSeTdFTkk2YjIzYUZQS2FrOHh5cm5sSGhNcHFJUXYwczJTZU9NN2R5MFd2bHpZelFFVDFpc21VVDRyMzczaDB6RG9PRjMxek5rT1Mza1IzZmZFT3czYjlRa0JKazlvME9NVjBKanppbElfTC1OdDYyeVo0el82dld1WW1ZZ1owM1d6REVHU2o0?oc=5",
+   "source": "Newsquawk",
+   "pubDate": "2026-08-21T14:09:22.000Z",
+   "description": "Russian Urals crude reportedly flipped back to a premium over Brent in India amid strong demand and tighter supply, sources state&nbsp;&nbsp;Newsquawk",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Brent Headrick Season Stats | MLB",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40QlF6MUVlakNwLWk3YWZpbjBLejRvU19BUUhXRzlmdEN5TUtrYVRnTTB6T1BaalFkTEs0aDFqUlVsSkttaWlUVUhHTDZFSjhPMmhuR25lMFB4LWFscXE3ZnRuZC1iRXd4MUxFR0dmV1VyQQ?oc=5",
    "source": "theScore",
    "pubDate": "2026-08-21T14:06:22.000Z",
    "description": "Brent Headrick Season Stats | MLB&nbsp;&nbsp;theScore",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+   "source": "LiteFinance",
+   "pubDate": "2026-08-21T14:04:26.000Z",
+   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
    "categories": [
     "market"
    ],
@@ -820,18 +944,6 @@
    "severity": "high"
   },
   {
-   "title": "US CENTCOM told CNBC that the US military helped over 660mln barrels of oil through the Strait of Hormuz since May",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOHlvTTJ1ZVpvUVRLOTFMeTBxRDZDbzgzQXFUUTZOdHN3d3dDZTN3N1JqYVpWSkotal9ZV1R3UVJnTDgzUGhOc09sNU4yMnQxZHZhLWpPWmloS256dGhGd29WbVVfNGc5UWtKb2hpQkxiN1gzazlWa3dTdzl3QVlYTlhsVlBVb0tTbkJZLU5rS294UEFENHBCeExqcW0wNjlOQ1FvTFdzcmhjaUIwUHRHQTJ2cnRRXzBsT0RkVFg4bGNwMFdLbEd5ZXdZYzdaNWtxMnVTOUZ5SmcyVG5KSU9QczJPbFQ?oc=5",
-   "source": "Newsquawk",
-   "pubDate": "2026-08-21T13:30:25.000Z",
-   "description": "US CENTCOM told CNBC that the US military helped over 660mln barrels of oil through the Strait of Hormuz since May&nbsp;&nbsp;Newsquawk",
-   "categories": [
-    "hormuz_redsea",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Weddings in Gaza offer rare moments of joy amid genocide",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/21-08-reported-gaza-weddings-hany-mahmoud-ps?traffic_source=rss",
    "source": "Al Jazeera",
@@ -841,6 +953,18 @@
     "iran_israel"
    ],
    "severity": "high"
+  },
+  {
+   "title": "Ukraine imposes sanctions on the Russian series Masha and the Bear for promoting a positive image of the aggressor state.",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQ0NsTnBsVmFVVFgycU1uOVd1RU5ZekdJaUZUQTRkdDZ2eDl5eHVlNUtoOGxVQjY0ZTlySVlnWG1zU0NIcnZLVzhJRFo3WGtfNTUwSGxSZEotLVVoRklrLWJTU2R5dmNGYXZUNnktR1dqSkw5ZjZBV1dyaF9ZWjIxNmJhaUl4MXBtUDRQWEJSeXp1bi1hWF8zTEhrbG1oTjhDWi0zaFB3NHV5NktMbkpnbC1PZ0dwTU1qUWRoNmRJVTM1RHEzMGNLNzY3bEZBSDZFc2xsSklSaGJxeXRFcGdmWFJsSUUySVFVS1JpZmhFem9pTV92bWfSAfsBQVVfeXFMTnROV0pLaVBWX253cUhlbkZveFRwLTBLcFBCOHFNd3RNUVZSVFVtV29NMjNZWllpbkl4VUFpYjJZTkxaSzJMSDdHN09fV29SUFJUdmtJOV9yeDdMQTNPUjl2eU5XaXBEOENxN0dpM1BvdnVDV1hacDNYZjZUVl9BYWxUZklZdnpWcE1NQzNOdGdLV0haWEJoc3NWNWZTQmdRWGNjSUphaDlEeFFtLWJPMVlkMmx3cnJtUldjMlpTT2FCRlJIbmFrUVNFa3lUT1lNazhmdHlEQ21xV2phZUMtSFNsWDVZekxsaVBVUUFUSjVxNERVdllhRE5BOW8?oc=5",
+   "source": "Demócrata",
+   "pubDate": "2026-08-21T13:28:57.000Z",
+   "description": "Ukraine imposes sanctions on the Russian series Masha and the Bear for promoting a positive image of the aggressor state.&nbsp;&nbsp;Demócrata",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
   },
   {
    "title": "Oklahoma AD Roger Denny Explains Decision to Extend Brent Venables",
@@ -876,29 +1000,6 @@
     "market"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Oil set for second weekly gain as US ramps up pressure on Iran",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-08-21T13:19:41.000Z",
-   "description": "Oil set for second weekly gain as US ramps up pressure on Iran&nbsp;&nbsp;Reuters",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Ukraine sanctions Russia’s hit ‘Masha and the Bear’ cartoon",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdWh1UkYtdGFSYmE4X0Y2STVYQUltODBiR3dDckxsUGFraUpRYi1MNU91ZU5ySG5BeTFkVTFJQ0ktejZxaGJnTHc2QXhuR1BOamxZNHBjTEdmeWFvbFhYeEM2ODJraTNRNHU4dEVydG1wQnRvRHVNQUd0RDF2UXVVY3B3aF9oc2txMGZr?oc=5",
-   "source": "Macau Business",
-   "pubDate": "2026-08-21T13:11:23.000Z",
-   "description": "Ukraine sanctions Russia’s hit ‘Masha and the Bear’ cartoon&nbsp;&nbsp;Macau Business",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Iran hardens stance amid tensions with Israel, cites self-defense in conflict",
@@ -1009,17 +1110,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "US allies in Asia wary as Trump moves military assets for Iran war",
-   "link": "https://www.aljazeera.com/news/2026/8/21/us-allies-in-asia-wary-as-trump-moves-military-assets-for-iran-war?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-21T12:32:03.000Z",
-   "description": "Allies worry about the US ability to deter China, even if the bulk of US forces remain in the region.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
   },
   {
    "title": "Oil prices steady on stalled talks over Strait of Hormuz",
@@ -1201,6 +1291,17 @@
    "severity": "high"
   },
   {
+   "title": "'I Don't Have Any Control Over It': Brent Hinds's Genius Was So Spontaneous He 'Didn't Even Know' He Was Writing an Album That Became Mastodon's 'The Hunter'",
+   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPMklOY1B2eEhwclZrTjVEeVpiS3RxeTA3Y1hhMkMyb1Q5b2JEMmFqR08wTVZ0NjRkd2VQNmVnaEo5RHFvU2pid1lGOWxFbkVpTDhQZWJva2tMVGlJQUNqTGRaX0owaElMWWV0VThxUlJOV1BfbEZyTUN3M29fbWJGWmtsYzVkZWRadG9pM2ZybGotZ3Y4RGI3a1dPNDZiOGZOaFdabGpBLXNSM28wTFNhSzVyOTQ1aEtfeVRFRHBtVlhUWG5lbWtLamJmc21JNWVPQm5vWTRoTlB1bGFvRzRRdy00WlpWSWtQcWczaV9nTUl5WGZNNEZ5WS1mR2s0TGdpYW0tNkYyNGpNeGV2YUhnUHJoZllUQmg5dFdwbkZTS0VEMmc?oc=5",
+   "source": "Ultimate Guitar",
+   "pubDate": "2026-08-21T11:24:33.000Z",
+   "description": "'I Don't Have Any Control Over It': Brent Hinds's Genius Was So Spontaneous He 'Didn't Even Know' He Was Writing an Album That Became Mastodon's 'The Hunter'&nbsp;&nbsp;Ultimate Guitar",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Oil imports | India back in crude crossfire",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXhkaTdvT1p4bVI4cDVPTmQ1U3lRZU9TclF3MDlsVnExWUFReVg2b1dacEFEc3RralAtdHlCOGNwWlJDbXBBcjZRMlIxN1VEczFpWnROSHlkWnhMdnFYNDBYOWtkOUkyaVpMcGJmSUdWYzNlLWRWdmNHMGN0TUJ0ZDA2TzJxbEhFcTJjc1h2LUxDcWZuWndyaXFLUURfVnhXUW54U2VmM3cwVHJwTGNLZzA1aFZ3bkk2dTVr0gHAAUFVX3lxTE5raHdKcXpNeXVfcDhZQjZIM0RPbllISmtjcUVadzVLS1UwVnRpMGQ3X09aQ1o3aE4tQklNUTJodGtQaVhXMTBhTl8xeU05eWhuRlBOd0dDdnNYeFRpMTk3N2pzemVzeV9qdktvSENIRVczbmJJRG9ISWhWV1p5bE1pWHhFamctOWpaRV9jTlRrN09EQUF0MWRXTDVvMFNYaW5xaFhGRGt4MUFyc2s4dFFPRG1UOWh3MnRqbElCX29IdQ?oc=5",
    "source": "India Today",
@@ -1221,6 +1322,18 @@
     "hormuz_redsea"
    ],
    "severity": "high"
+  },
+  {
+   "title": "Ukraine Sanctions Russia’s Hit ‘Masha and the Bear’ Cartoon",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYMFpqSm1JdzVWaklnY1lIV3Fic2YyU3BHdXh3UUhNVE9LUlJfZjdUaGxicVZ2N0ZHRld0MUc4bXR6V3NkRk1xTUh3bw?oc=5",
+   "source": "Kyiv Post",
+   "pubDate": "2026-08-21T11:15:47.000Z",
+   "description": "Ukraine Sanctions Russia’s Hit ‘Masha and the Bear’ Cartoon&nbsp;&nbsp;Kyiv Post",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
   },
   {
    "title": "Why did OU give Brent Venables another contract extension? Let Roger Denny explain",
@@ -1393,17 +1506,6 @@
    "severity": "medium"
   },
   {
-   "title": "Yemen: Civil War Gets New Life As Govt Strikes On Houthis Intensify",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX2xYWUFJNzZEa1psbl9OMDY2UHN5RFM2SVJwMjNGMTdoVDg1WExabUk1RlhpZnd1bWJGNGIyUTdkbzdhc0ROck5rMmZycG8zVVp3TDh1bjRkNVRDY0tBTEFpanZGWEg0OFE2SnhmRS1PTm1laVhfQUR2VzN5M0lSdXlBeFhiVl9memxQMTdJSmd1MzJFUEtWZXVHbnd3OVRBX2VrQlBOQUtVLThmQ3BpbA?oc=5",
-   "source": "StratNews Global",
-   "pubDate": "2026-08-21T10:21:39.000Z",
-   "description": "Yemen: Civil War Gets New Life As Govt Strikes On Houthis Intensify&nbsp;&nbsp;StratNews Global",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Apple Pulled VK Apps Over Sanctions. Now the Russian Tech Giant Wants $696,000 a Day",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaUc0V3ZCSlNOUHVwX19aNVhvMk91ajByT2dZNmMxeElkekdNZDRqVmpUQ1ZEVWJUSDdaUWdDM2x1bmd5ajl0UFNuM1hZRm1NT09EeHlzRjluUktDcWs2SU8xN2VNM2pmWGNTbkdmZ2w1a2laUlkwOGdsaXlMT3k3cmJ3bmtWQXl1dElrRDk5OFN1cFdGUXQ3ZHRDeU1ZSGVfWnNsdUlucEtJMEdrR1lpSTBZZDF1aDJWN0pZ?oc=5",
    "source": "UNITED24 Media",
@@ -1483,18 +1585,6 @@
    "severity": "high"
   },
   {
-   "title": "Oil News: Can Iran’s Shrinking Floating Storage Keep Crude Prices Supported?",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaEJfek9jXzRSeGljVnVYRWdnZjN2YjJFWlRpSk9JQjNxZEktSVFBQzhLNFBaS0E0OUdsR3VPY0NoeUU4OGFET0pEVEN1S01qQmhVS19pbzl6TDBXS3hXZHYxeUlXZ2U2cHhGNkVTMC1Ibk1fbnA4Q1RUYUNuR294Zy1SczR0a3o5MFFSZXNpWjlySnozUFg2eWl0UWo0X0tpNS12NGs4SkVmajJJdDBKeW1lRzZyY3VGYTlLQU9QUWRpa2JDVGtNZGVTU2s?oc=5",
-   "source": "FXEmpire",
-   "pubDate": "2026-08-21T09:47:00.000Z",
-   "description": "Oil News: Can Iran’s Shrinking Floating Storage Keep Crude Prices Supported?&nbsp;&nbsp;FXEmpire",
-   "categories": [
-    "iran_israel",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "Brent poised to end the week above $90/bbl mark",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd3ZoMTg4TjE3b3lPUmpablY5YkYySW1kUThQRDdsdlFwSUN6Y1poQ1llSVFhTmVkTG9kOVBrMVRJMjFKWGd6WUVKc3Q0SU1GQ2tRMVo3TkpNNmlNa1lONkpuMmQ5U3Y2UV9lenU3QWF3R0EwWldfbjc0bFhKaVEyek1fc3cyQWpfMnVUeGpB?oc=5",
    "source": "engine.online",
@@ -1539,17 +1629,6 @@
     "opec"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "The Ukrainian Armed Forces struck a Su-34 aircraft, an airfield, and an oil refinery in Russia: Zelenskyy confirmed",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWlpTzlNakZfWi1Cd3h2Sm9vdVViN3VxS3RGZ24wVDlLQzd0OEZfYWNPXzVuRFhUQkpkSzd2ZldfUjNXV3B3cWppNUNYYXBOTE5USFkzeW4zVnRqcVlSRDR2b21fQ0pRdXdjVzNOWE5kcjRMN09KcEduOEViMmkxcFFwMGQxbE5vNGhiZnZjaU1fa2VJaVRlc2pNckpwcUxva1E?oc=5",
-   "source": "shelter.in.ua",
-   "pubDate": "2026-08-21T09:32:00.000Z",
-   "description": "The Ukrainian Armed Forces struck a Su-34 aircraft, an airfield, and an oil refinery in Russia: Zelenskyy confirmed&nbsp;&nbsp;shelter.in.ua",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
   },
   {
    "title": "New Ukrainian sanctions target multiple levels of Russia's war machine – sanctions commissioner",
@@ -1609,108 +1688,28 @@
     "usa_policy"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Strikes on Russia: oil refinery in Perm and military facilities have been hit, - Zelenskyy. VIDEO",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRUNUTFZWamRkSWM0eWJRYnBkdW1ZaGFQYmpvZTVoQ1JJdC1ZQ0ZWdnNnRTZtU3BHTUttQ3lQWVB0anJRR0pQRU82OFozVS1ZWThfV0JwcHg5WGZ2T0wxLWJvbHRJR1N0cmdXYWdCV1kxeTJDY3RjeU9yWGxJa2FRcjJ1a3FvcVl5MkozQmNvY1YyWGZXSmc5WGRKaXlJRFVaNlA4eGZXdEsySzg5aDVuNlRn?oc=5",
-   "source": "Цензор.НЕТ",
-   "pubDate": "2026-08-21T09:07:00.000Z",
-   "description": "Strikes on Russia: oil refinery in Perm and military facilities have been hit, - Zelenskyy. VIDEO&nbsp;&nbsp;Цензор.НЕТ",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran War Raises Risk of Collisions and Oil Spills in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KaDJNdWFUYmpIYi1SMm1Rcnk4NkZSM3VqWi12LTVtRkxTR3FXdTVmbGRhXzJXR2NFQnBBSU9tZzBiQk5hcWNmRU96VGswS0xTZGVoSlpQZlgtQTlpQW5iU3hjNVY5eTdydFVWOW94U0g2VkZuZE5ZMnhaNndrNFU?oc=5",
-   "source": "The New York Times",
-   "pubDate": "2026-08-21T09:02:46.000Z",
-   "description": "Iran War Raises Risk of Collisions and Oil Spills in Strait of Hormuz&nbsp;&nbsp;The New York Times",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Video Shows IRGC Boats Surrounding Indian-Crewed Ship, Firing RPG In Strait Of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR3R4SXlrckkta2h6T2pYUG1udzV2VU5QcmVhWUZ6WXdRdFhjOVJKSHk4MUZZUnVJaUhrT1UwMVJlTFVrc3hKQVFkX3FTZWVQVkMwYzhUeXJ3Qm1pT2hYRmJQVlN6NlpyMDdrN2FoSF9pcFV0b3k0Y0pFS3dhYzZVNERoMElMaWV0OVJpV2syZzBpNFJORF9SNWNIYkREZlJVXzlkOVhuX05TQWNXRWR0ay1rMjVEZw?oc=5",
-   "source": "Marine Insight",
-   "pubDate": "2026-08-21T09:02:22.000Z",
-   "description": "Video Shows IRGC Boats Surrounding Indian-Crewed Ship, Firing RPG In Strait Of Hormuz&nbsp;&nbsp;Marine Insight",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Tensions in the Strait of Hormuz: U.S. Strengthens Control of Southern Corridor and Protects Oil Tankers",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BaThPNmp4ZWdVbEdzR0hQcTJXT3R2ZHBOLV9UYXVvX25FRmw5MFJ5WjlVcUVPc3FJX2Q4NnVWS3hFNEpfcnZNMEFQWVI4RE5R?oc=5",
-   "source": "شبكة يافا الإخبارية",
-   "pubDate": "2026-08-21T09:01:03.000Z",
-   "description": "Tensions in the Strait of Hormuz: U.S. Strengthens Control of Southern Corridor and Protects Oil Tankers&nbsp;&nbsp;شبكة يافا الإخبارية",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Strait of Hormuz tracker: The maps and charts that debunk Trump’s claim the route has reopened",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZTljMEE1djBBbHBsX1VlM0hGbXlOdk0wTldDSDNsTk8zdzkyQTYtU1JGVnlsQlNYM2pQa0RCWk5lUkg5a0dGeWstc0FvVGlPNUpOOEJRMm5GMmstMnZWVnJlcjdvRlFUQS0xNmZVdnpFbUdocjBVTzI2MThoUUgzTF90emZkOVhmRjFRZGJFZmluT3N0RU1EVEFTTUY5TFN0Mk9ackk2Vk1DY1hxTERmbw?oc=5",
-   "source": "The Independent",
-   "pubDate": "2026-08-21T09:01:00.000Z",
-   "description": "Strait of Hormuz tracker: The maps and charts that debunk Trump’s claim the route has reopened&nbsp;&nbsp;The Independent",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Video: LIVE: Strait of Hormuz vessel traffic as US threatens 'toughest sanctions'",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ19UV1dVaUJRLUNJREhhQkJTRTVpSGNUZkFIZmZINzkyOXRtcjFlVjFfd2lsS3FrWEpVeS1FT2R5b1NlZHVxLXFpNFBqMk1Ia2U0N1ozOVRKb3BPWXlxaXpTck9aTEI2eTdHa3RrUHVTbjdUZXY2UC0xNjhQemRfMTh6WW45REFrN2tSSDRyU3A2ZjJLN3VFOFhyRTVjeHNHNXpRSW1iSHhhdw?oc=5",
-   "source": "livetube.tv",
-   "pubDate": "2026-08-21T08:59:08.000Z",
-   "description": "Video: LIVE: Strait of Hormuz vessel traffic as US threatens 'toughest sanctions'&nbsp;&nbsp;livetube.tv",
-   "categories": [
-    "hormuz_redsea",
-    "usa_policy"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Zelensky: We struck Russia's Perm refinery",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeG1QX0ZpUVFsdUljeUQ0QmFubnJzeE5iQWJadzJJVF9xbmFnZkU5OXBWT29iN2tsOFFsZnBNR3BnN0hJNnlCT2NYMHN3dzBXTXU0UFc1U3hzcHQ5NEVFdEd0b1kxVnlVdVpzYmdnbW1aVW1vN0I3SzRETjNGQW9ocWRHYXdra1lZUHZhVTZHMGU?oc=5",
-   "source": "Breakingthenews.net",
-   "pubDate": "2026-08-21T08:59:00.000Z",
-   "description": "Zelensky: We struck Russia's Perm refinery&nbsp;&nbsp;Breakingthenews.net",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 34,
-   "high24h": 25,
+   "count24h": 32,
+   "high24h": 24,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 39,
-   "high24h": 37,
+   "count24h": 33,
+   "high24h": 32,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
    "count24h": 31,
-   "high24h": 17,
+   "high24h": 13,
    "level": "kritisch"
   },
   {
@@ -1723,14 +1722,14 @@
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 10,
-   "high24h": 4,
+   "count24h": 11,
+   "high24h": 3,
    "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 5,
+   "count24h": 6,
    "high24h": 1,
    "level": "erhöht"
   }
