@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-08-20T23:36:47.522Z",
+ "updatedAt": "2026-08-21T01:55:05.654Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 93.78,
-   "prevClose": 91.62,
-   "changePct": 2.36,
+   "price": 93.8,
+   "prevClose": 93.78,
+   "changePct": 0.02,
    "change24hPct": null,
    "spark": [
     {
@@ -112,9 +112,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 86.32,
+   "price": 86.73,
    "prevClose": 86.83,
-   "changePct": -0.59,
+   "changePct": -0.12,
    "change24hPct": null,
    "spark": [
     {
@@ -212,7 +212,7 @@
    "unit": "USD/MMBtu",
    "price": 2.76,
    "prevClose": 2.73,
-   "changePct": 1.13,
+   "changePct": 1.06,
    "change24hPct": null,
    "spark": [
     {
@@ -308,9 +308,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 98.84,
-   "prevClose": 98.77,
-   "changePct": 0.07,
+   "price": 98.78,
+   "prevClose": 98.84,
+   "changePct": -0.06,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -321,9 +321,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4522.88,
+   "price": 4527,
    "prevClose": 4518.81,
-   "changePct": 0.09,
+   "changePct": 0.18,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "intraday",
@@ -331,6 +331,176 @@
   }
  ],
  "news": [
+  {
+   "title": "Russia, Ukraine Trade Strikes as Zelenskyy Seeks More Missiles",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1Q3cEYyOEVjbXdOMzFVNUtmYU5LbXNwVENObElUUVYtSGZlVUpNWE1HeGJZX0hrWmM4dV9qTkwydHN6ckxyeHZydjk0c0JWUFE5emZYYktIUHNWRmYxUldhbkMwV1RfdE5uZHhubmRnT2szOEdRenhSMTRJTF90WUI5dmt2SGF0bHhnZ25zalVFc196Mm5uX1d4bU5mYkJweEZJUldQR2FRR0QwQmtubGJSNHFGcjhKUVhVN3ZsMlJKYlU?oc=5",
+   "source": "Bloomberg.com",
+   "pubDate": "2026-08-21T01:43:18.000Z",
+   "description": "Russia, Ukraine Trade Strikes as Zelenskyy Seeks More Missiles&nbsp;&nbsp;Bloomberg.com",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Prices Set For 5% Weekly Gain: Brent Crude Above $93 As US Prepares New Iran Sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdy1IRWNmMnNSbnh4cDBRY0ZFd2Q0dUU3RmtkM0JpNC1SYkFlOFRQaXNnWEhyY3RMbXU1eWVnZUk4Qnl1U0RGQW9tYjFTMkFMeXBRS1JmUV9xTWlWYktFLVJoTHd0SmtULVRvaGhOdmpfN21KeGdiQUhGbXBfdnZobExURjROMGIwUURqSC1rZ0tXRFF5SmVXS2l0ekI1VEw1dW42OGFxc0hLSzdBeTc0NXJGU1VndkQzZ05VNHZ4TC05Tm1ranVCbnhtTdIB0wFBVV95cUxPYTVCdzV5N0o1MXd5M1h4aDhGQTJPYVRNQjhkMGM1dHNnNFJwRlZRZHBWVjhvSno1UFJ6czZTN3c3UFlqRmtCdklhU1hURHhEU2l1dGx1NldSMGdEVHA2bzRiR2M1UjNzSHlpS3U4OGNjUkVTcHFLU0dGMG9Obk1hSmtJRkdfV0FyNmJveTFaVzdFTV9OS3dqeW9BRy1FOXhZN0NFRnlYTmJrcFBNMFcyQm9KVmZnSUlZY0w4NzZSS2pGWDQtd3JOanhZYnVTdF9fcXFR?oc=5",
+   "source": "NDTV Profit",
+   "pubDate": "2026-08-21T01:06:37.000Z",
+   "description": "Oil Prices Set For 5% Weekly Gain: Brent Crude Above $93 As US Prepares New Iran Sanctions&nbsp;&nbsp;NDTV Profit",
+   "categories": [
+    "iran_israel",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "The Strait of Hormuz and the limits of Iranian power",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXhuck5NM21TZ0pXUF9TU3hwVEpUYjJ0dy1rWmI4RlZaWURCTV9FNXhZdlRzUUtjVFV2NkEyeEVrMFV3Mm9WdFoyd2VyWFJCM0MxUFJNUnFlbWZlZkNhZzdDYXJKaXhKb1VJdERlS3JnVHZVSjN4T25UMG1PVDAtQW8tOURnSlZycnkyVF9PN1hvR3QzMDNQRmtta0ktaEE5N0NoeGdvMVNYYlpN0gGyAUFVX3lxTE9EQU5hVXc4YXVxdWo3WEdtSXJUN1I5aTRoUndseFVkcG5zTmMyU3M2eTZ2YUZZbnpJQVg3QWV3RlI2bEowUWRqYVZfcXJ2WF9leXZ5QWNrQ2xRb1FXOHl5c055RVFiMk5Sck51S3gzQWExQTRSRlE2a1VXbGhfeU11b3JSc1huYTJ1TWNlek1YLWVRaHZQTU9UeEdzRlVCRmx6cWU5LU15alhWQlR4cFpqemc?oc=5",
+   "source": "Moneycontrol.com",
+   "pubDate": "2026-08-21T01:02:04.000Z",
+   "description": "The Strait of Hormuz and the limits of Iranian power&nbsp;&nbsp;Moneycontrol.com",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Set For Major Weekly Gain As Washington Preps to Isolate Iran Economically",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUtUQjBwam1hQWVvaDZiVGJzRzctQTRDN01ZOU85SEdBd25WM2NCY0kxOXdRQ3BjT3M5bko0YmM3bkt1OTVLWFpqdEhnN1l5QXhGeE50VUJlVVNXU0JXN3dZZXJKSkwwS2xHU3h3X0NHOVM3MWFXSmdZVERsMlZsOTdFNjlPUUFDbmpVaFpPSU5TUTRuSVhqa0tvQldkNDh2WWxjYlI3VTAwRVQ4OFZhZE44QVVTSGN2clRXQWpMWQ?oc=5",
+   "source": "Ship & Bunker",
+   "pubDate": "2026-08-21T00:51:06.000Z",
+   "description": "Oil Set For Major Weekly Gain As Washington Preps to Isolate Iran Economically&nbsp;&nbsp;Ship & Bunker",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "10 million barrels a day: Trump creates secret US-protected oil corridor through Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUptRlNuck5rWkhINVJfcG4wRTNWdmtobG5GaVlMeDY2Z3M3OG56WHdXM0x2SEJOQkZkNkJBbDBrZ0F3LWZHbi1rTjdQcGo4U3ZSZXBDY2pmMXh5WFJBSkcwWkZKaWFRZHFMWXZRU1hmbjVvTVVWX01hWXBoci1SRWVjaG9IRDFlSHk0STJieXNpQklxUmd2U3ItR21COEFUUW1GeUVSOF9KZk9oaUQtLVF2Mkc2aEtqX0g4R1BsUdIBxAFBVV95cUxNZlI4ZmdwQkhxZkZ0bkpybTRzRkV4MG92MFlwQ193aE5EYWJScUtyaWc2WEtYbWJyQnJMbHpFbFpIU2RzRU43OWZxbGczX0k2Y0NjS3hRdGVheWFZbDNNOWxQU1dndmc3aUdNcTVvVkJyOXVjOG1GZTVTc1dMRzJXekJCUWV1ZU43WDhfSUxBUHdmUjZWbE9OcU5Ca01nakZlUUM3Z2wwOWtoclh6Y1NjUTVIUGZTYnRvUlNMM0IzcUtSSjJI?oc=5",
+   "source": "The Business Standard",
+   "pubDate": "2026-08-21T00:46:00.000Z",
+   "description": "10 million barrels a day: Trump creates secret US-protected oil corridor through Strait of Hormuz&nbsp;&nbsp;The Business Standard",
+   "categories": [
+    "hormuz_redsea",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump increasingly lashing out at allies as victory in Iran war proves elusive",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHIwZ01mYm5XM0pIcDJLMVZFaEcwV2otLS1vTjBaSGJub2huanBQamxLNnVrUzZCY28tM1lEemV5TkhZOUlLTU1SX0xFTnlveE1TZnpJcXFNZTNaTWs1Q2V0OV9vTWtGaUdib1RQZGY5VWpOSVVXX1RqbGtOS056SHJoVWdBTmJ6bTRPX1BuRjExUXh0NFZEZW9LMG1DcEltNGhhOXlSQXJhUktVVGpWWFR2Q1ZVVjJLeXc?oc=5",
+   "source": "The Washington Post",
+   "pubDate": "2026-08-21T00:25:55.000Z",
+   "description": "Trump increasingly lashing out at allies as victory in Iran war proves elusive&nbsp;&nbsp;The Washington Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "California oil pipeline can continue to operate, judge rules",
+   "link": "https://www.theguardian.com/us-news/2026/aug/20/california-oil-pipeline-trump-judge-ruling",
+   "source": "The Guardian",
+   "pubDate": "2026-08-21T00:13:47.000Z",
+   "description": "State sought to stop system off coast of Santa Barbara from resuming operations after Trump ordered its reopening An oil pipeline can continue to operate off the California coast after a judge gave it the green light this week, despite the opposition of state regulators and environmental groups.The ",
+   "categories": [
+    "supply_other"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent Hinds of Mastodon, Died One Year Ago",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CZjA1QnFEZEFETEIyOGVXQTZ6cUlIN0xmaldsNF9YekJicl80dmdaRGcyYjRZdHRwa01iRmlwbE01bE5xSGpQWmE3ZXBrWjg0ZklmdE1RWDJ4VTJHM3BrbkltSHNQN2xWYkJXWFJvX2NPTy1tekE?oc=5",
+   "source": "Ghost Cult Magazine",
+   "pubDate": "2026-08-21T00:12:42.000Z",
+   "description": "Brent Hinds of Mastodon, Died One Year Ago&nbsp;&nbsp;Ghost Cult Magazine",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00eEs1LWMyN3dRR3pDQV9lTHpzdkVLdVJWZ25zNV9PaHhvaW8wbVV4cWtPeU9fUENPOERZRTBDaVRld0JrXzBaMktmR1NvOWxvWlVVX1c0bHdrdXdrZnpmeHp0UjFBQVVJSjZnc1VJdmxCQUpMem1CN0N6eWJERFk?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-08-21T00:00:05.000Z",
+   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran war live: US vows toughest Iran sanctions, urges China support",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-08-21T00:00:00.000Z",
+   "description": "US Treasury Secretary Bessent says new economic measures will 'collapse' Iranian government.",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-20T23:53:38.000Z",
+   "description": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "White House's Hormuz Traffic Claims Diverge From Independent Counts",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMHZMTDBoNjdIdFVtY0xTQzI4aDJQMEF3TWhUM1BPcGtXXzUtTDNPY20xU25PQ0ZjZ0ZCSlJWcVhQSnNfSnlLSjAza2tVYjd2XzFNUzVQb18zSzNockFOb0NjeGp2eHlLRGtiM3hIQV9yQkpGV1cyNmJ6VzBVS2VPSlhSTjU1NTRaQnpPbFpUSHNnNWdkZHVRSDBCVWtUTXYxdUFfTDA1M1BkZw?oc=5",
+   "source": "The Maritime Executive",
+   "pubDate": "2026-08-20T23:53:00.000Z",
+   "description": "White House's Hormuz Traffic Claims Diverge From Independent Counts&nbsp;&nbsp;The Maritime Executive",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent Set for Second Straight Weekly Rise",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMkxkb3hoZjlLNF9wV0tWNHZSXy1xMkc2NEktMGFJaVA2b1Q0azdnSVFrYWNWUTBrZ2Qwb2JSaDdZYVdlUjRtaTVuVDFlb0JPQlBjLTUtUm9uSVIyaFo5c1MtMVowTzlTSkFDaW1NM2JnQTZzTFlSbXVkNXpiOGE4czNZSnFVdEItaU05SHJuQk5jVll5SDg0?oc=5",
+   "source": "TradingView",
+   "pubDate": "2026-08-20T23:36:30.000Z",
+   "description": "Brent Set for Second Straight Weekly Rise&nbsp;&nbsp;TradingView",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "‘That market moves fast’: Why OU, Roger Denny extended Brent Venables with 4 years left on deal",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNS2J3MU1STXN0LXRpa2RyLVZ4NnRLS1FSQjdodU00Mm81cjVReXFPNEFYWkRMVFlhSVlvNWxjbm85RUNOSEdsU3dmcUdSSzRacU4ycGlORTN5Wk1qbW5EVGhDQWdVTFVhVmVsQ3BMNHZZSWwtT0FydERMUm5sS2gydnE5R0IxN1UyYVBVVDNEVDVnNnVrcGVLRFBYOXpva2sxVGV6aUFjcktKckVvb0wyUFdndVpGZkdUNkdOTzVBVXYzR01iM3BfQ2FaMGFvY19DSGp2QnFmZlhIWXlBYmw2enc4aWd3UEJEQ1Q0djdpLXVuZVRlMEtXX0Q4T3V2YzRaUDF3R19nR09OTHM?oc=5",
+   "source": "Norman Transcript",
+   "pubDate": "2026-08-20T23:26:00.000Z",
+   "description": "‘That market moves fast’: Why OU, Roger Denny extended Brent Venables with 4 years left on deal&nbsp;&nbsp;Norman Transcript",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "OU football coach Brent Venables agrees to two-year contract extension",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUDYtTU9ZYkxYMGVydWg1Y0g0U0Q5VGRnZjJjdVpLUUNKUnVxbWJHVmVIcUZKRkdvanNlakZiNE5MYnk5MVZObFZucFlGbXplU3VKNHZsTGR0cVRDcmNiX1U0X1E5eDFuNXpNdDFhdVhzOEktU2IwNnlBa1RWTFZaTzhJOFBfOVAwOHFKNVJWNUlvRUhTNmJTT1JubklVOUM4dkIwUldFbU1ha1R0WjlnTGQ0VUNuUm4xVFp0dlU0eFk4Vk9ZNXlzOWZ0Q05sbDRPSWNJc2IxYWNKdGNEdy1VRTJ3?oc=5",
+   "source": "The Oklahoman",
+   "pubDate": "2026-08-20T23:23:00.000Z",
+   "description": "OU football coach Brent Venables agrees to two-year contract extension&nbsp;&nbsp;The Oklahoman",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
   {
    "title": "West End Motel Debut “Return Of The Kid” On Anniversary Of Brent Hinds’ Passing, High On Fire’s Matt Pike Guests",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZnZHRE9tcjUtRU1BVFhEaXZQd2ZiVXhiNVF4dnc5bUZhQ1Z0NC1iQjdqelBfbHNPS0lyaUZuYkN3TlNzQVFBN21mZEZZd1hzYk14Ty1pcF91LVBybTVCZzI3eHlaY29VRUgyUk4tSGZXekQ3bkcxMldMY2FDVnJmaw?oc=5",
@@ -343,17 +513,6 @@
    "severity": "low"
   },
   {
-   "title": "Australia news live: Israel ambassador insists IDF strike that killed Zomi Frankcom a ‘reasonable mistake’; body of hiker Lily Hooper recovered from bush",
-   "link": "https://www.theguardian.com/australia-news/live/2026/aug/21/australia-news-live-anthony-albanese-melon-podcast-sydney-swans-melbourne-hotel-police-investigation-alan-jones-antisemitism-inquiry-icac-nsw-liberals-ntwnfb",
-   "source": "The Guardian",
-   "pubDate": "2026-08-20T23:21:03.000Z",
-   "description": "Hillel Newman says killing ‘unintentional’ and Israel is a ‘robust’ democracy. Follow today’s news liveGet our breaking news email, free app or daily news podcastWoman behind allegation of sexual assault linked to Sydney Swans reportedly says she wants ‘justice’The woman who alleges she was sexually",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Houthis and government trade attacks as Yemen slides back to full-scale war",
    "link": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
    "source": "Al Jazeera",
@@ -362,17 +521,6 @@
    "categories": [
     "hormuz_redsea",
     "opec"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Trump increasingly lashing out at allies as victory in Iran war proves elusive",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHIwZ01mYm5XM0pIcDJLMVZFaEcwV2otLS1vTjBaSGJub2huanBQamxLNnVrUzZCY28tM1lEemV5TkhZOUlLTU1SX0xFTnlveE1TZnpJcXFNZTNaTWs1Q2V0OV9vTWtGaUdib1RQZGY5VWpOSVVXX1RqbGtOS056SHJoVWdBTmJ6bTRPX1BuRjExUXh0NFZEZW9LMG1DcEltNGhhOXlSQXJhUktVVGpWWFR2Q1ZVVjJLeXc?oc=5",
-   "source": "The Washington Post",
-   "pubDate": "2026-08-20T23:17:08.000Z",
-   "description": "Trump increasingly lashing out at allies as victory in Iran war proves elusive&nbsp;&nbsp;The Washington Post",
-   "categories": [
-    "iran_israel"
    ],
    "severity": "high"
   },
@@ -388,15 +536,16 @@
    "severity": "low"
   },
   {
-   "title": "World News Today Live Updates: Iran says Trump’s ‘economic warfare’ will fail",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0pFdWRWakVmbXlGdFF6Y2ozTGlIMFN4d0kyTHBQWXNaaWktbHRhWmdqdHN5Q0VaQ2ZhUlJjMTZMdmNiS1g4OXFZRVVPdmM4RU5wUFplR0NPM3Azc3BRVmU3V1hUS1Bvbkk5VHlldm53bUtrcnB0bXZWRnZSMEl1MDJqbHo5Q1BPWl9PaUNNQlRqV1FZM09HZVdjQzg0Tjdia3FLN0s3WmdZRjRWd3NYRS1QN0xtcUU3S2t5StIBwwFBVV95cUxPLTFqWVo4eUNEd25uOWNRSkVuNzVBN0ExT0lyaWR2ZjhfMG93SjJqNmcyTUp3Q2pjajhHWHFnRFV0TjFoTjdtRlBPR0NzVlo0NFpjWDBWOVNYYTJZN2EwcDZHNVd0S0FCUGUySm42Wk44Q2lMUDdVc2VCT01iTUtKRmhyM2RJYWpiRnFPVVJyOXpxRGxjYjRCVTVFTlVNOTR6RXY5cXJiMnh3dVp2LTMyLVE1TE9ZZzFWOVN6T3pCVnphbmM?oc=5",
-   "source": "The Indian Express",
-   "pubDate": "2026-08-20T23:14:30.000Z",
-   "description": "World News Today Live Updates: Iran says Trump’s ‘economic warfare’ will fail&nbsp;&nbsp;The Indian Express",
+   "title": "Ukraine has imposed new sanctions against the Russian defense-industrial complex, Rusal, and the creators of \"Masha and the Bear\"",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV0JrOG11WEF3QkZzNmZPSXJndUROdnpLMVVZOTV6NTJ1di10N2c2ODJPNmhEbjdPUFUtZWNLWFg5dEthSEQ5TU9lY21NclBySUc4bkNkSE9OSXBRTEwwdmVsYmtzWERyUVJpckR3RkJMMFFPTEdGWXB2QTRSWlFURlJSMlUzVmtBUlhMTS12UnlaUUVBSjA0ZWo1RjNxQXNQMGZySmdhTzRpQ1NvOG02Z2UyN19EaUdqeXhXWkxXUjk2WGJNSU9yZmkzRFRoLWtIRTRfNDRvcFB1S3oxajJ5d3cwMFlQYXpDOEp5QlY5Wkc?oc=5",
+   "source": "shelter.in.ua",
+   "pubDate": "2026-08-20T23:08:26.000Z",
+   "description": "Ukraine has imposed new sanctions against the Russian defense-industrial complex, Rusal, and the creators of \"Masha and the Bear\"&nbsp;&nbsp;shelter.in.ua",
    "categories": [
-    "iran_israel"
+    "russia_ukraine",
+    "usa_policy"
    ],
-   "severity": "high"
+   "severity": "medium"
   },
   {
    "title": "Houthis Move to Gain Complete Control Over Crucial Bab el-Mandeb Oil Chokepoint",
@@ -408,6 +557,17 @@
     "hormuz_redsea"
    ],
    "severity": "high"
+  },
+  {
+   "title": "Brent Venables Agrees to New Contract Extension With Oklahoma",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZGN1cTRoWmZTS1ZEVURQd0hmeUdvMDNxWlNNZ3JSN2FYcVNTUGk0bnlrUTNJRDJpN3R5YVZhVzhzU3hSbUE1THFvbE5vaVBIOE9qS0psZEV6NVU1VXpzelVLZnZZQVdPU2Y4ZmF1TlB6RHdKWVRnMjhqU0pwcFhZQTEwb2RmLUVOMm52NVFSdnN1bzA?oc=5",
+   "source": "Yahoo Sports",
+   "pubDate": "2026-08-20T22:58:39.000Z",
+   "description": "Brent Venables Agrees to New Contract Extension With Oklahoma&nbsp;&nbsp;Yahoo Sports",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
   },
   {
    "title": "Oklahoma AD Roger Denny explains decision to extend Brent Venables long-term, timing of new deal",
@@ -430,17 +590,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Russia, Ukraine Trade Strikes as Zelenskyy Seeks More Missiles",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1Q3cEYyOEVjbXdOMzFVNUtmYU5LbXNwVENObElUUVYtSGZlVUpNWE1HeGJZX0hrWmM4dV9qTkwydHN6ckxyeHZydjk0c0JWUFE5emZYYktIUHNWRmYxUldhbkMwV1RfdE5uZHhubmRnT2szOEdRenhSMTRJTF90WUI5dmt2SGF0bHhnZ25zalVFc196Mm5uX1d4bU5mYkJweEZJUldQR2FRR0QwQmtubGJSNHFGcjhKUVhVN3ZsMlJKYlU?oc=5",
-   "source": "Bloomberg.com",
-   "pubDate": "2026-08-20T22:43:18.000Z",
-   "description": "Russia, Ukraine Trade Strikes as Zelenskyy Seeks More Missiles&nbsp;&nbsp;Bloomberg.com",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
   },
   {
    "title": "Oklahoma AD Roger Denny Explains Decision to Extend Brent Venables",
@@ -468,7 +617,7 @@
    "title": "Expert says she is surprised by Houthi actions in the Middle East",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92dUI2cXZQV3ZLSV9yNmtZRHBTS1dhRjMtRFoyZlFKWXZhcUtweFQ2MV9xU2NabWotSjdFRURnWndpY0xfQ1hTUTFFbnpabUhkZHZBN216ektHUXM?oc=5",
    "source": "Fox Business",
-   "pubDate": "2026-08-20T22:21:36.000Z",
+   "pubDate": "2026-08-20T22:22:21.000Z",
    "description": "Expert says she is surprised by Houthi actions in the Middle East&nbsp;&nbsp;Fox Business",
    "categories": [
     "hormuz_redsea"
@@ -498,8 +647,20 @@
    "severity": "low"
   },
   {
+   "title": "China boosts imports of Russian crude, stymieing India's refiners",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-08-20T22:11:34.000Z",
+   "description": "China boosts imports of Russian crude, stymieing India's refiners&nbsp;&nbsp;Reuters",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "BTH: TN District 9 candidate Brent Taylor discusses immigration, Iran, and the Trump administration",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRDZzWHpxWHBQMTdIZWdWMjhOQTA1aUFFTjNuajMwa2t3R1ZoYTZ1S0RhSEZrVXA1cDBLZkhkR2hiclY0eVFwaGtrcDF6Z0FDUGtHZ0RCc20tYTZ5azlmeHFMbWp1NUlzNEtHTmJKV0lhYWRNM0FOM2xQTFRxUTlzbmEtdTN6Z2paQ3pEQmI1Znl5dkkzSkQ3VU8ycUxaOGNTRy1iREZ6MHlaMlRsVnFpMWJiX29odFpvOE56ZjJrdVk2TkZNV3RjeWMtaV9vQzUtQUtVNmhuZ2RpaWttY2pOamFWLVU3T3lM?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM2ZFZXBxRXZ3M1NaWU0yYld3VV95b0RpR0M5TWlXdE43TFJyRVg4RW5kdDdCTDJ5VTBTSUtLM2t4M3RXSVVEekV6d0toY1ZabjFKZjg3eTN0b1Y5T1JSb3RJMm1sSHp6MHZTSXFDVzVnRUY2WnQ2ZFpzWVNnZXdlbk1BbUozdHhYTzlTOTZNTXNvajd1a2FlOWs1NFJSZGV6c2MyZTNEb2pvSWVWdHZqenRsbmtCZWZCNURIOW5DdTZwRlVwQmJlaUJhNEx6WFlPS1d0U0REY3ppcGZIV1lLWXFUUWZtWTl4M19aSDl0OVo1eGlmRnc?oc=5",
    "source": "WKNO FM",
    "pubDate": "2026-08-20T22:04:00.000Z",
    "description": "BTH: TN District 9 candidate Brent Taylor discusses immigration, Iran, and the Trump administration&nbsp;&nbsp;WKNO FM",
@@ -543,6 +704,28 @@
     "russia_ukraine"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "Oklahoma Sooners just did what fans would have frowned upon two years ago regarding Brent Venables",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRkEwdnZvdm5GbXM1Q09kMGZlckJzY1JHSW5oMTZfcmZVRy1yQ3liT2JuN0hZekxGa29XTVhhbE1NS1I5a1MzZzhsWXZOc0t3d2o1RXlnQW0tY3c4TE02QXpfdHpDMjNwUWt4NFZoZkZvc005Y0FwMk1EcldPSFJNOWV1UDIxN003YnZOQTlpNnVOYW9fUjdjSHNfUWJFcVNMZ0ZDSVBrMGdtQTVJcXBXbDE4dU9rQ0VGcUxV?oc=5",
+   "source": "A to Z Sports",
+   "pubDate": "2026-08-20T21:51:12.000Z",
+   "description": "Oklahoma Sooners just did what fans would have frowned upon two years ago regarding Brent Venables&nbsp;&nbsp;A to Z Sports",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Zelenskyy imposes sanctions on \"Masha and the Bear,\" Yura Yenakiyevsky, and more",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR1Rkdk5sMG9hdjdVcEF5ODYxUWJJdVFCZmhXTTRmSl9CMDl0UllMZVNlZktoalZqbEd1aTNoRkNhM1ExOFR4YVdPRXdMWk9lVDFEZXFmNmpxVVVZb3ZxWkx2Yl9rNVhReFBxanNWQkxxQWczQjJaRUIzMFY3Ykl3cjBPQ3RqZXk0QmxRbnBrUkZKYmNtTTRZaU9LMDBIZHEzSV9TREJZaFhTaGZyanpndXpKWkl2WGfSAbwBQVVfeXFMTm9kT3N6ZFp2Wm5adk1HbkcxTV9VZGtfMDZwTno0c21EVGlBaDk2MjZNN3BPNnVSLXZMSGdtNmYzSk9PQ0RUd3VKd3lWMG05TFB5bndmU1J5SDB4ZEtKWW9sUE5HR2xjS1hwXzFBOUs0SExjYk8yd0JUMGdiSG5jbG1lUmVRYktUR1FPS2NwNHd5RklmQzMzc3BmM1VxeG93aXVYTHRKemRvUThhdFB4SDRVUEluTXBlS3g1WXY?oc=5",
+   "source": "LIGA.net",
+   "pubDate": "2026-08-20T21:50:00.000Z",
+   "description": "Zelenskyy imposes sanctions on \"Masha and the Bear,\" Yura Yenakiyevsky, and more&nbsp;&nbsp;LIGA.net",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
   },
   {
    "title": "Oklahoma Makes $63 Million Decision on Coach Brent Venables",
@@ -590,11 +773,23 @@
    "severity": "high"
   },
   {
-   "title": "Zelensky slaps new sanctions on Moscow's war machine, Russian propagandists, and former Ukrainian officials",
+   "title": "AP Explains: Oil Tankers Use New Route Through Strait Of Hormuz Despite Iranian Threats Wired (AUtVH2PSx6)",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15VHo2LXM0R3dZRVRoTWtfQW90REJGbEw0b3NaR193a3lzajRELUR0RVRVSm1LQzZPSVExWWw5eTFoelhTbHBySVhrdkhqMVFQS1NjU3QzRDA1azA?oc=5",
+   "source": "Mshale",
+   "pubDate": "2026-08-20T21:42:55.000Z",
+   "description": "AP Explains: Oil Tankers Use New Route Through Strait Of Hormuz Despite Iranian Threats Wired (AUtVH2PSx6)&nbsp;&nbsp;Mshale",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Russian children's cartoon targeted in Zelensky's latest sanctions against Moscow's war machine",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2pmVDgtRHZ3bGpGWERPT2hfRzRFWVRlckRoa19DWHR4ZWszV1FYTUtDNFotX0Z1dFRQQkFFWHNFaHlnc1dTbHg5QVU1MFJtUjJsb2RpcDBuRGJGTXo3NEpYNE9lMEFMaXBSRV9hcENoVk9BN0F0d1FsVGF6dTU1RVhmZVVVUGJaTnRMNmVCYlpKUWVzS09uNldYTDdIb0ZmY24wMmVpVU5tcUdoUV9xZlhPLWpWNGpfMFdGbjFLRm5FdHJlUkhRbFhzTmNtUQ?oc=5",
    "source": "The Kyiv Independent",
    "pubDate": "2026-08-20T21:41:20.000Z",
-   "description": "Zelensky slaps new sanctions on Moscow's war machine, Russian propagandists, and former Ukrainian officials&nbsp;&nbsp;The Kyiv Independent",
+   "description": "Russian children's cartoon targeted in Zelensky's latest sanctions against Moscow's war machine&nbsp;&nbsp;The Kyiv Independent",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -658,6 +853,17 @@
    "severity": "low"
   },
   {
+   "title": "OU agrees to contract extension with football coach Brent Venables",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVS1MU0Q2cWFEX1M4dlFsN0hVZWcwUjhFbHZRSVhmUHg3Z3R4OGZMNHFhWjk1U0NwY0RXZWlwNnlhSmFFaG96Ykx0a1VTcGJNN2V6NU1mSlNDb0E0andwXzJibEVLdGVhM3BTSVZpdU1MYUNwQWNHdnhnVHg4MXNLZWt0eUM2NzRBUkNQRDR0ekZ6MkNvR0x1N2lyX3A?oc=5",
+   "source": "KOCO",
+   "pubDate": "2026-08-20T21:14:00.000Z",
+   "description": "OU agrees to contract extension with football coach Brent Venables&nbsp;&nbsp;KOCO",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Bessent Says He Doesn’t “Really Understand” Oil Price Spike After Trump Announces “ECONOMIC D-DAY” on Iran",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM3Bjak53R0xNb1I2NGVTTERKeHZ1UEpzYXMtT1ltbU1JN3NFNlpDNkIyakpjUUZSaUpYclg0b3VJOVByZ3NIUFZqUFB4U2RQOFFZZzl6elJUQ1l1N20tZ2ZoMm52Z1RMWTctd2tVUGY3WXdnZ1NXaTY1VXltZGFVcnl1aFF6NFBpb0t1cTAxOGwtOWlxdTY1ZHdCV2pBUTlWYUtaSi1TS0JsZUU?oc=5",
    "source": "Truthout",
@@ -668,6 +874,19 @@
     "market"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "Iran Guards Warn Saudi Arabia Cannot Contain Houthi Attacks",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OS1FXT29TeFk4cXMxcFFVWHdtM0FJc3F5UktZa00zWHQ1dUh6U0lSdVFwa0VTaEJSdWk4bm9hcUttUDA0YkRwbkpURTJHYlNBc3M2RVB3?oc=5",
+   "source": "Kurdistan24",
+   "pubDate": "2026-08-20T21:10:00.000Z",
+   "description": "Iran Guards Warn Saudi Arabia Cannot Contain Houthi Attacks&nbsp;&nbsp;Kurdistan24",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
   },
   {
    "title": "Zelenskyy Signs Four Decrees Introducing New Sanctions Against Russia",
@@ -694,7 +913,7 @@
   },
   {
    "title": "Oklahoma is going to regret extending Brent Venables' contract",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSlpiM0VLel9OUWwyUzMxTTlHTTlyaExZSGh0dVZOc21ScE5aUUxRMWtkSl9NNlFBNFliazA3Mms1djZLWFFVRTZDVFJEd0xqbHBJckxaU3VoODRqYVdfZjJWVTIyd19ZZUFUbVFCa0Vwcy1LSkZxZk5CbUJHVER0UGpNWTlsZWk5WHA2bnlGVE5fLW9IOWZhc0ZsLVdzRGRPVmRCSTJfNi1tcWx5?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb0R4VVN1UlBCRnhyRjdQMDNkLVpqUVpaMVR5NGN5bV95alZ3SS1YZUNFazJnZ1FxS04wQkxrUjRjaHVGaWdiQl9LLVdEUkVYWEw3UXduV2VEZ19VMVpWSEVJUVQ2b0FscUg3b0RJM1M2WlVybzZfSWFIWDVJVHp1ZTVTeV96T0dPb2JJcWpsazktNllCMVViYw?oc=5",
    "source": "FanSided",
    "pubDate": "2026-08-20T21:05:53.000Z",
    "description": "Oklahoma is going to regret extending Brent Venables' contract&nbsp;&nbsp;FanSided",
@@ -702,18 +921,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Ukraine hits Deripaska’s business: Rusal structures come under sanctions",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLXVKVGdxdDNWM3RpdHJWNHVfblQzX2RydjJjeTA5eWFfcWJteVhGM0E5ZzdkWUlSMnJTT3JXX3FLTWJhQzRWNThRZGw5T1d5el8zNEtEaGZ0OGZkNThjTVJhOUFhd3FNQjFNM2dCWWlNTFBJWnZfZXdicWNzb095ZmpLNHF5OXRyUmRUVlJDQjB5RTZ5NzdlN21aUHR3aGczYTJHa1lRZndzUjF0Z0IxMQ?oc=5",
-   "source": "АНТИКОР",
-   "pubDate": "2026-08-20T21:01:30.000Z",
-   "description": "Ukraine hits Deripaska’s business: Rusal structures come under sanctions&nbsp;&nbsp;АНТИКОР",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Senate Urges Australia to Bring Timber Under Its Russian Sanctions",
@@ -726,6 +933,17 @@
     "usa_policy"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "Below Deck Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wUGFfLWpuQjVTVnk4anBHMHNibzVmWGtZbkpnckdmMFZiRDl3SGpMRTBaV0VrZmY2VjcyOENDYlQ1clNpOV8ySHZlR2x6RUNiRGxrbnI4Zm00YTB3a0VUOHhIWlFHd3NNQW1GZ21mSEdyRlE?oc=5",
+   "source": "American Kahani",
+   "pubDate": "2026-08-20T20:51:32.000Z",
+   "description": "Below Deck Strait of Hormuz&nbsp;&nbsp;American Kahani",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
   },
   {
    "title": "New Trump threats fuel oil price surge",
@@ -954,10 +1172,10 @@
   },
   {
    "title": "Brent Venables, OU agree to 2-year contract extension",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDJFVnNVRWt6SUQ0QlZtcXRDT1hPS1NwZ2RMMHFtZDVKMUgzbEdacl9vbm9qMndGWDNNbktmV0tMMzNnM0dsalZReWY4UmlWejAyVjJiZmw3akp6MjZIa3Bka0hFY2ZhQVFBRlFyTGd5MjBtMXdRclZHb1hjUmdQWTB5MHdFM0HSAYwBQVVfeXFMTmlaMklJUEpoYnQ1aHdQbl9DZktoTHJaMVR6bE93Ty1sZGxPcjYyVmdiRm9ydS1uSWozdGtfMi05ekcwc2dqRk1FUkNMZzUxVmp0NnFTbkMyWTAzcHU5UVhZMGZUTUJ5WWtEYVBIZ01Rb1AtYVMtSjRFWWxPTmxlWW1hQmhfSkRPbHJTTVU?oc=5",
-   "source": "KFOR.com",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12bEJKWjc5YmQ3OVhZT3VXU2NFbTAtNllOTXZmTUJvdk9NQTcwcWJnck8wTDFfajJERmhjQTh0VEFnQ3RyZ2lKWVJHX1BnVURaU0Q5TWR3NEIxemJrMmRSYmFzc0F5YTlCQjAzbW5JalA3dUFDVjByV2JpbnBZYW8?oc=5",
+   "source": "Yahoo Sports",
    "pubDate": "2026-08-20T19:33:38.000Z",
-   "description": "Brent Venables, OU agree to 2-year contract extension&nbsp;&nbsp;KFOR.com",
+   "description": "Brent Venables, OU agree to 2-year contract extension&nbsp;&nbsp;Yahoo Sports",
    "categories": [
     "market"
    ],
@@ -1067,17 +1285,6 @@
    "severity": "medium"
   },
   {
-   "title": "Jewish-American barred by Israel calls settler violence ‘state terror’",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/08-20-208-20-2026-jewish-american-banned-sv-mp4?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-20T19:09:33.000Z",
-   "description": "Jewish-American activist says Israel barred his re-entry over his work with Palestinians in the occupied West Bank.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "Civilian Suffering Deepens as Houthi Attacks Target Villages in Yemen",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SZHFvRllQQ2k3STdfYkpBUFFIWnU5WFRQRHc5UUNGUnhFNDFwdkJJd2RkZFBlQlVxYVVwdG1nTXVnX0tWUmQ2NkdoejkxdVFKRXdNeG4za3Q1ZktOZXA0?oc=5",
    "source": "Yemen Online",
@@ -1111,6 +1318,19 @@
    "severity": "low"
   },
   {
+   "title": "US Imposes New Sanctions on Iran, Hezbollah, Russia and Cuba",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcFNUeVpuVk11czdsbzQ5bDVfMGZ4MkV2TDYzMndhNk1RcFVtR0YzU3BOUUdTRFNZbmZpWVVFZGkyeGJfa1hjSEpmQ1QtXzBGNkZ1WC1kY1I0dlY1SDZ3SFZQZ2Y2YW82bGtJSklYWGRCbjdWcXBpOGh3YTVpeU1FNHAxd2Y?oc=5",
+   "source": "WANA News Agency",
+   "pubDate": "2026-08-20T19:06:13.000Z",
+   "description": "US Imposes New Sanctions on Iran, Hezbollah, Russia and Cuba&nbsp;&nbsp;WANA News Agency",
+   "categories": [
+    "iran_israel",
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Brent Venables Agrees to Extension With Oklahoma",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMFpXWGFzazVzMW5POUtNYXRCcnhLTnJKWTUtNWhQMlFsbzNZZWY0SGxwSlIwVGZKaWtfWm5SYzhwZ1B2bGxRRUF6bXZ1c0NqM3IzWURoVVVObGhqR3F0LVFtcEFpSEVNdUZFclFvNEtFdzRvX1BmMG9laWhqdl9QNzVQdkVMbU1WWklKazZ3?oc=5",
    "source": "247Sports",
@@ -1122,33 +1342,11 @@
    "severity": "low"
   },
   {
-   "title": "Brent Venables signs six-year contract with Oklahoma",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWTlNci15dnhVTHg5cWNqNHJQSWh3a1k1eDFVYUV5aGx3M09zYTAyMnp5X0pGeV8xR04wYUNieDBsZVNhZ0JJSTBvZlhhRnctcUtsSXl0emppcHdoUkwzOTJuMF9JTFB5TnZoZVg0cm1SU28wTEpJelExQzFDWnZaTWdyN2lacFZMWHlJUWtGY1Fjdw?oc=5",
-   "source": "On3",
-   "pubDate": "2026-08-20T19:03:43.000Z",
-   "description": "Brent Venables signs six-year contract with Oklahoma&nbsp;&nbsp;On3",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "What Oklahoma Extending Brent Venables Means for Program",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jcy1aNVR5RjdKY2JJOTFnaUhfMVFsRlpnUWVUNkg0NHRzZTlHcVFPaHVrUDFIellTVXpHbDJYc3hpLU9pdmkwRHZzcGRFb0xUbGVGaGNPWmx2d3BYbC1sT3lldFJERWZqa2NhTlBHOERkaDh3Y2I2Q0RKQ1JBZw?oc=5",
    "source": "heavy.com",
    "pubDate": "2026-08-20T19:00:56.000Z",
    "description": "What Oklahoma Extending Brent Venables Means for Program&nbsp;&nbsp;heavy.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Ahmad Hassoun, Assad’s ‘barrel bomb mufti’, faces Damascus court verdict",
-   "link": "https://www.aljazeera.com/news/2026/8/20/ahmad-badreddine-hassoun-assads-barrel-bomb-mufti-faces-court-verdict?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-08-20T18:55:52.000Z",
-   "description": "Who is Ahmad Hassoun, the 'barrel bomb mufti' close to the inner circle of the al-Assad regime?",
    "categories": [
     "market"
    ],
@@ -1167,10 +1365,10 @@
   },
   {
    "title": "Oklahoma head coach Brent Venables agrees to contract extension",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODlRZHhwbUs3V0x1QzNjZGdCYXczQ1dvalRQNDZWdVZxX0N3RmVkaXNMU2k2d1E2Y0duM1JSQUxHVG1jRTJnSVZqZkdaSk5yWDlYa1RPNTZGOXNueFM0TXd0cHhIbndLLUY5b29HdjBxSkp5azVEY3dUMFpkbmVlbWM2T1BQeUM2Z1hUZEY5VFM1S3JDVjZoT19PSUhyckZ3MExBTERpZ1dYUkdLZFIwUFFPNjc?oc=5",
-   "source": "Dallas News",
-   "pubDate": "2026-08-20T18:45:29.000Z",
-   "description": "Oklahoma head coach Brent Venables agrees to contract extension&nbsp;&nbsp;Dallas News",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0xxXzd3UWZlMDJXcWloa01sUWM2UVhpeUdLT0FBd2UwdURlbExXV2hKVkFRbXpLSjJlZGZabDl1SVBuR3haTFhySzdQQlAzM2NJczBnMzBXVWlLaHRyWHVON3VDUlFsbTZwSlgydUhxR2tWS2I1cnRHUDZ1TUxtbEx2aEVRdGNkWEhZ?oc=5",
+   "source": "Yahoo Sports",
+   "pubDate": "2026-08-20T18:43:12.000Z",
+   "description": "Oklahoma head coach Brent Venables agrees to contract extension&nbsp;&nbsp;Yahoo Sports",
    "categories": [
     "market"
    ],
@@ -1186,19 +1384,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "US Imposes New Sanctions on Iran, Hezbollah, Russia and Cuba",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcFNUeVpuVk11czdsbzQ5bDVfMGZ4MkV2TDYzMndhNk1RcFVtR0YzU3BOUUdTRFNZbmZpWVVFZGkyeGJfa1hjSEpmQ1QtXzBGNkZ1WC1kY1I0dlY1SDZ3SFZQZ2Y2YW82bGtJSklYWGRCbjdWcXBpOGh3YTVpeU1FNHAxd2Y?oc=5",
-   "source": "WANA News Agency",
-   "pubDate": "2026-08-20T18:40:08.000Z",
-   "description": "US Imposes New Sanctions on Iran, Hezbollah, Russia and Cuba&nbsp;&nbsp;WANA News Agency",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Oklahoma and head coach Brent Venables agree to contract extension",
@@ -1246,17 +1431,6 @@
    "severity": "low"
   },
   {
-   "title": "Sources: Oklahoma, Brent Venables agree to new 6-year contract",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2pfMDBwMnJ5TXA0dnFpbl9PRlg2WHJIZklwZWs4WFJpb1lRMDFYWlM4cVRNVE91R0xaM3UyeHVuY0JaRGFvczZIa21OeUF2RGNfaHo2b25PSmNBZE0wRkxZNlJhM1U5VXdxNWhvdjlydTBwT25BMlp4dTRFZURPem5udW9RaGVJZEtndU1zbzkwVkFhY2c2b25MN3l2UnNZQTFtRktoV1NlSFFNY29MVzNvclR6ekhKdkE?oc=5",
-   "source": "ESPN",
-   "pubDate": "2026-08-20T18:32:47.000Z",
-   "description": "Sources: Oklahoma, Brent Venables agree to new 6-year contract&nbsp;&nbsp;ESPN",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Brent Venables, Oklahoma Reportedly Agree to New Contract, Will Be Among CFB's Highest-Paid HCs",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQalhlZXBYckc5VUdaanI0Z0V1YWk2dDVrUWpNbDhKR0VBa0lqZjJzMDZOWEl2dU5sM3VDTWt0R2theEZ4X1FTYXpTVlFqQUtFUEt1QlJCVDg4czFzTXR3UFQzODVPdktUcFdUTTNCZFFiTEt1QjZpTTFlemhQU01pMEhBd3VyS2xfenNIUFNsRS1DekgtOUZoaE03eHpvN1p1UXFHcjEzQTZFTWVIc2dXazhhWjZHR2tKOEhob3AzODZoaFl3VXNxWE1CUzhGY00?oc=5",
    "source": "Bleacher Report",
@@ -1279,17 +1453,6 @@
     "market"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "OU agrees to contract extension with football coach Brent Venables",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVS1MU0Q2cWFEX1M4dlFsN0hVZWcwUjhFbHZRSVhmUHg3Z3R4OGZMNHFhWjk1U0NwY0RXZWlwNnlhSmFFaG96Ykx0a1VTcGJNN2V6NU1mSlNDb0E0andwXzJibEVLdGVhM3BTSVZpdU1MYUNwQWNHdnhnVHg4MXNLZWt0eUM2NzRBUkNQRDR0ekZ6MkNvR0x1N2lyX3A?oc=5",
-   "source": "KOCO",
-   "pubDate": "2026-08-20T18:29:00.000Z",
-   "description": "OU agrees to contract extension with football coach Brent Venables&nbsp;&nbsp;KOCO",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
   },
   {
    "title": "Brent Venables, Oklahoma agree to 2-year contract extension",
@@ -1416,17 +1579,6 @@
    "severity": "high"
   },
   {
-   "title": "OU football coach Brent Venables agrees to two-year contract extension",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUDYtTU9ZYkxYMGVydWg1Y0g0U0Q5VGRnZjJjdVpLUUNKUnVxbWJHVmVIcUZKRkdvanNlakZiNE5MYnk5MVZObFZucFlGbXplU3VKNHZsTGR0cVRDcmNiX1U0X1E5eDFuNXpNdDFhdVhzOEktU2IwNnlBa1RWTFZaTzhJOFBfOVAwOHFKNVJWNUlvRUhTNmJTT1JubklVOUM4dkIwUldFbU1ha1R0WjlnTGQ0VUNuUm4xVFp0dlU0eFk4Vk9ZNXlzOWZ0Q05sbDRPSWNJc2IxYWNKdGNEdy1VRTJ3?oc=5",
-   "source": "The Oklahoman",
-   "pubDate": "2026-08-20T18:17:00.000Z",
-   "description": "OU football coach Brent Venables agrees to two-year contract extension&nbsp;&nbsp;The Oklahoman",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Oklahoma coach Brent Venables reportedly agrees to contract extension worth over $10 million per season",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNMVc3eVA3VVRfb3Q0eTVzWU8xNVF1OEcxNDFDSzFjTk42aG1MODZBbFR2akxSOUxOWC1hNnJQSVdId3VCNTFkZ0pmMlBhT0lCcGZNZUFJbFhTY1czOF92LVJsV0lSYk1tSTZsMWNJX0FhejQ3aW5QcWJGWlE3RFl2ZlBTdWtCdWJzTXJqVHM5M1lQZ1hheVItaXRyM2pwT1FUWlAyd2Y4ZHpnRHFBNXc3NjZmSlU3MXoyeXhJZXhpb2dhXy1tODJKMkFQSVgxa01jYUdZME1ZQ0hQWE9lb1ZVUGkxczlBb0JiQzcxUDVubXJIUF9qNUpfbC1ISGlYYk9QX3BSbXd2Nms0RmplS3c?oc=5",
    "source": "Yahoo Sports",
@@ -1516,6 +1668,17 @@
    "severity": "high"
   },
   {
+   "title": "Brent Venables signs six-year contract with Oklahoma",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWTlNci15dnhVTHg5cWNqNHJQSWh3a1k1eDFVYUV5aGx3M09zYTAyMnp5X0pGeV8xR04wYUNieDBsZVNhZ0JJSTBvZlhhRnctcUtsSXl0emppcHdoUkwzOTJuMF9JTFB5TnZoZVg0cm1SU28wTEpJelExQzFDWnZaTWdyN2lacFZMWHlJUWtGY1Fjdw?oc=5",
+   "source": "On3",
+   "pubDate": "2026-08-20T18:02:44.000Z",
+   "description": "Brent Venables signs six-year contract with Oklahoma&nbsp;&nbsp;On3",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Kazakhstan Caught in the Middle of the U.S.-China AI Rivalry",
    "link": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Caught-in-the-Middle-of-the-US-China-AI-Rivalry.html",
    "source": "OilPrice.com",
@@ -1525,211 +1688,48 @@
     "supply_other"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Houthis claim new strikes on Saudi Arabia after IRGC warning: What to know",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnF1ckNxMGl5bFZNRzNxSHViOEdCQ19CNUNtNkdtQVIxdy1tMGttOGZ4S0dNVk9jY3VBR0FTLXVqdnloeFlhOXk1S0xfZEVXTFJuYURTU2ljWENEdllENzUxdmtKR3dnYm1VUkJLZEw3T0VKbnVyclVoTjdEV0l4aGJpblM1VTJLRjdDSTN3VWI5U0kyT1JBZ1JFenlhR2dXRDhCR3BMOFpZVXliN2RLVXpn?oc=5",
-   "source": "Al-Monitor",
-   "pubDate": "2026-08-20T17:59:13.000Z",
-   "description": "Houthis claim new strikes on Saudi Arabia after IRGC warning: What to know&nbsp;&nbsp;Al-Monitor",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Exxon Jumps 2% as Brent Crude Breaks Above $93",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV1BZQUt1ZkxZWGZMQlUtRGVPQldqTVFxRGVYemZPVzdkNml1V3hRZE13U0lUN25Hd0lURGREMl9WTDUwZExFTDFtZWdOOWFwa2dlWGVNVHFIMHhhN3FzOWZSZTdOczViVkJ5cG42X2JfNXhJUV9OclpsMDJfYnRyd0tNTkYxR25zTUE?oc=5",
-   "source": "Yahoo Finance",
-   "pubDate": "2026-08-20T17:57:16.000Z",
-   "description": "Exxon Jumps 2% as Brent Crude Breaks Above $93&nbsp;&nbsp;Yahoo Finance",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Crude Hits $95 and Threatens the Inflation Cooldown: 3 Energy Stocks Turning the Oil Spike Into Bigger Shareholder Payouts",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaUJSVDVYajlxeWZrcU90eHRDZ2Q3RjZxMFpValU1QktxWDJVY1pUcEZ3RkwyX0k4eGlNRHdaUUoxbkc3M1RJS1prRWRvdTExY3VSSkNNZUQ2N0JKUjlEdzJIaWhWX2VhVUdvN2xzQ3U0bVR0Yy05ZG1rS0UwaVFQUFlpX1FTQ1dxcVVlYjhBQ1J5b2E3LXhTTDJidmtVRnc2TVMxOTRjeXYwTXNxN0RSUWRjUDBqV1dyUDVORkpjal9VTGNPNjhJT19TLXMyU01zc1gxU2JtbENwbkkxMmpzWVZqTmhrR3lzc0w3dmJRUnBZVnlDZnlJ?oc=5",
-   "source": "24/7 Wall St.",
-   "pubDate": "2026-08-20T17:51:34.000Z",
-   "description": "Crude Hits $95 and Threatens the Inflation Cooldown: 3 Energy Stocks Turning the Oil Spike Into Bigger Shareholder Payouts&nbsp;&nbsp;24/7 Wall St.",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Zelenskyy Signs New Sanctions Against Russia and Collaborators",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByZUYwM1IyWDhMZ2ZZM1VkdGlaSGFlQ2h4anNyUHJyU3dxcDhxcVpRMFhyRS0zcW1vZ3ZzbGY0TC1QQ3BTdWlqaEt6MlYxVXlkVDRnaDgtX0U0ZVFJMV9ONDdDSk9ERDN5?oc=5",
-   "source": "Межа. Новини України.",
-   "pubDate": "2026-08-20T17:47:09.000Z",
-   "description": "Zelenskyy Signs New Sanctions Against Russia and Collaborators&nbsp;&nbsp;Межа. Новини України.",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Zelenskyy imposes sanctions against Russian defense-industrial complex",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8teEV0bGlQUU5PZW83MkIxQnlUQnFnTkJ1Z1pRY2Fua1BSVW5UcGViSnh3MmROSTk2dTFBQ1ZUbFhzbGF0aXRsbnhabzZlUmRlMmZ6LWRERDRQTklWSXhHOVd30gFnQVVfeXFMUDE3OWtBMDY5X0xtZXJHZWVoTzE3bnZjcnNqendvOGtvWTNZSzZYMUJ4MkJWQlhCSHdGU1FGdDhzNUZVTG54RXpKcHl6UVBtWnVhT1Z0Um1URzVSRGg4aWlEQWxEbW1ibw?oc=5",
-   "source": "Interfax-Ukraine",
-   "pubDate": "2026-08-20T17:45:02.000Z",
-   "description": "Zelenskyy imposes sanctions against Russian defense-industrial complex&nbsp;&nbsp;Interfax-Ukraine",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US-Iran Hormuz Ping-Pong Continues. Now Tehran Wants India at the Table",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON2M5SVFtbFpuYno5VGp0WVFIZ0x2RmdzZVdnSGJkSE1Yek45X0RONnJlSW84ZllZczU1MllBVUlBTVFJaG9kT1BvQ0tfVXZnSVNIU08zcl9NaTB0TUIwLTlZSWRxclhiOEdjR1otLTZDYlpjU2xpWGhLUVUzejRBd3hHb2RUSFpIM25QaTh6Vzducm0yN2RQOC1QcHVyYWVGamJ2eG9haw?oc=5",
-   "source": "Open Magazine",
-   "pubDate": "2026-08-20T17:34:08.000Z",
-   "description": "US-Iran Hormuz Ping-Pong Continues. Now Tehran Wants India at the Table&nbsp;&nbsp;Open Magazine",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russia’s military-industrial complex, collaborators, and former Ukrainian officials — Zelenskyy has introduced several new sanctions packages",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSmZUVUQxWVdtOG9VTDgyX0tmclp0VlhEckRzN2JWeURWRVlvVmlxWHAtVzhHekVvb0VsVDlyVV9QdWpVY2l1c0dnbW1jeXpIZm9IVUJLdDBaUkFoVXNEU3pIOVFRY3dPMFR5YjJMQUlhOVg2aUN3T0RDWGZKZHNhRVA4SUx0anJYQjduRVNla216NmZMdUhsZk5Dd0F2VDVQTUktLTFWaW8yY1lUTWlmTjBCcHliMDNCdUJ4bWptVm5XZFVRekgyM0VOV0dVdlFMM0JxMFYyTVdFbmVHOXhuYXdCSGd2WS1ET3hYejhxSdIB7wFBVV95cUxPSmZUVUQxWVdtOG9VTDgyX0tmclp0VlhEckRzN2JWeURWRVlvVmlxWHAtVzhHekVvb0VsVDlyVV9QdWpVY2l1c0dnbW1jeXpIZm9IVUJLdDBaUkFoVXNEU3pIOVFRY3dPMFR5YjJMQUlhOVg2aUN3T0RDWGZKZHNhRVA4SUx0anJYQjduRVNla216NmZMdUhsZk5Dd0F2VDVQTUktLTFWaW8yY1lUTWlmTjBCcHliMDNCdUJ4bWptVm5XZFVRekgyM0VOV0dVdlFMM0JxMFYyTVdFbmVHOXhuYXdCSGd2WS1ET3hYejhxSQ?oc=5",
-   "source": "Українські Національні Новини (УНН)",
-   "pubDate": "2026-08-20T17:33:13.000Z",
-   "description": "Russia’s military-industrial complex, collaborators, and former Ukrainian officials — Zelenskyy has introduced several new sanctions packages&nbsp;&nbsp;Українські Національні Новини (УНН)",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent, WTI Crude Prices, Aug. 20, 2026",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wcWdIeEpIbW1rRmhUSEtUX2RGOXBOR2JsdkFmekV4TlN5YkRhUE5BN0ViQ2s2MVJjUEFrRGdNbzZZa0J0NFJBLWxXeGlqb3NYdnRlRkItcFpKazJ5TGlzc3dmMzhncjN2bnVMN3ZXTVpkdw?oc=5",
-   "source": "Energy Intelligence",
-   "pubDate": "2026-08-20T17:30:43.000Z",
-   "description": "Brent, WTI Crude Prices, Aug. 20, 2026&nbsp;&nbsp;Energy Intelligence",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Continental Resources Expands Permian Footprint",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Continental-Resources-Expands-Permian-Footprint.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-08-20T17:30:00.000Z",
-   "description": "Continental Resources is getting substantially bigger in the Permian Basin. The privately held oil producer has agreed to acquire FireBird Energy II, adding roughly 54,000 net acres in the Midland Basin along with 32,000 barrels of oil equivalent per day (boepd) of production, Continental said Thurs",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-   "source": "EnergyNow.com",
-   "pubDate": "2026-08-20T17:23:15.000Z",
-   "description": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist&nbsp;&nbsp;EnergyNow.com",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US Runs Stealth Oil Operation Through Strait of Hormuz Amid Iran War | Vantage on Firstpost",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZzFnczBrcXFyLWlnSmFhRElLaWV5a1VIMlVhbmttTGtleDRrSjk4NURnNXFZNVlrc3UtazU1bzdlR21MdDVSZ21feFpGWmxxOTBobFRWWU9hQ1NrUGRIRGFvZVJaTDU5ckpLMERfLWFxb2pPb01ualJ0Q1Y2SC1KbzlXZC1VVElBWUVpcmdZa3UwTGFjMnZiX1dpM1ZDSExJSUxFT3VkdnUzbEZyMDNxc245elNvOUFvZXBkU2FYbmpEUjd6cnpfM0lOLW1lZkIyWTc5eNIB1AFBVV95cUxOZzFnczBrcXFyLWlnSmFhRElLaWV5a1VIMlVhbmttTGtleDRrSjk4NURnNXFZNVlrc3UtazU1bzdlR21MdDVSZ21feFpGWmxxOTBobFRWWU9hQ1NrUGRIRGFvZVJaTDU5ckpLMERfLWFxb2pPb01ualJ0Q1Y2SC1KbzlXZC1VVElBWUVpcmdZa3UwTGFjMnZiX1dpM1ZDSExJSUxFT3VkdnUzbEZyMDNxc245elNvOUFvZXBkU2FYbmpEUjd6cnpfM0lOLW1lZkIyWTc5eA?oc=5",
-   "source": "Firstpost",
-   "pubDate": "2026-08-20T17:16:29.000Z",
-   "description": "US Runs Stealth Oil Operation Through Strait of Hormuz Amid Iran War | Vantage on Firstpost&nbsp;&nbsp;Firstpost",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Norway’s Oil Output Falls Nearly 200,000 Bpd as Gulf Supply Crisis Drags On",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Falls-Nearly-200000-Bpd-as-Gulf-Supply-Crisis-Drags-On.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-08-20T17:00:00.000Z",
-   "description": "Norway’s crude oil production averaged 1.776 million barrels per day in July, according to preliminary figures from the Norwegian Offshore Directorate. The country also produced 183,000 barrels per day of natural gas liquids and 17,000 barrels per day of condensate, bringing total liquids production",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Russia struck the KLO oil depot in the Kyiv region: the facility has ceased operations",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aVHFUaUZRMlJfdlJMbHZzd3lkVl94VXNWZlY5clZxR0NpRmd3ZHJVdlZKNklJWFlnTU11VF9UdWVKLS03cGFLSVFucF9ON2dvVGlKaUZubzg0Y3FXTXMtcHNFbXRhR19Kd2xFamZTSQ?oc=5",
-   "source": "UkrMedia News",
-   "pubDate": "2026-08-20T16:55:07.000Z",
-   "description": "Russia struck the KLO oil depot in the Kyiv region: the facility has ceased operations&nbsp;&nbsp;UkrMedia News",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHNxUXpMLWp6eDNUendUcVlMS01NTnk0eVNqN1FlYnBwdlgwMElUTXlfR3paamtTNFhBXzJULXlfUDBkaHFuU3poamlYVHhBMGdEQ3ZiWTdtR2dpQng4aE1CMERFWFVGLXBtSTFLY2VpODJKN3paamJSUDV5U1JYUHZIVGNILWJiZzluejV5Vy12dURhVmRfVjdLVTFETXMyRE9hUG1Da2JUcGhISGM4clB0LV9CbXVfeVBlamhRNTA5cjQ1d1hpWA?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-08-20T16:53:58.000Z",
-   "description": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say&nbsp;&nbsp;Reuters",
-   "categories": [
-    "hormuz_redsea",
-    "opec",
-    "market"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 28,
+   "count24h": 30,
    "high24h": 15,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 28,
-   "high24h": 26,
+   "count24h": 29,
+   "high24h": 27,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 17,
-   "high24h": 5,
+   "count24h": 14,
+   "high24h": 4,
    "level": "angespannt"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 4,
-   "high24h": 4,
+   "count24h": 3,
+   "high24h": 3,
    "level": "erhöht"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
    "count24h": 16,
-   "high24h": 2,
+   "high24h": 3,
    "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 1,
+   "count24h": 2,
    "high24h": 0,
    "level": "ruhig"
   }
