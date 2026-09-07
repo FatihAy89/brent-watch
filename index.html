@@ -66,6 +66,18 @@
   .stand { color: var(--muted); font-size: 13px; text-align: right; }
   .stand strong { color: var(--ink-2); font-weight: 600; }
 
+  .live-badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 750; letter-spacing: .08em;
+    color: var(--st-good);
+  }
+  .live-badge .ld {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--st-good);
+    animation: livepulse 1.6s ease-in-out infinite;
+  }
+  @keyframes livepulse { 50% { opacity: .3; } }
+  @media (prefers-reduced-motion: reduce) { .live-badge .ld { animation: none; } }
+
   .lage-pill {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700;
@@ -234,7 +246,8 @@
   </header>
 
   <div class="banner" id="stale-banner">
-    ⚠️ Die Daten sind älter als 2,5 Stunden – der stündliche GitHub-Action-Lauf hat evtl. ausgesetzt.
+    ⚠️ Die News-Daten sind älter als 4 Stunden – GitHub verzögert gerade die Update-Läufe.
+    Die Kurse oben aktualisieren sich davon unabhängig live.
   </div>
 
   <section class="tiles" id="tiles" aria-label="Marktindikatoren"></section>
@@ -272,7 +285,7 @@
 
   <footer>
     <span>Quellen: Yahoo Finance / TradingView · OilPrice, Al Jazeera, BBC, The Guardian, Google News</span>
-    <span>Keine Anlageberatung · Kurse teils 10 Min verzögert · Seite lädt Daten alle 5 Min nach</span>
+    <span>Keine Anlageberatung · Kacheln aktualisieren minütlich (Futures ~10 Min verzögert) · News alle 5 Min</span>
   </footer>
 </div>
 
@@ -303,7 +316,11 @@ const LEVEL_META = {
 };
 const LEVEL_RANK = { ruhig: 0, "erhöht": 1, angespannt: 2, kritisch: 3 };
 
-let state = { data: null, filterCat: "all", onlyImportant: false, lastVisit: 0 };
+let state = { data: null, filterCat: "all", onlyImportant: false, lastVisit: 0, liveAt: 0 };
+
+function isLive() {
+  return state.liveAt > 0 && Date.now() - state.liveAt < 3 * 60 * 1000;
+}
 
 /* ---------------- Helfer ---------------- */
 const $ = (sel) => document.querySelector(sel);
@@ -364,17 +381,18 @@ function attachSparkHover() {
   const tip = $("#spark-tip");
   document.querySelectorAll("svg[data-spark]").forEach((svg) => {
     const q = state.data.quotes.find((x) => x.id === svg.dataset.spark);
-    if (!q || !q.spark || q.spark.length < 2) return;
+    const pts = q?._sparkView;
+    if (!pts || pts.length < 2) return;
     const dot = svg.querySelector(".hover-dot");
     const w = 300, h = 44, pad = 3;
-    const vs = q.spark.map((p) => p.v);
+    const vs = pts.map((p) => p.v);
     const min = Math.min(...vs), max = Math.max(...vs), span = max - min || 1;
 
     svg.addEventListener("mousemove", (ev) => {
       const rect = svg.getBoundingClientRect();
       const frac = (ev.clientX - rect.left) / rect.width;
       const i = Math.max(0, Math.min(vs.length - 1, Math.round(frac * (vs.length - 1))));
-      const p = q.spark[i];
+      const p = pts[i];
       dot.style.display = "";
       dot.setAttribute("cx", pad + (i / (vs.length - 1)) * (w - 2 * pad));
       dot.setAttribute("cy", h - pad - ((p.v - min) / span) * (h - 2 * pad));
@@ -395,6 +413,21 @@ function attachSparkHover() {
 }
 
 /* ---------------- Kacheln ---------------- */
+// Sparkline bis zum aktuell angezeigten Preis verlängern
+function buildSparkView(q) {
+  const spark = q.spark ?? [];
+  if (spark.length >= 2 && q.price != null) {
+    return [...spark, { t: Math.floor(Date.now() / 1000), v: q.price }];
+  }
+  return spark;
+}
+
+function liveChipHtml() {
+  return isLive()
+    ? `<span class="live-badge" title="Kurs aktualisiert sich minütlich via TradingView"><span class="ld"></span>LIVE</span>`
+    : "";
+}
+
 function renderTiles() {
   const qs = state.data.quotes;
   const by = (id) => qs.find((q) => q.id === id);
@@ -403,6 +436,7 @@ function renderTiles() {
   const tiles = [];
   for (const q of qs) {
     const hero = q.id === "brent";
+    q._sparkView = buildSparkView(q);
     tiles.push(`
       <article class="tile ${hero ? "hero" : ""}">
         <div class="label"><span>${esc(q.name)}</span>
@@ -411,8 +445,9 @@ function renderTiles() {
         <div class="value-row">
           <span class="value">${fmtNum(q.price)}</span>
           ${deltaHtml(q.changePct)}
+          ${hero ? liveChipHtml() : ""}
         </div>
-        ${sparkSvg(q.spark, q.id) || `<div class="subnote">Verlauf folgt mit dem nächsten Update</div>`}
+        ${sparkSvg(q._sparkView, q.id) || `<div class="subnote">Noch kein Verlauf verfügbar</div>`}
       </article>`);
     if (q.id === "wti" && brent?.price != null && wti?.price != null) {
       const spread = brent.price - wti.price;
@@ -523,9 +558,53 @@ function renderNews() {
 /* ---------------- Kopf / Stand ---------------- */
 function renderStand() {
   const t = Date.parse(state.data.updatedAt);
+  const kursPart = isLive()
+    ? `Kurse: <span class="live-badge"><span class="ld"></span>LIVE</span> &nbsp;·&nbsp; `
+    : "";
   $("#stand").innerHTML =
-    `Stand: <strong>${new Date(t).toLocaleString("de-DE", { weekday: "short", hour: "2-digit", minute: "2-digit" })} Uhr</strong> · vor ${relTime(state.data.updatedAt)}`;
-  $("#stale-banner").classList.toggle("show", Date.now() - t > 2.5 * 3600 * 1000);
+    `${kursPart}News: <strong>${new Date(t).toLocaleString("de-DE", { weekday: "short", hour: "2-digit", minute: "2-digit" })} Uhr</strong> · vor ${relTime(state.data.updatedAt)}`;
+  $("#stale-banner").classList.toggle("show", Date.now() - t > 4 * 3600 * 1000);
+}
+
+/* ---------------- Live-Kurse (client-seitig, minütlich) ---------------- */
+const LIVE_SYMBOLS = {
+  futures: { "ICEEUR:BRN1!": "brent", "NYMEX:CL1!": "wti" },
+  global: { "NYMEX:NG1!": "natgas", "TVC:DXY": "dxy", "TVC:GOLD": "gold" },
+};
+
+async function refreshLive() {
+  if (!state.data) return;
+  const jobs = Object.entries(LIVE_SYMBOLS).map(async ([scope, map]) => {
+    const res = await fetch(`https://scanner.tradingview.com/${scope}/scan`, {
+      method: "POST",
+      // bewusst ohne Content-Type-Header: text/plain braucht keinen CORS-Preflight
+      body: JSON.stringify({
+        symbols: { tickers: Object.keys(map), query: { types: [] } },
+        columns: ["close", "change"],
+      }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    let updated = false;
+    for (const row of (await res.json()).data ?? []) {
+      const q = state.data.quotes.find((x) => x.id === map[row.s]);
+      const [close, change] = row.d ?? [];
+      if (!q || close == null) continue;
+      q.price = close;
+      if (change != null) {
+        q.changePct = change;
+        q.prevClose = close / (1 + change / 100);
+      }
+      q.stale = false;
+      updated = true;
+    }
+    return updated;
+  });
+  const results = await Promise.allSettled(jobs);
+  if (results.some((r) => r.status === "fulfilled" && r.value)) {
+    state.liveAt = Date.now();
+    renderTiles();
+    renderStand();
+  }
 }
 
 /* ---------------- TradingView ---------------- */
@@ -555,7 +634,20 @@ async function load() {
   try {
     const res = await fetch(`${DATA_URL}?_=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.data = await res.json();
+    const fresh = await res.json();
+    // Live-Kurse nicht mit dem älteren Stunden-Snapshot überschreiben
+    if (isLive() && state.data) {
+      for (const q of fresh.quotes) {
+        const cur = state.data.quotes.find((x) => x.id === q.id);
+        if (cur?.price != null) {
+          q.price = cur.price;
+          q.changePct = cur.changePct;
+          q.prevClose = cur.prevClose;
+          q.stale = false;
+        }
+      }
+    }
+    state.data = fresh;
   } catch (err) {
     $("#stand").textContent = `Daten konnten nicht geladen werden (${err.message})`;
     return;
@@ -568,8 +660,9 @@ localStorage.setItem("bw_last_visit", String(Date.now()));
 
 initTradingView();
 window.addEventListener("load", initTradingView);
-load();
+load().then(refreshLive);
 setInterval(load, REFRESH_MS);
+setInterval(refreshLive, 60 * 1000);
 setInterval(() => { if (state.data) renderStand(); }, 60 * 1000);
 </script>
 </body>

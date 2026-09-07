@@ -402,15 +402,21 @@ for (const q of QUOTES) {
   } catch (err) {
     const tv = tvQuotes[q.tv[1]];
     if (tv?.price != null) {
-      // Sparkline: letzter bekannter Stand, sonst FRED-Tagestrend
-      let spark = old?.spark?.length >= 2 ? old.spark : [];
-      let sparkKind = old?.sparkKind ?? "intraday";
+      // Sparkline: alten Stand nur übernehmen, solange er frisch ist (< 24 h),
+      // sonst FRED-Tagestrend neu laden – sonst friert der Verlauf ein
+      const oldSpark = old?.spark?.length >= 2 ? old.spark : [];
+      const lastT = oldSpark.at(-1)?.t ?? 0;
+      const oldFresh = Date.now() / 1000 - lastT < 24 * 3600;
+      let spark = oldFresh ? oldSpark : [];
+      let sparkKind = oldFresh ? (old?.sparkKind ?? "intraday") : "daily";
       if (spark.length < 2 && q.fred) {
         try {
           spark = await fetchFredSpark(q.fred);
           sparkKind = "daily";
         } catch (err) {
           console.error(`FRED-Fallback fehlgeschlagen (${q.name}): ${err.message}`);
+          spark = oldSpark;
+          sparkKind = old?.sparkKind ?? "daily";
         }
       }
       quotes.push({

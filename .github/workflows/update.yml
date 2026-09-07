@@ -2,7 +2,9 @@ name: Stündliches Daten-Update
 
 on:
   schedule:
-    - cron: "7 * * * *"   # jede Stunde bei Minute 7
+    # Doppelt geplant, weil GitHub Cron-Läufe drosselt/verschiebt –
+    # effektiv kommt so etwa stündlich ein Lauf durch
+    - cron: "7,37 * * * *"
   workflow_dispatch:       # manueller Start über den Actions-Tab
 
 permissions:
