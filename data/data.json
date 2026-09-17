@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-09-17T01:40:27.480Z",
+ "updatedAt": "2026-09-17T07:33:57.619Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 105.89,
+   "price": 104.03,
    "prevClose": 105.83,
-   "changePct": 0.06,
+   "changePct": -1.7,
    "change24hPct": null,
    "spark": [
     {
@@ -124,9 +124,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 102.15,
+   "price": 101.08,
    "prevClose": 102.43,
-   "changePct": -0.27,
+   "changePct": -1.32,
    "change24hPct": null,
    "spark": [
     {
@@ -244,7 +244,7 @@
    "unit": "USD/MMBtu",
    "price": 2.9,
    "prevClose": 2.89,
-   "changePct": 0.14,
+   "changePct": 0.35,
    "change24hPct": null,
    "spark": [
     {
@@ -360,9 +360,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 100.33,
+   "price": 100.15,
    "prevClose": 100.34,
-   "changePct": -0.01,
+   "changePct": -0.19,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -373,9 +373,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4314.65,
+   "price": 4331.16,
    "prevClose": 4263.23,
-   "changePct": 1.21,
+   "changePct": 1.59,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -384,12 +384,972 @@
  ],
  "news": [
   {
-   "title": "US House passes Russia sanctions bill, India faces up to 100 per cent tariff",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnhBYXJ6QlZxYjVLVEZyV2JOWjAyLWxwd0VhMGRTQXVrS3ZibEp6Q3lVM0NjUl8zRjM4b2NsT2xrZ0VvbkloWl92WUc4eXh0STgxVnowZjRtSnpFSnRkcl9RSnpmRFB1eVBpdzVtZGE5TnlXbjlGUjdHZkN5cmoyM01PR1NHR0hKZklNOEFVbWhkZHRvVl84QW81QUNOMUtTbGVwMmR2ZEdGbTRENjctRS1oMA?oc=5",
-   "source": "The Federal",
-   "pubDate": "2026-09-17T01:22:49.000Z",
-   "description": "US House passes Russia sanctions bill, India faces up to 100 per cent tariff&nbsp;&nbsp;The Federal",
+   "title": "US Congress approves Russia sanctions that impact China and India",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaElrY0dvNzhCeTlma2xkeGZxbE5NU1Z2cndKcFVkb0pFdndNdlphRzNRU3JKX0pUQ0w2R2RzSDBrVkpZNW9JeVd6QnVrd2RLYWNyOE1hQ2p2eWx5NjkwMVlPZ28tWjFhelBYY0tISUVid0JlQUVHTnZYVkEwLXlWemIyMFJjUW5YZkFLc0RmMGlGWmstSXBKQ3M4eWxOS0NwUUNGWXIzYk9xbE1PR1Q5bg?oc=5",
+   "source": "Euronews.com",
+   "pubDate": "2026-09-17T07:31:32.000Z",
+   "description": "US Congress approves Russia sanctions that impact China and India&nbsp;&nbsp;Euronews.com",
    "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russia, Ukraine exchange overnight strikes, causing damage on both sides",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNzNGaDVrMXUxMkdLQVlHTnBEUmlzV1Z3NTN6ZDVnMzRDUXlyVTRUNkhtcHlsNXE2NVlndE5hcUNoTml5YmwtSFNjVHhZT2JsQ05OM1pYUjF4THJ3cm5XV245TWJ0SXp1NV9mcEFabmw1dGdfLWJsTllOOTJid2F0MEVvVkY5bHJsbDh2Wk5ROW0taHQyU19WTUEyaHpzYUdtajlKOHFORkdVeDlleHhXUk1iYkRteDhqaU5DdlBHdw?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-09-17T07:26:35.000Z",
+   "description": "Russia, Ukraine exchange overnight strikes, causing damage on both sides&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "The great struggle against Iran has a dangerous catch",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0d4NWVPX2g0TkJSV0VLczdXMkhEdTRDamNHNDBqR0hzM09NeW5TbTREYzhZYmdKMHN3bGZJVGJRTWtmTmVFX01NV2JnMS1RQWdWZjV6aHBsbVlQYTJzbGMxMXBsZTZCWG94b0hYRml2UW9YNnNFYTFoYkFnaHlDekxNeVc3TVZZaGtvQnV2Z3JJTEt1UGJSUg?oc=5",
+   "source": "israelhayom.com",
+   "pubDate": "2026-09-17T07:23:47.000Z",
+   "description": "The great struggle against Iran has a dangerous catch&nbsp;&nbsp;israelhayom.com",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "European Markets Rally Amid Fed Rate Hike and Oil Price Decline",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGRoaXlMZlNmdndnOTktMkIwd3FNTHBjWnRRZW1kSnBuRVkxTTM1TXFQaVVTRlJMdjlrLVJzdWdUNU1FUUlZQlBzLWJ3WG1ZSmVTa3JyUnlpQmFMbm5IUnB3bGVVTXpBRU1fQ1hETGdmOEhmR0hlOFlibm53UjJFcmVxUWF2TUJJb0l2T2tTb0l1MmQ1dlNIYzNaNWhNcll6NXh1dXA5WlR2aGJOSlhfb1hBcjYxU0dF0gG-AUFVX3lxTE1aQTRjWlhNdk1iY1JleUFPMjNjelA3R1NqODUtMXAtN3dUTVZ5NThvdTFjZGhOR1QtQVRNNkt0U3Y2YkFjVjBtMUtMTXZMb0FmRWFkSTNQTTdLQUJmRkx2eV9BckhrdS1qTFFSNnNvcEJTMEV0TnJMYVE3aWw5cWtYUGtQbVB4NG9NLWxJX2I2TmpEb3h2SmY3OTdtc1RHSXE3STIxSk1qZEEzUUpjRTN0bDVCR2dycTllclN3d3c?oc=5",
+   "source": "Devdiscourse",
+   "pubDate": "2026-09-17T07:19:16.000Z",
+   "description": "European Markets Rally Amid Fed Rate Hike and Oil Price Decline&nbsp;&nbsp;Devdiscourse",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "FM Fidan says Mecca Alliance advancing amid Houthi tensions",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ3FCV3FWcTBZSWl3SVJ5UDk0NngwY3RsQzBtMnV2d3ZyLXViS2ZXRlBNWS1vdjVWUkJXSHdNYk5aMEtFVkhFOEFUdUlHNGkyS3dRc21mMWstTmJkblZ0YVk3MGI1MW5BLXUwRHBPcHFqZVg1M1Z1Z3dDMVhuLS1zV3JkVGJZaXVyT0N1WVdZSkRPSUc3Z2R1Ui1aV0czWm9RVzBpbmE5U1ltU3ZqZzE3dGlCMFlfZw?oc=5",
+   "source": "Türkiye Today",
+   "pubDate": "2026-09-17T07:14:28.000Z",
+   "description": "FM Fidan says Mecca Alliance advancing amid Houthi tensions&nbsp;&nbsp;Türkiye Today",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Kpler data reveals a record drop in maritime shipping traffic in the Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZy1hNmdRZFI3NE9SU0xaMEJGVzdtSm5EYVNiUnczRFlFang1US1EMFFBUFFTY0ZHRUptU000Vm54bDFoeGxsSHFiUnhsOXhlcF84a1dXa01VZXlpZVUxSkxhVC1RcndFRHJ2SnFVd0pORTJ6Qzc1LUpwRlRENVhoejRtb25uR28zekdDMDhFenpPamV4a05oSHNnY1FYM09jS0tFOWFNTE5Zdy1yMjFIOUNtbW0tZHNSckZubEZELV94bTRrNE5MUGVUOVY1bi1uMHZkQXphaGw?oc=5",
+   "source": "صوت الإمارات",
+   "pubDate": "2026-09-17T07:14:22.000Z",
+   "description": "Kpler data reveals a record drop in maritime shipping traffic in the Strait of Hormuz&nbsp;&nbsp;صوت الإمارات",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Republicans fear Russia sanctions bill will give Trump too much power on tariffs",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPclpWNklPd29RWHprdE1BU1c1a0ctZFdfajJnaERqQk1CUURmSGgwWVRTdFlTdW9BbC04NWQ5MERVQzBsVU5BenpTVGZ2LWdPQzdvQkV0VURxanhpb08zaWxHaklzQWFOVG1JanVibktxQ3NZNEVJRXVZdl9WVm4zQ3ZMU3JNeEh5RVVwcVI0dXNCdXhXVFpDZ2pQR1pOMk1VTUZzNnZVekU2Q05aSE9RamdPdk54MV8ycnVQd2lJMA?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-09-17T07:13:30.000Z",
+   "description": "Republicans fear Russia sanctions bill will give Trump too much power on tariffs&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Houthi media says Saudi airstrikes hit three telecom towers in Yemen",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNkFnVTB6NDk1Rkl0b3BvbXFyQWwwM3oyTExXXzFBWmRRbE9yelMycVpFMEVGak5FR0h2Q21Xb3NsMHNCbEptNGZpZ1hGZXlSc08xMi0wdWcySXFfUGs0clJCbTMzS0Z5anBYNnd0aW9YdUlVM0VCWUY0ZENKaXpXRkx3N2JNRlZYd2FyQlpiOEM2LURsWnVjbkxWY1k5YWktVG1XWGNjNklucm1NNGRB0gG0AUFVX3lxTE8tLXlnUmtSR0xkMlYwSk5rbkRQZUEzQ3J6M3dObHBjcmp5SVJkQ2ItaGdHems5Ylo3N19aZ3R1RFBsVGVyV2dPX2wtcW1VSDBrWk84SHl1bW1FbTRoY1lCbVJmaDVtMmtYc2w4SWx6NzVBVFVfNlR1aFRIamZ6WG1sb04xVTdyc3FianFXSmJacUZVSjNQWURaejVlREI4RGwzdG05VWlHN0E2VEFXbjdsNUJtUA?oc=5",
+   "source": "Free Press Kashmir",
+   "pubDate": "2026-09-17T07:06:49.000Z",
+   "description": "Houthi media says Saudi airstrikes hit three telecom towers in Yemen&nbsp;&nbsp;Free Press Kashmir",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Zelensky Hails US Russia Sanctions Bill as 262–159 House Vote Follows Overnight Ukraine Attack",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE84UkZmcDRxeUNxN3lfSkhxdGFiNk55UnNwZ29pSlVYQ1o3SUhlN0VFLWFjaGtPVXRxV2dVY2VERkMwNXAyZ3NEaVhrdw?oc=5",
+   "source": "Kyiv Post",
+   "pubDate": "2026-09-17T07:05:12.000Z",
+   "description": "Zelensky Hails US Russia Sanctions Bill as 262–159 House Vote Follows Overnight Ukraine Attack&nbsp;&nbsp;Kyiv Post",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-09-17T07:00:05.000Z",
+   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump hopes #Iran war nearing end as #Houthi-#Saudi fighting escalates #US President #Donald_Trump said he hoped an end to the war against Iran was near, as the conflict, in its seventh month, escalated with Saudi aircraft ​pounding #Yemen and Houthi",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbnVTVzZhV3czdGM3TVFpWE94M29sME1Sd3JEcDBBOWVGb3pGLU1NSmY5dlpOTTBhekdJekRROWxCaWpmU1F4aXRWdGxfa0c5dGNBbmxMV2psR09SNW1MTG9ScFBwc3Q4Z1ZWUmRXdGtnM1R0R3RYTGNBajFnc0prNjBlbE9lUmViRDd3UTA1RWZhaFNIRG1PZEM3eGlMN1BqdWhla0k2RmYzbUk4T1NVYWdGVUhZV1AxQUZFd1c1cWdObTdqOGREa1pTT2tWdFczQTd0QmtESmxLU3Zid3Vz?oc=5",
+   "source": "facebook.com",
+   "pubDate": "2026-09-17T06:54:34.000Z",
+   "description": "Trump hopes #Iran war nearing end as #Houthi-#Saudi fighting escalates #US President #Donald_Trump said he hoped an end to the war against Iran was near, as the conflict, in its seventh month, escalated with Saudi aircraft ​pounding #Yemen and Houthi&nbsp;&nbsp;facebook.com",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump to sign new Russia sanctions bill — WSJ",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzdTbGd3UEJjRGphYWpxNjlOcHNKTXEzNzV1MTA5bHFxbzFnOXFoMzFvRDhFY19ZQXlGQURiYXFVbmt5R3lLUDdVNnR0am1kUEdwTWFxOW1uTUZEQ0xaRTNEaXVsSWJkUVRVbmFfUkloRTBWdXFzUWEyZGVVOGlsQl8xRXFKbGliMk02cEdGUzg2dnPSAY8BQVVfeXFMTXE4VHNlTkJEaEdEc2JkUGs1cko2ei1NMDRzd015YThJMDJsSndQaXpmdlhKUDVUV1ctcndsM2ZBTVF2UGRPOVdsRFFvcm5PUnAydEh0bVluLWRid1NweUxnN2RVWmIyUkNJbExGRHBYZVR4T1VvcHVyZVUtcDk1U213bTJjaUlYUHZiTHJQQTA?oc=5",
+   "source": "The New Voice of Ukraine",
+   "pubDate": "2026-09-17T06:47:00.000Z",
+   "description": "Trump to sign new Russia sanctions bill — WSJ&nbsp;&nbsp;The New Voice of Ukraine",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "'Buy oil somewhere else': US senator's 'clean up your act' warning to India, China over Russia",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZGZhdDE2RWNnbkZhanU3WF8xWmxQdTVkV0p2cm14Y2pjWnVVN1otV3JWRlpLUDhjb0Q0VVlsRjdoUDYzVlNNYk1QY1E1R2VmQjE4SUItWF9DRHNzX3l3WHAxYi1OMUVSZEt6c2IteEh6a2k5RFA3OUtaZVFyVjB1SDFHVHdtRjY1YzFHNUdsVG1UV0NhUWFTNHFNd1NWSDVoQklPaFlGanM4M0RyejdyTkRaY3RWdTBMbmJ5Tll1d1Rsb3B3akhubHBhLTNmNi1VckNRSUVnWGp4VmlUOVphQUdoQkFYb3RIQlFrOVl1ekowSDBKS1owUGVxZjNBbzFMS0YzczZoakxTQmE3UWfSAZMCQVVfeXFMT0Q1THd4RUpNOVVhLV9LeWw1SEtnOGQ4SG1Pblp3T3VPbE9lSTNhbUhLOUtvRXgxT2w2YjU3NEkzV2hJR2pSM2FxX2h1UXhOMm5vVzlhT1BKVEh0WXRiVWlRVVByNW42SW1OaHZnU2h3UXlOZnIyUGxSMlY0cjFoVWpRQWpNcVpCMzdWdmFBY0M3QmRXZmlPWnFydnZQMEtmcG5EMVcwUnFQaWVUcGFTQ3RjRUI3dGNhRFFmc1NRUC1HcWJkQUJmR0FNOENvYndrTzVlcE1mUmJKSnlmRlZPQ0ZNdXZGZjItU2JfRmhTdS1VaWR1WnM3RXRqeG1Tc0pocldBTVQyZG9KZFVsRkd3X2RmNzg?oc=5",
+   "source": "The Times of India",
+   "pubDate": "2026-09-17T06:45:00.000Z",
+   "description": "'Buy oil somewhere else': US senator's 'clean up your act' warning to India, China over Russia&nbsp;&nbsp;The Times of India",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Ukraine War, Day 1,667: US House Passes Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbDFqaGNtNUVkSjJ4Z28ybnJMMGJHMkRjSXBSd1BadWVoRldRcDhHcDNYMmpKRXFOT3l4Z2o1VXJBSFhwYzdkbkwtNm9obGZTbmd3eFdwYWZXSFQ4V05IRDZKdkdhR0htdTFsemxScW5mYnNPTVZRMUh1TENpSlpfM2hRaw?oc=5",
+   "source": "eaworldview.com",
+   "pubDate": "2026-09-17T06:44:30.000Z",
+   "description": "Ukraine War, Day 1,667: US House Passes Russia Sanctions Bill&nbsp;&nbsp;eaworldview.com",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Zelensky: Russia sanctions bill can stop 'this terrorist war'",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjRzRG04WGYwRGNRbGNLZkFtdHVCNUhvSmlMRFpWa1FleXBWb1JBWnVZQXhzRk1acWhzZGNidDRoblI0bnc2SlZxYmFGcV9MM2Y2QVFrOXp3aUdvZ2VkaTFTVjM0TDhaMGJBdGtiNFAxanpObThodmZqU0otN0NEOGo4UnVSMm1reTNMbjhTejAzOHlUbE5OSDBzVHhCajdGTlRrenNSWFpRdw?oc=5",
+   "source": "breakingthenews.net",
+   "pubDate": "2026-09-17T06:41:00.000Z",
+   "description": "Zelensky: Russia sanctions bill can stop 'this terrorist war'&nbsp;&nbsp;breakingthenews.net",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthi attacks are driving up oil prices. For Yemenis in the crossfire, the toll is far greater - ABC News",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3VTbG5rTFdXUHFaZ0lIRjZqZWp1SUJvVUJJR2l2a09VVUtLVFIweWIxdVd1d2k5ZklKZFp3LVVoaW9oVlIxRWFfUjhsVmw5d1hOX1Y0T2xreUtoZTRobFdjdGEtY3NPVE0tZjRsQXpKSEhfdElNUVdqamR3RnJkYUREYUJMRDZIWVRadkM2ZldNMGNJM3NGa2hGUVk2Y05xREtuSklkUDZrem1HWDg00gG0AUFVX3lxTE1Vb2VOXzFFOHRDNldtWW5kNGlKZnk1Q043bkFnWmlmcHZBakNscjFPLUltamRMNGZhcmd0X3hpVHFzb0E4SlQxYWZieWQ0ZnduUnA0Y1VYQzl4N2RhX1ltaVhzZWc0emhmOXdkN0t0NV9IMmpyXzJiRXM0OE5tcm1JOHNsR0dvRkE3U0I0aWtsWnlGTHdkejQxdFhhVUYwZVZ0djR4U0dTcllNSVdlTm5kWWk0dA?oc=5",
+   "source": "Breaking News, Latest News and Videos",
+   "pubDate": "2026-09-17T06:35:57.000Z",
+   "description": "Houthi attacks are driving up oil prices. For Yemenis in the crossfire, the toll is far greater&nbsp;&nbsp;ABC News - Breaking News, Latest News and Videos",
+   "categories": [
+    "hormuz_redsea",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent (UKOIL) Drops on Sep 17: Key Factors to Watch",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOThjdHNBeXJ3R0t5S1VZdTJyVWhxQ3lHOVJWNlhVbTF4aUR2T3o1UGxJMkZtX0hoaDVaSDdRa3hkRTg1WFJ3VjNJaV9qSU5CQzMwOEFZWVhqdzdyWEx3QjZMckR4UTFiQ3NKMFFkZzhTVEp2Q3lseENocVFUcWZyZk1EYjRZUDBXajZSVA?oc=5",
+   "source": "TradingKey",
+   "pubDate": "2026-09-17T06:35:12.000Z",
+   "description": "Brent (UKOIL) Drops on Sep 17: Key Factors to Watch&nbsp;&nbsp;TradingKey",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthi threats continue endangering future of Port of Eilat shipping",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhTHBySzZ1MkNCbV9UOHFMR1p1U1VJZk9YMTlKZS1FNzJxSHY2Q2lKRmh0Wk9UMWpFZnd2RmxLczRqQlNtY3BUb0xmRGZUZjVldmZHVmQ0LXRnU1dX?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-09-17T06:33:29.000Z",
+   "description": "Houthi threats continue endangering future of Port of Eilat shipping&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Experts: Houthi Attacks on Islamic Holy Sites Violate International Law",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVGxzbWRDT2FhdFRDTzY3eE1VVHpycjNTcEZYaVhZMDlJMTVQcFdLQXVVZGJicXdJSFFmLWtSOVItSEVHMVV0djVTYjBPUFBfNEJOU2o3ZzNibkJKWE5nSThTajRDNGE2YUh5WWgtejA5bVAySi1BMjliX2NSMGVOYTcycGhfZkwtLV85Q19lQldzNWZhUUhyX25vT1BocHN4M1N2TjVjMllJX2M?oc=5",
+   "source": "ASHARQ AL-AWSAT English",
+   "pubDate": "2026-09-17T06:31:57.000Z",
+   "description": "Experts: Houthi Attacks on Islamic Holy Sites Violate International Law&nbsp;&nbsp;ASHARQ AL-AWSAT English",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US Congress Clears Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTXllajRPNktaSUw0WFptWFViQ0kwczlBWnpqY3FIYnl6by1jRlBuRlNUYktmbFBZLWtnUkM2anFGeVBhWmxSQm5tXzBWc3l0aHlSNU00WW9pRE1vWTFJNXNFd3Nlaml5MExXd25sZVNaTllvQ0dQWXhoYnplbnZpS25B?oc=5",
+   "source": "The European Times",
+   "pubDate": "2026-09-17T06:31:03.000Z",
+   "description": "US Congress Clears Russia Sanctions Bill&nbsp;&nbsp;The European Times",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Israel weaponises AI for West Bank demolitions",
+   "link": "https://www.aljazeera.com/news/2026/9/17/israel-weaponises-ai-for-west-bank-demolitions?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-17T06:30:08.000Z",
+   "description": "AI tools push forced evictions of Palestinians, automating demolitions in occupied territories under Israeli control.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "How America’s sanctions bill on Russia could impact India and its oil markets",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHQ2VDhjbkExcFAzSExhOWwzd2Z0T1ZaeWMwQVFZTEJCQ2lLaGFuWkVOcmhxSDI5U2NUTVF0TGczbm5wR0ZtSUJKeTZtOURBU2xhSzhVR3lUSml3bEVsUXpIeFhjVDRXdlpqLXR1blpZc0g5TWZncmpzRW1HTW5KTEpiTHViTk1sRjhrMjQ1RHQzVUxPcVdlUi03TjZzSzNTMkdFVXdFbFpkZ0xGQ2g2SVZjbjR0RlNNeXBiS05uWjlIZHVVam8w0gHMAUFVX3lxTFBmUnJ1TTB4b3EzZk5ZeVd6dW9NRzRQNDROT0VCVk01M1F5c29KcHZXQTJzUkZSUy0zZk8wWjFaTEdldGU3X1BPREUwYm5CMGpna09xYkxNcjJUQ2NyU0tNTi1RMDBlNHlnVjZza1hPQUdkbE14bmRQUEZiZk9XbEJLejlySVVuUzlRX1RadmxhRmpPbzc1X0tad280ZE4xeHI0VVFUQ25wam01Uk5qdlBuTnpvSkFoLWs2MktQNUs3cnlibGZnYmE3U0NreA?oc=5",
+   "source": "Firstpost",
+   "pubDate": "2026-09-17T06:15:39.000Z",
+   "description": "How America’s sanctions bill on Russia could impact India and its oil markets&nbsp;&nbsp;Firstpost",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil prices decline, Brent slips to $104.59 per barrel",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTzBvLUpMUndUZVdFSjJZQ3NuSlFzd1hSWGJJNV9HV0EtNXpJcDczbUNuN1Q1cGNJdnd5Z2dSSUxnTjZSd2xIbG1aYU11QlVTY19tdlpjRkdxZE1TVlA0VFhQbjBmUTdZUURwbS1OV2RZdENMNExjLVdfNVl4RDd6UTQwUkdpWmtZcXlaOEMzZGFOUW5WQVUxWXdjaw?oc=5",
+   "source": "Sharjah24",
+   "pubDate": "2026-09-17T06:08:28.000Z",
+   "description": "Oil prices decline, Brent slips to $104.59 per barrel&nbsp;&nbsp;Sharjah24",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Video: Lawmakers react after House passes sweeping Russia sanctions bill",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSGhRd1hhbEtjRk1VcjFPLVhlVl84MFlsTFEwUVpLLTFpVXF4VUZsa2pUTFUxWndTOVA0bUg3ZThTREpkZDRhT2Y1V24zVHlmTWhwbkJWb2RjdTdYdlhlcHM3SURBdnZWUm9NNFJzMEkyUmhER1hCYXp4OGwxeGN6QXJ0V19JaXkxc1NwRWFlb0ZqX2pkR0VPNHRSTURGMGZubVE?oc=5",
+   "source": "livetube.tv",
+   "pubDate": "2026-09-17T06:02:44.000Z",
+   "description": "Video: Lawmakers react after House passes sweeping Russia sanctions bill&nbsp;&nbsp;livetube.tv",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "World’s 9th strongest military backs Saudi Arabia after Houthi drone attack near Mecca as Yemen militants forge deeper ties with an African terror group",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMG9Na0ptSEhBYWp0al9WaTF1bTUtbWdZYWY3MU1SV0Q3MkFNQ2JNSHBuTXhqb1MzaTVxNkFxYVJnTzdkdkF1NnpoeGFaa1o3SjcxWW9oUGJMMlZfNmJ6b1hCbnhFeUZvWFp3c1ZuRlhrcjJGMkwtajhZOHNfSlFlR3hoZkhFZ2l6V0k1VGtUcURuZ1lCOVlHZFdEYlh2VWZxU014enVlVlljYWdPT2pwNVdiZjhuQ1ZPR1QtOFF4eTRZMlFfT2lMRk9TN0puZjl5LVJWN2YwMHphUQ?oc=5",
+   "source": "Business Insider Africa",
+   "pubDate": "2026-09-17T06:00:00.000Z",
+   "description": "World’s 9th strongest military backs Saudi Arabia after Houthi drone attack near Mecca as Yemen militants forge deeper ties with an African terror group&nbsp;&nbsp;Business Insider Africa",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "House passes bill to add economic sanctions on Russia via tariffs",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOHdjVEpfbkVvelpUSVlpbmJRS2t6VGptdXJBQ2ZDYWJZSGpmZHoxb0dSMkk5ZGkwOE4xaFgxNVV1aUZOc3BfZVJFWkFVTmNjbGw3YlRYb252VE1nbEtVTTBFUnpfZEFaZDM0VXpwS0EybmlDR1llbENFWVhGVjlQaDl6SVI0NEdwWTlNZWU3Y1huT21qNEZzLXR6cDRHcXg0QV95TEhZclB0d0FDbm9Yak9jUGZ0MmRNdmZZUTJEX1dFNWRMYU1B?oc=5",
+   "source": "The Washington Post",
+   "pubDate": "2026-09-17T05:57:04.000Z",
+   "description": "House passes bill to add economic sanctions on Russia via tariffs&nbsp;&nbsp;The Washington Post",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "EU Loses 90 bln Euro Due to Situation in Strait of Hormuz: EC President",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOXdTRDFVdjU3SFlDem9LOG1KNV9sZk9XN0wwTDU1RURxUG4tbkQ4ZzZONmtCRGtsUzd6eWlJTEgySzFYX21CQnZTRWxqYndRVzNYNWtibzVVM2hXTTRkOWJpR2xaUWR0VFVjRjR0N3ZHLTBVU2NaQngyb3FoS0JjSTRSX3lpVnNIb3dCUU91ZlpjT3ZKY1JzWUk2N2s2dTZZQlI0ZE5EcE1aVFpiX1prYWpoZw?oc=5",
+   "source": "islamtimes.com",
+   "pubDate": "2026-09-17T05:48:03.000Z",
+   "description": "EU Loses 90 bln Euro Due to Situation in Strait of Hormuz: EC President&nbsp;&nbsp;islamtimes.com",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Thursday briefing: Yemen’s war continues to threaten oil supplies– but what about its people?",
+   "link": "https://www.theguardian.com/world/2026/sep/17/thursday-briefing-yemens-war-continues-to-threaten-oil-supplies-but-what-about-its-people",
+   "source": "The Guardian",
+   "pubDate": "2026-09-17T05:45:50.000Z",
+   "description": "In today’s newsletter: The Houthi advance along the Red Sea coast raised fears for global trade and energy supplies, while more than 100,000 Yemenis have been displaced by the fightingGood morning. The lightning advance of Houthi militants along the west coast of Yemen over the past week has prompte",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVzlqeTZUN0Vtd1g3cjZKczlGcHc2QVJPak9lWVBvdGNrZjM4TWNZNzN3ZjREWjFtWDlMVnRmcTkxMjR0eXlIb0tfRF9iNjFYVElPX1ZSXzhOVkQ5bjh6VjdCM2JJTFlTM0lyZ1FpQ0gwc1lCTERxMXFaS3VVWHRLVWhiRUNCYlk?oc=5",
+   "source": "CNN",
+   "pubDate": "2026-09-17T05:38:36.000Z",
+   "description": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance&nbsp;&nbsp;CNN",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "India faces 100% tariff threat over Russian oil after US House vote",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoVV9BNjBYTTRFMFg1V01KazlncmxrX0hkSmM3UXNCbHR0SlowdU9ST2VaRVNvT3J0MFIwc0c0ZUxGM3NLV1A2ZEZwVVFDd1JaZDI3dHlqQzRwdFk?oc=5",
+   "source": "BBC",
+   "pubDate": "2026-09-17T05:33:29.000Z",
+   "description": "India faces 100% tariff threat over Russian oil after US House vote&nbsp;&nbsp;BBC",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Number of ships transiting Strait of Hormuz falls to three on Wednesday, data shows",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY040VUp0a3duZlRTZW9xeHNnQ0hIUm42eUZRUmZvcjFfaW53SWFZTFZlaElfaXM5bW0zdlhib2M1N3BqZGJUV2tHeGdydFlMMFg3dngyLUJtREtjZVFLUGxCZ2ZMX3FZSHp6MjlPS29sR2xwbkRvd2M4c3BGajFGWFZadkVORTdwWGxJYVVRc2RsTWxZY3ZLMXJJWUp1TlZMX0QtUUEyaE9Gc01hOHA5bHNyN3ZsdWZFWFV2bENmV3pkZw?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-09-17T05:22:00.000Z",
+   "description": "Number of ships transiting Strait of Hormuz falls to three on Wednesday, data shows&nbsp;&nbsp;Reuters",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US Congress Clears Russia Sanctions Bill With Tariffs of Up to 100% on Major Energy Buyers",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xVlhESGt5dW9HYTB6ZWF3c0pMVjJRZ3F1YXV2Mkx1bzFqMUJLX1diT3Z6NWl3aldFUWFSZ3I0bFF3Wld4bGgzWGFRSk43MnVIWkpHV2I2THExWHhiVU5qc1Q4Ti1HdEppcXhnN3RFMDRGUQ?oc=5",
+   "source": "EU Today",
+   "pubDate": "2026-09-17T05:21:37.000Z",
+   "description": "US Congress Clears Russia Sanctions Bill With Tariffs of Up to 100% on Major Energy Buyers&nbsp;&nbsp;EU Today",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-09-17T05:20:00.000Z",
+   "description": "Crude oil prices, which dipped yesterday, extended their losses earlier today following reports that Saudi Arabia will be exporting more oil through Oman while the East-West pipeline is repaired. At the time of writing, Brent crude was trading at $105.89 per barrel, with West Texas Intermediate at $",
+   "categories": [
+    "opec",
+    "supply_other",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US Congress Passes Sweeping Russia Sanctions Bill, Sends It To Trump",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZUNEQ2tiemgxaWZNazZkRG40V2lqdEo2Y0dHcVhhSVZIT24yTzljY3FaWWl5YmQ3clN2OURHb2ZhczhYRkdrVjNNUWFnMUUzUzlvSnd5X25rUVFBeHZNaXBrSHByWEhUTTFOa0l2UFB3Zm5qNUplc0EtTGNpOXloeXlqYnN6Ni1wMnFFWGtn0gGQAUFVX3lxTFA0WDhkR3BvWklOcnNhTFNIdDQ4SmN6WTEtc1BfaXF5R0lDenhzR0c0SkFQbzJBb2MwOUQ0eEMxR3c5amZRVHNNQ2VmdmxVcUVUTWFsS0RwRGdCbmI4ZFVoQjBLVklUTTY3MEptT3FfeG5jeGZ6SWg5VnVzbE1GUXhKUXhnenZwaTFVZkN1VnY0Mw?oc=5",
+   "source": "Radio Free Europe/Radio Liberty",
+   "pubDate": "2026-09-17T05:18:57.000Z",
+   "description": "US Congress Passes Sweeping Russia Sanctions Bill, Sends It To Trump&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "How Russia sanctions Bill could give Trump upper hand in trade talks with India",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVFcwQ09pMWRkMG9DcTBoVzZMLWtiZU0tanJKeWFYMmNlcGhrbHdOU2FyWTlhSy12U2dreUo5LXk4MzFMU0lqMzRyT3NlT1MyUDNOZm1tZ216dzZsR3pKdWZza09YM3pjVEZBUFZBMW1UZDZnZ0ZHVXp0MXQ2MktuLTBxV2pWY1pYdFlxZnNvSDRRYVl1TTZqdXZrZkU3RE1TRjNUTkJLRG42WlM1MER0OTNsY3J4U1ZRTnhaOFpfZ1VnZEh40gHLAUFVX3lxTE8yV0FSbHVzQUNzY0syUEFORUxNYnhlS3lyT1M0ZlMwMW1aNnp5RWNJVnJsdzhZX3BtWVd0OFM1TTc1SFRhSi1RYzFHRlFlODdhdV93SGlBSUpTVnFmaE5waG54dXJhdjVXRHBFbEViMUxMUHpVY25ULUJtbkNIbTVSVGVQa3ktZmhWOVVVR2FENklXTjlHU3UxRzdXLUxxc2pZOU81bkg3RE54TEhYQU9XZnlpdWFOTFpmbTgtOER6YklzTGNZeWprTHo0?oc=5",
+   "source": "The Indian Express",
+   "pubDate": "2026-09-17T05:18:49.000Z",
+   "description": "How Russia sanctions Bill could give Trump upper hand in trade talks with India&nbsp;&nbsp;The Indian Express",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "MEA ‘monitoring developments’ of Russia sanctions bill in U.S. Congress",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOckZMZHZvZkpQdWRJQ0ZIRWZCOU1DQlBITC00MHRhWkNMWVNMSlJzMUVORlN3X0RuelBjbjNXLWtFcUJkbXNBY1JRN3lSUkxManBhZXczYkpiTlFtN2ZtUjhwSFFwRVppM19UTXNJZ2p1cmF3ajFVbTV0UVBWQVdDQXJ0bDZ3WEt2YkphZFZ6R2x3b3ZRWFFfQzlzWkdZN2hnVmxuT09iaHVxSF9uX3ZwM2FZd0M4RkFQN3hNU19ZaVVkSU1u0gHLAUFVX3lxTFA4TlF1NURYSTROS3c4cmlGNVJQZTVLRkVUREM1TDBlblNnVEY4M3QybWgwWG0wRVY1VjhSUWpfT0lMWDF3aV93SUplTGUzeUFhc3g2dWdULTdkRTE3REt0bkx0dFdPRGtqY1M2UDNWMmFEYy1XRW1GS1l1QmtjU0Njb2ItZTlpdk1wY3lFekpId2RXRHJIMTdhUEdOX0gwTEhWa3BhVGt5UWdSOFRXTU1vcTJIWS1kbzVicWJnWG0zQklGdmRJY0p4T1VB?oc=5",
+   "source": "The Hindu",
+   "pubDate": "2026-09-17T05:09:57.000Z",
+   "description": "MEA ‘monitoring developments’ of Russia sanctions bill in U.S. Congress&nbsp;&nbsp;The Hindu",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudi Crude via Oman Mitigates Oil Price Drop",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ2JzM29aLV9lNnJmcGxfZnRyVzNGOXVES1puLTk1NkRXNFllVzJBcmp3S2hEYWZUOWJmcGkyOWpBUDc1eG8yeklzSjZXZTRyalVVc0tIdFRHZDNWNWM4eUI1eG95dUFyRjQ2SG9qQlJfLWxkeVNEV3VxcWZzWEJtbUYxMno5TVZESkxpWlF3dTdncFBTemFZdW1qcVlNVVNCSUdDRA?oc=5",
+   "source": "Data Portuaria",
+   "pubDate": "2026-09-17T05:09:11.000Z",
+   "description": "Saudi Crude via Oman Mitigates Oil Price Drop&nbsp;&nbsp;Data Portuaria",
+   "categories": [
+    "opec",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iranian Drones And Missile Hit US Contracted Ship Near Strait Of Hormuz: Several Crew Members Injured",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZGZXNWg5c0phVzhzU3FYMEtXeW5ZZjRuNmxzYWlxUXJOY2RnUFJqdTR5bGRzQTNVNHBveVg5X2FFM1ZIT25IaDJHT3ktcUktdnJURkZvT2l3Ul85aC1SMEFFbEdldkRtT0NQX09kZTBoRDhKSzhpRDA3M3JJWXBrTFlrckFVWFpRVllMOEwtSkRWZmF6WTAwa09menFac253a0tMRFhCQ3hnV2I5NjhNTW1KY25SVE9ZaEJ3MmlpaXJlY2ZDbGIzdmtNNmJodUZQ0gHgAUFVX3lxTE9jR2JqR3c0Y0wzclJnTUVDeGtWS0pKY0tSaEZTMEVtTG5yd2NuUkVJZm5XTFpIUzVGel8yR0VzcGNGWklUUU9NcmFmTWoyZHhDZGtuYmJsZWVFZklpdlR3ODktRkREMzdkS3htOFZncm9GcTY1QkFwQ0tHdGROLUZMUXhXcFl5c3R2SzNLVmVfaHg3bXJVc0hhYVFwVlNFWlhkR1FvV192QWhUdERGS3k2UmViQllkMXRjSl96UHZ3S3J2RnFQaUlybXBOMGNobFJGc2YyVmRlZkxwaWFqWDlM?oc=5",
+   "source": "Swarajyamag",
+   "pubDate": "2026-09-17T05:05:46.000Z",
+   "description": "Iranian Drones And Missile Hit US Contracted Ship Near Strait Of Hormuz: Several Crew Members Injured&nbsp;&nbsp;Swarajyamag",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "‘You better clean up your act’: US lawmaker to India after Congress passes Russia sanctions bill",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbFg5ajNmMG5iZkF1eXFHV3FmV1FfRnM3eEVHeG1TTE1YQV85M0E5bFZwYWJoSTNpYXlKSnRnUUhGZjZ6SkxEQXotWUM5cEhQQVpRclVnM1dnNGJYT3pPSnBpY0RuWHVXcEpWeHlsY3R6djlKczJlV3U1S2ZGUjk0YWpQdmxXLU5rRmhVTjVyOVRvX0RVNGhtWE5kTFV5aHNCaTJWVVBCd3M5bXkyUTVqM1dYQnFUeHU1ck8weXlXME5RUzk2Z2xERWFkc0Y2Mm5QT2Z5SlQ4WEdSSTNOOHRhZTdaS3FZUERFa3ViT2tpQdIB9AFBVV95cUxPQ1pZLXJKNmhHTUZ6Q3VUcV9YekZYaTFwaGNvM3dmdUQ4S3JmWDRHUzItTkt2dWE1WnZiYkFGTDgwdm5URkYtenBUa24zQW9FckJtYllGNEx2OHF1YUNYZEFvaXBaTjdscWI2S2RuM0pzT2Q3NHdGT2czNUZ2ZENWTUg2eXZ2NktfbTJvM2xtMGJPcHJVMGxLR0NTcF9yQXg3QTdqbjhpYmY4R3hjMGdmY3hMRVYxalVPNFZLT0pJRW5QVzd4WXNfZ3FpUHBQZWk0RnZrSENPNXBabm1Pb1NwdFM5cEF3RS01LWlXVUw2eWRMdGwz?oc=5",
+   "source": "Firstpost",
+   "pubDate": "2026-09-17T05:05:32.000Z",
+   "description": "‘You better clean up your act’: US lawmaker to India after Congress passes Russia sanctions bill&nbsp;&nbsp;Firstpost",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "100% Trump tariffs loom: Russia sanctions bill passed in US; will it make India stop buying crude from Mo",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPNlZ4RVFuWkpCUHB5NTJFUkl5ZUxpNEs2UGRseWluRFMyV29BTl9LSTdqUWhFVjNZME9UOG5aamNER3h3VzNhVnR0bk1iemwzWWNZS0lrcUhweFdvbWxGeU5YMXp0M2k1NnlCYmI0eHEyMUtIOThESVA3djNoaGlFQXJkcW5PUXJHS0V6RmtnYWJvSVpjY0QwZWJkVmNyZ2NwUHpDMy13d3p5UXR6eHFzeDVPN3RpS1E5aFRZc1JiZGlLYUt3T0ZoMnZPQVRfemx2LUZfbVdIdWZzRXZWN21EbTM2NGw2QXg3MDVVbENuZjRmQkVOZmJBLVZ6N0RLcThPTmlFbGhSVVJSNFFuZ0k2M1NMTU5fN3Y5OFVQONIBogJBVV95cUxNdUYtalVBVUVGSDFqYWFuNHhlSEdmNDFxSmJPb20yQXBybmtLUzFCM1lwWG1nY21ZRGJoRmUxSmlud1ZJM3pUajVvaVVLZURZR2dLbkFMaGxDZlk1bmliTUJaS09vWmJVVUJPSUZPcnJwVThyN3VLaW92dnJHVExoQ3V6T0RxMHhEQXdDdjdET2cxVm1Rdi01SWFyN3MzZ1dZZkdEd0pGejdEbXQwMkxhVlFBQ0RyTnBTOTRHdkNiZWd0T1JfM01JUHdlSnJsUXh4cVl2LVZpeklSdkZ4VE0yaWRxcEphMjl2LTRHeUZmcFl3NExDbmNMN0xRd0FEbjY4dGI5UGpKTjg0QnQteHh0bEtNRkk3NGpYajVjQjl4NHV1QQ?oc=5",
+   "source": "The Times of India",
+   "pubDate": "2026-09-17T04:50:00.000Z",
+   "description": "100% Trump tariffs loom: Russia sanctions bill passed in US; will it make India stop buying crude from Mo&nbsp;&nbsp;The Times of India",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "‘1.4 billion people first’: India’s response to 100% US tariff threat over Russian oil",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRmFnOTUwdDJKTTZGb29GVGJ5RTBKSGtlLXprMXlRSTRncVBwZHEzUmU3UEMyMTAwaFZSdUw4aGIzUS1zSENHY3M5dDZZVlotWTJubUtmY25aSS15ZXJoeWNONU5Zejd4b3d2LVRIcElVbHpYUmhzY1ZqU1RsSWZuSEM2NDI0Y3dGWHN5UnVsWVRCSGlpV0kyNFZnWDlOZlZWOE5ienZSeFBTcWgzNFRuVl9tSnRtTGdETTQyeGYxUDFoMElrSVMw0gHOAUFVX3lxTE9Bb1EtUzF3WjVCaUVqaXAzX09HWHdNckhISWRDRWxXR045eVdBOXpwUmpMbEhzeWxIai10ZWpkVGdqT1VZQlBfTzFFYmJvRk43enhTWG1XWEVraXd0VExWdlJhM05hSUltMjZ3eE9Ua2t6VGkzVUVEbWJDQ1BsbjlqVE5rc3V0dFdjVVVidFlxTzZQYTlsTGF0N2dtQno1QWVzMnJ3TDBOREVRRzFVa1IxY1RrSVhLTllTTWtyZVloZXVUSUpHYXNPQzhsdy1R?oc=5",
+   "source": "The Indian Express",
+   "pubDate": "2026-09-17T04:38:34.000Z",
+   "description": "‘1.4 billion people first’: India’s response to 100% US tariff threat over Russian oil&nbsp;&nbsp;The Indian Express",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent crude prices slip on reports of Saudi cargoes via Oman",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1daSUZoZDNiUHVqQVVKdjB0R3VyakNCVnJtbGtjYTdWb3RaaFRHNWRfbDZkX2psNzdQbUNNZVFfSFZfS19KT2duT0ExUXJVU2ZjQTJpcUM3WUVrNEhndnlDTEJuM0pQamtELXotSnMzN2pmbFBWTmlTWFpLVnBvb2o5NVh1R3FjMG0xVC1wYXVwcEhlYzl6OFNFMHpHSE9kQXF1LWdGRnRHUVdaX3pkYUJ6Y0hlU2hWSXVUZmdXLTJxM2cyQ191RXh6UjhjaDhPNnJJd0psZlRHa1HSAeIBQVVfeXFMUDRTMV83Q3BxdmJIa2F1LXI5SUlzMkV1MGEzSkI2RVNBQWxGU0p3SG9aQ2RFZ2o4TnFIazdZNmFmbWgzVFktVVVGbFl0S1ZDZzJaME5IaFlrdDFPSDFjaVFqVU5FaVI1Wi1ZTjliT3lFdnlyUGxRV1ZQdFFsVkxlV2h6QTZubFBBUGl0MkRTencwdU90YlY0VGR0dEdwZW1lQ2JPQkhOdFg0YWlSTDZ0dlhDb3oyaXVDRU14al90Q0xVWkdEcS1QbFBYM05PcmpzWTJ4SmNRTGFRODdUNGYzWGFfdw?oc=5",
+   "source": "BusinessLine",
+   "pubDate": "2026-09-17T04:34:23.000Z",
+   "description": "Brent crude prices slip on reports of Saudi cargoes via Oman&nbsp;&nbsp;BusinessLine",
+   "categories": [
+    "opec",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Burning debris from the wreckage of what the Houthi military media wing says is a downed Saudi jet, at a location given as Yemen",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTm1NbzBNUGxYWE5vZnZrOXRxZFNsb3B3TC1aNWtIeWtQMnVWTkdoWVJoMVNVSm9wNnVmd253R3B0Nl9LX3VhNEN3Z2hsQVZ0TFp2OVpXSXN1Ni1iZE1uZWVlOGpxZVV4OWJCTkw4cFhWcDZVMldxS1ZTZTlzdkp5M3FQLVJ3OHRaYWJTWW1XX1JqRkx0VUlvM1BNT1V5a2ZFTHBFYkppY01TMzhmYUh2T0FzcXVYT0FkcVpaZUJBVEJYckJ1bVliSHZtNDVuZEFBVkx4MUtwcHZQUGM1VmVESFFVZHRFZXoxZDIwRzVBZ2luUGJ4WFAtSzZLUVZXV3pxNlNsVXBrWlUwOVk?oc=5",
+   "source": "The Lufkin Daily News",
+   "pubDate": "2026-09-17T04:32:30.000Z",
+   "description": "Burning debris from the wreckage of what the Houthi military media wing says is a downed Saudi jet, at a location given as Yemen&nbsp;&nbsp;The Lufkin Daily News",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "The Strait Of Hormuz And What Comes Next: Oil Market Outlook",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE03WmpNNDM0WUFPdzlTYnM2ZjJiVnBGLWFHUERfWG82QWJfN3dLZndSY3JKaUpoNERLLTdoZUhKd0dMeWNTZ092N0JfS1NBcVhLVmxvbFN0TVROcGVPOG1hOEhVSkQ2bU91VFhnNHlPZHpNU0JaNy1VY3lwMXRIYWRwY3JsYlR2UGcxeG9rUm1BZUU3V3Bj?oc=5",
+   "source": "Seeking Alpha",
+   "pubDate": "2026-09-17T04:30:00.000Z",
+   "description": "The Strait Of Hormuz And What Comes Next: Oil Market Outlook&nbsp;&nbsp;Seeking Alpha",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "High crude oil price, high interest rate and higher chances of super El Nino, all these may drive CPO price higher.",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRnFTZDA0WlBNUWpwNlBIQWVlWUs2clZkVGhSNnlIc2MtejNQS3BaRHBDY3BWZHljZVcyYko0T2hnU0FsWE1pTlpnY1pGSU0tOXpTamtPMWptMVJqT2dvUGlMUDBtSXN5UW12NWJURkFIXzZXTGN0TERKdUtKZkVrZjhyNlFzeG1FTk9oUWRiRUdoMDNrc2VmM2gyWXh2RGZIUFFqTVgzdFg?oc=5",
+   "source": "moomoo.com",
+   "pubDate": "2026-09-17T04:29:39.000Z",
+   "description": "High crude oil price, high interest rate and higher chances of super El Nino, all these may drive CPO price higher.&nbsp;&nbsp;moomoo.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "\"Will Protect Trade, Economic Interests\": India On US' Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUkd5MnJzMFY4Q3RYSmFUZWNIMnVOb016ZFowY1ZwZUFWODk3Nl8xUlBXV2FERWFyTGJrRnZKUy1OWHBsREliMkFhSkYwTktyd0MyRms2QkxxZ0JoS2dlcEFFR1htVGoxSTZEdmJlSExNRlJMR1IxMnFodmNjcUdQM2daZUNHbXZaS0I4aHlrQ1R2c3BWSXBzdVdTU0ZHOXlPZWEzRDdURE9iWVZfeWlhS1BWYmNrNThIRXY1MmxCVUVLTGstZ3JrRNIB0AFBVV95cUxOLXIwUUhoZDQ5RWlxWG1lWXdDaHFMUmxmT2NrVmtfeFpUWnRUWW5KYThLM3B4aEtCMU4xRTNMQWVYSGZhZ0N3elhQMXNUb2k2R3BjamRvRTdtNXZjV0NTSnlBbFFkY1JWTm5adHJVM09KSHotUkRhWDZaWkdWTE1kMzB3TG5YYmlUaG9kd1cwZHFPQVpYRzhra1RBWHZZWllGUXM1dTdhLV9laUEwYTd0WHVHSG02RDFnOGJnSURsUTI1Z0hnc2Y2SDhKNUJUOW9L?oc=5",
+   "source": "NDTV",
+   "pubDate": "2026-09-17T04:27:00.000Z",
+   "description": "\"Will Protect Trade, Economic Interests\": India On US' Russia Sanctions Bill&nbsp;&nbsp;NDTV",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Houthi fighters stand in front of what they say is a downed Saudi jet, at a location given as Yemen",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZkJ4YmFidE93WjlNNWhYT1dHeEV4NTF2Q0hhTzhONUVuM19LWTdGTWlQY2poTVp4ZFNxekRmbE81YTNQVGtUOVNqZXhPOTA4bXl0aU56UzRqemxqVFAyLThOcDY1a3lxaXp2RmNpVWlwekllRFIzUjRIVXFyMHVEamxJakVmSXJMMHRCeUFFdWVETjEySjRubGFsNzhnSGpmeVpwaXlsY01pb2pSVzdrVFNXTmFOTUN6Vy1PVUFaRkxUbU0tR1VfWjdqYXlLZVJwS082YktQSGlHN2d4WWpGMXRub3RJdGZXZFNRTkxxX0dKR2hNTnZacF80VWpyQnM?oc=5",
+   "source": "The Lufkin Daily News",
+   "pubDate": "2026-09-17T04:23:05.000Z",
+   "description": "Houthi fighters stand in front of what they say is a downed Saudi jet, at a location given as Yemen&nbsp;&nbsp;The Lufkin Daily News",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-09-17T04:23:00.000Z",
+   "description": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US blocks Palestinian leader from UN meeting in New York for second year in row",
+   "link": "https://www.bbc.co.uk/news/articles/cq783jlrr282o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC",
+   "pubDate": "2026-09-17T04:10:20.000Z",
+   "description": "The US State Department extended visa sanctions after accusing Palestinian officials of failing to live up to peace process commitments.",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "How Saudi Arabia's anti-Houthi strategy crashed and burned",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CUURTWlUtQ0VaU2ZrUF9IQmI2SHlkWEozbFIwWFZMODBuU2FhdUMtdkFUZU83dTdhWmoxRFZuai1BN3BzWG5wczgwUDI5QUVOd1h3NkQ4TVlTQ1ZuTWQ4LUxDU2Q?oc=5",
+   "source": "responsiblestatecraft.org",
+   "pubDate": "2026-09-17T04:09:51.000Z",
+   "description": "How Saudi Arabia's anti-Houthi strategy crashed and burned&nbsp;&nbsp;responsiblestatecraft.org",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump Plans to Sign Russia Sanctions Bill With Tariffs on Energy Buyers | Ukraine news - #Mezha",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zdFZkRlJPQmVmYWZMZnZrbEJwNVdPdGtpMVFYbEktUElLN0t0d3EtYXhFV05rZlBYZ1I3SVdiTmJta3pZNlRkRkFYajQ2R3F6TkFjNENNVHNUal9iV0pXdi1IV3pPT2s?oc=5",
+   "source": "Межа. Новини України.",
+   "pubDate": "2026-09-17T04:05:15.000Z",
+   "description": "Trump Plans to Sign Russia Sanctions Bill With Tariffs on Energy Buyers | Ukraine news - #Mezha&nbsp;&nbsp;Межа. Новини України.",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Will India face 100% Trump tariffs? What the US House’s Russia sanctions bill means for oil, trade and diplomacy",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcFozbERmUXdFX2t4QW5NLXJLUjFXZ1hTQk9TNnY2UU1yXzNlOFhBTlZfckg1bTY3aVBWcmQyWllzVW5wTmhEeXJLMmQxd0VJVWxvVEV5YkRXUGNmWDJGaWRYY2hyUDFCRTFnRFRneVBRN0tmSnNTOUVDZTF4aFZ4UVU3NG5QN3lBMm5qZ3ktZmcweW9ZV1lhMVRUZ2V1d3Nwc3FKbERHTFQtNTE4TThzWjdsMmczU3hwT3RLQldwSURWQ2llZ3VzOU42RjRyYkpyUHlaaHRoUXBZQQ?oc=5",
+   "source": "Open Magazine",
+   "pubDate": "2026-09-17T04:02:41.000Z",
+   "description": "Will India face 100% Trump tariffs? What the US House’s Russia sanctions bill means for oil, trade and diplomacy&nbsp;&nbsp;Open Magazine",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Houthis claim downing Saudi armed reconnaissance drone in Yemen's Marib",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PRjRuaVRQc0pCWUFYb1JYRWh5Y1VNcTgyNDNaYm9obHZuLVlkSUlndFozd0t6bkJCRlh2c3h0Y3RQNFhoREVwelNVbFNBTTQ2SV9RdExFZ0c?oc=5",
+   "source": "chinadailyasia.com",
+   "pubDate": "2026-09-17T04:00:03.000Z",
+   "description": "Houthis claim downing Saudi armed reconnaissance drone in Yemen's Marib&nbsp;&nbsp;chinadailyasia.com",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Price (WTI) on Sep 18, 2026",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHdlZlN0bWptN09FZnZsSUZZVjlDY0xOOEVDTFVsWWlZczVZekVwS2d5Q1BQUWdWV1d2UEY0LTFfTVNubjJmZ3lXQVhySHNWQkZyOFh4T1hmNnU0Q0JDNzhDT05qZ1JRMGdubUk5MlhReXdVOFJEd1lZZjI0eVZCWTBBT3Q5dTU3Q0NuUUV4bUxkaU1CdjVhR1VHS01pNVljR2ZDQVJWamZOa1lraGRORHJLd1Q?oc=5",
+   "source": "Robinhood",
+   "pubDate": "2026-09-17T03:28:14.000Z",
+   "description": "Oil Price (WTI) on Sep 18, 2026&nbsp;&nbsp;Robinhood",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "House approves sweeping Russia sanctions bill named for Sen. Lindsey Graham, sending it to Pres. Trump",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZ05UZmZxZzN2TXpBQjJGZEtMcl91VkFCMHBTN3NUWENHbmR2dm43QnFfTGpJV2JjY09WRUxkbEttekM4VVI1bmpPOXg4bEtLemt2WWR1TFQ4NG5MeXo0Wmw5U0wzVGxOX3U5cGt0SnNVZzUwNHFSOVZrbWh2VVdkbHF1RlpBQi0tY0pyV2UzRzNYQUVZeEhuNVdWQkloMVpIY29XUEhJcG5JUXVEV0EyY2pCa21RcnZWNGdsbDF2cC1NV2xJbEtKQm5QXzFoQkx2NGthNQ?oc=5",
+   "source": "foxcarolina.com",
+   "pubDate": "2026-09-17T03:28:00.000Z",
+   "description": "House approves sweeping Russia sanctions bill named for Sen. Lindsey Graham, sending it to Pres. Trump&nbsp;&nbsp;foxcarolina.com",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Political reaction to House approval for sweeping Russia sanctions bill",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWTU2U01ad3hyb3ZrM0NnOHBlbnNkMG1WWWFqTzA4eDZmZ01ndGRLd0hkaDNXTjlYZ3RDOHRHWHdaR3lTdFVyV2xrWVlrWUUyQW5CZkRsbzduWHVmRnE4Z3M4MlZuSkJWNG4zVngzdy1heC1Eb2tNblB4eWRqaWx1Z3Qwdm1xdG9JdmRuSjdoTkpPLWJ3N0E?oc=5",
+   "source": "Yahoo",
+   "pubDate": "2026-09-17T03:28:00.000Z",
+   "description": "Political reaction to House approval for sweeping Russia sanctions bill&nbsp;&nbsp;Yahoo",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil prices slide in early trading, Brent at $104.59",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUG4wQlNQNWZFNGVaWlYwQkxrRmRxSG1RcFFYOV91MlBENHpnaVVLb2hQOC1TR0xGbW5uVkQwbHVLb184TUI2Nno4eG1FNnQyYlcxVFFSSURac2l3VHZ6TGJPVXNxcUx0Z1RKSm5GT0JXR0x0NmxyWWNHd0FaajFHM2lGUy02UEV3Q2fSAYoBQVVfeXFMT1BuMEJTUDVmRTRlWlpWMEJMa0ZkcUhtUXBRWDlfdTJQRDR6Z2lVS29oUDgtU0dMRm1ublZEMGx1S29fOE1CNjZ6OHhtRTZ0MmJXMVRRUklEWnNpd1R2ekxiT1VzcXFMdGdUSkpuRk9CV0dMdDZsclljR3dBWmoxRzNpRlMtNlBFd0Nn?oc=5",
+   "source": "Qazinform",
+   "pubDate": "2026-09-17T03:27:50.000Z",
+   "description": "Oil prices slide in early trading, Brent at $104.59&nbsp;&nbsp;Qazinform",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthi advance toward Bab el-Mandeb adds pressure to global trade routes",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVDlrbGtUaWFwcDcwWTBVWkNfNHMyc1BrWGtnTEQ3SEVnQ3NEQ245TlY3M3hGUm0xZWljV214X1lUZE55TlFxQndZVDJVLVZ3NWNjRVlHMWdJUTFQMU9VY3EzbUpHSlNpTmZTcmMxYjJ4TmllNDVNclJlSFl5c2ZKbk5JOXdsVUpWUnpoR25IUGdPQUEtSjllY0w5cjZJZHpEWVlHUC1hOUc5Z9IBqgFBVV95cUxPOTNyMDg4YjlxUndla05wQm91bmFPRGJNMDRhRVhSbWtRcjZWRXBCVWx1MFMyR1NnNXNHNU9qMHQwbXBVcURxeDZvNzcxZVZ3MXJuSHdYNTFZVVJQdmI2UXk1YzlTYmRvOUhzaXpKZV9KVXNJRUllSXp6bHlNeVc0el9xQzhFNzVTemZnUVpQRGgyWm41cWNyWV9BaFoyVUhHbEZZdFZNR3RwZw?oc=5",
+   "source": "Qazinform",
+   "pubDate": "2026-09-17T03:27:49.000Z",
+   "description": "Houthi advance toward Bab el-Mandeb adds pressure to global trade routes&nbsp;&nbsp;Qazinform",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Yemeni forces target Houthis as US rules out direct role",
+   "link": "https://www.aljazeera.com/news/2026/9/17/yemeni-forces-target-houthis-and-a-saudi-base-as-us-rules-out-direct-role?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-17T03:26:56.000Z",
+   "description": "Saudi Arabia requests missile defence support from allies as the US sees its own stock of interceptors dwindle.",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US-Israel-Iran War Latest Live News: Is The Iran War Finally Nearing An End? Trump Signals Conflict Could Be Close To Conclusion As Gulf Leaders Prepare For Key Talks",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOT19iWVBNQ2ZhMzd1dDBsZEhTN1FwWlUxMzlLcEZHaE9vZ0ZGMmtyMGF5TTVMUXRvaENSSTNHYmVlanVSZ1dvT0JZVDFTYnpzTG1RdVBRTTNGQ2h5Uld0a0s0ZjZLTzNZSm1EZDA3NHI0WTZ6RVBDZXlPajBneE1oS1NtT0IzN0hNNFBZMENscTN3Wkw2QWhlUlNMa1FKRkh3TS1oX0NZR0lhbWhDUVhleXh2QV9xdnptWG5UZUdoMG51NWdKWkZQUmxzTDJ4b1J3c3dUNERacUwxeWpZc3dTMTBaOUxRVXA4Q3MzZTB1UlBlNzN5UEFKNXNYUm1OWTVvMTFobVRHVVFnVmh6NVJhcEs3bHdrcU5mQVlQSkRaeU9fd0J4U0VnWmhLUjd5T1MybkZn0gG4AkFVX3lxTE9BSzlqaEt3dXNRYWZaZUQyNTlVQ1FQbDRoS2N1dzlrQ3c1MVo0TXBvRUEyZ3cxX1hnaDVfdUtsX3NIVjNFSkdrZm5rbFBwUUJPeEpnNloySS1nanY5dndtSFVOS3BfUkQ0Q3BUWnFsYXdtOEtZd3FCaVJ2LVJCYlVDY3BvUndzT3N3bFgtWGVRQ2d6MFpmcWxfRk5fV05lMnRzX0tJX1M2X21hdm5uWlhfeEFCMGdvdk9oM09MNTR2YWE3Mm55UUVnYW9EMnN6c1R5Ui1YTFFZd3Q4VWVWaWpUdXkxWUJsa1NsOVZYTmdIel9ySnhVZWFBSUQtQlQzMVdXeXpUSEpVWE1fc3BxTlJ6MHNiZWtLaktSWHM0R1hwdjVoRkJBSU1QbzRIY1BUZlB1UE14TkNqbg?oc=5",
+   "source": "The Sunday Guardian",
+   "pubDate": "2026-09-17T03:25:36.000Z",
+   "description": "US-Israel-Iran War Latest Live News: Is The Iran War Finally Nearing An End? Trump Signals Conflict Could Be Close To Conclusion As Gulf Leaders Prepare For Key Talks&nbsp;&nbsp;The Sunday Guardian",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Congress approves new sanctions against Russia",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ3U1ZmZCbm0yemxybVFNXzVIa3ExQnFMMEpnbkUwYVE0NWY5OWtqTEtjVk0tWXZOeVBDai1uNExYbUpzZkR6THo2QmdqQ0NmbzNmMXdRbWxhbWtKelVxSDhXc05DMjhOVjI3b3AycnFEaC1aVENVaWZGelV6bW5qTFRpTXhTMEtFWWpHd0h3QW96aTRzTndDU2JMeHN0UnQtMl9YRjI3dFFSMDlVZWR3VmpTMEE2S3hKVGxn?oc=5",
+   "source": "WUSA9",
+   "pubDate": "2026-09-17T03:25:00.000Z",
+   "description": "Congress approves new sanctions against Russia&nbsp;&nbsp;WUSA9",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "India vows to protect trade after after US passes Russia sanctions bill",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWExqMnJOMnlvempjM0NCZGd4RWJSQzJyaURFRUdWUVdmMzZtYzh3eDl1MUNMTXNva0FYZnZzN2tkUVV1MU5TZmNfSm1mbXFMZlBaUUVaXzNrR3IzR2YzLUFVX0gza0wyekk2cnhsamEyQVVKR2IwbmlXWnFwOHQ4T3BRTXhhV0JkaW9GRWRRcW1ieU50TnBRM3NMdTV2TlIwLW1wVmJpQ21FMENDVlFLcUlR?oc=5",
+   "source": "Hürriyet Daily News",
+   "pubDate": "2026-09-17T03:23:12.000Z",
+   "description": "India vows to protect trade after after US passes Russia sanctions bill&nbsp;&nbsp;Hürriyet Daily News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil Price Forecast: WTI Nears $100 as Saudi Arabia Reroutes Crude",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQktBZ2w4cXE1Zmh2Q2hBUXROYXhTTEVwX09MeFMwOGgxbDRIQUptSmJPS1A3ZXF6VXV6Si1uXzhCdUx3bWVkbjFFeGZSc0ZZMFpkVVlKUy03dENTajJWWWtHb1lfVTlQNUViWnB0cHhnU0VxLVY1c3lWTTdFWm9BSVJsaFdmU0R3bTJPdlZXQVRfb01seUpueVI4Y1RwaFRIZU9SbDcyaUxSQWdJcmFNUmNEb0Q?oc=5",
+   "source": "FXEmpire",
+   "pubDate": "2026-09-17T03:14:59.000Z",
+   "description": "Oil Price Forecast: WTI Nears $100 as Saudi Arabia Reroutes Crude&nbsp;&nbsp;FXEmpire",
+   "categories": [
+    "opec",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russia Sanctions Bill Clears US Congress, Putting India and China Under New Tariff Risk",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTllFUWc4aTV1d3ZxWUZlTDlVRENSaXRPMkxlSUxGTmd0c2o3SEktaERQZXZHLUl6UzRodWNPc2t3VkRfeUc2aWlzY2thT0dDOTltUXJfSEpyQy1OWVM0X2FRUFNxUkNGeGs3Qy1YcHJ3Mm9MUVFKczZMS1pJdndxNF80Rm9rUWJkSWZHZE1PYW5xZ1lpeV9Ub0owSVBQU0JRM3VoZ19vSVQxUkR2OWJaSGZOUjNVdzTSAccBQVVfeXFMT19wNTJQa0hfN0toajV5cEo0Wm8zVGhaeEROTWc3bE1rYlVRZXRhQXhpQTB5dldmQ0pybEFVbGhZamRrUEJMVjcyYWZhSWR3bG5XV3FyazE1RnBKeWhyV2dFUThfejhVSk5obUtnTUhVaF92MXJ2TUFwQlpsRjFBdzJIc3F4bFlJd25nckNzZWhhWHU2aDJLLWExQUdCd2hLMVRlMXdJY2ZoMm92aEZQTlA5VExJN2lKWjlBQVpkdmUwNzhUSko4RQ?oc=5",
+   "source": "Swarajyamag",
+   "pubDate": "2026-09-17T03:11:50.000Z",
+   "description": "Russia Sanctions Bill Clears US Congress, Putting India and China Under New Tariff Risk&nbsp;&nbsp;Swarajyamag",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+   "source": "LiteFinance",
+   "pubDate": "2026-09-17T03:04:32.000Z",
+   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthis experiment with 'weapons no other armed group possesses'",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ2lIYVhCeVRRWHVYaEtfR1NLT2F6V1ZIQnpwY3BVX1FBclEtS2xTaXg2MWpveXA5TTh0UHJfS3Q5UEpzYnh3S3NLU1V3bURYSS1nODZHSTVrNFVWNHAtQVBFckhBNlB6WGhvalFZWUlIU0J6NFJMdTRseHR0dDJJQmNpWm0yT3dvdkFERkdVRWhIU3dUWnc2TDdFZGlNRXVoWS1MT19HRERnQmFSVnF5S21XSXNOQzg?oc=5",
+   "source": "thenationalnews.com",
+   "pubDate": "2026-09-17T02:51:55.000Z",
+   "description": "Houthis experiment with 'weapons no other armed group possesses'&nbsp;&nbsp;thenationalnews.com",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Chairman Wicker Celebrates House Passage of Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1ByT3RtZTVuR2syR0hFSm1EUjJNYmNZeFJuSFV5QnBNMmVCck5ydjkycHg0XzZJcHQ3bWRybDc4ZFdDWWgwb0lhM0UzaW5xVFV3Umd5cmlDUjIwMTdzREduMGIyaFE2SXlWTlJScTljMWFlX0cyaGREVGhMTURJZXJrRTQyZTRaWkczRVZYbDFTR01xMi1RQ3A0dEktajVjMjNIeFA5cTF2MFk?oc=5",
+   "source": "U.S. Senator Roger Wicker (.gov)",
+   "pubDate": "2026-09-17T02:45:30.000Z",
+   "description": "Chairman Wicker Celebrates House Passage of Russia Sanctions Bill&nbsp;&nbsp;U.S. Senator Roger Wicker (.gov)",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US House Passes Sweeping Russia Sanctions Bill, Sends It to Trump",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mU21lMGMtdVdKZ1hfRVVndWQtN0NmZUN5VXdfaFJxNVEtX3MwRy1qTFB3RFptRVQzVmRjZVJTRDZ0UzRZRzNUcFZOYw?oc=5",
+   "source": "Kyiv Post",
+   "pubDate": "2026-09-17T02:45:04.000Z",
+   "description": "US House Passes Sweeping Russia Sanctions Bill, Sends It to Trump&nbsp;&nbsp;Kyiv Post",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudis reportedly won’t budge on Israel normalization, as they seek help against Houthis",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbm43NUVUbFpRc29EUkx6SndPbVQtNHVmRE5ud1B6ZlR4ZkYycXNRLWEyOXlZU2VXaWFMc2ZkN3ZoeEFUMk83QmxYVTlVQ0RCdTlIYWJkaU5scFEtd0sxSnZlRnFlbUhRMlBJLWo0TkQ2ZEJqODV3RWxfOXJRQWdnZnJQSGdaSVYyWDBlakVoYjB5OEptNFhGMzBvb0dfVmo1cGN5QW5QczAxeEJEeE8wZFg1aGFROXE10gG-AUFVX3lxTE5TOHdHWHlJWm93QzQ5VXk0N3F1V0NNUTNBNzAtd2tXWC1Da216bEV1bE9OQi1tdGgwRjdNUW5FODBLZUItRGcwUjZIMU9takRkbEdkamFSSXNod3BjNkpSUVE1VExyQkJJbHptajNfTkdIUm51Q1VXdVVrQ2JGMVFDeFV5azdydlh0bjVYakZXU2tka0t0cVVSZEJpaFlIQl95TU42dGlGdzI4N2FCa0FGOHB2U3lEaWVYYVU3RGc?oc=5",
+   "source": "The Times of Israel",
+   "pubDate": "2026-09-17T02:42:50.000Z",
+   "description": "Saudis reportedly won’t budge on Israel normalization, as they seek help against Houthis&nbsp;&nbsp;The Times of Israel",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Govt cuts windfall tax on petrol, diesel, ATF exports amid oil price volatility",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTm9weUQ5eW5ZLUR4bExaZU1mSzNZTVlVSWg0OG9FbVdXR1BmMDVuTDhmLTZlVC1NTy02OW80N2wtUno2eWI1bmU2WXFsbmh3N2ZIdzhRM3kxdUJBMHZZRkh2X25MRnJ6dzladXI0OUo4OU42WXpscnhvY3R0WmRuZkx2VUx1NGIzaXA3R2VDUV9jMzlFZ3VYa1hYSEM2NnFHNldHanYyaTMyenZKNlk2TzVmMDJoYkVFb3QzSlV0S29xMlNndVRlTNIBzgFBVV95cUxPbW9RaGwxajJEZGU1YlJMOVpiZFhiMXF1M01mdUsyZUhGbmdKZ1NsVWRjVGwwVkRGY3ZIRHNQTDlGQWp2M19RNDZ4ak5Qa002NzBEeDQ3UC1HczdlNVExYUFKbm01TC1iWFBwRktfdm44TTcyc1BkNjF1ZlhCWHh5d1hReTdyNmtlaGg3V1dXeGVxdERlUkMtVktZdFkxR0hqOXRYNmhHTk5VQmRJVmVPVWlBN2N0ZmRWRGxzLWJvZ3lBeE9hRkZxaFZUUERNUQ?oc=5",
+   "source": "India Today",
+   "pubDate": "2026-09-17T02:27:38.000Z",
+   "description": "Govt cuts windfall tax on petrol, diesel, ATF exports amid oil price volatility&nbsp;&nbsp;India Today",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "House passes Russia sanctions bill giving Trump new tariff authority",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTmI2czZQWlBleUl0UXlQTXlzUXY3eEJkRTJQbXZyOHpJN1NzTFJpRW1ZUFVlOUtOZEZMVkZpN1pGX0VUNmNPZUxvVk9kdnhicDdCOXlocFoxVWF0emZoWHVKRmFEYjAyWlE5bmFIRnlCOVQyOE1qTTVHYW9DaDA5VmhGVkZOOWFRbWYySnV3TUNKQVJISkxXUHJDTGs2M2w2MUJORGxPbm1KRWJISk1n?oc=5",
+   "source": "Agri-Pulse Communications, Inc.",
+   "pubDate": "2026-09-17T02:17:06.000Z",
+   "description": "House passes Russia sanctions bill giving Trump new tariff authority&nbsp;&nbsp;Agri-Pulse Communications, Inc.",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil Price Today (September 17): Crude oil falls below $105 even as Middle East tensions simmer. Here’s why",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQLTlfQjNodzlDbE1UbVdlUk9Xalk4TTV1cVBMZTJfSS1UVFd3N2FBaXZkbXNpNXZ3Y3V2YllrREg4dEJDX1dWUkNnX2dkZ0xFMjRpXzFkOWhSQTZQTTBhU2RHempzZWNabDNvOGxXYXlFWHZnVE1Sd2lfb09KVTZXaG1ORGx0bzBqbk82ZzZOdmFITmhVMnoycnVYenBEcWhTQ2Rxa004U2VDR1hQWHoxQ0JuZXA4cFd2NHRtZURWNXJiUl8xNVctbHpHZk5uVmdKQWJVV3hoaEZ3ODAtUklrejduQmRJbEFYTklHSGIwbHpxelBkVm5ia1FWZGlCSmhYYXVlRFMzbko4V1XSAZACQVVfeXFMTmJzUC1XNFIwcnZDOGEzR3YyZVlNU1pvdnZUWlNiX2JsVHFoNGhHNWJ3X2VqNjN4ZVRKTVpwaDRfendFRWFBY2hJSXE0QUJlUm9RZlBVQ29WR3pWX0lOMlVTbnVuTmVOd2l6dmk0US13ZFNsdkd3R2x1amg2TlI1d0xuVTN0Zk9IN2UxNFJTT0prWXRycmZCVjRVeHMyV0hITkNieTFSUnBVU3NaR0M0NWh2dm85N0ppMWc5dEVWSVJ1ZS1IeGx0ZHZxNmk0c1B1WTZMVzZTX09GSEc0TkM5bm52MnhyTG4ySXVELVNsMVRzRGlFZjhVRzJ2X0FBWTdoaENHVUE5NXZCM2RfV3hQeHc?oc=5",
+   "source": "The Economic Times",
+   "pubDate": "2026-09-17T02:16:41.000Z",
+   "description": "Oil Price Today (September 17): Crude oil falls below $105 even as Middle East tensions simmer. Here’s why&nbsp;&nbsp;The Economic Times",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "There was only one unknown about Brent Burns’ future",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmduUEhISzdORTNDYTc3MGh0Q3ZIWTZ1SzByNUZJdC1iLWRaQjRtOHN3SkUyWFVJYkR0aE5nejFhalYyc0JMSzVoQUcxWjNXbEdXVzdOZFBkRy1XUXRuSnliZDZhb3hJeUZldS1BZUJ1dDd2bjZwSVdHT21iRE8waEVGNTF2VWxmdGk3TkgxaDRWZWpRRGRjRg?oc=5",
+   "source": "Mile High Sticking",
+   "pubDate": "2026-09-17T02:16:00.000Z",
+   "description": "There was only one unknown about Brent Burns’ future&nbsp;&nbsp;Mile High Sticking",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "U.S. weighing options amid Houthi-Saudi conflict",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TODNSdHFKYTJtZ29TUWRxZ2JtTzEyQXhPSFhRYkxmZkNKNkpsam9MWVF4SFJwbllHMlFFUHd4NGZSaC1TVThCYlMtdFNwV0xqOVQwWWZhdFBiVmFsaEhiUDhFUdIBaEFVX3lxTE9sYUZ0NXBOdzIxOTlRSi1zT1hCbUdMclJwbVdoTi1scVVQX3FHaFp4SHNuWHh1MVpGSUoxNEZOTFVEREU2SkJEZXFqdUZuMGlJVk8wMU9FQi1ZYm5aenpLdVJrSnBWRFM3?oc=5",
+   "source": "LiveNOW from FOX",
+   "pubDate": "2026-09-17T02:08:41.000Z",
+   "description": "U.S. weighing options amid Houthi-Saudi conflict&nbsp;&nbsp;LiveNOW from FOX",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russia Sanctions Reach Trump's Desk. How It Will Affect India's Oil Trade",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUXNJMXVUTHd2ekFWTkJqdERYbF9NYVdXd21nSUU0eUwtd1hpLW1MaDdzNDl2dkJSa19WbWRjbmE1cjVCZHNCMklKZ0hBMDFscFpWXzdJQjFtaVhqNGJtOHY5YlNTODJIZkI4SE9JTVVKRndGbWN3aXVpa18xVDd3SjJOTFRFNkgtRmw3dEVTVTRhTnBFUjBnTy1ZN2JFcGNvbWxNQU5wQVpZU0V1a2V2Y0poVdIBuwFBVV95cUxQNWIwU05weTA1RTZ3Nl9UTXM1TFlkLTludXp2U2FPZ2hnVlczRERhMEh3eUd3VGUtY3FfaFl4YTNGV05ya3U0dEtGcFVXSlNFTi1NX0ZSczhpeE5qd0l2RnFwWS16al9QRDIzT2R2Q1I5OS1rXy1BR1JfQndSaFJhUDZhcGZ5Vm50TnROQW9sUURadGdVa2dQV1pZaUNxT2ZfUFlsT0tnTUttcUQ3RUFxaVNVTFRKVTM5ejA0?oc=5",
+   "source": "NDTV",
+   "pubDate": "2026-09-17T02:06:39.000Z",
+   "description": "Russia Sanctions Reach Trump's Desk. How It Will Affect India's Oil Trade&nbsp;&nbsp;NDTV",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent Crude Oil Receives a Positive Boost – Analysis – 17-09-2026",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPc0l1N1NFUVQyQjFYZDRSN2h2QUxNbXJCem52Z1NQNVdPMUx6MkN1RjNCbnRrX2tEY1dHeDZDekx2SE96X3RYZTBjQS1vWkRUbGVpZmJaWktTNlVjTC1IU0sxTmI2NHp4Yk52OVFPdy1tWi1zVnNUTS1jRzYwYVNGcS1sWUhqVnV6MTJ3REpGTklJamxubWMtV0JRSDZBSlRrVUNlRm5lRFJNNVZwTWdQLTFUTVctR1F2V1FfWHQ1STk1VFBITmI5UEtZQlNmVGN1cW9oMzZ4WXlrWG9Xa3c?oc=5",
+   "source": "economies.com",
+   "pubDate": "2026-09-17T02:05:00.000Z",
+   "description": "Brent Crude Oil Receives a Positive Boost – Analysis – 17-09-2026&nbsp;&nbsp;economies.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthi Advance Tests the Mecca Agreement and Middle East Defense",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOemIyRU5tSGQxNFR6SVpLZjJOeUFTdm1yMlVRUEd0amNMU05CWE84RWNDbEg0azFFYUNRTXhuUWVDd2MwYVRJSjRqUm9qdC1SdUVmVGVpTXlfV0JlREg5ZlBQeGZ1THRoMXh0RnVLSmZxdE5LTFd5enJCX3pmWmpqQ3ZVOUppTXFyWGxYeFNaajdzWkE?oc=5",
+   "source": "Modern Diplomacy",
+   "pubDate": "2026-09-17T02:00:03.000Z",
+   "description": "Houthi Advance Tests the Mecca Agreement and Middle East Defense&nbsp;&nbsp;Modern Diplomacy",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil extends losses as Saudi Arabia reportedly offers ship-to-ship crude transfers after pipeline hit",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdEVJc0oxa0dmMXN1eW1DbTZWSDB5TGpPUGxaNEtRWFpITEZvUTNVQnczYkdkX1NUV2JIejl2Y0V0MmNWc2U0WmFrLV9GUWRNUHR3Rmk4eHRYa2d0MmFkQ1ZWQ0o3RTZQMGdPbFNNeTQzYVhtYlVacXFoaUlwaEh0RmJyWmI4UdIBiwFBVV95cUxOcHdJVXpwdHFBbkc5M1E4RzUxOXN4emVFS2gyajNLRVI2b0JtdllRWXF6TE5DQ0pPTFhSaUNTNGNVb05NY3RUdmtsZ1pNaGN2aG1ManlLOWtqeTBKSjNBbmRCdFVSb3B6MXljcnBkRHMyQmVjQnZJWWpIM3k2RVN4U0VrVzJkeVJndE1Z?oc=5",
+   "source": "CNBC",
+   "pubDate": "2026-09-17T01:59:00.000Z",
+   "description": "Oil extends losses as Saudi Arabia reportedly offers ship-to-ship crude transfers after pipeline hit&nbsp;&nbsp;CNBC",
+   "categories": [
+    "opec",
+    "supply_other",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Reports: US, Houthis make secret deal over Yemen war",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/17/reports-us-houthis-make-secret-deal-over-yemen-war?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-17T01:53:18.000Z",
+   "description": "Yemen’s Houthis have agreed to allow US shipping unfettered Red Sea access if Washington refrains from military action.",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthi rebels claim shoot down of Saudi F-15SA",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd1BIbjF4NEJVdnA1VlhPZ3ZuaFZ6ZzQ3aDMteGxCMzE2WThFcTVkZlI3MkFvX214VGh0b2swdFV3ZTU0d0I5R2tlQVhtMDlDeGducVFYRFV6Nmg5ZE80Qk41bWhBXzhxc2lRU29xTVhjMXFBRlFpUk1hb0RhM2M4Zi13UDVjOWI1RkdxU2gzX1JQaW9vQ2JBQm5ybw?oc=5",
+   "source": "FlightGlobal",
+   "pubDate": "2026-09-17T01:45:08.000Z",
+   "description": "Houthi rebels claim shoot down of Saudi F-15SA&nbsp;&nbsp;FlightGlobal",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US, Iran clash at UN after Tehran gets nuclear non-proliferation role",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMHRZb05LeGNOYklMREx1eXhJSlY2M05WTW9mNjY2Q05jTTU2Sm0tZF85Mm1RV2ZqQ0p6ekJ2alRKSnV4ZnUtSWlRV3hlbm9jSVNwaDFfd19fbGY3Q2VZaHhZMFFrTTFmejMyajNZUWxXLWJCeU9aZ0E5OTVuRXVOR1NuWXNjbHlFVFFmWVAxQWstMzNha3NPLVNR?oc=5",
+   "source": "DD News",
+   "pubDate": "2026-09-17T01:40:58.000Z",
+   "description": "US, Iran clash at UN after Tehran gets nuclear non-proliferation role&nbsp;&nbsp;DD News",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?oc=5",
+   "source": "theguardian.com",
+   "pubDate": "2026-09-17T01:30:00.000Z",
+   "description": "US House votes for third time to end Iran war after $38bn cost is revealed&nbsp;&nbsp;theguardian.com",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "House passes Russia and Iran sanctions bill championed by Sen. Lindsey Graham - ABC News",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmlXU1czaFNUa25HYVlNdG1OSXppVlEweG5IUElycWMzQTZSRnlZRTN5WDd2aTgxZU43VlN6c2ozb0JKX2RycUZCZThzQUdtYkRtd3JBQUxQTmczN1pnVy1PTVJObzFzWXhVaHQycHlDbE5tQWltNU05WWV1WEhiVWd5SlpjeUQwYkYybThyUDI4NTVIMS0wVm5JVFJGU3JTNEdpR9IBqgFBVV95cUxNSUxmZFlfaF9wZW9EV1BTNi1ycHgxWFhvNWxMd0hTQUoxWmhGMVYtcGtNY3VrZ2YwcmoyV0VZNU9tcVFLQnBfbl9TMEZhMlpoei1nWnAxTk5yRDZTZTlMaEJXYVVUOE9PS0kwX3l1cndpOUM3YVVEcjR1WG9xQjE2OU1ZbEg0NHVZV252Q3Z0dTBvVTBlM05VWlZLc3c5MVhWZW5PenlRXzBYUQ?oc=5",
+   "source": "Breaking News, Latest News and Videos",
+   "pubDate": "2026-09-17T01:28:35.000Z",
+   "description": "House passes Russia and Iran sanctions bill championed by Sen. Lindsey Graham&nbsp;&nbsp;ABC News - Breaking News, Latest News and Videos",
+   "categories": [
+    "iran_israel",
     "russia_ukraine",
     "usa_policy"
    ],
@@ -412,32 +1372,9 @@
    "link": "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs",
    "source": "The Guardian",
    "pubDate": "2026-09-17T01:13:11.000Z",
-   "description": "The US president call the move a ‘hostile act’, as Canada seeks to move closer to the EU and diversify its defence tiesDonald Trump has threatened the European Union with “serious tariffs” and a cut to trade after the bloc proposed to make Canada its first ever associate member, calling the idea “la",
+   "description": "US president warns over ‘hostile act’, as Canada seeks to move closer to the EU and diversify its defence tiesDonald Trump has threatened the European Union with “serious tariffs” and a cut to trade after the bloc proposed to make Canada its first ever associate member, calling the idea “laughable”.",
    "categories": [
     "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Russian oil sanctions bill in crucial US House test, India faces 100% tariff threat",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1pray00a0V6Q2VPVV83bGZKVkQxMTY4MkY1Zm8tdXNIUjg3UWEzN0VNM1hfMWFrS0k3ZmxyZTdzY0Q0c1dUTDNPSnlpUDB3MmtEYTV0RkFYN3R6LXBjaGhxeHhCdE1IbTVOcUlzcTR6QVNXSU05bk1wc1JDMlVacDZ2U29mZjFnM09LdTFOeGdRSjNtSHpfanlsN252LTB6Z2ttelJaTTdIR3QtV215VzdyRkRqdkZoZnMzSkw0YndwQzloYjJaRndUaVlVSkZSTUHSAdcBQVVfeXFMTXBwU3J1ODBWMEx3R0JhclhqYjl2cW5YVzVpV2tGR1h0Qm1PSGstalJKS0FqZ25DcUFESXJyZ09JVU1ZZlZKbndDQ3lvNE84bTNpaF8xZUg4WUdQb0hyZ2lLZzA5ckFyakc5VnRZSGk3SnRSRFRCSDFya2FMeDlMTlVEZVNfRVRkb09mMWhrVkEzTnNneWhkYWtXbXEtNHZwRC1NT2V1MmR4VjEyZm9pX2VRZE9OOEF1ZEF0LVFsamx2alVEbHFZZ3FnTmZaazdyY25oRVRkdFk?oc=5",
-   "source": "Telegraph India",
-   "pubDate": "2026-09-17T01:05:10.000Z",
-   "description": "Russian oil sanctions bill in crucial US House test, India faces 100% tariff threat&nbsp;&nbsp;Telegraph India",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-09-17T01:03:31.000Z",
-   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
-   "categories": [
-    "iran_israel"
    ],
    "severity": "medium"
   },
@@ -455,35 +1392,11 @@
    "severity": "medium"
   },
   {
-   "title": "House Passes Russia Sanctions Bill Named After Lindsey Graham, Sends to Trump",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMlNFUThRMWVXa05lMmFKOGlKVEFqMGFQVDFKTExFT25SakZ1T1NWYWctVHNRSkdhOE5jeUlUWkZrQjIxTXBvNW9yc3pGM0JvUFlfMVoxNS0teGdNa1RfclVRa21BN0hYbjM0NWt2bVBXaDUyX2c2Q1dWMW85cHpiNDJqVDRDYy1jYm1mMk9tQnV1RnBXek1KQWxEbUxsN3hBczhiMzlpYXpYYlp1TGJhRVVn?oc=5",
-   "source": "KSLM Radio",
-   "pubDate": "2026-09-17T01:02:07.000Z",
-   "description": "House Passes Russia Sanctions Bill Named After Lindsey Graham, Sends to Trump&nbsp;&nbsp;KSLM Radio",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes Russia sanctions bill, India faces 100% tariff threat",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVVaUG1yeENLd3BoLWktd00tVzI2NHo5WGkybTE2MlVKc2JWSWdNcnhDN0pzZ2NnbENjMUlIVmY1eGh4YWZOeVloZkdUNUwxTWsxVTdNSUlPTld1WENNSFpDR0NNVXIyeWlYck5LMFFZcW1YR0ExSW1NeHZuclhNLWhCdjZyV25ta3Vub09ldkttNXhKWUxDOU5DOVlPNW5LMlVWSVJtRXFMOFlRcWJjeUhrc9IBuAFBVV95cUxQdHhMVTNmZ1FxRHZZbjh0M0dmbjlDSUkxYm85ejNzNUFaVHliN01lU1NSd3kyRjJhUVViSjRKbEdHSjFHV2M2aHpib0tZRnZsYTBTQXZNakFrbFhkWmctMTlMX2Jsc1gxSXJmREhWUlN6MkE1b1E1blY2RGc3RDVGNjRwclZnV1ZHRW90alV0Z1JvVjFENHVVdi16SllRSFRzVUhpS0l0Z3o2dm1IakxKZVdQU1ZfVGs1?oc=5",
-   "source": "Firstpost",
-   "pubDate": "2026-09-17T01:01:24.000Z",
-   "description": "US House passes Russia sanctions bill, India faces 100% tariff threat&nbsp;&nbsp;Firstpost",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent slips below $105; Crude oil eases further as supply disruption fears diminish",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSXVVaDRlcW9ROVFuajRCLUVKX0pPMVRvRmI5cDhvcHRVZFY1TlFEVXE1endwNkNLWGFhQWVCY1VyWVV1RlBTdVBnSjRpTnY5UFBiT3piYXdEdmRObjMxZWNvOTdMZXRudWE5MFdFYTdlQklsRDMxSDJHVHBVS29xR2k1RURlR0lMU3RmNHc0Tmpaa2M2amVFaS1iVVlWQ0tmMnhkYll1TVRReU9oRDFmeUZNcHRuRGktNmJSX3NhY2ZucEpHWGpXMXRqWFR0ekRYUTl4MXNKYWdUTW8tekIyR2ZUa0c3Vk5xeUlqaUphdzZIU1ZsMWZRaWNnc9IBgAJBVV95cUxORUtIV2FXTHVmRTFUQjFNQ1ZwWnY0MVBJOVQyLXQ4T3RjWHRBcUUzRkVqYmtQbFVXSUdZeGdCcFBOb3JrN0IzYngxNnFyTkhJcDdLQjZ3dHBPNDlBbW84SzFIdzRpdC1NVXc1amt1SzdIVXpKTDV5SWYwbkRIS1FuZktCSFB6Qndra0x2OVhhN1hkRjl4UHpKeHNEQUhicDhvM2pUa2paZkhTRnNwX21Nc3NyM05vR18tTTFNSjZ3WUdJTE5XUTl3ak5mUzl6N3FiRkQxRUJjOXV5OGZtRlh6NG54WXVFeW1SdWNLWWlScWlNcDMyUFdnNFBLVTV3X09p?oc=5",
-   "source": "cnbctv18.com",
-   "pubDate": "2026-09-17T01:00:36.000Z",
-   "description": "Brent slips below $105; Crude oil eases further as supply disruption fears diminish&nbsp;&nbsp;cnbctv18.com",
+   "title": "Oil prices extend losses on easing fears of Middle East supply disruption",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-09-17T01:00:00.000Z",
+   "description": "Oil prices extend losses on easing fears of Middle East supply disruption&nbsp;&nbsp;Reuters",
    "categories": [
     "market"
    ],
@@ -493,7 +1406,7 @@
    "title": "OU stands behind Brent Venables after Michigan loss as $63 million deal gets approved",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa3E4VmlJWWRIdDJEQVlKaGd0ZnpTY3VScjd2dVR4dWFvdklVc1pXMHpYQXBCUkpSNmRRM2pTOFBwb3ZkSzFha3BIUUhRdjdIbUVCTURfYm4wcVJLaEp6MTZpdDk5R1ZqSlNJaWsyLWF1TW1DRktpd0xxYXZqZXpwUkF5WnFQa3VtSExNTll4ZHdwWElx?oc=5",
    "source": "Tulsa World",
-   "pubDate": "2026-09-17T00:56:15.000Z",
+   "pubDate": "2026-09-17T00:58:45.000Z",
    "description": "OU stands behind Brent Venables after Michigan loss as $63 million deal gets approved&nbsp;&nbsp;Tulsa World",
    "categories": [
     "market"
@@ -513,29 +1426,15 @@
    "severity": "medium"
   },
   {
-   "title": "US House clears Russia sanctions bill targeting India, China oil trade",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZXBzdE15b2o4YVJBX0lIQTYwY2lIOVQ1TTVQck4xVEhGZFZvMzY3czdodVdHWmtsQ1lrY2JuSGc0MkdRWnlfN1A5S3BNNk1qOU84UGtvdnNUU3NibjIycDFuWUJodVpGVnhxYk1pM3pmNEt5c0FCc25LUUExX3RBY2lxTVV6bDJORU4tMFYxUElpVXBDbGxub2lMV1YzZnh4czFUV0F0a0lxQ1duYVpvRE1ycS1jbkxVLW1VVHAwWUZYdVNnV2o0VEh6RWhfREHSAdQBQVVfeXFMTkRrVUhVMXM2UXJ2UDd3WGgwQjlLTGt2WTNlNGZzaDJ1Q2FkR0R5dGRPenhJZTFYR1ZESWJXdHR2MnlUbWdIcWp0cUVoYlNnaXlaTGtwUW1xRzB6V1Y3MzcyblFaN25taDdTbllvdlVRbC1laGhpU2dnak5RSkJncTJvRVBxQWlOTl8yZjBSbGoyc2YxcnAzMEVwd1ktRjkyOGZsSWJOcy16a09KZEFNaE8tOFZBN3JLMThsM3dZemtQRV9OOTNGbDlrWUJIbUFQNzZ6aGw?oc=5",
-   "source": "India Today",
-   "pubDate": "2026-09-17T00:52:32.000Z",
-   "description": "US House clears Russia sanctions bill targeting India, China oil trade&nbsp;&nbsp;India Today",
+   "title": "Brent Spot Surges, vs. Weekly Diesel and Other Derivatives",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONEdhS2xLNFV1d1ZOLXk3MDBKRVdhNkdPY0JiRy1sMDB5VmdsTnVGbHNySVh1SVdyZlNBUnJZSmNGRngzVmM2YUdyUzZNbGlfbHpuZ0VMWEJ2clpkQU5YUzVOZjFZclF5YlphTlBaaXB3X1JuUUpJZ0NWVXNWZzNndjZzbkk?oc=5",
+   "source": "Econbrowser",
+   "pubDate": "2026-09-17T00:44:41.000Z",
+   "description": "Brent Spot Surges, vs. Weekly Diesel and Other Derivatives&nbsp;&nbsp;Econbrowser",
    "categories": [
-    "russia_ukraine",
-    "usa_policy"
+    "market"
    ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Iran, Russia sanctions bill, over objections from leading Democrats",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1hEVUt4Zlg5Y2tRNkhZdk94b0lQZ0JXNWpvUG5pNWdEekJNdmdVOG5jX3h6YUtZU0VtOWJyZDEtTTIxazZNa2ZYLS11TUpHS2pwZU5qV2tQYkhsSGZnTlBUU0hyMGpoWW9yc1BfUUtJM29ZZzR5UEdybzJ5MHBEY3VlMVUwdzA5aTB5TkZFTTF0a3I4?oc=5",
-   "source": "Jewish Insider",
-   "pubDate": "2026-09-17T00:33:45.000Z",
-   "description": "House passes Iran, Russia sanctions bill, over objections from leading Democrats&nbsp;&nbsp;Jewish Insider",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
+   "severity": "low"
   },
   {
    "title": "US CENTCOM tells Al Jazeera Hormuz blockade ‘highly effective’",
@@ -560,6 +1459,18 @@
    "severity": "low"
   },
   {
+   "title": "Sweeping Russia sanctions bill head to Trump’s desk after final approval by US Congress",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDNVZlRTbDNaYjNxMzkyTDFHSFRWa2RUTzNaRlJxbzBPblVMZTA2ZGt3VmtZeENXdnRrdjJJR0cwZjhPVVdPU2lmLWRFS2g1czZMdXp2aGtLLUtVSHdDcGtEcWl1LV9YSVdPZWl2bXdxYWE5bFdvVDJjZi1YV2RjbXl4dFdFR3VwLW01N05uRkk2dW9IN3d0N2tXdFp1bWEzUWM2Z25pOFFRd28temJSSTB4amNDbDNqUGRFLUpJWnQyY3c?oc=5",
+   "source": "Arab News",
+   "pubDate": "2026-09-17T00:31:56.000Z",
+   "description": "Sweeping Russia sanctions bill head to Trump’s desk after final approval by US Congress&nbsp;&nbsp;Arab News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Trump says Canada becoming EU ‘associate member’ could be ‘hostile act’",
    "link": "https://www.aljazeera.com/economy/2026/9/17/trump-says-canada-becoming-eu-associate-member-could-be-hostile?traffic_source=rss",
    "source": "Al Jazeera",
@@ -571,11 +1482,11 @@
    "severity": "low"
   },
   {
-   "title": "House passes bill to add economic sanctions on Russia via tariffs",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOHdjVEpfbkVvelpUSVlpbmJRS2t6VGptdXJBQ2ZDYWJZSGpmZHoxb0dSMkk5ZGkwOE4xaFgxNVV1aUZOc3BfZVJFWkFVTmNjbGw3YlRYb252VE1nbEtVTTBFUnpfZEFaZDM0VXpwS0EybmlDR1llbENFWVhGVjlQaDl6SVI0NEdwWTlNZWU3Y1huT21qNEZzLXR6cDRHcXg0QV95TEhZclB0d0FDbm9Yak9jUGZ0MmRNdmZZUTJEX1dFNWRMYU1B?oc=5",
-   "source": "The Washington Post",
-   "pubDate": "2026-09-17T00:29:12.000Z",
-   "description": "House passes bill to add economic sanctions on Russia via tariffs&nbsp;&nbsp;The Washington Post",
+   "title": "Press Release: Jahana Hayes and Connecticut Delegation Issue Statement on Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcE84b3JhMnlac0Q3UEExYlR6eVhlWTEyREVPbUE3QjhoS3JDTTkzY3BGWEFFZnMxR1JzU29XT3RpUXU1WFZtSEVLVDlGbnZXN3VnWDY1SkJjeGM1LUk2V1BlWXUyT1hoTElOOWRYb0lqeEszVTRzc3FFR0hyRXVfdi1mVmJQZmstR2NYUDVwcjhvNEc1elBmMkd5RThsVzZFZ25heU1IRUNLSThIb2VITExXOE5IOG5wWENDMEJhMVU3RldGVXRXQzRB?oc=5",
+   "source": "Quiver Quantitative",
+   "pubDate": "2026-09-17T00:23:00.000Z",
+   "description": "Press Release: Jahana Hayes and Connecticut Delegation Issue Statement on Russia Sanctions Bill&nbsp;&nbsp;Quiver Quantitative",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -583,11 +1494,35 @@
    "severity": "medium"
   },
   {
-   "title": "House Passes Russia Sanctions Bill; Sent to Trump for Signature",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOF8yd19PSFltcGZyZzUxZl9YZHRQc3pKWEpLLVNaT3JRbHdSeHEwN0ZYWF81X2ttVlRtMEN6MEpKTklDSHhsMm9ha0NyVHpQX2RHNGU1aWxSNm1SUXNVUjUtaU0wbHlrNnVqXzBXd2Y4bVNpQk9CdFdhc1BUZjdDY1RnRUhRWmpWUnkwUzVqdlhQNXdCREJZQnNYdGplTWFDeVkw?oc=5",
-   "source": "Global Banking & Finance Review",
-   "pubDate": "2026-09-17T00:19:35.000Z",
-   "description": "House Passes Russia Sanctions Bill; Sent to Trump for Signature&nbsp;&nbsp;Global Banking & Finance Review",
+   "title": "Press Release: Joaquin Castro Releases Statement on Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMzA5YzJsMDh6eFJGRDcwVlB5VVBOQTlUVC05bzRxMXdpZDhiMFNjRU1scWNnNW44QVVleS1yZWpTOWtfZGFxSzNMNmRwSURwdy1fWW5LUTJPODJJVTR5eWhsbU5nck96UUlqeFA0ZW52djM5aGZCc1VGT2hJclpNU3FpTWVvUFFmUzVoeWd2aG8weG84c1RQTEJXSExZTEJVVXpfTkZIZFItbDRI?oc=5",
+   "source": "Quiver Quantitative",
+   "pubDate": "2026-09-17T00:23:00.000Z",
+   "description": "Press Release: Joaquin Castro Releases Statement on Russia Sanctions Bill&nbsp;&nbsp;Quiver Quantitative",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Press Release: Speaker Johnson Says House Republicans Passed Russia Sanctions Bill",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTkg5NHNnTy01RWhaNkhMTjlGTEl4X3dwU29JdmU4T2ptTFYyVVJNLVA1ZlZjOUZhU1dKaHgyWUlfQmFhYU02S0dNTjZLOFFfZmFZLVVxelBSd1RpcGlGb0NTdkJXQUtkYXowM1FveU1JdnB3LVNzR0s0SEEwVi12UW1WdmxoV3V3ZXRsblVsZzBCSjZHbENfTWtGQ3dVdnl1SDFmYVl4TGJ3Z0dPVlR2U0l2cVNqT1RD?oc=5",
+   "source": "Quiver Quantitative",
+   "pubDate": "2026-09-17T00:23:00.000Z",
+   "description": "Press Release: Speaker Johnson Says House Republicans Passed Russia Sanctions Bill&nbsp;&nbsp;Quiver Quantitative",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "House Clears Russia Sanctions Bill With New Tariff Powers",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGlNMXAwX3NHRlM3MEZVV0VYMWFfLXlSd3hqNlpLNlVFSi16Tm1wOWZQc2NXMU5oZVU0Tk5FbkZYNnU4MnZHeTdybTBCd0xkRzJkYW9WMUoyODVyMXlBZWxuaGZSaGxpMy03VnRzSzBPZDNUaGl1RVhyenZsV3N1YXcySTZweUhQWEdVU2lkeTVZbG8tTTl3Nnl0bTZRTE1aSDFjdW4yenBleWN6WkxVZDlrcHI5Z2xGYU9R0gFoQVVfeXFMT1hVOEh1eUJNVl9Rck1kNFFNY3A5QXBBTFA2eFVDTF8yNjNRY0NOSUZmMGlIbTBGY2pKcnRRZEVYVEgyZ1MyNHkyM0k5MU5CT3dpOEJjTk95bGwyRm1aVDBfY24wcEQ2YUs?oc=5",
+   "source": "Law360",
+   "pubDate": "2026-09-17T00:19:00.000Z",
+   "description": "House Clears Russia Sanctions Bill With New Tariff Powers&nbsp;&nbsp;Law360",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -641,11 +1576,23 @@
    "severity": "medium"
   },
   {
-   "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNUN5ckdwbExrVDZVSmlwdlR6RW1ZcnFNRFJ6Mzl0R1lBWHNhWFEzbXVaTk5ma19iWHhFN2RQY1ZMdzdpclRYRjQ1X1d2aUQ5cFJMRWJKUFV2UGc2SW1qZi1FS1pVXzI5OUt4ZWl6c0w2cDA0OF9WR3Q0VXVFNlY1X2VjSDNxV0N6QV9OYkdCRzR6eEMzWjdERzRNYmJhalNvclA1blpEZmVYLXhCWi1DaGFZT2NCYXZqZWxQVlhoLTIwZTJlODZSSG1NZWEtZw?oc=5",
-   "source": "Internazionale",
-   "pubDate": "2026-09-17T00:06:55.000Z",
-   "description": "House passes Russia sanctions bill championed by Graham, sending it to Trump&nbsp;&nbsp;Internazionale",
+   "title": "Russia sanctions bill set to target Russian economy, energy sector",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmdUSzNFRVNRM293YWJDTUUtRWFSa295X1Q0LUFTZHVSbFd1WGljOEloNGhIQlJ4MnFmaVQ1akxLSTN6bVNHSkFqOEZvWEtyX2pkaVg4QXlLMl9aM1BDYW1ENU1nV1FFZlJQbWZNUEhPbk9SbDNoM3phck1MNTVlNmNCeENZc3F1RXhCem0wOENOa1VIQ0Q3UlY4MTVSby1ZWXlrVW5mMVdZRkxEaXMwUFliV3BnakE?oc=5",
+   "source": "scrippsnews.com",
+   "pubDate": "2026-09-17T00:06:07.000Z",
+   "description": "Russia sanctions bill set to target Russian economy, energy sector&nbsp;&nbsp;scrippsnews.com",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "House approves sweeping Russia sanctions bill, sending it to Trump",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQnh0S0FWVVRkVmxPNVBfeTlCSnlsSHBOM0VzZWRjYU5mSVNORWd1UnpBSmhFT2V6aktBMHc3V0lOVGpiUHlBUFFDV1RYRE1pYWFsNHgtd0xlZFcybFA3ODF3LVVFSzEyaUN6WmJtclE5ZEJUSUF6U0F1cUpWbWJndENiaTRuSEtaWU4yTEs0dmJ1b1I1a2UzMXpNRm5nWjUtZV95c09Lbw?oc=5",
+   "source": "AP News",
+   "pubDate": "2026-09-17T00:05:00.000Z",
+   "description": "House approves sweeping Russia sanctions bill, sending it to Trump&nbsp;&nbsp;AP News",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -690,48 +1637,11 @@
    "severity": "medium"
   },
   {
-   "title": "US Congress passes sweeping Russia sanctions Bill",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON3llZ19pU1BZbkhDaXlJOWVZZTBtSHc0M2h0Yks0akdNZVhjY1RiMGFyMEFsZ3RWVkV5Z1hpeG5GNGZHazZQMVc5eWRMcEV4WFlkcER1bkNENU5ra1E0QXh2YjROellsdUhTSy1QVWwtUFpWTGxGZUFVaXBkTU5sMk9YYWs5NXgzZk9WZkljRHQ3TFJWRnlUbGNOdw?oc=5",
-   "source": "CNA",
-   "pubDate": "2026-09-16T23:59:00.000Z",
-   "description": "US Congress passes sweeping Russia sanctions Bill&nbsp;&nbsp;CNA",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "House Passes Graham's Russia Sanctions Bill",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUF0U1hTakxLX0RxWWZzaXRQTGhmcWgwRy11QVBuQ21SXzJNV3lxaFh0YmZuSEZMRnozejVEVDd5dERJZXhDUEF3OVR4dGlwbVdzdm90amtIU1ZIVHV0UllxaHZzU0JILUdGMW5OUC16eXNlS2RsZmNZZDlWdjdSZzBEZzBIOGRvSHVJ?oc=5",
    "source": "Newser",
    "pubDate": "2026-09-16T23:55:00.000Z",
    "description": "House Passes Graham's Russia Sanctions Bill&nbsp;&nbsp;Newser",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "‘What took Hezbollah 20 years, Houthis developed in five’: Saudi Arabia scrambles for defenses",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByZHpXWXFyQS1JTWRTbV9MbTJ2MUZQUjZROWJPRG1YUVNrdmdfQ2V5UUxpa1ZkNHZlV1h6ZDJzQ29YWVJsS2hkX2RnY3Zndmk4UG9STGxqYw?oc=5",
-   "source": "Ynetnews",
-   "pubDate": "2026-09-16T23:54:57.000Z",
-   "description": "‘What took Hezbollah 20 years, Houthis developed in five’: Saudi Arabia scrambles for defenses&nbsp;&nbsp;Ynetnews",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Russia sanctions bill set to target Russian economy, energy sector",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0lQNnRKTzMxSWZHdG9DUGp2OUhDT1lxMWluMURuUnNXY0ZobVBPMHZOU1NwMVRHSTZib3llcUtFcUxkYTAzUzI4WllGWjc2b1BtWHhoMmtfWHRIMzJLYktIN0NOcFZObzRkUVdUb2VSSmZ1NGNBRHZvQzBIVHVqQ3JuNmZiTGRCWmlvSXJ2MjJXRDV3TXZZVjhFd2FhLWFxR2tsS25IdFROVDlYZXpVUl8wYTFfbW96TnFNSnRn?oc=5",
-   "source": "WMAR 2 News Baltimore",
-   "pubDate": "2026-09-16T23:49:14.000Z",
-   "description": "Russia sanctions bill set to target Russian economy, energy sector&nbsp;&nbsp;WMAR 2 News Baltimore",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -752,16 +1662,27 @@
    "severity": "medium"
   },
   {
-   "title": "Speaker Mike Johnson announces House passage of Russia sanctions, data center bills",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRXVIZkJjYUExbmhUeFFHbnRpTG1NU3FrYS1nNklpY1lCZ2ZZUXdqaUxETUJSZVJtNjZCbzMzTFh0WTNrY3FyLUxVYTcxUGR2WFV1Y0hCV0E1TndjdUc5M01nNmZ2Q0dJcEc5b3UxSHhaNDJNVjNCSW45RHBwcUktVC03bEJRNDFsV25aQ1Z3?oc=5",
-   "source": "yahoo.com",
-   "pubDate": "2026-09-16T23:45:00.000Z",
-   "description": "Speaker Mike Johnson announces House passage of Russia sanctions, data center bills&nbsp;&nbsp;yahoo.com",
+   "title": "US Congress passes Russia sanctions bill",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RUFVzeUhxTjN5UEpCUEN4bU14T3lYOVBROGxCckticlZFbGJWRTNGSU9IN3h5MDZCMTktVUpQREViUF9qYmRuZ1NwNWZPOHd0VW1lODBHYTFlUDk5czM4X3FOMDQyOTc1OE9YZzE1VG5DOHlDMVktWUxzWjg4QdIBfkFVX3lxTE5mQWlNTk5ST3BkWHFwZGhZaHZTMkdHZDlIVDNUd0pjcy16R083VkZWclNhd2FUTVRvQ3d4a01lRW1LcGl4TkNEdkdsUjhNUVVONFR5T3daQTNSZzlFa2VBTjFlQWU3QnhmSWo2a2VMU1BRV29UWEFWRi1CRXRaQQ?oc=5",
+   "source": "DW.com",
+   "pubDate": "2026-09-16T23:46:09.000Z",
+   "description": "US Congress passes Russia sanctions bill&nbsp;&nbsp;DW.com",
    "categories": [
     "russia_ukraine",
     "usa_policy"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "Yellow Jackets head coach Brent Key on the mic",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX3JpWV9NRkJWU3ZNaEFReU5PamRFUEtVRXdMMGR5Rms3elE0YTU2NFdldHdiOHpUQTV3aUZGSzFoNzVSRkk2WjNOdm1VbXhOWEUtU0F5NkJRS19LQWc3LTRMdWZDMUJwcnB0eExOcjJXTmYxWGtOWWNfSThubi1rTnFlUjB6LWJjN29zbE9DNnpqdzVT?oc=5",
+   "source": "Atlanta News First",
+   "pubDate": "2026-09-16T23:43:00.000Z",
+   "description": "Yellow Jackets head coach Brent Key on the mic&nbsp;&nbsp;Atlanta News First",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
   },
   {
    "title": "Photos show damage to US equipment from Iranian strikes: Report",
@@ -775,38 +1696,14 @@
    "severity": "high"
   },
   {
-   "title": "House approves sweeping Russia sanctions bill, sending it to Trump",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQnh0S0FWVVRkVmxPNVBfeTlCSnlsSHBOM0VzZWRjYU5mSVNORWd1UnpBSmhFT2V6aktBMHc3V0lOVGpiUHlBUFFDV1RYRE1pYWFsNHgtd0xlZFcybFA3ODF3LVVFSzEyaUN6WmJtclE5ZEJUSUF6U0F1cUpWbWJndENiaTRuSEtaWU4yTEs0dmJ1b1I1a2UzMXpNRm5nWjUtZV95c09Lbw?oc=5",
-   "source": "AP News",
-   "pubDate": "2026-09-16T23:35:00.000Z",
-   "description": "House approves sweeping Russia sanctions bill, sending it to Trump&nbsp;&nbsp;AP News",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "Congress passed the Lindsey Graham Russia sanctions bill. Is it a game changer?",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYXIweW1FR1dYdGlVUHFDSTVteGwxeDB6UG5EMmpNWG9Xdy05WnhBNzdPVndPRkdBMmcySmJCT1pLcjZraVE4dHV2Mm5zSXU3OXFBcnVTVlZvM2dtTmZxcUtwNnZFLUsyM01JeWdvQ2h2Y05BeVF6T3dBVXFQbDZWcURiYzFLS2ZmWExZdzc0MF9EejlBNmFfZTJCamJ5WVU?oc=5",
-   "source": "EUalive",
+   "source": "eualive.net",
    "pubDate": "2026-09-16T23:33:56.000Z",
-   "description": "Congress passed the Lindsey Graham Russia sanctions bill. Is it a game changer?&nbsp;&nbsp;EUalive",
+   "description": "Congress passed the Lindsey Graham Russia sanctions bill. Is it a game changer?&nbsp;&nbsp;eualive.net",
    "categories": [
     "russia_ukraine",
     "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Saudis seeking allies’ help in fight with Houthi rebels -",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcnhfellTY2ktZ2RSM1BXMkhmSU15MWYwazBweV9xMlc1M3dqcUQ0U3hjd0JMUzgwREE2ZlAxZ1BaanZFX2dzVVo0UFg2b2JZd1dfWEVaYjdnVWZnMnBsVXIyUGFsNEgxNjFfZXNOcXh2QTVGSFpmR2RsOHhCUFR6bDljTWs3clRGa2VUcHE5Q0FHbzFTX2FOcFp4SFpOYXlRcUhoUVY2eldvZw?oc=5",
-   "source": "Iron Mountain Daily News",
-   "pubDate": "2026-09-16T23:30:52.000Z",
-   "description": "Saudis seeking allies’ help in fight with Houthi rebels -&nbsp;&nbsp;Iron Mountain Daily News",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
    ],
    "severity": "medium"
   },
@@ -857,6 +1754,17 @@
    "severity": "medium"
   },
   {
+   "title": "Mississippi Delta Blues Powerhouse Eden Brent To Headline Intimate Night Of Roots Music On October 3",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMUU4bTF4YWE5VE4yVElKVjRJZko5S1p6SFBOX3VSa0ljRXFSRFBwNWZkSmhtY3RXMHB2aGNmLWFWNzlTRFhhLVN2SFZhRDA0dUQwS0F1QTE1OTJaMEFBMUdscG1IYU94cGgyRUxCU0dQdllYRG1WdjdEQjFiR0dlTVF3bmVINmRiYzFIVzVBb0poRmszcmxzdlFmWklmLURUQ0lMaHRtaFA1QVFDT1JuWGVxa1hzeDhnQ2N2VkpWSEQ3ZmRfVXlwS2pVVUhwUk1FcVE?oc=5",
+   "source": "Yellow Scene Magazine",
+   "pubDate": "2026-09-16T23:15:09.000Z",
+   "description": "Mississippi Delta Blues Powerhouse Eden Brent To Headline Intimate Night Of Roots Music On October 3&nbsp;&nbsp;Yellow Scene Magazine",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "US military claims Strait of Hormuz remains open amid ongoing blockade",
    "link": "https://www.aljazeera.com/news/2026/9/16/us-military-claims-strait-of-hormuz-remains-open-amid-ongoing-blockade?traffic_source=rss",
    "source": "Al Jazeera",
@@ -878,962 +1786,48 @@
     "hormuz_redsea"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "U.S. House passes Russia sanctions bill seeking to impose up to 100% tariffs on India, others",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMmVCMHJpRGp4a1NjbDRfUXVrb3ktVzBHLUJzTlBjc2t5WXcxVVl3ZkhjUWZHMkZnSl9DY0tFYVc4NmxvNE1pRWk5VjhVaE8ySmhKajV1dXBZVG11YXBST1ZYWHFxb1lhcFZXdnd4VktNM2gzczl3RUFNc2E1NUVETDREc3ZPRk94UXRTU1E2M2hVTU80UXhRYTZmUjBxNi1sQXV5RGxGMXJfZXVOY3NqYVF5TV85QQ?oc=5",
-   "source": "The Hindu",
-   "pubDate": "2026-09-16T23:12:59.000Z",
-   "description": "U.S. House passes Russia sanctions bill seeking to impose up to 100% tariffs on India, others&nbsp;&nbsp;The Hindu",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Mississippi Delta Blues Powerhouse Eden Brent To Headline Intimate Night Of Roots Music On October 3",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMUU4bTF4YWE5VE4yVElKVjRJZko5S1p6SFBOX3VSa0ljRXFSRFBwNWZkSmhtY3RXMHB2aGNmLWFWNzlTRFhhLVN2SFZhRDA0dUQwS0F1QTE1OTJaMEFBMUdscG1IYU94cGgyRUxCU0dQdllYRG1WdjdEQjFiR0dlTVF3bmVINmRiYzFIVzVBb0poRmszcmxzdlFmWklmLURUQ0lMaHRtaFA1QVFDT1JuWGVxa1hzeDhnQ2N2VkpWSEQ3ZmRfVXlwS2pVVUhwUk1FcVE?oc=5",
-   "source": "Yellow Scene Magazine",
-   "pubDate": "2026-09-16T23:12:57.000Z",
-   "description": "Mississippi Delta Blues Powerhouse Eden Brent To Headline Intimate Night Of Roots Music On October 3&nbsp;&nbsp;Yellow Scene Magazine",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "‘People don’t have money’: Syrian fuel hikes deepen economic pain",
-   "link": "https://www.aljazeera.com/news/2026/9/16/people-dont-have-money-syrian-fuel-hikes-deepen-economic-pain?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-16T23:11:31.000Z",
-   "description": "Higher diesel and petrol prices are pushing up transport and food costs across an already impoverished Syria.",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "US Congress passes Russia sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RUFVzeUhxTjN5UEpCUEN4bU14T3lYOVBROGxCckticlZFbGJWRTNGSU9IN3h5MDZCMTktVUpQREViUF9qYmRuZ1NwNWZPOHd0VW1lODBHYTFlUDk5czM4X3FOMDQyOTc1OE9YZzE1VG5DOHlDMVktWUxzWjg4QdIBfkFVX3lxTE5mQWlNTk5ST3BkWHFwZGhZaHZTMkdHZDlIVDNUd0pjcy16R083VkZWclNhd2FUTVRvQ3d4a01lRW1LcGl4TkNEdkdsUjhNUVVONFR5T3daQTNSZzlFa2VBTjFlQWU3QnhmSWo2a2VMU1BRV29UWEFWRi1CRXRaQQ?oc=5",
-   "source": "dw.com",
-   "pubDate": "2026-09-16T23:07:02.000Z",
-   "description": "US Congress passes Russia sanctions bill&nbsp;&nbsp;dw.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes late Sen. Lindsey Graham's Russia sanctions bill, sending it to Trump's desk",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdW00RDNDYmRQNDdrWGZsLVZXVGR6ZXl6NkVGeTB5Ykppem1GZnh4T3JtdGtyamJocEUtRTVpdDlBMWJqem1QaGpPdjVuci14T0N4QTBQcHR4OUlPQi1FWlpuY2ZKeUlIYTE2R0pBX2FYWFhWdXNKZHRnU3lhR09jWkFoYzV0Sk0?oc=5",
-   "source": "CBS News",
-   "pubDate": "2026-09-16T23:05:00.000Z",
-   "description": "House passes late Sen. Lindsey Graham's Russia sanctions bill, sending it to Trump's desk&nbsp;&nbsp;CBS News",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "After Senate, US House passes Russia sanctions bill; 100 per cent tariff threat looms for India",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN1pzbXJIQjBEaFR3ZVlfMVRBM2FoQ05jLUZZUjROWWlsdWdCYkY0cGcyWWVhSEFGeDlmYmZyVWg3M3JyMzJIN1NVenVJTXdHbzhiZmVTb3ZON1pHWjJmSFMtU0k5RDk3YW1jTW1mOTBfMGdqc0g0ei1DRFI0SlVuR3NycnQyMThZcWdCNTQxb253WFk1Y1MyTDZyNnFMQVp6SnpyOFJqNzN2M0xnWUt6M1A5NWRWcGR4TXJxUmlkcjk5bzdxM2JrZ1d0V0FvOFdwOGJ0c1BsZ0F1Y05O?oc=5",
-   "source": "aninews.in",
-   "pubDate": "2026-09-16T23:05:00.000Z",
-   "description": "After Senate, US House passes Russia sanctions bill; 100 per cent tariff threat looms for India&nbsp;&nbsp;aninews.in",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US Congress approves bill on sanctions against Russia",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMmZKTTV6X1ZfYlJ0SHRfTnF3RXM4WTR3RVFVem40MmxCb0dDX0g1OG91QmpvR1RkY0laRElLZDdtc1h2SE5CWXg4ZFNtOVlRbHc3OGpia2VFc1IwM2JCQzFVelVVMTRaWS12ZFh6d1YxTVlIbDcxbnY5b2JoSTlRSkdnV0tVbTQwT2VzTjQ3bS1POEU5eUNNSVE1MA?oc=5",
-   "source": "yahoo.com",
-   "pubDate": "2026-09-16T23:03:45.000Z",
-   "description": "US Congress approves bill on sanctions against Russia&nbsp;&nbsp;yahoo.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "The Graham sanctions act is a chance to punish Putin. Here’s what the White House should do next.",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTVRSUEFIMEllM3NkeEIxaDV2YVZTa3dHX0tFTGllbWFkMEk3Wnc2MXpTR3lZOVpTdWE0TTZsaWxmVEh5Tmd1WXI5Z1N2UkJPcmtpdGxtTlJSbkdPeFl4X2JjYThKSFlJRXMtWTNaazhBX3phQWY2aXQyWG9BZGFneWxOVVllT3VlVWNOUUhqR083bVpFcE1YdE1FaXBBUWNvaWpfYkhSUkZRbzduczVaOFduejJ5S0cyOUY5VW85QW1Ob0FrUzF2LWpWSHZneDlnTnVIeQ?oc=5",
-   "source": "atlanticcouncil.org",
-   "pubDate": "2026-09-16T23:01:47.000Z",
-   "description": "The Graham sanctions act is a chance to punish Putin. Here’s what the White House should do next.&nbsp;&nbsp;atlanticcouncil.org",
-   "categories": [
-    "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Lindsey Graham Sanctioning Russia and Iran Act heads to Trump after House passage",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXBBWGFSc2JYaFRfQlJJZGY4RVRfc1cteU5fY181UjlwZEt3eTEtRjV0YjJNbEpSeUhFSnc4UldydXN2TDE2WnNoVmdGS25jWEVMOUsxVldKTGE3MVI5QmpES21jWW1Jdkt4WmlINFpMUTF3V3RCMlhIcGZwYUVQSVJzSGdyeUJtYjVDbzVxUG1pcVV6OEpPemo5Z25sNzNGTVdNeWNOQ1FnbHNpUE53SDRNMEpSbUR2a1NqMGlB?oc=5",
-   "source": "KEYE",
-   "pubDate": "2026-09-16T23:01:41.000Z",
-   "description": "Lindsey Graham Sanctioning Russia and Iran Act heads to Trump after House passage&nbsp;&nbsp;KEYE",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes Russia sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMWFSYVlPUE9ZMG1TRGVvc08wR2YxVlVSTHFBd0xQR1AzXzNqNVdrS2t3Zy1zb2ZqOGpxc0RRaklVTUZSb0hmUkRfWkxBVXRwa1l2V1k1NGtKQTNHRVFVd0JSVnlWVGJYNVpJdWFibW1qYkFlZUpWZWIxVHpyalJDVQ?oc=5",
-   "source": "Anadolu Ajansı",
-   "pubDate": "2026-09-16T23:01:06.000Z",
-   "description": "US House passes Russia sanctions bill&nbsp;&nbsp;Anadolu Ajansı",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Tanker Rates Smash $1 Million a Day as Oil Shipping Crisis Deepens",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Tanker-Rates-Smash-1-Million-a-Day-as-Oil-Shipping-Crisis-Deepens.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-16T23:00:00.000Z",
-   "description": "The daily rate for commissioning a tanker topped $1 million for the first time in history amid a tightening supply of vessels to carry crude oil and fuels whose owners are willing to dare the Strait of Hormuz. The squeeze is adding extra costs to the price of oil for physical delivery, just as tanke",
-   "categories": [
-    "hormuz_redsea",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Yemen’s Houthis promise US not to expand Iran war to Red Sea at secret Oman summit",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHJqcC1Vb1pOdkR2b2NyREJRVGlKU29IX25vYUR4ck5rLVhFUkNwUmtEcUd0d0FJUUFmZk5PNXY1eXdtUU9FaUtDTWFUWVNaVVBOTE1vbENZWWxFa2RVSXlkVDBRVnlqdU9PWFppNnZjckR5ZmtSaTFQVUtEWE1tbS1BQWxUNFhzUmZEazFZdXlhVEJuR1ZWeHppUTNhX2ZtSjN0SURWUWxRQ2s3Z3ZTeFdDMm92VVgxSFJzMFdTb2o?oc=5",
-   "source": "New York Post",
-   "pubDate": "2026-09-16T22:57:00.000Z",
-   "description": "Yemen’s Houthis promise US not to expand Iran war to Red Sea at secret Oman summit&nbsp;&nbsp;New York Post",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US House passes Russia sanctions bill championed by late Senator Graham",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-09-16T22:54:05.000Z",
-   "description": "US House passes Russia sanctions bill championed by late Senator Graham&nbsp;&nbsp;Reuters",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Russia sanctions bill, handing Trump more leverage against Moscow",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFVna0E1UG5EUnZtMXdFYVVUVmJDY1FoallIcEkwS3gxakhTYk5oQ0pHazZWcEkwN0h4anYteHlqT1ZuelpRQUg3U01JOTA2X0NYVG9FRldQYkxrQnVIZDRISG56YmpMOWpWNnRZRzNhWXR3a3VQaEF1czFVOXN0bEpxeHI4QkpJUEVj?oc=5",
-   "source": "politico.com",
-   "pubDate": "2026-09-16T22:54:00.000Z",
-   "description": "House passes Russia sanctions bill, handing Trump more leverage against Moscow&nbsp;&nbsp;politico.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes Russia sanctions bill with new tariff powers for president",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZnllWm5tbzlOV2t2OXc0QTJfTkc5c3pDc1BQU01DVExWazVJNFpodEZqV0NWNDFTcWtXVEJ2bzBLeWJjQzFUQWxMMTlGSmU3U180Y05seXM0TnNxaEg5N1dNVlZSRVUyZDVJMXM4WTRjM3BjdEFYRWc5WFJJcWlhWGZtMGM3ZUFZLVFOM0F4bVgxdm96ejZuR2xBRm90SWU1X0xUTUFOUVN4NTZLVy0xN1JvaXVGUlRi0gFaQVVfeXFMTVA4TE1KS0JRUkY4Z3NtN2ozNS03YmJmdlc5eG9JYXQxX0hiUklVU3pveFpvbDJfTDVSR2xaVnpyZXZ3Q2ZEWXh4MmxtOC04SDJBeWpkZ3hUM2x3?oc=5",
-   "source": "MLex",
-   "pubDate": "2026-09-16T22:54:00.000Z",
-   "description": "US House passes Russia sanctions bill with new tariff powers for president&nbsp;&nbsp;MLex",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes Russia sanctions bill with tariff powers",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QOExNSktCUVJGOGdzbTdqMzUtN2JiZnZXOXhvSWF0MV9IYlJJVVN6b3hab2wyX0w1UkdsWlZ6cmV2d0NmRFl4eDJsbTgtOEgyQXlqZGd4VDNsd9IBWkFVX3lxTE1QOExNSktCUVJGOGdzbTdqMzUtN2JiZnZXOXhvSWF0MV9IYlJJVVN6b3hab2wyX0w1UkdsWlZ6cmV2d0NmRFl4eDJsbTgtOEgyQXlqZGd4VDNsdw?oc=5",
-   "source": "MLex",
-   "pubDate": "2026-09-16T22:54:00.000Z",
-   "description": "US House passes Russia sanctions bill with tariff powers&nbsp;&nbsp;MLex",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US lawmakers pass sanctions bill to put pressure on Russia’s economy",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHduSm5xOXIyMVA0R05BdjJISU5uekJ5NWcxVG5oVHpCZ0NhdUh2V2QteG1fNWZUNXFNLWVRNTYzZ0loOEdsc0FaRk8xS1Y5OGFhUUxvdUdiQnEzWkdrMVc3X1FHV1Z3MDhnV2pnTUEwVV9yZHB0LWg3LXRNVWRDRDdTU1I?oc=5",
-   "source": "Financial Times",
-   "pubDate": "2026-09-16T22:52:13.000Z",
-   "description": "US lawmakers pass sanctions bill to put pressure on Russia’s economy&nbsp;&nbsp;Financial Times",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Congress passes bill targeting Russia’s leading energy buyers – China and India",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV0xaZ3d0ajUyQUY0OFNpTFZmV1IxVjJSZ0ZxMFItS2Q1SnhuTGNPOTFQS2s0Qmx4eGZETk9YaU5xaTBnejBTUHFMbDlBekU5S29HQ2pJQ0xtTkZ4ZEdFb1RTblUzclJjRGFURTFLdGJFNnVpTHNMOW9mUkdrZ3FZdTBudGlpWW95NGZCeGtJbC1NQlhKTThZTU90TW9uZlU2SmFHZm53V21qQnVMbWU1cm5LT29DSkNldF90WkNBYW5HWldFTE81bDVTbzhhZUVLb1FRM1FkVm9RaUtEZ3RuTtIB4AFBVV95cUxQcHZGbDJZdWNhYjdvaVVNMTc5MTNRdG1hUlJzRFBSaFlPZDVkVGNjUTd3ZUtZbkRfOGRwbExsc2s0SnREZGZqV1gxbzEwRkZrbm8teHlpVTBnbnFWYUxiNDU2ekxKTGdjOFJsU0E3SFpwUlZsYkVoanA0UUpqZ1RWUmRSWFMzNURUNjBqT0ZFZFZxMkp2VFAwal9KN19MLXhUdWJMOUVBb2hWMldxMXVXNmpLZWlZODNIMzY5c0FmVzFtN09tMy1sV212N2hfcWhVUnRvbU5uT0lyZktOMU4xWA?oc=5",
-   "source": "South China Morning Post",
-   "pubDate": "2026-09-16T22:50:16.000Z",
-   "description": "Congress passes bill targeting Russia’s leading energy buyers – China and India&nbsp;&nbsp;South China Morning Post",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Congresswoman Escobar Statement on Russia Sanctions Bill",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WR2V3UFNtWlh5d1lOc25IRE5fbWYxM09mdmhJNEpfX2xaYmJzeEMyQnV1Um9GYi16UzB1SC1URkVxZXlXRDV1MUd2TmZVRUJHYjJ0cTFUb1VmMjRNNzNkR2dWWXpDMjRFeEJfZHdPb2ZNbV9X?oc=5",
-   "source": "Congresswoman Veronica Escobar (.gov)",
-   "pubDate": "2026-09-16T22:49:46.000Z",
-   "description": "Congresswoman Escobar Statement on Russia Sanctions Bill&nbsp;&nbsp;Congresswoman Veronica Escobar (.gov)",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent Burns' famed beard has a different look this season",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZlFpTXJzRnA5dkxQeFNfOVB1UmtGbWx4dUxCVFpDdFRsRnZ4UmtnM0VUMmZiNW1HTmpldmpSNThKSUd4M2VPamFvNmFobk9aTGJEUV9hd242ZENaSHdGUGhxdzNWU3NMRmZvcE1pam9FMVZMY2lTMWxnYk1KSk42Mk91NVBFUWlpSTRHUG9Fc0NDQ2x2RHFoTEdReV8xUTdJeGxZRTdEaTNIN0d0bFc4VFlZT2xsWVdTNXNFRjVoR29JRGJGdGRMZHlOZ3B2NkUzVDZ4YlhNWFBGTmFSLVpPSUVB?oc=5",
-   "source": "Central Oregon Daily",
-   "pubDate": "2026-09-16T22:47:35.000Z",
-   "description": "Brent Burns' famed beard has a different look this season&nbsp;&nbsp;Central Oregon Daily",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "US Congress approves sweeping Russia sanctions bill after months of delay",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaGUtN0xxaFkxS1lZVzRXRk10UVZuUDJPcTA5N0tRVVZ3UDIxRGN6RFB5My1ocGJTYXJSQkVfa0VwRzRfYW0zOTRTSG5GbXQ1RFh6dlliV2dTc3hwY2pNWVVwcnNqbjM3Y1U1T0JaNS05bzRjbXY4TkpCQ0pocG55d0F5RzBOdExOR24wYjNtaFNwQzFxMGdwZzZpb0xZTTByNG00UE5remIxcWxYU2xMRkZCclR5aWNubTlv?oc=5",
-   "source": "The Times of Israel",
-   "pubDate": "2026-09-16T22:46:48.000Z",
-   "description": "US Congress approves sweeping Russia sanctions bill after months of delay&nbsp;&nbsp;The Times of Israel",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House Passes Russia Sanctions Bill After Fight Over Trump’s Tariff Powers",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVGEzRUNvWHdIQ3RGamNnMjIwRDJUWjlxb2tFZDJSWGx4dnJERGZoLTdoYU9tTjRrM3N0aXlRR3BIdlF5VUxoT2NDOC1Pei0xSkVWQVdYaDVybHVCdkZ1TGM1MnpmYjBmQ0lfdkp1RUU0cEVpT3hKOHo0WmxfSzhXZ2t6ZlhueTQ?oc=5",
-   "source": "washingtonsun.com",
-   "pubDate": "2026-09-16T22:44:33.000Z",
-   "description": "House Passes Russia Sanctions Bill After Fight Over Trump’s Tariff Powers&nbsp;&nbsp;washingtonsun.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Lindsey Graham sanctions act, sends anti-Russia bill to Trump’s desk",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeW1zMkEtQjdvTXlESHd2S0lJNkFNN3VQOGZET3FOTHkzcE50QnFFRnJ6ekVSQ08xd25BazdFQkxxVlZLZERBNXFKNTl2VFh5N3E4Q2QycktVX09zS1lRLUZKQjZZYjcxOXNYb0M3eXh4bUM3eGRlZEZCajZJa3VyaERsd3FzSkJoSV9qYkFiaWlFdVd1R05KQmdnR0tkUzFlY0RELU1kZFkybzBSNVp1dzdOSE1UVXlCZ2c?oc=5",
-   "source": "New York Post",
-   "pubDate": "2026-09-16T22:44:00.000Z",
-   "description": "House passes Lindsey Graham sanctions act, sends anti-Russia bill to Trump’s desk&nbsp;&nbsp;New York Post",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House of Representatives approves bill on sanctions against Russia — CNBC — CNBC Top News",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzFWeTR0QnhrSXdIZ3hhemRTSU1uaWRiMHU1REdoYXpybkpqLW4tQjYwTnl1REpYY0lNVFl5RThjY3Vycmk4R2trVU15MS1vZm5ESVBrZ1NZSWI1N2tEczF5Q0dNSDVJSnp3QVYzTWtsbXRMUUVIT0YxcEpnb1lzZ25KbDdJUjRBcDUxSm5WX2lJczMtVnNBaXFyZUNxbXR6WkEzRWlLdlFvcHhLbk5vaGVZTkhvZUU?oc=5",
-   "source": "UA.NEWS",
-   "pubDate": "2026-09-16T22:43:33.000Z",
-   "description": "US House of Representatives approves bill on sanctions against Russia — CNBC — CNBC Top News&nbsp;&nbsp;UA.NEWS",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes sweeping Russia and Iran sanctions bill named for Lindsey Graham",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcU1mLUowd0pIZDJFd1cxY242aTJaOHQ2N2pqRjNOYlRHVmMxQThlOGRYR2lwMlUyWmt4bDY0U09IVzFZVEtRVzdWUVdJSzJCcnFCRGZpVmwweThrUlJvOFlNVE56MmI5Q092WGNNRTJtcDYyMVdXZjBYNnN3RS0wNl9IWV9yOHU1MlBBMVhSZE1aSXUwbXJMbGcwbFd6V1ZlUDJQNnliZS1WWkhMaWVrQTBBMnFSa2wwWWpsNmd1MFk?oc=5",
-   "source": "Türkiye Today",
-   "pubDate": "2026-09-16T22:43:09.000Z",
-   "description": "US House passes sweeping Russia and Iran sanctions bill named for Lindsey Graham&nbsp;&nbsp;Türkiye Today",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes sweeping Russia sanctions bill, sending it to Trump",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlJvRWdSTGVDOWxRWFlGN0ZmUkZnRE8tYXVVRW1yVWRCeEtsekN2ZjZWY2VsMjlEMmFzcE1uM2xVRTcyQVl0aHN3aU1fU1FFaGctRUtqa3Y3WVBBYTN5WHdkZ0VQMTVjS0xVT1hlVVpTWVVXeTR6ZG8tVUc0WTNQRkFwUXIxNUdyZmJ6QldlUnBpYnhNYWRhdU9WRTRRblB5eE02UWV5TGdYUlZzUk5nRG10TWhjdWdPdU1EWFZkUHhGNmJMQ1NCN3FoQnJWQnRuS3pqWNIB2gFBVV95cUxQb0xKYnpORjU0VWdGOFktX2NPUi1DWGwzSHk3WnBvOThoVWdJejhnb2dsSDdjanBaemRfYy13cVJmWGtBanV4c200UkhCZmk1dFRjQlU4WlNqQXRBdnRDS0p2NTQ3QXp2WF9xbU9QS3RMaWlrbGhvVUpIbmlTU3dqdHhFT2RvRElPbXRWUFpzMmU1VDRLSDhhUkVieHJWS0J5enJDR1dzbFpVU2dxcjJWVWtDQ21BM2htQWEyWFJFdDF5ZG5OOWVRREhWdHlLSENIWjBnZFBaZkJhZw?oc=5",
-   "source": "India Today",
-   "pubDate": "2026-09-16T22:42:32.000Z",
-   "description": "US House passes sweeping Russia sanctions bill, sending it to Trump&nbsp;&nbsp;India Today",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US lawmakers pass bill giving Trump more power to sanction Russia and its enablers",
-   "link": "https://www.theguardian.com/us-news/2026/sep/16/us-lawmakers-pass-bill-giving-trump-more-power-to-sanction-russia-and-its-enablers",
-   "source": "The Guardian",
-   "pubDate": "2026-09-16T22:41:51.000Z",
-   "description": "Act divides Democrats and Republicans, with some saying it gives president power that could be turned against US alliesThe US Congress has passed a sweeping bill allowing Donald Trump to raise tariffs on top buyers of Russian energy and issue other punishing sanctions against the Kremlin following a",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US Congress Passes Russia Sanctions Bill, India, China Face 100% Tariffs",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3A0WkpwTno3eFVycGRfWWZ3cU1MMUdZYlJGczRFSmJDNU1mZ3FjU0RaaGF4ckJyaEhMWHdmTUFieVA0ckg0R3VoSHpGWEd2RE1HeTg4QXcwcWxGYVNfWE15dXpSbDlMbFFmMkJuNi1oWXBRSk1JQl9KNVFVQnBpR25mZThvUnJxMTlieE9KZGFYcE1K0gGcAUFVX3lxTFBaZVgtbzJqQzBNa0YyalJzVmVnRTlXWEJOd1l1aTJUNzE4cF9menBMNlZPVGwyM1RlYTlpd25KUkx5VERVaFIxT1JtYUpLTW1uWDcyMVAwZFlEcXZFMlV0aC1HbFBERGUyX0JndkhDRnhjb0dhWS12WDBQVHNtZy00TjRwdnRjcnBaN01VQkpKYkRyajFTWmlraHpTbw?oc=5",
-   "source": "NDTV",
-   "pubDate": "2026-09-16T22:41:35.000Z",
-   "description": "US Congress Passes Russia Sanctions Bill, India, China Face 100% Tariffs&nbsp;&nbsp;NDTV",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "100% tariffs on India? After Senate, US House passes Russia sanctions bill, awaits Trump’s signature",
-   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOaGhEcFQxNUppbVhpemk0WXJoY0hRVzYtZU5LbmhmcHBWbTBGQTU3bDJwVW5TdnUtLU1aWVAyMHNpdk1jTExoX1YzVUM1UWVsMmU4Ynd5N1B2aGxHNDNuYl9YdEU2bEVJS1RyNVZCb2VGblpqNkxiNUJNTTU4YV9zMjVwVTJDdEthSHBQOHNvc2VDNHk0eG5laFNjd3FBU05yTHZ6c3ZGVHM2MjgxeU80X2UwT3BqU0F3VlRnMHBGdFRueTE3OHhWWHF4RV9QaG5wMVZWLXdzdTdhc1BIOE1PSENjTDVPRFduZndha1I2MzR4NXZZM0JzaGVZS2lFbU5nWi1pcldBR1FJUdIBjwJBVV95cUxQZlctUlFtTWVhX3EzaUpxYzRIUXNFOEVRaWU5a1Z4bS1IUDY3ampPVEI0SmFzbFpKbEFlQ3BzdEt3SnNueG1OaEMzZW9MYzZRYld5NERhcjRxRGdaS1A4T0dkcUdsbUkwTlpBUFpHZzhHV2dXdnhJRG55MHJjWmZxWTF5WktjbnI2b0VnVjdYa3otNDNEMkJnVlY0U3hhbWpabGJJb0hhNGZER1lFb0V1aWVxVWV4a3gyT1V4Y1ZVaDRscXU3RlZZTmw5RVdXWXRQbW1BWElpbDhSRHBubkhPeDhHZXBQNURNR2J3d1kzajBraHVqbEx5UFlOWjhWd0U2eE9hdEhHbmhoekdTREZJ?oc=5",
-   "source": "The Times of India",
-   "pubDate": "2026-09-16T22:40:00.000Z",
-   "description": "100% tariffs on India? After Senate, US House passes Russia sanctions bill, awaits Trump’s signature&nbsp;&nbsp;The Times of India",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes sanctions, tariff bill to raise economic pressure on Russia",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVdRekRjalRLeU1yZ1Y1WjFWWmwxbWxXdGdsdWRYbUtkV3RmSlBUc0xkZUtsTWZTTmwtZ1IzT0xpX2RQUkUyemozTGFjS2dGcGdNcnJtUloxN0Z3T2I3OEdIZHd3T01WbXhhamFGanZSV0Z1LWlxaUNsTEl1TkNBSFd5WFd2THJXMEpGSnlXQ3hnbHUwOGJmX2FVZXVZUHRoeUstTXJiVERYSVZka200?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-09-16T22:38:07.000Z",
-   "description": "US House passes sanctions, tariff bill to raise economic pressure on Russia&nbsp;&nbsp;Reuters",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Athletics' Brent Rooker: Starts up hitting progression",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1ZtOGFVbktQNWFQNlUwRUZSaVBaY0xkakkxWjVPYzRKN2ppLXZUTUJES0pleV8zQ2VkckJVRkN0cGNoTnRYNTFZTjViWlZTODk4anB0ajhreVJ5VTZZd2RmeUlnMVk5MHRlS2xvSVdJOUJnczNzbExoQ2MtZk02Vi1NYmhnYUZIeVlnUG9pTkRDak9WNnRYUnRyQ2VuVldReHQ4?oc=5",
-   "source": "CBS Sports",
-   "pubDate": "2026-09-16T22:36:59.000Z",
-   "description": "Athletics' Brent Rooker: Starts up hitting progression&nbsp;&nbsp;CBS Sports",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Key Takeaways From Brent Venables' Press Conference Ahead of Oklahoma's Matchup vs. New Mexico",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRXFCaHZLY0F5b3NPUHZLNzZOOHBNZmNILWt1MEtuVWJnTkZMcEpMSU5NNGQzM0pvc2I5SEdLQmhQTzNrRnpSN2hVd3VfalBYSlpVQ0xFbEtfb2lGVlVEdE41TDVoRTExN09zdWxwSUZDWXhlZUpXdXhfSTdFYkliSEtxemZNdmFNNlJ0alJ3MF9IZm9uR3lDOHZtNEtVSExMbHpycFhiN09ZYVpSTXZtOEhnd1F1ZjJlYXh1QnBYcmh1LVlHLXY1a1ctcU5ubWdpLVRmTHBR?oc=5",
-   "source": "roundtable.io",
-   "pubDate": "2026-09-16T22:36:39.000Z",
-   "description": "Key Takeaways From Brent Venables' Press Conference Ahead of Oklahoma's Matchup vs. New Mexico&nbsp;&nbsp;roundtable.io",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Congress approves sweeping sanctions on Russia and Iran, sending bill to Trump’s desk",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdzJqdXJrdDhWNzZQU0lkeU9oYjFaZ2VCbm5CYktzMVVTVFRsMm9iTWRxQWFDQUVDYk1FZWF4WllxWloyN0FyR09xZXVma2dDaTloZm5EWHJ0Wk8zZXliRTYtVDB2T29iS1R1bkQ3Q0c1aWg0Sy1iSElXNkJSbFZuZnZ5UWVfWnpEeXhXVw?oc=5",
-   "source": "Deseret News",
-   "pubDate": "2026-09-16T22:36:10.000Z",
-   "description": "Congress approves sweeping sanctions on Russia and Iran, sending bill to Trump’s desk&nbsp;&nbsp;Deseret News",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House passes Russia sanctions bill giving Trump more power to impose sweeping tariffs | Hindustan Times",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUEdLX0xLcFVFR1VBdEtzaklyTEJJVTJjQzVBX205WGt4andmWEdEekRYakctQmNzWUdHUFpuNUluSDVJcmFNRUJ2d2lrcjQ4dEtFdHFVaFJwd3BEYlRRcnE2WnRHS1dkMEJfLXNoZk0yOFJhWnJyaVNYbHlFNGhDZ2VSckRIUk1jVjF6QUhNWUZXbzdTUS1MSFpjT2ZhbHlQWFN5cTJtUXlGQks0WlFxTXljZkgtRDZrY083SmtYaVBWU0dveVBqLWd6RHpBUVNiSmNjdG1Jcm5MbzhXYlE4QUpLLTlsUUN2dzdiMWFGc2HSAfYBQVVfeXFMUFROZWxYUUMtY1AzM1ByQy12V2xSZUI5Yno1c2Q1b2dfWmpXZk1FbFNia1VVMVlaUmR2TEpfQkphZlhvY3pKN3pPMFdnbVd6MWR2dXM1c1p0MmgxSkk0QnRvajdzcFRPbFhDalFCUDZjNm5iNXpmRnVEOTRzNExVZFVSdlJpdUZaaHNNNFZQenRaVHRpLUNjcHVIWlZYaXFrelp3QTVtY1otZXFYUkphQ2loZ05Gb29JcXEzZl9jcFdVbG9DOGlzVWJmcThYR29IVFE3LTRZcGZLbDc5LUw0NDlaM1FRTVpfc2hOMzZOdkhPZm05OEtn?oc=5",
-   "source": "Hindustan Times",
-   "pubDate": "2026-09-16T22:35:39.000Z",
-   "description": "US House passes Russia sanctions bill giving Trump more power to impose sweeping tariffs | Hindustan Times&nbsp;&nbsp;Hindustan Times",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House approves Graham's Russia sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQnpweW1QMnFGd2IzWFJxeGI1Tm5RRnppUU43YnYxbnYwa1NJd0ExT3lUaThxRXdMTHJXNDNITmdubG85Z284bmpMLThZeV9nQ19zS0FCalBhdU13a21MQ2RVREFyZXNpUEl3dEM0MTJpb09SLUVTeWZRSGg4R0dnMEZR?oc=5",
-   "source": "The Kyiv Independent",
-   "pubDate": "2026-09-16T22:33:10.000Z",
-   "description": "US House approves Graham's Russia sanctions bill&nbsp;&nbsp;The Kyiv Independent",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Russia sanctions bill, sending it to Trump’s desk",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWlRVUdEaDlNWnZPakxkV3Y0YW00V2JKMlJQbjZLa3VLSm12b2FCU1hoSXBicDBKaUp1X3M0c05zUXRmQWpCUWdLLVFpNC02OVdwUmN4aUFXckZYUWdER3d6NVg1eWpRdkQ1cjFGOWpDbXNGMTAwVDdUWndkaVg0XzAteDRoUU9Odko0OdIBkgFBVV95cUxPUlYxRTNWdGtzQTNvZTI4S2VsWk04THJFbklXY1lsS3FlTHE5a25RY3lFUEVSNmdWeGpFaFZNeDRLRnF3OXVrMS0xdlRUY2tna0FEOW5Wbl9WSmV4eUtpdmI3LU91WXhDcVg3NmdmZ1BrcjFhY05fM0hXdlh3MFN2VGhNTkZHQ3BJS3dqZU43cHM0QQ?oc=5",
-   "source": "The Hill",
-   "pubDate": "2026-09-16T22:32:00.000Z",
-   "description": "House passes Russia sanctions bill, sending it to Trump’s desk&nbsp;&nbsp;The Hill",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Russia sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSR0U5VHVNQS04YkptQVZ3cU1ZSjZpOXZQOWtnTVEwZFZnSHlEUTlGZElhQ2Y0aUpRTVBueUtpZWpZUi1uVEpwQjQ4V19JZHJzTTlyT3U0bl9DTWtmSXpRb0VrVTdfMTJxSGJGQWNEcUE3LVRPWmc?oc=5",
-   "source": "Axios",
-   "pubDate": "2026-09-16T22:31:26.000Z",
-   "description": "House passes Russia sanctions bill&nbsp;&nbsp;Axios",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Russia sanctions bill named for Lindsey Graham, sending it to Trump",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1Z3QlVPb0I2RU1YZ1VaTEw5b09Zc3YxVWxjNWZGMGQxWHR1YlhqWkQyQk04LVRmdm1neENQcGc3REUzYTFsSEQyZzFTNFNubHA5bXN4S1BtSGFyS05wemd5M3ZpYVNTeU1HZl9Qa01yME9lUTVjRkJxR0xwN2F2aUFiXzJLczR5N2xYem9Pa0ZaNnJDaWlTMnQ1Z3lkWHc1TTdFZi1YcV9YaWZZYU1EXy1YcEk2aW1UNkhVckVWdw?oc=5",
-   "source": "NBC News",
-   "pubDate": "2026-09-16T22:31:00.000Z",
-   "description": "House passes Russia sanctions bill named for Lindsey Graham, sending it to Trump&nbsp;&nbsp;NBC News",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Congress Clears Russia Sanctions Bill, Sending It to Trump",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaHAycFF6cm5qMEF2RDZSeGxNUUNTSXVlQ0NqNFRzS2d5RlZRZlZoeTVDZlVoOUJIRXcyZWNjZWV6Z2RVVGxXREZhMDRZR3hWUC1pQzAxdlJsYlZRbENsc1YxMHBjT0JRaWlna3JKY1RtRjBTdGNmOTRhbndRdXZQeDg3OFBzbFktQVRj?oc=5",
-   "source": "The New York Times",
-   "pubDate": "2026-09-16T22:30:48.000Z",
-   "description": "Congress Clears Russia Sanctions Bill, Sending It to Trump&nbsp;&nbsp;The New York Times",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORnprZlp5VWJiMUtDX2pzZ3d5M2NHV3lWOVUtTXFlYjVKS2FlOG5qTkQzX2NReUN0YkxTandmQ0lHZ1BzZjdFX3BhbmJQRllTbzVGLUZrV1FuUmhRWHVuNXNZNUlhRmRzaDJTQktqNVVXZEdYUktOSWlJc1ZnTXBZV0VkU09Nd0dkd0xOVW5tYmM?oc=5",
-   "source": "NPR",
-   "pubDate": "2026-09-16T22:30:46.000Z",
-   "description": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk&nbsp;&nbsp;NPR",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "For checkpoint and settler attack news, Palestinians tune into the radio",
-   "link": "https://www.aljazeera.com/news/2026/9/16/for-checkpoint-and-settler-attack-news-palestinians-tune-into-the-radio?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-16T22:30:34.000Z",
-   "description": "Palestinians in the West Bank navigate Israeli road closures and attacks with help from a local radio station.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "House passes Russia sanctions bill over Democratic objections about Trump’s new authority",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUXlucmE2ZVBTODdwY05HQjFWdTZ5VXRLVnVTcWh5eHBobEk3MlJLVXBzWWtQUkRoZnY2cXd2NHU4MkhPWUUzdWtZVTA0S3pKcUNLQXR1S2tyeHZfNjc3Q2I3UW5xSnVoVlNDU3lXV3B2MDRhWGp1eDVVUTFCNmxsQlpaWEdLbGN4NFlxNE9GWnlTZ2ZiOXltNXV6VUFnVFEzUHZVbE5LWmx3ZURIaExaZ25B?oc=5",
-   "source": "MS NOW",
-   "pubDate": "2026-09-16T22:30:15.000Z",
-   "description": "House passes Russia sanctions bill over Democratic objections about Trump’s new authority&nbsp;&nbsp;MS NOW",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House Passes Bill Allowing New Tariffs on Russia Oil Buyers",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSUY3Y2o1UW5sR1pnNktlX1BHSjVyU3pNTzZ1VVoxQ1JnWUg3c2pLTGF2VUtpbl96MWlDY2NSMEp3ZHNHbHZHbDdSMWVlYzI1N0lwaVpLV2oxLTJZaVNNVFZmVDBQRUFjVms4ZXpMZjdXaWZkX3h4dzJMRWpYMW9jbTlnM3lIOW5Ea0poUGphVGhZVVczUVRjRlBKSnlkWTk1Q1lRbW1FdGhpNldUdXlrbEdjbw?oc=5",
-   "source": "Bloomberg",
-   "pubDate": "2026-09-16T22:29:40.000Z",
-   "description": "House Passes Bill Allowing New Tariffs on Russia Oil Buyers&nbsp;&nbsp;Bloomberg",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Democrats begrudgingly hand Trump victory on tariffs in sprawling sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYk5XbGs2YW9MSDJTR0xkaTRMdVp5dmk2UlVhZ2tuN052blRJU3hrek83bUVSdGpNWDAtdVNzRTBUNDNZRzlmUDdlNmEwSVhhcGJPazl1bHpNRWZ4WG0yUzNnWUp6YndIcERBOXJRMzVIZFpRaERhdUl3QWg2WWZtTmFXU0FnMjZhLWNJR25jeFJ5aTBFRngycXhjcGxJVGtUZU16dTNUbzU2bE3SAbABQVVfeXFMTjJ1YUhDREM0RFBHRUV2SnBWWGo0LTQyak1BS3NsTXJiYnF2cElOcW4wQmtvTmY3YW44X0trbjBWem81VVBvWDJ4Z2RGVWZfN0hzR0NaMF9OekQya000ZWFlUTJTQkN4R0dYQXR5X3hZWFNQQWt4UTJ4MGl5dkNiejRtUThsZTRKS29hODFXNXVDUWVuYzBaN2N6d290Y1paTDkwNzdXLUpEMTFxdDNLcVc?oc=5",
-   "source": "Fox News",
-   "pubDate": "2026-09-16T22:29:35.000Z",
-   "description": "Democrats begrudgingly hand Trump victory on tariffs in sprawling sanctions bill&nbsp;&nbsp;Fox News",
-   "categories": [
-    "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "House passes sweeping sanctions bill targeting Russia, sending it to Trump to be signed into law",
-   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQcF96c2pINnVHTjVYU0JMNlFqTVNuQ00zM2hTMUN3NjJFdzFXRE41cVF1WThiZzhQd0Qzcy1URFJfLWFTcHRrMFZQR2xUbTBSdWtNUVdTWURqeGJtamRneXRCS0pPNmJjS0N5UTZUdzlpTk1xSUNLT2lxWVJUdkh2TXNaMnBoZnZ4M3NZWkNQc3d3ZG85bGNXbTVwUXZUVUcyd1pyNWJRU1pvZERXSTZFeDFQUU1sZVNETlFiUnBtZEhoX1lQZWtxb1hSaUZpRkhLX2l4ckVVUzZiZjEyYjZXWWlpQmJpMEFXajdLbmhaVXgyY3B1V2NmLUhheUR5TDVEVDNnMjY1OVBzZnNQbTJTU3U0aFhuTnEzTi1aX1dNOA?oc=5",
-   "source": "kens5.com",
-   "pubDate": "2026-09-16T22:29:00.000Z",
-   "description": "House passes sweeping sanctions bill targeting Russia, sending it to Trump to be signed into law&nbsp;&nbsp;kens5.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Saudi Arabia strikes Al-Barh bridge in Yemen twice in 2 days as conflict with Houthis escalates",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zQ0xBZnI0NmdqQWVkMHJ1Z1RuSXlVeFpFaHhzeUQ1VFN3TDJjTGFqVFAtWWs1SV8yelFlMDF5ODFjZDYtYW5hNExwODlZUGN1dWdZaWstS0t2WnpN?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-09-16T22:17:26.000Z",
-   "description": "Saudi Arabia strikes Al-Barh bridge in Yemen twice in 2 days as conflict with Houthis escalates&nbsp;&nbsp;The Jerusalem Post",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US reiterates support for Yemen’s government against ‘Houthi aggression’, UAE condemns Mecca attack",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWEFGV1dCNDh3UGJ5RWFjVE9QUUUycTV3YVpfZ1NfOVJmU1FQZXU4RkF6OVEwZG15RXVKS2tyVTlZTGNXbkUtUkhNMEdtZVpVM0R5OUxkRmpkWlVWLWVsWVAtaTUzVWFaVkFIQUdKZlFFSzhZeGJrMmtucXFvUzB0U1B0akZHOThGaV9xQmFEby1jV2JvSzlzZlJaYWFncE9WOWpWMUlEOHl6dmJueUVqNDgwTW1nM2VqUFVPTXBZd245TDh6?oc=5",
-   "source": "Middle East Eye",
-   "pubDate": "2026-09-16T22:09:00.000Z",
-   "description": "US reiterates support for Yemen’s government against ‘Houthi aggression’, UAE condemns Mecca attack&nbsp;&nbsp;Middle East Eye",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "UAE condemns Iran-backed Houthi attempt to target Mecca",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lQm41cHBRWlV5WXZWajk4QnN6RXNrSjJlbmVObl9qS0pKZ2t0dGtqTjdZQ2lBMGZiRFRMLWFVbklaaHkzdnctZ2wtbkN4bXdKN1E?oc=5",
-   "source": "Iran International",
-   "pubDate": "2026-09-16T22:07:59.000Z",
-   "description": "UAE condemns Iran-backed Houthi attempt to target Mecca&nbsp;&nbsp;Iran International",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US House discusses Russia Sanctions Bill, recorded vote pending",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUTVid2pyajNZcVZYdlc5eHhsVXF1V1Qxeko0SGQ5cTEwV29LYnlPTm9HUUZGNjdYM0Y0WEZfY0VCeWNmNmM4Ukp4bTk3ZTlxd09pcUtYNFZ6T2lNbUV2LTBFb0hOWlZxdlVRRk94QktWWGRNVDYyZVlaY3hBd3V2ZThmcWxNcGQwbTdISUZ6SmhlT011M2J1R2ZBZWE5SE11eEJFTFVzc0E2OHNMenBYQmJDNA?oc=5",
-   "source": "aninews.in",
-   "pubDate": "2026-09-16T22:04:00.000Z",
-   "description": "US House discusses Russia Sanctions Bill, recorded vote pending&nbsp;&nbsp;aninews.in",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Yemen’s Houthi Rebels Claim Shooting Down Saudi F-15 Fighter Jet",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMHNRaWZRcHNLcGpJTmo3ZFd4VWF0MnF2VlliMUZ3M1cwN00yZG5GWWltaGdWMVFoUWE4YU8xMDNlSGZSa1NTbnMxWWEyWi1hTTQxMERaa1dURDhzMXpTdXI4Z2YyMkdZVGJpNTRYaWxuSHJnY1lKQW5HNGJndzNIWUFsQlVwT3FOanAzVWQ0Sm4wdmJ1YjNZUnhxMGQ3ZnFFOC1SbmR5UC1Tc2M?oc=5",
-   "source": "Eurasia Business News",
-   "pubDate": "2026-09-16T22:01:31.000Z",
-   "description": "Yemen’s Houthi Rebels Claim Shooting Down Saudi F-15 Fighter Jet&nbsp;&nbsp;Eurasia Business News",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Oil Above $100 Pushes U.S. Fuel Prices to New Records",
-   "link": "https://oilprice.com/Energy/Energy-General/Oil-Above-100-Pushes-US-Fuel-Prices-to-New-Records.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-16T22:00:00.000Z",
-   "description": "Oil markets appear to have reached the inflection point that many analysts had predicted weeks ago as the Middle East conflict re-escalated with no diplomatic push in sight and global inventories continue to slump. Oil prices are back above $100 per barrel, lifting diesel and gasoline prices, includ",
-   "categories": [
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US-Israel-Iran War Latest Live News: Israel-Morocco to Open Embassies as Somalia Condemns Houthi Mecca Drone Attack, Yemen Fighting Raises Regional Tensions",
-   "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPeGpYS3lZTkhWaEpxT1JiLTY5dHgyRDU0Wk5CTndLOWVibW5Ua2pLdEEyYmlSRUc3bnJ2elFIRE9FcWRNUVU5LUlMdkpLeEd3R3J1Nk96NFpPRHc2bVhQQnJOS1ZZbm54NXRISmgxQm5TUlY4cHhSOUx0cGU3LW9fQnZXblN0RzAwaXBmLWhOakJUWjJUbEprOG4tZGJHTk85VElvTVFqQnc0dUJSX3RNUFdPeGc0ZmpOV0NPd0ZDR2xVRUJfclVYazllVmlPTDcyZk5VT19vTndqaHAxTG5VZVJpV3RtVnJwYy1IR0V2TVRIbHVjb0phQlVWTlByRE1oTGdtX1UwSUZFbTRobG1xZlBMRnZKRmdIUXNoZzVvSGVWWEliU1JEOHhoRdIBqwJBVV95cUxPeGpYS3lZTkhWaEpxT1JiLTY5dHgyRDU0Wk5CTndLOWVibW5Ua2pLdEEyYmlSRUc3bnJ2elFIRE9FcWRNUVU5LUlMdkpLeEd3R3J1Nk96NFpPRHc2bVhQQnJOS1ZZbm54NXRISmgxQm5TUlY4cHhSOUx0cGU3LW9fQnZXblN0RzAwaXBmLWhOakJUWjJUbEprOG4tZGJHTk85VElvTVFqQnc0dUJSX3RNUFdPeGc0ZmpOV0NPd0ZDR2xVRUJfclVYazllVmlPTDcyZk5VT19vTndqaHAxTG5VZVJpV3RtVnJwYy1IR0V2TVRIbHVjb0phQlVWTlByRE1oTGdtX1UwSUZFbTRobG1xZlBMRnZKRmdIUXNoZzVvSGVWWEliU1JEOHhoRQ?oc=5",
-   "source": "The Sunday Guardian",
-   "pubDate": "2026-09-16T21:58:21.000Z",
-   "description": "US-Israel-Iran War Latest Live News: Israel-Morocco to Open Embassies as Somalia Condemns Houthi Mecca Drone Attack, Yemen Fighting Raises Regional Tensions&nbsp;&nbsp;The Sunday Guardian",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Congress on track to approve major Russia sanctions bill",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRm9vTGNPRmYtb1VNcGVzbGNFWHlsZ0dHa0E0X005VDRmUVJMalJiaHR2cmJmd2gtQzlhNHg4UV9IaGZXQXdzVkRoU1lQOVZCUjAzWlBncEFKUkQtTXI2WWNlRDQxcjc1WGZyUGJYcjNIUnVSTkFUR0RnTDFHN1RETW5lbmhqa1o0ZFE5dTlLTmtQNEppUkxmR3AyS1dLM0F3Vmx1NHdpaTRZOTNXd1dTM0VHNA?oc=5",
-   "source": "CNN",
-   "pubDate": "2026-09-16T21:55:09.000Z",
-   "description": "Congress on track to approve major Russia sanctions bill&nbsp;&nbsp;CNN",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Paul Finebaum questions if OU's Brent Venables is a top-flight coach",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONFVVQlNoVW92RHY4LWYybXhweHdkRURwdGV0bFJ4Y3BZQ0xuWDltVnZ3MVVmZGFTWWFPdmZhTzdtWU4xbHZsTGMyV3Z3OVNWeDdJYnBLWE9YOGZXYW5Zb183WGdTS2FQdzRvOXJMdG1MMUN1dVkxcFZMUXZ6SzQtbnpKRnp3eVBXdU1YaFFtc2VZdFpBLXhXZWxIOTNaNU9rSUN4RS1qZWZUemNoM2lqeW0xVnZBb2Q1c3NmNlJHUG9rVkkxb25uUGpSZld1V0pxVVNGVEp5LW1ka21GNTBOVTVlVmwzZWs?oc=5",
-   "source": "Sooners Wire",
-   "pubDate": "2026-09-16T21:52:00.000Z",
-   "description": "Paul Finebaum questions if OU's Brent Venables is a top-flight coach&nbsp;&nbsp;Sooners Wire",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "U.S. diplomats meet with Houthis as Red Sea crisis intensifies",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ueFRodVdXVnI2VVhwWTlrQ1hhenlta3dMX29Xb3JPRnRROThHVW9QUFFYUE1SYzh0WmdOYVpKQWhOSHBRUEF6OEQzX1VMNUlSVWQ3a0hrUG1JMk9OYmc5YmxJRzJGRm9nVWw5SUNsWDZ4bDJiVmZnSFRPT0E5Zw?oc=5",
-   "source": "Axios",
-   "pubDate": "2026-09-16T21:44:50.000Z",
-   "description": "U.S. diplomats meet with Houthis as Red Sea crisis intensifies&nbsp;&nbsp;Axios",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Middle East Violence Escalates as Iran and Joint US‑Israel Forces Launch New Missile & Drone Waves",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVE1OXdqcC1sN0xLYkNJTS1qY0ljOUcwN3Nmc3hpOTZXZW5pUzlRelNlenJUSWxDSTVMVnBJcURJSTh0cEhSdnAzaF9EYUFaRkJjOTIyaDFTOHhWdUVGcmFvMnc1Uzh1dnUzdmtDQXBMRlFPOHctZGE0NGhNSEJCZFhVVzhNQVB2ay1DMkUtaTNzblpGeWl3eUpaTzhSZUJkSmdLV0FaelhneFM0UFpyck5IZFhlWEVxZWYyd0w0c1hhRnc?oc=5",
-   "source": "News On AIR",
-   "pubDate": "2026-09-16T21:44:37.000Z",
-   "description": "Middle East Violence Escalates as Iran and Joint US‑Israel Forces Launch New Missile & Drone Waves&nbsp;&nbsp;News On AIR",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Chevron’s CEO Warns Oil Price Buffers Are “Played Out.” Here’s What That Means",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWlXQWlER2xBOGNJVkhHb29tSW1vU3VGMGZRMERMajZvVlp1LW05MDVpQXV5NnhUUnFvV28xRmxZZzRSa21uWjI1RmxIN1FLMlBUcFMySnRtX0lSaGdvNUlBcmkybzRTMExxeDJJNnJFU2JYNHVXdGVXeUNtZmNLWkNEVWVTbkExMmktdEJVdldaekQxX2c2clp6ZlJ1WF9u?oc=5",
-   "source": "TIKR.com",
-   "pubDate": "2026-09-16T21:43:03.000Z",
-   "description": "Chevron’s CEO Warns Oil Price Buffers Are “Played Out.” Here’s What That Means&nbsp;&nbsp;TIKR.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "House nears vote on Russia sanctions bill named after late Sen. Lindsey Graham",
-   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSlRPOVhrNnI4bU9ndHhlRFJVVHI4QjY2bWRZNjJTcDN5MkVpdFZ3SGVqaUd4QTZ4NkE0azI3VmJkSUFkamQ4UGw4WkJ2S0ZyMUNNd2hnRklrMlJxOThvQzRnaUEyTTlLSXVLM25ZeG10VU5FdjQzVjJFa21KWlZtWE0wSmJmSHk5b2U1WWFNQ2ZIb3d3YW9lY0VvVTgxd3RMTWxNdVIwd3huZ3BNMmFKcHVJdnc3MzlNbHUwY0dtNUZXTy1qX2s3TWFYS2VsY1VzeTZmRG9NNEVHWm9oVEltUWxFX0pxb1VrY281bG1WZVVZY1VLU0MwNGNhWnNYX0RYSlN5VE5CZHQxLXppWTc0NzY5U1htb2lzVWc?oc=5",
-   "source": "Lowell Sun",
-   "pubDate": "2026-09-16T21:24:39.000Z",
-   "description": "House nears vote on Russia sanctions bill named after late Sen. Lindsey Graham&nbsp;&nbsp;Lowell Sun",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran attacked a U.S.-leased vessel near the Strait of Hormuz; there are casualties – Fox News",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1NvY2dqT0FhSzkxMHBudWpLWTNiWGhBMExPNWpQUm1wMjYwWnBFLWREdjY3Qm5uRXg1czhuR2RoUmpQa1FUQWhCMTEwLV9kcGc4b2VIN0UzaWs1cTNfQ0NZRlp5a0txMmZjOVNiX2g4Y0pFem1mRGNvWWN3bFNZQldNNjBzLUx1WkN6ZnlveTZYT1BNeENLbVZXYmFMVUFURmhtZzFBSjlTSjFGcFg5Y9IBrwFBVV95cUxPclBPVllnd0Z4T1BpQkVtaUloaGc4VkFMUVZQQl9WYzVPbUJqQ3U5X3otSkZKUjk0WFFFRWZ5YURGdHpOczZBaDFlMWNkN045VC04UjNLX1RUb1BpRGtBMkxmd2puMklhSzE3UGxIZ0hJWGlHaWJXRndqTlFzNzlkb1hFRG9UNzVqcWRtMWxiaXFKNkdnQXkwQ2E0czMwaGR5MWEwdnQ1VzI1ai1DMDFV?oc=5",
-   "source": "Українські Національні Новини (УНН)",
-   "pubDate": "2026-09-16T21:17:32.000Z",
-   "description": "Iran attacked a U.S.-leased vessel near the Strait of Hormuz; there are casualties – Fox News&nbsp;&nbsp;Українські Національні Новини (УНН)",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Rescue workers search for survivors after Gaza building collapse",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/rescue-workers-search-for-survivors-after-gaza-building-collapse?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-16T21:15:42.000Z",
-   "description": "Rescue workers search for survivors after Gaza building collapse",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US-Contracted Vessel Hit By Iranian Missiles Near Strait Of Hormuz: Report",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkhKeFZ3R3RabjVleUFXN0tvSVNiU29xMlZUYXRwRE51TWxBQWk4cjFoUnhvQ24xUzl5aHBzZlloLTFqSjB0aE45OVpzV2JfeTJXT1Q5dllRTmNxMlpCdGxZZEtvQy1LU1ZVZkh1RS1ub0s3VzRaVGlMeEZIMzZhQ0pYcEFMbEp1bXJaUUo1dm5OaG9yNHBmYXpKY0sxVWtUSk9jT3dScGx4bjBiY081WnI3NU3SAbwBQVVfeXFMUGg3N3kzMWZXbW1kNDB2cVZUalE1UnhSX2o1NHdyZXdvSGUwNGYxTU94WnFjY0RaeUdHQS1ZM0dNZklSczZqQ3hWOVhJbEI1bVJQU1l3UUFQTnFlVVNVcVF0RnAyNm1USlFQTHFnRmRXWXlPb28yeWNTVmFEMVUtRUVWSUx2OUlXUlllelFIYWFZRmV6aTRlYlpCX2pLLXUtY183UEo5SFItSklLWG9ScTM3Y09KYkVQZ2VPQTE?oc=5",
-   "source": "NDTV",
-   "pubDate": "2026-09-16T21:13:43.000Z",
-   "description": "US-Contracted Vessel Hit By Iranian Missiles Near Strait Of Hormuz: Report&nbsp;&nbsp;NDTV",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Lebanon, Somalia condemn Houthi attack on Mecca",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGZkSElvUENnVGg5eUIzZEMwUzN5M202emNQTUV3RE1LNk5zdmFZUHpwZl9mRUF6LW9uREZYSGh1M1JEb0UycW9ZTzUzaDBIS1hHTDBSVUo0NlA5RlI2SlZqMzI4T05IcU5uUkp1WFl2UUJHR2M2V1NIc1lyZWMxLVJEckZYQVZyWV8xRkp5XzA0UHlYR2lqZVMtRGp4Q1JENkE?oc=5",
-   "source": "Middle East Eye",
-   "pubDate": "2026-09-16T21:03:00.000Z",
-   "description": "Lebanon, Somalia condemn Houthi attack on Mecca&nbsp;&nbsp;Middle East Eye",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Inside Putin’s $135 Billion Arctic Gamble That Could Save His Ukraine War",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Inside-Putins-135-Billion-Arctic-Gamble-That-Could-Save-His-Ukraine-War.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-16T21:00:00.000Z",
-   "description": "Back in early February 2022, Vladimir Putin had his first in-person meeting with his Chinese counterpart Xi Jinping for nearly two years, at the opening of the Winter Olympics ceremony in Beijing. To avoid disrupting this landmark event for Xi and to allow China to finalise the multiple hoarding dea",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Shale Oil Now Makes Up 72% of Argentina's Crude Output, Data Shows",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Shale-Oil-Now-Makes-Up-72-of-Argentinas-Crude-Output-Data-Shows.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-16T21:00:00.000Z",
-   "description": "Argentina's controversial right-wing president, Javier Milei, slashed inflation with a brutal dose of economic austerity, but this came at a steep social cost. The cost of living is spiraling higher, fueling household debt, loan delinquencies, and economic hardship. Industrial output, since Milei to",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "CENTCOM says Hormuz traffic flowing, monitoring Houthi advance",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uM29sNVZJYV9ZLVdjcGpkZVRjWWJGUDlDa0Q3M3gwNmxTOFByXzBMdW5ITENZeE9FTjhuSDlYYjVxU0J2dktwOEt6LWFWOUtDUWc?oc=5",
-   "source": "Iran International",
-   "pubDate": "2026-09-16T20:59:09.000Z",
-   "description": "CENTCOM says Hormuz traffic flowing, monitoring Houthi advance&nbsp;&nbsp;Iran International",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-   "source": "LiteFinance",
-   "pubDate": "2026-09-16T20:56:19.000Z",
-   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "US removes Venezuela from drug list, Trump says",
-   "link": "https://www.aljazeera.com/news/2026/9/16/us-removes-venezuela-from-list-of-drug-transit-production-countries?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-16T20:53:02.000Z",
-   "description": "Trump says the country has made progress against narcotics since Maduro's removal, may also remove Colombia and Bolivia.",
-   "categories": [
-    "supply_other"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Brent Burns Looks Unrecognizable as NHL Star Debuts Shocking New Look",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3VQVmExaF9wS0VpbVFVOGlTczBtSUJPZFJmdkVXeHZYT3cxRlpuQUFPdnpCUXFpUHVfQ1RlVkRaSkdSRjY3QUtuczRLZTJVMjZaTG4ybVU4NGJTaUVHSU1IUjZFMkg1alNDZzB1SlF0ZUp6UHpKbW5QTzM1WWF3UUtwNTVYcUF4MHpqYUV3?oc=5",
-   "source": "Yahoo Sports",
-   "pubDate": "2026-09-16T20:51:48.000Z",
-   "description": "Brent Burns Looks Unrecognizable as NHL Star Debuts Shocking New Look&nbsp;&nbsp;Yahoo Sports",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Houthi Gains Along the Red Sea Complicate Saudi Arabia’s Yemen Strategy",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3N4MXYtUkg4S2haU3pybXdHVUlDdVpnQkwxU3d4N2swc1Z1N1NUTGJURjUybVVzSDlQTGpvaEZyQWU5R21WZUpVOWs5OGU3NlJIOW1yaHlITU1aZlhFclFRMWpJSUdfV2oxRVRZSFRGeTFKYjJBTExGYV9hd1lvUF9UTXo3WWJaR3lvU1Z4bE93U2F6SmQ0?oc=5",
-   "source": "dawnmena.org",
-   "pubDate": "2026-09-16T20:47:39.000Z",
-   "description": "Houthi Gains Along the Red Sea Complicate Saudi Arabia’s Yemen Strategy&nbsp;&nbsp;dawnmena.org",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent Burns sports new look as Avalanche open camp",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjNMam9Lc01BSnJWSTlmME43R0FsckFiWThnb0V4TUF2V1VxYW5NLVVmV0tkR3FiY2RMczhrWHJaM2dmVElFQ0RPQW5oZHJBU3p3cjNyODVGNU5FM25Ma0U2NDJueVJCTE1ib1BweUtjNG1QTTZpNEdHcllRZkhMdy16LU5kV0NqTDFseFVBYTBvREJSRG5xVUp0cXZtY0ZtMm00?oc=5",
-   "source": "ESPN",
-   "pubDate": "2026-09-16T20:43:00.000Z",
-   "description": "Brent Burns sports new look as Avalanche open camp&nbsp;&nbsp;ESPN",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Some Republicans privately fear Russia sanctions bill will give Trump too much power on tariffs",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KOWMwVkRZNzF1TUdWeFAyejV2azZhbFlFbkpvQXFfZkdDNklueTFiYzdlaDZLQmNMX0tPbWdidzNZeHFfaC1PRHVCN0dpamExUFBxbjFweGtkVHo4aDBXV0xTWmE0MkJCQlpRZnhwb2w1a183QnNJbg?oc=5",
-   "source": "CNN",
-   "pubDate": "2026-09-16T20:32:25.000Z",
-   "description": "Some Republicans privately fear Russia sanctions bill will give Trump too much power on tariffs&nbsp;&nbsp;CNN",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "French seeks lifting of EU sanctions on billionaire after pressure by Azerbaijan, diplomats say",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN2pEQlJIejhCanFpeUNqdG5XdFc1YTFIUzZfOW4wc2FUUmd1elZHNkJSY3c0dEp1Vkl0OHYxbXNTLUZ1RmVFeEdDMExxNUVxaTY5cnFISFAwOGdjQktCV0FCVHdPUWRFQmRjbVg3bkg3TW9UYmV0MW5hcDR3ZDM3cFVITm9DRzFqWW1leFJacEUyOTNNRzZtcUFoV1R4MjBZLWVFeGdWR1FWbFNBZzF3YjY5MFI4NWc?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-09-16T20:28:00.000Z",
-   "description": "French seeks lifting of EU sanctions on billionaire after pressure by Azerbaijan, diplomats say&nbsp;&nbsp;Reuters",
-   "categories": [
-    "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Virginia HC Tony Elliott Makes Fascinating Brent Venables Comparison to WVU Defense",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUZ6Y3JzOEp5NElBU2FmSTFxNDBSLUxMSy1QUVlaWmtHakdQbnpGSExSMkRHdUdlaVZ5VVlNOTdFRjhqek15U3pST1otNWtMSjAwckJ2WUdSMDZGU3g0RFNFQjJuVmJwdTA3NWhZU2ZlRWhnUEMweUtwTDlMY2U3bUlhZjE1Zw?oc=5",
-   "source": "Yahoo Sports",
-   "pubDate": "2026-09-16T20:26:25.000Z",
-   "description": "Virginia HC Tony Elliott Makes Fascinating Brent Venables Comparison to WVU Defense&nbsp;&nbsp;Yahoo Sports",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "India could face up to 100% US tariffs over Russian oil",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUkI3WW1hand5NEl6d3V5S0JZUVZnc3lKcXR3Yk03UEVMei1iNG54ektTa0tKMnBoUVNOZm82eDcyMXNJcEpCbXJqT0RmUnNVekZVUTFGd0FqRVlmcTRGQkRDQkdKNnpSR2tsVzhkTXdyNFR0R1JHUm41Tl9LQm1GSWEyaWN4SzZZM0xxV25EM3M0NmVSR084bWlfbTF0WG9pMmxOWEotSWJmUDJzX2c1Mlc0cnA5QQ?oc=5",
-   "source": "dw.com",
-   "pubDate": "2026-09-16T20:26:15.000Z",
-   "description": "India could face up to 100% US tariffs over Russian oil&nbsp;&nbsp;dw.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Key House Democrat refuses to clear Trump’s $2.8bn arms sale to Israel",
-   "link": "https://www.theguardian.com/us-news/2026/sep/16/us-arms-sale-israel-gregory-meeks",
-   "source": "The Guardian",
-   "pubDate": "2026-09-16T20:20:28.000Z",
-   "description": "Pro-Israel Gregory Meeks raises concerns over threat to civilian lives from package of 40,000 one-ton bombs‘An antidote to Trumpism’: Our politics team answered your questions on Democrats’ midterms hopesThe top Democrat on the House foreign affairs committee has thrown up a roadblock to one of the ",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Strike on Iranian cargo ship in the Strait of Hormuz kills 1, Iranian media says",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWm5sWDdnNHZUNXlEWWtfYW5ybVBaZW9CNGY2ZVRRTjNpNm9HNlQyVzRXTUxmZEotZnNVMTltY2UwdWVnYS10VlFyRGQ1RXFHRVdkYkdlMGQ3YW84UnhyV3RaVFh0XzZOZUpqcDBHMXk0enBYU3d6azI2dHBkZFkzRV9DdkF6cXhEdTVsWFF5YmVJNzByM3lDcTVRdzY4cUdBbTRZY0I0WGE4dzU5eXhnUE93?oc=5",
-   "source": "WBAP",
-   "pubDate": "2026-09-16T20:13:14.000Z",
-   "description": "Strike on Iranian cargo ship in the Strait of Hormuz kills 1, Iranian media says&nbsp;&nbsp;WBAP",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Yemen’s Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeVk2ZWpwUU56cU9fS3ZvbklQVmF5SHY5RXJJQk5MZTRfUjVLWXlaYUJidzJYR3R3TXoza2hXZTJxZzhNdDhSYUhXVjlkM3ZFbWNXd1BjS1FQTENjR3dGdzNyZHJvbF93UGZPckM3RTFMQnhBckZGWVR3ZmxXM1lYMXFIREk4NVNTUmxIUVY4NGVhZV9SVWlaRjdIaUhLMWwwX2g4UnU1eWhkYlJWam9qMm1tZjl0VTZqRnQ5dVhVRmVxV1NEcnU0?oc=5",
-   "source": "WBAP",
-   "pubDate": "2026-09-16T20:13:14.000Z",
-   "description": "Yemen’s Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes&nbsp;&nbsp;WBAP",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "New video claims to show Saudi fighter jet Houthis say they shot down",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/new-video-claims-to-show-saudi-fighter-jet-houthis-say-they-shot-down?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-16T20:12:25.000Z",
-   "description": "Houthi forces have released a video claiming to show a Saudi fighter jet the group says was shot down in Yemen’s Marib.",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 25,
-   "high24h": 12,
+   "count24h": 18,
+   "high24h": 9,
    "level": "angespannt"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 22,
-   "high24h": 15,
-   "level": "angespannt"
+   "count24h": 31,
+   "high24h": 19,
+   "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 65,
-   "high24h": 2,
+   "count24h": 52,
+   "high24h": 7,
    "level": "kritisch"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 8,
-   "high24h": 3,
+   "count24h": 20,
+   "high24h": 7,
    "level": "angespannt"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 67,
-   "high24h": 1,
+   "count24h": 52,
+   "high24h": 5,
    "level": "kritisch"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 2,
+   "count24h": 3,
    "high24h": 0,
    "level": "erhöht"
   }
