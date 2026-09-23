@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-23T18:59:17.415Z",
+ "updatedAt": "2026-09-23T22:13:18.888Z",
  "quotes": [
   {
    "id": "brent",
@@ -128,9 +128,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 92.55,
-   "prevClose": 90.52,
-   "changePct": 2.24,
+   "price": 92.69,
+   "prevClose": 92.16,
+   "changePct": 0.58,
    "change24hPct": null,
    "spark": [
     {
@@ -250,9 +250,9 @@
    "symbol": "NG=F",
    "name": "Henry Hub Gas",
    "unit": "USD/MMBtu",
-   "price": 3.02,
-   "prevClose": 2.97,
-   "changePct": 1.85,
+   "price": 3.04,
+   "prevClose": 3.02,
+   "changePct": 0.6,
    "change24hPct": null,
    "spark": [
     {
@@ -374,7 +374,7 @@
    "unit": "",
    "price": 101.11,
    "prevClose": 100.54,
-   "changePct": 0.56,
+   "changePct": 0.57,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -385,9 +385,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4288.84,
-   "prevClose": 4356.58,
-   "changePct": -1.55,
+   "price": 4289.42,
+   "prevClose": 4286.76,
+   "changePct": 0.06,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -396,14 +396,582 @@
  ],
  "news": [
   {
+   "title": "Brent Venables and the Oklahoma Sooners just landed a 2028 recruit who could be a two-sport athlete in Norman",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUFphSmE2WWk4UDF6aFNIT283dzhzOVNGb1Q5RVdlQ3ZHQkVFV2lfVG5sM1ltdXRaUHZNOXB0YnJYbWxqRF9zUFZvZW14U2w3anktaXlKWEJvTU05djlZQzVqcTRtTXRHS2xiWXg5SW9kc2thX0pfV0hraTRkNzNTRVAwbDF4UXdMVWRQU1hMdkxnZFVWTDczXzhiSHF6a2FGVEJ0THpnWklBNzdZX1N4a1hKYmpYMnlXa25KTzRoOGV0MjEtTFd6ODdUTndtakZQanVQNDNWWWdaVnNsRVdn?oc=5",
+   "source": "A to Z Sports",
+   "pubDate": "2026-09-23T22:05:37.000Z",
+   "description": "Brent Venables and the Oklahoma Sooners just landed a 2028 recruit who could be a two-sport athlete in Norman&nbsp;&nbsp;A to Z Sports",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Jefferies' Brent Thill: Meta's Muse AI is 'living up to the hype'",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYW9nNkh6dXd6MUE5VmFIU0xHeEdadUpMZUkyVmo2REk2VjhqcnlWQ2h4OHlTUklkcHlneVVWbWV1b2loS0k0eTVsbVg4c2U5MWdBNzR6R3p5TW5uMFRZVFJzWHVsWEVhamdTa3RaUDU0RVBPelF0a1ZBZXZPZ1VDbWZWenZzMzZRZ1JPZXcxVWs1Qll2R3U3VklRa0JCZi1LSG5kdFBB?oc=5",
+   "source": "CNBC",
+   "pubDate": "2026-09-23T22:03:47.000Z",
+   "description": "Jefferies' Brent Thill: Meta's Muse AI is 'living up to the hype'&nbsp;&nbsp;CNBC",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Judge promises to rule soon on Trump’s ban of journalists from the White House – live",
+   "link": "https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates",
+   "source": "The Guardian",
+   "pubDate": "2026-09-23T22:02:58.000Z",
+   "description": "CNN, MS Now and Politico presented arguments to judge Timothy Kelly against president’s self-described ‘ban on the free press’Sign up for US Breaking News emailsRubio also briefly addressed Trump’s meeting with Delcy Rodriguez, the interim Venezuelan president, who last night posed for a friendly ph",
+   "categories": [
+    "supply_other"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "White House Rules Out Diesel Export Ban as Prices Surge Above $6.50",
+   "link": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-09-23T22:00:00.000Z",
+   "description": "The White House on Wednesday denied that the Administration is considering a ban on U.S. diesel exports, clarifying comments from President Donald Trump and Treasury Secretary Scott Bessent a day earlier that appeared to leave the door open to restrictions as the average diesel price in America topp",
+   "categories": [
+    "usa_policy",
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CWmlycWtudTZnQnlYSU9IUWY1TVBaWGhLaVM4OHpyZkU3ak4tTy1YM3lBQ2FmazJVdHhnWU02RFhKLTlRbjU4TWFVYk9JYzJqYmZISkk3ZEc4UmdPZ0dXTkhJRGVxTmxuM2xFcVNmbElFQ1FUdnBJUk1wOUVsYU0?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-09-23T21:57:32.000Z",
+   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "‘We are not the ones seeking confrontation,’ Polish president says about Russia during UN address – live",
+   "link": "https://www.theguardian.com/world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates",
+   "source": "The Guardian",
+   "pubDate": "2026-09-23T21:47:16.000Z",
+   "description": "Karol Nawrocki says ‘Russia is destabilising the situation in Europe through open aggression’ as he addresses UNGAThese latest attacks come just hours before Volodymyr Zelenskyy’s address to the UN general assembly, so he is likely to reflect on them during his UN speech later.So far, we have had no",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Prices Fall for Fourth Day as Supply Concerns Ease",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZWRkFoeVdVQnQtNnE2OXRQM2ViMkhkdk41di05ZWhjQXgwRGJFaW12REM2ZnVxMl9zYUR6Vlh2NVVJRFk4X2RUUk9HRXZDUVVHWmw0YjRlcDFsTTlwQjYxZGlwRnVXTUUxTnU5ZzFXMy02Ri1TNkE3Y1ZTa29yWFR2VVZoYWQ0eEttX081M0w5bkpIZ1FmNFdOOGNINWR3LW9N?oc=5",
+   "source": "WSJ",
+   "pubDate": "2026-09-23T21:43:11.000Z",
+   "description": "Oil Prices Fall for Fourth Day as Supply Concerns Ease&nbsp;&nbsp;WSJ",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Iran won’t bow to military action or sanctions and will retain nuclear program, country’s president tells UNGA",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcTl6d2xJUUl6eTNZT2ZadzlzU2xETENQeElYUzFYcXItUUtnUDBSdnFESmxBak5jVHF2NkNtN3h6eU1MSTlJdUlPWlJzOHVsMXNzU1JoZDNRYTVkZlk3dXBySjVtZTFTSU8tSWI2Y1VKWlZHUVp3Z2tXUmFReXhPdWZBMUJUWl8zWFJndWV6OV9DTjY4WXNvWVBCN3VhNnEzbm1rWUIwZmdXUHUxZF9obVZqV01mZHliNjE4Ql9wR2VSR1luaEVaYlNxWjlENnIyUDVrVFg2YjVJbFVKUEE?oc=5",
+   "source": "Jewish Telegraphic Agency",
+   "pubDate": "2026-09-23T21:37:24.000Z",
+   "description": "Iran won’t bow to military action or sanctions and will retain nuclear program, country’s president tells UNGA&nbsp;&nbsp;Jewish Telegraphic Agency",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+   "link": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC",
+   "pubDate": "2026-09-23T21:26:14.000Z",
+   "description": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Shafaq News..CENTCOM: 115 ships diverted in Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KVmJwNWo3SUc4dUczV3VBc3V1alRLcF96dWE3czRCUlRFZnpfLVpJVGxFdnNqWVE2THhJNWctb1BVQmlXZGlJVjFiN2M0Q3hqMnIxS0tmTi1sNVlWYjlIaW5vUXBaQklTRkt5dkJ6Y2ZIWFBxQThKRk9BZDBFdkU?oc=5",
+   "source": "شفق نيوز",
+   "pubDate": "2026-09-23T21:10:07.000Z",
+   "description": "Shafaq News..CENTCOM: 115 ships diverted in Strait of Hormuz&nbsp;&nbsp;شفق نيوز",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US aviation sanctions disrupt Iran flights, push travellers overland",
+   "link": "https://www.aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T21:05:36.000Z",
+   "description": "Travel disruptions intensify as Iranian airlines lose access to airspace, pushing civilians towards costly land routes.",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-09-23T20:59:43.000Z",
+   "description": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "RNR920AM Announces, Interviews Tom Flores HS Coach of the Week - Bishop Gorman High School HC Brent Browner",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkR4aVBHbUpjYU40dnhtaHNPQl93THAtUWQ2Mzhabk1DY0pNODZ3UHpTVVMxRW51SnUtUTJ3dHI2QUlYR1BwTW0tRUd4cFBFeEM2bU5uUHNWcUY4WUFxMk81R1hNWnNYTXNtNWNidkJOMFVvSTM0MVJFZjZTdGhpMzF2eEVINzNlVU9PazY0SzRkV21uMFlYOC0wd1BJQ0ZIc2JjMl94aW11UQ?oc=5",
+   "source": "raiders.com",
+   "pubDate": "2026-09-23T20:58:13.000Z",
+   "description": "RNR920AM Announces, Interviews Tom Flores HS Coach of the Week - Bishop Gorman High School HC Brent Browner&nbsp;&nbsp;raiders.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
+   "link": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T20:56:15.000Z",
+   "description": "Wael Naouar has been hospitalised as his hunger strike enters its 39th day, the Gaza Sumud Flotilla says.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Prices Rebound Amid US-Iran Tensions; Brent Surges 3.9%",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xWjBzcE83WHBGYThuUXlMLVNPQ0RXWWlJTEhzR0lTMnM0Y3JiVVowWUctLXotYmxCOF9ORDF5Mjdia3NlUmppNzlXUlFlVnN6bjF0R3JnaVd6Tm14RkF3SXByZHp1cEFrZUE1UU53?oc=5",
+   "source": "news.sbs.co.kr",
+   "pubDate": "2026-09-23T20:54:49.000Z",
+   "description": "Oil Prices Rebound Amid US-Iran Tensions; Brent Surges 3.9%&nbsp;&nbsp;news.sbs.co.kr",
+   "categories": [
+    "iran_israel",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "DAILY OIL PRICE: September 23, 2026",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3V3ZNRWRMd1hVNWxwdFNwWVA5LU56T3llaDU1N3NSYWhpWXViaHk3ZmRJUEhVZmdHNUtzc2pLeXpCMk5QbXFKR1NkSGl1V0FOZF9sZGZNLXNBNWtlTjRFenA1c0VKWU1hWjJMazVJaDRSbGRj?oc=5",
+   "source": "Odessa American",
+   "pubDate": "2026-09-23T20:35:18.000Z",
+   "description": "DAILY OIL PRICE: September 23, 2026&nbsp;&nbsp;Odessa American",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent Faiyaz Announces Exclusive 3-City Arena Tour: See The Dates",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnZnYmJLb1dpTWQ2elhyMlVxLTlwbFRIbV9fQUxjSWVwR2xfU2hpSXhvMTYyTHZWcmZsWjU0QmQwV0dZeUJfeVRjNHQ2WjZIX3BPTmxhZU5fRmJYUHNkZk1DajNYeUJhQVpPamlsWEQ5bTlCRHhXMUFGMG16NGphbkxGZEZNS044cndQdnJVMWVNNTRibW1mYVh3UlJWaldF?oc=5",
+   "source": "REAL 92.3",
+   "pubDate": "2026-09-23T20:35:10.000Z",
+   "description": "Brent Faiyaz Announces Exclusive 3-City Arena Tour: See The Dates&nbsp;&nbsp;REAL 92.3",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Crew member killed, 27 evacuated after ship targeted near Strait of Hormuz: Oman",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd1NEc2hyU0xEMkNXOVNERkNyVGx6VDkwVlliZG1oZlhidThzc1lJNVhJZ2JsVXFPUUV6MzlPd2FIdlpfQ1A0RWU0WldwWFdSSERQeDVUaWxZRFFnRU84ZEc4Qkpac0VkY0t6LVQ3ZnRwMmFmSmJkeWRHRjZTSC0xbXQzQ2lONDM3ZGtldHF1OEx5TWVaZDNjRnFPTVpqcDU1ck5PYklDMlJRVkgzZF9lMy03WFozZ1BLOUJ1ZWZVRG0?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-09-23T20:28:44.000Z",
+   "description": "Crew member killed, 27 evacuated after ship targeted near Strait of Hormuz: Oman&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump administration invites Putin to attend G20 summit in Miami",
+   "link": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T20:23:31.000Z",
+   "description": "US Secretary of State Marco Rubio says summit would be opportunity for Russian president to engage with global leaders.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Russia pounds Kyiv with drones, killing 2 and wounding 41 before Zelenskyy’s UN address",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3RrN1R2c3VzUWVvb0NrZkpkSDNHOVRKT2FXdl93QklOQlVGVElNTjBia2ZPTTQ0bmttVUkwclZ0ZXZ6YVlXMGE5ZUNFTzV0cjRQalZPclgxOFY4VEZwVzVIVTdudUNQd0FudWtVa0dldjJ0aVA4a2xTZkhrN3RQRXloUllnVkdRMlItVkNFSEtkczdmSXB1S21HYmxvNkpmNWlxSTRITG5KM19fTGFGbGlVbWlIRHpnLVFN?oc=5",
+   "source": "WHEC.com",
+   "pubDate": "2026-09-23T20:16:56.000Z",
+   "description": "Russia pounds Kyiv with drones, killing 2 and wounding 41 before Zelenskyy’s UN address&nbsp;&nbsp;WHEC.com",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "India, US discuss Russia-Iran sanctions amid energy security concerns",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVRsWEY3VEcyUGtJdkZ2am04c3NaVkxtZGxYRHJzZ053ajlmUEFvenJnZklLVGlWZkVNV1ExWEVEdUpRWTVfNEhaQjBZV215anQtNlJ0ZVpubU43eFFDQVdwZkNfazJQbnlPbG1sTGwzQkFMTm1ZZWJpbDE4WHczZVJkdGZ4Qm1ZV1NZeDVibGQ0Qzh3VTNKVFJkc1Y3TWxRQnd6LU5Zb01wS0JzajlFd2pxQ2_SAboBQVVfeXFMT3JYQnBhNnRna0ZYNkJobmpncU1kQWFIWkg2aEFyaUNkVHpjNGtjLUlqU04wdGhrU3A1eUdsTWhiRHAyVXp6eUFHZmdxenUyVXB4Y1FMTWJyUWZlQ1JVeGh3Qk0zTkNwaF9rU0pJUXo3b1hfQXpYY0tNSThIaU5IRFFWcHVtdjNXRE9OYUVNd0RaZ1djRWRUUjFrZzhkakJMVTZzMmdPYXRPUnB3X3AzNXZrNHpOSE82b25n?oc=5",
+   "source": "indiatoday.in",
+   "pubDate": "2026-09-23T20:02:32.000Z",
+   "description": "India, US discuss Russia-Iran sanctions amid energy security concerns&nbsp;&nbsp;indiatoday.in",
+   "categories": [
+    "iran_israel",
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Hormuz Workarounds Keep Gulf Oil Flowing—at a Steep Cost",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-09-23T20:00:00.000Z",
+   "description": "Ship-to-ship transfers and pipelines bypassing the Strait of Hormuz, where available, have become the primary export route for most Middle Eastern oil. Oil producers in the region have demonstrated what some see as remarkable adaptability to the new circumstances. In fact, it is a matter of survival",
+   "categories": [
+    "hormuz_redsea",
+    "supply_other"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Turkish president real threat to Israel",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU3FwdzdReXM1NzdWXzZTQ0ttWXowWS00bW90Q19kaG5Dc21uX2ppdUJKZGhfa2VGbGpWMnNNckhmSFhyOGlZUklLbDRyWEJGTWdCX2hhSTFnOTZMZlp2WmlRblJIclY4RGJCRFpYaGxRSk9GLVdxVmpVeEZsUmUyT1FkT0FCbkFDT0Y5WHptV3BRS2xBNHVRZVVuajdUa21TUktGS3NFZmRNVUtGb1dycFJBbUR1QVdEMXJWZ2lNdkVHMWNvaEdaSG85QU9RYVpyOEFxck5fN25XczJfOEEzOVFkY9IB6AFBVV95cUxPaVV5TW9LS0lpMXN2SDNDVjhQaFRldWpjT090MWxmR05HS09fb3N4TF9WanF6X2RrR0RZTXhoUkx2UXFjLVJTLUhucUtxYUdfNTdMYTk2VmVtSTBNdi1RWUYybG5xQTBfRGoxWllmdW5nUWwycEtpZmRjNFBTa09YbVFDMzd2blhtNW5aUDJhZDczMV9DbFNiYi1DQ1hDc2xIV2d5RlFPT3htbnRWY1FNRDBkOXo1ajY2amkxNFQ4cjhHczRqS3FtZXpnRmZYWmNkTEl1eXlXWWV3YVFzd2ExYXdSOTB1ME85?oc=5",
+   "source": "Cleveland Jewish News",
+   "pubDate": "2026-09-23T20:00:00.000Z",
+   "description": "Turkish president real threat to Israel&nbsp;&nbsp;Cleveland Jewish News",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran ​‌‍‌‌‍⁠⁠‌⁠‌⁠​‌⁠⁠​‌​defends nuclear programme, accuses U.S., Israel of breaking international law",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb3RWUWRrMTRoN1NLNVpaWlJKc1hrREl1RFgxSE81dm5WV3pGa1hkNUhxeVFELTgzbE1IelR0UjdXLXdfN1FsSlZHaG1tbEtMMFlhY2VzdUJmaHI2VjFFM0VzUk93VjVZclAtRlc3MjNhMlJfNnhlS2dTQzdpbGZ2MXEyaGlJQVFPdjZXUHBHd2JCaXhtbVcyYjBPbDREdWJXY0NEWDdfaGVrbFB1U1M5RXRYYw?oc=5",
+   "source": "freedomonline.com.ng",
+   "pubDate": "2026-09-23T19:59:24.000Z",
+   "description": "Iran ​‌‍‌‌‍⁠⁠‌⁠‌⁠​‌⁠⁠​‌​defends nuclear programme, accuses U.S., Israel of breaking international law&nbsp;&nbsp;freedomonline.com.ng",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Two WOG oil depots were the targets of deliberate Russian attacks",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFI1amdJWGJPdXBONlhvendZdGs5d3pnUFlVaXZvNkNpcHhkaW5RdHJ5RV9jVTBVQXkzVXRrSk9XcDN2YnVLNng3bXhwUlJNbFZjbmEtNjQyZjNTTUZONkNvWGE3MG9yajAwOG9aTDFqTXh2Rkkwa3lCVkN5QmYxVEdZQ1I1OFFsRmlQaXJ0R1E4M2V1YWc?oc=5",
+   "source": "UA.NEWS",
+   "pubDate": "2026-09-23T19:58:26.000Z",
+   "description": "Two WOG oil depots were the targets of deliberate Russian attacks&nbsp;&nbsp;UA.NEWS",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Japan Reaffirms Support for Ukraine and Pledges to Strengthen Russia Sanctions",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGampZSVNnOFJ0ZVFNNXlhRzVVa2dpSHJNV3FaY1NZTllpZmNNYl8zYnpDeTJ6OHU2dEN0cTVGLTZrdHBxa0R3WlJHcVNBRlkzVXpGRGtnQ3o4aTk1LVJWZGluQVdBYjNsRW0teVdvSW9tQQ?oc=5",
+   "source": "Межа. Новини України.",
+   "pubDate": "2026-09-23T19:57:52.000Z",
+   "description": "Japan Reaffirms Support for Ukraine and Pledges to Strengthen Russia Sanctions&nbsp;&nbsp;Межа. Новини України.",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Cargo Ship Hit In Strait Of Hormuz, Vessel On Fire & Adrift; 2 Casualties Reported",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbzlUeXJYUXAxVjBtSUFSb2cycmpUcjhyZ2FVNFNjVzV0VDRPYm5Ma1hBU1RITXRqZXJSM2dNOEliY2dwN2c2TS1sYzAyQkU0YjN1dFJwR0xqS0NQZFhvTnZ6bVo2VHVmUHhvOGNTUkl5ckpSeWdEbVlhcDhuQVVxaDFORWtpeDlUU0NCbkM4SVlLV2EzVUREdkxxRE5YVkRENmw3TGpVUmx1cFh1WER2R2Y3aFRUeUZZY1E3Zl9jVzZPT2VxZ0VGR3g1Qms5UGFta1ZIN2NqVENsVUdVQ2tvTUd1aEFqeDI2T05sZ1dyOTjSAfYBQVVfeXFMTkZ0R3JXODU4cExoeUVjVG16R1FiaTVqR0FycnBHaFRpc1RpX3RDN19tSUNHc2NDZ01CbjBUekFYS0xKa1R4Nkp6RjdvalljdVpaNk1TMzV6dExhUXFWWmhoSnJBWkFEUHN6Vk94QkQyempKOG96TnNKTFJzbGx2dHVLWXlWUjVtUzQ1NjY5UG9IZzJzMDU4aUFxR2xONGZVS0hYeWZ3MjdVNUItQVowMHdOV2RzM1RPejlQOVNoazBOTmUtMGRpbU1WSHY2cm9iUkJQVU11dzdscThPNTd4QTFFRTUtdXhJQnhzeUNpVGd2eEZZVDVn?oc=5",
+   "source": "The Times of India",
+   "pubDate": "2026-09-23T19:56:33.000Z",
+   "description": "Cargo Ship Hit In Strait Of Hormuz, Vessel On Fire & Adrift; 2 Casualties Reported&nbsp;&nbsp;The Times of India",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "‘Why Iran, Not Israel?’: Pezeshkian Flips Nuclear Bomb Threat On Trump; Bibi Warned | UN Shocker",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcDhlZWl4N3R4V2VQd2Z1bmtrckd2X1EwS25jTTVmXzNEajdvejFGTk42VlI5LWE1VlRGVjZaRDM2djVHbGlSZ0cwWnZiX0tFajhubHVEcXh1aUpzVG5JVFRSdERkQmNTTVBRSWxRVUdTcmR3SWUzZUtTb2cxVjEtUUFHd2JfdW56ZmMxOUM1dzI0ZHJqQURrSWlITHppNzc3QXY2ZENZTGxiUW5KMkZqQlpCc29YZFZod1ZjVkVJQndaTEVmb09HZUZ3Ulp5TWdyQTNZME5UTEhZWkthSmQzSnJmMDMzVFc1d29LYXFCZEE0cmtKQ1lwejh4ejNxUdIBgwJBVV95cUxObDBNTVN2QlFnWmk3Vy1PbHpqSGU0cmR2R2o5UkxWdGpBS1FDLVFKREQ5SFdKTzlUdTBSRFJWbm9GV2tvVnNZSEREQlFaRnFqdTdkM01FOExkc1VFME5kc2tya3pFV1NDZFVHZi1aZDJTaWNrb1pUcHNLZXFiU2dFTVdId0JxbUFVVERNV3Q1Q2RmUDRnRmFjNzRyb2RVSldSV3MyMHlrd25wLVM4NjhPdXJ6NGdEV1JUVmpsNWdwS0M5MldidFVUbHdmalZ6SEY2RktZU1V0ZVNKeW5IMTdUbGs3YWNrT2RLQUdwbmlVRXVMdmVoVEI0WTMzNGxoeElYQ0tV?oc=5",
+   "source": "The Times of India",
+   "pubDate": "2026-09-23T19:52:48.000Z",
+   "description": "‘Why Iran, Not Israel?’: Pezeshkian Flips Nuclear Bomb Threat On Trump; Bibi Warned | UN Shocker&nbsp;&nbsp;The Times of India",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Macron refrains from blaming Trump but pushes for deal to open Strait of Hormuz ‘today’",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWZTWUp5SWJMRUxZNERlNnhGZ29GVmp1RjFkY3VoVG1DX2laZUQ3T1NabWRHc1FycXdkYURXSVBnODFlRXFqc1pIdUREc0lLc1F0RTFVSmFXUnNVSmJ5RlVsU0VaUTNIUGtfSm5UYVd6Tm1VY0pvRVktV2NrVkphV0JyTkFXaGNja1V2a3F1S0NNcm5TSW5ZV0hfTDM0UTdmWUw2bHF3SGlTZVJvbTlaaVpyY1Y?oc=5",
+   "source": "Washington Examiner",
+   "pubDate": "2026-09-23T19:49:00.000Z",
+   "description": "Macron refrains from blaming Trump but pushes for deal to open Strait of Hormuz ‘today’&nbsp;&nbsp;Washington Examiner",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "NSP Celebrates Scott Bean and Brent Bean With Outstanding Achievement In Sorghum Improvement Awards",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZHJvVm9SSmdydnFtakpYUGxmdVE5UnFxT09vQWRESkdJN3NERExhMXZBUE1TSzI3c3U4UFlndkNCSjZ5ZDZhaTNOd0twc2xSOEpJN0QtZ19XdGNMeG5wNm9FLUhpMVN6aXc2aWVnVWd3b3BkWVZ6ZDZuV3J5RV9oUGg3amZpM0F4ODBobTJtOGstbzByc210OGdSSUdGQW5SelJHa2xOY1BMdm1MMTQ5TUFlRzN1RTF5LXctMWc5TXE5dzdHMkNILW1JdW1TdU1MN2dVYk1KeGJZanhZTXc?oc=5",
+   "source": "American Ag Network",
+   "pubDate": "2026-09-23T19:41:35.000Z",
+   "description": "NSP Celebrates Scott Bean and Brent Bean With Outstanding Achievement In Sorghum Improvement Awards&nbsp;&nbsp;American Ag Network",
+   "categories": [
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Seafarer Killed in Hormuz Attack as Trump Pushes Iran Deal at UN",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMDB2bGZpNmw3SnBOY1p6MVF3NGJxdlpVUGZnMm1ZMllmakMtb1AtVkU2STlqU1FlbVRwNWhJOTRLaExuZDZzaHFNMVM1QVhJRW9EdEc2ajR5UFFRNGY5aUJsbV9MN1VzR0dJdGVBVUVDRTcwWGN3aUJ0QVhZaVE5X3ZhNDBHdEw3cHV6S2RRYw?oc=5",
+   "source": "gCaptain",
+   "pubDate": "2026-09-23T19:40:59.000Z",
+   "description": "Seafarer Killed in Hormuz Attack as Trump Pushes Iran Deal at UN&nbsp;&nbsp;gCaptain",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "‘My friend’: Anthony Albanese announces $60m more for Ukraine at Zelenskyy meeting",
+   "link": "https://www.theguardian.com/australia-news/2026/sep/23/my-friend-anthony-albanese-announces-60m-more-for-ukraine-at-zelenskyy-meeting",
+   "source": "The Guardian",
+   "pubDate": "2026-09-23T19:40:48.000Z",
+   "description": "An emotional prime minister says that Kyiv’s cause is ‘an issue for the world’ as he also sets out the need for a new global orderAnthony Albanese has announced Australia will provide $60m more in support for Ukraine’s fight against Russia’s invasion during an emotional meeting with Volodymyr ⁠Zelen",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "CRUDE WRAP: WTI (X6) SETTLES USD 1.64 HIGHER AT USD 92.16/BBL; BRENT (Z6) SETTLES USD 2.71 HIGHER AT 98.12/BBL",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQTBQV3lETF9GWHhTczBMOEo1dEtiVTNKWmE2Y1JvMmhnSktoRzFCcTVGWjA4dWx1LXFxVENOOHh3blQwWnh3TWFrSEhsZDNJR2hWS1VYbUczMWl4NGY1MUVoaU1JUFRJbFNCM0MtcjlvTlBCQ01RS1JzTTNZNXZibjhHbnhJQmpiUnM1SVVPWFNHY25pMXVqWjY0LTc1WXphTFNwSW96c0h6Zkg4MXRpeTJNNWkzZU11NlBYdDhvV1BfNnBSNXItb2N6N0RuSjg?oc=5",
+   "source": "Newsquawk",
+   "pubDate": "2026-09-23T19:35:00.000Z",
+   "description": "CRUDE WRAP: WTI (X6) SETTLES USD 1.64 HIGHER AT USD 92.16/BBL; BRENT (Z6) SETTLES USD 2.71 HIGHER AT 98.12/BBL&nbsp;&nbsp;Newsquawk",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Shafaq News..Al-Zaidi meets Iranian, Egyptian, British leaders at UN",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjRld25uTW0yaHdRRkNVQVRMMGx2Rm5GNHpkbm0wM0xfTHhrLTgtUGVXMGF5ZG13bmJtZ2JiZ3FIWFo0cVJ4dFdlMER3UGtsc3FONV9GclBNeVBNSGdVMEpzX2V4cjI3MEd3azZLNWhLN0N5YjA1Y0pEaVQ4N1Q2YWRXcHJIZjVjUEZvZw?oc=5",
+   "source": "شفق نيوز",
+   "pubDate": "2026-09-23T19:34:30.000Z",
+   "description": "Shafaq News..Al-Zaidi meets Iranian, Egyptian, British leaders at UN&nbsp;&nbsp;شفق نيوز",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Ukraine’s Zelenskyy calls for sustained pressure to end ‘Putin’s crazy war’",
+   "link": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-calls-for-sustained-pressure-on-patient-zero-putin-in-un-speech?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T19:31:12.000Z",
+   "description": "Ukrainian president urges world leaders to keep choking Russia's revenues to impede its war efforts.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rallies As Traders Focus On Global Diesel Shortage",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd0dzT3JEMzRtaTlUN3NGRVpsTUVmNFlXZlpxZXNFUW01ZkVPSXc5RjlnUnBUUWVnOVlZVmZmZS1XYkNfQmZSS0lDbTJlYnZhSm51bGJzS2ExUlAwU0JsSDFjTDJ0X2pVbXJtWGN1TU5QNGFBWDc2ZUsxSUFxWnRCY2NNSXM3WXZwaVhZUENjcmFGZFFhcDJWTkVwd2k4b29wdi1lSS01RVhDMmRuQ3ZiOFBxeUVvVmRIRklKTHVBLUZkU3Y3SWotN3NleExoUS16TGxiMmtMNlVIRkg4eUE?oc=5",
+   "source": "FXEmpire",
+   "pubDate": "2026-09-23T19:30:22.000Z",
+   "description": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rallies As Traders Focus On Global Diesel Shortage&nbsp;&nbsp;FXEmpire",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Israeli soldier wounded in car-ramming attack in occupied West Bank",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/23-09-sv-israeli-solider-injured-leiter-il?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T19:29:49.000Z",
+   "description": "Israeli soldier Neria Leiter wounded in a suspected car-ramming attack near the illegal settlement of Beit Horon.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Iran threatens countries enforcing US airline sanctions",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/09-23-mohsin-rezai-airlines-clip-mp4?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T19:27:50.000Z",
+   "description": "Iran has threatened countries enforcing US sanctions on its airlines, warning that their airports could face disruptions",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "How the ‘poisonous tide’ of disinformation spreads division and despair",
+   "link": "https://www.theguardian.com/world/2026/sep/23/how-the-poisonous-tide-of-disinformation-stokes-division-and-sows-despair",
+   "source": "The Guardian",
+   "pubDate": "2026-09-23T19:24:39.000Z",
+   "description": "Whether produced by Russia, China or far-right influencers, deepfakes and disinfo are pushing multiple false narrativesRussian disinformation campaigns are varied in their falsehoods and strategies.The narratives range from a deepfake Tom Cruise criticising the Paris Olympics to portraying a recent ",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent Venables makes his role in Oklahoma's offense clear",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORGZjYlF2eG5xandGQ0xaRE55OFl5dlUtODhhdUlGNUI3VXhsZHprSUw2SzVNeU95OHVVa2l6dlhTSHZHaHp3M1dDVjBGb0VxQWY3cmxBVHBBbzBkcGJOYmlGSjlGelVrQ29QcWFtOWpqX0lRYWZuVTl1NnJmc1M5U0lOUHpJRXEwVnlvSlZkcVNBRk9FLUVfa21ZaXZZcDdUWFIxczIweUFCeFE3SURURW5QODhoNktOOXB2a01Ec1ZFMEctel9pU1FjZzBJYm9GTExFS1JNNFBOQQ?oc=5",
+   "source": "soonerswire.usatoday.com",
+   "pubDate": "2026-09-23T19:20:00.000Z",
+   "description": "Brent Venables makes his role in Oklahoma's offense clear&nbsp;&nbsp;soonerswire.usatoday.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "India’s Russian Crude Dependence Rises as US Sanctions Bill Raises 100% Tariff Threat",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWDRPeng4NlVwejV6SjRNU05xSURQTlAydlhjQmdTWG1UMmpad2ZyUXk2U0lQTVNCaGg1Z1V2ODZwdUI4RW5GclRxblYxN0U1TUxOM21xSTVHYXdBTFdpUUcyWUNOZVNvMWRjMTJLcEtmV1N6eFpxalEyeDY5a2UwVFh2TFo2U2lOQk5za2xQaHcySm91aWppMkVlVHRxVjFybzY3ZFNTNG1zQS1XVDFma1hYaHBoOVRULWI1RHEwTWM4N29USUxKQw?oc=5",
+   "source": "VT Markets",
+   "pubDate": "2026-09-23T19:18:45.000Z",
+   "description": "India’s Russian Crude Dependence Rises as US Sanctions Bill Raises 100% Tariff Threat&nbsp;&nbsp;VT Markets",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Sanctions Act gives Prez Trump tariff authority: Rubio",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON293Ni1WcHV5RWVXUkFGblV6WjB4ck83U21DV0V6SWVPc0oyeDVDMFBjUkZMbHU1cnk2akdETmV6M0UzWThOWXNxcDlCbUd3NDJhUjQtb21YcDFjU29LZ290YnNMTzhGQTh2MmFYLU0yNk9zVXpNaDJnaDA5WXpuMzBsdFZYTmhORUdaTEZYbG5vaHlXdThac1QxWjI5TXktSFo5bmdGc0haTjd4YlV6ZW1mRGsxN1A5LTdwSWdORUFhakowM1hqa3NLMzZhMDR6N0V3?oc=5",
+   "source": "rediff.com",
+   "pubDate": "2026-09-23T19:14:28.000Z",
+   "description": "Sanctions Act gives Prez Trump tariff authority: Rubio&nbsp;&nbsp;rediff.com",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Zelenskyy calls Putin ‘Patient Zero’ of war, urges more sanctions against Russia at UNGA | World News",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxON08zZDl3bm9KQ3JkWXUzcE40OGoxSm1XNmJtUmdSS2U4ZEVCdW5oTFRWMTFodnUzaXhOLXBQR1BUVUg0R2JRNWNSUjVDSmJpbDNCOTZXUGR2Q0s4NHR3QThRMEt2T2dERnlfdHoycmZpMUhOM01yMGdMZndQc19mY0lrM1hpZnJDRTlueElSN053RGtlaU5OTkJ4dTdkeXhuRWJhVks1cEJnb0lRcmRDbmozWWQ1OUdHN1FGUWkzbkc0NWxndWl2SVNzN1lGRnJoR1N4ZWlEeWdTQkRScmpUNjRn0gHnAUFVX3lxTE1zMDY4LVJveFotSnI2akdpTXFGMThOLTZudm5lODg1MTdwMDB2MENHak9GdjhYeDVoVXBoamEzOTIxSVQ4dmRfOTdnS2RJMnRVcXEzdjZ0R19YMmdxVUJWc0gteWpaSlJlUER2eGl4MXBLVjRvNGJVSkhFY2FVcHR5Uk1KQzJrVEJXOXdoMWlscmpLQVdlLXJjSFRUTXNuQmh1aWpValFmaTVyRGNTWnl6Z3lsQlZ4SG9qTmdtdDgtajM5WkpRZnBKOHlOd296QmNhenFmZk5tYVI3TjBDRlpZeHVIMjd3bw?oc=5",
+   "source": "hindustantimes.com",
+   "pubDate": "2026-09-23T19:13:27.000Z",
+   "description": "Zelenskyy calls Putin ‘Patient Zero’ of war, urges more sanctions against Russia at UNGA | World News&nbsp;&nbsp;hindustantimes.com",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Zelenskyy: Putin is making the world ‘more dangerous’",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/zelenskyy-putin-is-making-the-world-more?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-09-23T19:13:09.000Z",
+   "description": "Ukrainian President Volodymyr Zelenskyy is warning that Russia's “never-ending war\" could spread throughout Europe.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "India-US: Secretary Rubio Meets Counterpart, Discusses Russia-Iran Sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUG9LeDI3bjFtM1V4WW9leTdNMzByY2dmQV92X3hseUJZcXpzNlNRc1gzR1p5cGlHUU1SR3gwQVEyR3p5Vng2dWNSLTFwY0dQemNhcU5wemhZNy1zS2FOQ0FiTUt1dzU1cnpyWEp0QVdRSERfNk5fT1NoNE9kR0hHRERQUDZRSzZrYkNBN09SODUzNE1LS2NiWVV2bFhXcUhsa2c?oc=5",
+   "source": "Sahi",
+   "pubDate": "2026-09-23T19:11:28.000Z",
+   "description": "India-US: Secretary Rubio Meets Counterpart, Discusses Russia-Iran Sanctions&nbsp;&nbsp;Sahi",
+   "categories": [
+    "iran_israel",
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Jaishankar meets Rubio on UNGA sidelines, raises Delhi’s concern over Russia sanctions law",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5IRXltT2w1UUsxMEpjYm45QTNHLWhndUVYSjZvbjVtd1RmSkVVR2Rtd3BaYlVEMmlBRHh2RnEtREF0dzJaOGdSRUtKazJrcHROamF3WTd2aVNJdTQ0ZXhpdncxQXdKUzJrcVUySTQwaS1YbEtJZnh2ZXNtN19OWF9GWTJ5OVZpajQ5OWs2U29TTUtpSzNUVGtyWUdEdFBNcy1reWNJWWtnQWFwWnRzeDVvNmFlTVpQOWk1alByamZRN25BUHdicmJvRk5lZ9IB0wFBVV95cUxObERFdkpFMmZ1V0plOURFdlhyN3JKa2t4S0hGbUpGMlpKOHRrRDZZenhpVEt6T2hHeW5tN25PVTJfd05LY0ttc2ZON2FFRFZpaTRHejZ6R25udjJDVlhKOTYxcG04M3JJbExIRV82ZkliR0NuMzBiLThRbkEtdTJ0dU9UNkFTbGJmbnJPZDBqQXpRQTZwNURDdU5LV0U4Z20wQ1k2UUlOTFNzZzNTZnNndExROVlWTkg0cEJST0w0UDh4R1FVdFllMVZwajJraWRDWnZN?oc=5",
+   "source": "WION",
+   "pubDate": "2026-09-23T19:04:44.000Z",
+   "description": "Jaishankar meets Rubio on UNGA sidelines, raises Delhi’s concern over Russia sanctions law&nbsp;&nbsp;WION",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US-Israel-Iran War Latest Live News: Trump Says Witkoff, Kushner Held ‘Very Good’ Talks With Iran In New York amid War Tensions & UNGA Diplomacy; Check Latest Update",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQRXFxVlBKbFVHdGpNX3MtbDRiWUJuT3pETkxRajMtMVVpY1hacS1BNWkwX1NYNjVvdi1VNFVPRkUzdHJtS0RWQ2pQVHhCWWlDUUxydmJyRFdyeV9ub28tZFhXOW5rRFpXV05FZ00xU1FkWG9Hc3BfVHpwN3hJaUQ3NlpxSTRWS041ZzFhU0xMel81bkdiOFE0dHN4dHQxWld0WElqdUF4Y3BWazkwYWpneGppMVd4YUdNcWNLNGc1NFBEZUJfQnJnRHpwY2VHc0Zsc2NaSHpQN2RoNWVLWUw2ZFphMWJTRjc5VklTMFEzclJGTlJEaXpoNTh6c3VzYnY5cmgtQ0hrRGJFNlZRa2FZT3FGejhRUzlBVG0tS3UtcmN0emo1UUV0RlI4RHQwbGRp0gGwAkFVX3lxTFBFcXFWUEpsVUd0ak1fcy1sNGJZQm5PekROTFFqMy0xVWljWFpxLUE1aTBfU1g2NW92LVU0VU9GRTN0cm1LRFZDalBUeEJZaUNRTHJ2YnJEV3J5X25vby1kWFc5bmtEWldXTkVnTTFTUWRYb0dzcF9UenA3eElpRDc2WnFJNFZLTjVnMWFTTEx6XzVuR2I4UTR0c3h0dDFaV3RYSWp1QXhjcFZrOTBhamd4amkxV3hhR01xY0s0ZzU0UERlQl9CcmdEenBjZUdzRmxzY1pIelA3ZGg1ZUtZTDZkWmExYlNGNzlWSVMwUTNyUkZOUkRpemg1OHpzdXNidjlyaC1DSGtEYkU2VlFrYVlPcUZ6OFFTOUFUbS1LdS1yY3R6ajVRRXRGUjhEdDBsZGk?oc=5",
+   "source": "The Sunday Guardian",
+   "pubDate": "2026-09-23T19:01:57.000Z",
+   "description": "US-Israel-Iran War Latest Live News: Trump Says Witkoff, Kushner Held ‘Very Good’ Talks With Iran In New York amid War Tensions & UNGA Diplomacy; Check Latest Update&nbsp;&nbsp;The Sunday Guardian",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Why Saudis Failed to Stop Houthi Advance, Despite Vast Intelligence and Weapons Edge",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqN0V5Z3kwdnRlQlBqcFpGUzJvcnVjRklnRlVaR3RZSld0Z0RnZDI4cWoxejlTUm8yTF9PTUoxc3RNOXRrLWlyM0pNQ2piQ2FjVDZPTVFNWm5iV19sQWQ4dGd6SWhkWGla?oc=5",
+   "source": "SpyTalk",
+   "pubDate": "2026-09-23T19:00:53.000Z",
+   "description": "Why Saudis Failed to Stop Houthi Advance, Despite Vast Intelligence and Weapons Edge&nbsp;&nbsp;SpyTalk",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Hormuz Supply Crisis to Change LNG Market Forever",
+   "link": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Supply-Crisis-to-Change-LNG-Market-Forever.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-09-23T19:00:00.000Z",
+   "description": "The Strait of Hormuz crisis has turned roughly 20% of global LNG supply into something buyers now have to treat as interruptible. Nearly seven months after traffic through the strait collapsed, LNG exports from Qatar and the UAE remain severely constrained. Buyers in Europe and Asia are responding b",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "EU extends Russia sanctions for three years, lifts restrictions on billionaires Alisher Usmanov and Mikhail Fridman",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqaHhkMEFXNXcxZ2pReHB3dWgxMHhqOXJsR2VkYzZza3Z0dnkzbkc1Tmk1N3ZjQmo2dGx0ZDNtZ1N4UGEwaGhGX1pybw?oc=5",
    "source": "theins.press",
-   "pubDate": "2026-09-23T18:57:42.000Z",
+   "pubDate": "2026-09-23T18:57:23.000Z",
    "description": "EU extends Russia sanctions for three years, lifts restrictions on billionaires Alisher Usmanov and Mikhail Fridman&nbsp;&nbsp;theins.press",
    "categories": [
     "russia_ukraine",
     "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "How the U.K. Is Supporting Saudi Arabia In Its Fight Against the Houthis—and Why That's Significant",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNktIcUxTYUxMemxoZExIZ0JrbHdrem1GMk03NF9GcGZERmcxaEFoVzZCN3cyc0czU1Z6bktTNzNNUW1xX0hZS3ZkNkFwbmpwcTlPUjUyd0VyWjM2bjFuRmpuTHZGcFhXbEMzMVNTV3RXWmlTNjJreGRSTkVHSUlwTGx2T3gtN0hwNTlrYjJCREpaam84QkhiYUJRcFhpY3Z1OElJ?oc=5",
+   "source": "Time Magazine",
+   "pubDate": "2026-09-23T18:57:04.000Z",
+   "description": "How the U.K. Is Supporting Saudi Arabia In Its Fight Against the Houthis—and Why That's Significant&nbsp;&nbsp;Time Magazine",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
    ],
    "severity": "medium"
   },
@@ -419,11 +987,57 @@
    "severity": "high"
   },
   {
+   "title": "Sanctioning Russia and Iran Act gives President Trump tariff authority: Rubio",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOLWttRnp1aVlaMDA4eExTSVdhYjVLbEtqX1JjWDNVMjczQ1BVbW9ROUN4V2QwVzg3SkdUY2N4cDEyOXR2T3JfdlByeXZUcUJOVUFVSUR5bFRzNXZfTWtTYzJHUjFzLXlpY0JwVEZLaFBKOC1SelI5UWpyY3RBWFc4UXFSLTZfOGVmcFUwUGRRb1BOOGhqSjhYOXRJVnhOd2pHZkFULVo3d0VQWkFwNDVkUGJXdkJwWFM1SldnVERxTHhTSlV5WXRCQUV6TzNWVmhmbTZFbllPZmpHSy14eFdTaTBMQlM5b09fbk12c3VPQVo1LWxCaXVlUVZnZlB6Z3Q2MF9NQ2h3?oc=5",
+   "source": "newindianexpress.com",
+   "pubDate": "2026-09-23T18:55:18.000Z",
+   "description": "Sanctioning Russia and Iran Act gives President Trump tariff authority: Rubio&nbsp;&nbsp;newindianexpress.com",
+   "categories": [
+    "iran_israel",
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Save the Children officially warned by regulator over staff put at risk in Yemen",
+   "link": "https://www.theguardian.com/society/2026/sep/23/save-the-children-officially-warned-by-regulator-over-staff-put-at-risk-in-yemen",
+   "source": "The Guardian",
+   "pubDate": "2026-09-23T18:55:10.000Z",
+   "description": "Warning from Charity Commission for England and Wales concludes two-year investigation after death of Hisham al-Hakimi in October 2023The international aid charity Save the Children has been issued with an official regulatory warning over management failures and misconduct that put staff at its Yeme",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Israel’s ambassador to the US says son injured in West Bank car-ramming",
    "link": "https://www.aljazeera.com/news/2026/9/23/israels-ambassador-to-the-us-says-son-injured-in-west-bank-car-ramming?traffic_source=rss",
    "source": "Al Jazeera",
    "pubDate": "2026-09-23T18:49:45.000Z",
    "description": "Palestinian shot dead as Israel's ambassador to the US identifies injured soldier as his son.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent Extends Gains as Geopolitical Risks Persist",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0xMTmp2RWxCcnBTSE51MDM4WVdvTDdPdEwweDdnNURqcHI5UmZDUWFPdUtfOGc1cGRqLXJlNTNDUHNKUVEtZ1UxM3VxUDhKNWc5dU1Mc2xuTDF4cE81T2RYM29LRklMZGNjWlJud3dlS1dpMkE4eDFscU01bzcteDlhQnlnVWdQMUdYUHBvNy1WRnRJZUxVWmpkOXhPOVI2SGc?oc=5",
+   "source": "TradingView",
+   "pubDate": "2026-09-23T18:49:16.000Z",
+   "description": "Brent Extends Gains as Geopolitical Risks Persist&nbsp;&nbsp;TradingView",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Oil settles up around 4% as Iran's president vows to never surrender",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-09-23T18:48:44.000Z",
+   "description": "Oil settles up around 4% as Iran's president vows to never surrender&nbsp;&nbsp;Reuters",
    "categories": [
     "iran_israel"
    ],
@@ -442,6 +1056,17 @@
    "severity": "medium"
   },
   {
+   "title": "Rubio Meets India’s Jaishankar in New York to Discuss Sanctions and Indo‑Pacific Partnership",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yN3BQekNYa1NqbmhQeEdxNFJaRURtRFZtTFphNGRfZ2ExR0lRTmdHOF9oQTN3Q0JseG9QNVduNFk0ZHlWMHBSUHdWX05JOGplWlFaNzduVTJNRW9kR0xaLUln?oc=5",
+   "source": "Forth.News",
+   "pubDate": "2026-09-23T18:47:20.000Z",
+   "description": "Rubio Meets India’s Jaishankar in New York to Discuss Sanctions and Indo‑Pacific Partnership&nbsp;&nbsp;Forth.News",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Bank of America resets its oil price target with strong warning",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVVsOEhxZ0NPQVNRTGlnNGV1RzNvRFJ2VU5PMXRSVDJhMHRRSURkX1RhY2xRM1hjTGtZR1RPNHg5STc4MVh3X0VHWk9FaUd4ZDMxR1pyaU51RF9FMUNnY2FfaHh5MWk5c2wwTjNGU3JLNW5GR3BGcGt5UnMwdkIxRzJLa0tmWVhMekdQLVE1WldGcmtUNUxnczNBcw?oc=5",
    "source": "thestreet.com",
@@ -453,17 +1078,6 @@
    "severity": "medium"
   },
   {
-   "title": "Trump lawyers defend president banning journalists from White House ahead of court hearing – live",
-   "link": "https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates",
-   "source": "The Guardian",
-   "pubDate": "2026-09-23T18:43:34.000Z",
-   "description": "Trump lawyers say White House access is ‘a privilege, not a right’; CNN, Politico and MS Now to present case in court after president banned outlets from White House groundsSign up for US Breaking News emailsRubio also briefly addressed Trump’s meeting with Delcy Rodriguez, the interim Venezuelan pr",
-   "categories": [
-    "supply_other"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Trump weighs Iran deal or attack; Mideast leaders fail to sway Trump on Iran TV7Israel News 23 Sept.",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iN255R0JSUDlXc0VybWZfODI5ZkxJRjNoVnplMmhZczB3YUVlaGduZUdxTk9TWmhPRnVNN2dqWmxrNFZLMzR4d2pIN1ZFd3RydmNWOEhtWGtPb2pCNzhoRTRzTzhXT1pVcGozMEFON2pxRnBQY2sw?oc=5",
    "source": "TV7 Israel News",
@@ -473,17 +1087,6 @@
     "iran_israel"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CWmlycWtudTZnQnlYSU9IUWY1TVBaWGhLaVM4OHpyZkU3ak4tTy1YM3lBQ2FmazJVdHhnWU02RFhKLTlRbjU4TWFVYk9JYzJqYmZISkk3ZEc4UmdPZ0dXTkhJRGVxTmxuM2xFcVNmbElFQ1FUdnBJUk1wOUVsYU0?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-09-23T18:37:49.000Z",
-   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Iran’s Pezeshkian slams ‘terrorist’ US but extols diplomacy in UN speech",
@@ -518,28 +1121,6 @@
     "market"
    ],
    "severity": "low"
-  },
-  {
-   "title": "Iran’s president says his country’s people have been ‘victims of terrorism’ by the United States - live",
-   "link": "https://www.theguardian.com/world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates",
-   "source": "The Guardian",
-   "pubDate": "2026-09-23T18:31:57.000Z",
-   "description": "Masoud Pezeshkian says ‘we have only defended ourselves’ as US delegation walks out during his speechThese latest attacks come just hours before Volodymyr Zelenskyy’s address to the UN general assembly, so he is likely to reflect on them during his UN speech later.So far, we have had no public comme",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Wielding Opec to douse oil fire",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFsajFaTTdMb3Z6b0dyT0ExWDZDU0Z3OFRUM2FsV1h1aG5hNldpUlFmXy01WTdXSWNIeWdPdTNaTWljWkphTm1xMGRVdy1TWTlVSnRXbUxQXzdCTkZnektHQ0xWaHN5aHFMWHNsdUM0eVhkY3oyd1dYZzNtenRVZ1hMdGxCVzhISlNQbdIBmgFBVV95cUxOclB0MlQ1U3lYOVBHenhORXZnakRBZm9CU1VqU2RmUUpCaDEtYTNKNDdLcXpWMHY3SmlpNFlBTzJLS04tT1B1MnhkU2dnbW0yNjd4QzRRd3Jqa2h3Sm1QNFlSWWJBUXZLUjV2Q0taUl9JTE00Q3gxTV9JNUJOdnZFamFDTGh1YzhUMFdibG9OQTYydWI2WHdFeDN3?oc=5",
-   "source": "The New Indian Express",
-   "pubDate": "2026-09-23T18:30:00.000Z",
-   "description": "Wielding Opec to douse oil fire&nbsp;&nbsp;The New Indian Express",
-   "categories": [
-    "opec"
-   ],
-   "severity": "medium"
   },
   {
    "title": "Pezeshkian rejects terrorism allegations in UN address as Iran tensions escalate",
@@ -600,15 +1181,14 @@
    "severity": "medium"
   },
   {
-   "title": "India’s Russian Crude Dependence Rises as US Sanctions Bill Raises 100% Tariff Threat",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUkNSOGt6aXNDblJoVmJaaHhzWm5mcmtnQ0pURmd6R294Wnp0YXhnNVhwbE1GUEJGRTFwN2lqbnBBaVMxbzZIdWh4aE9pOTRuQ2MwcFpKNVhZekpEaVRhYlVvQTQ1SVdmeEEwMTlsSGVDbndRNm9SYndNa1d0S3RNcnBOYWp2RVZEYTVxMWJIdVJQR3UwSVNvZHhrXzRqQXkzTzJFT094M3M3XzkySWY5TFplQkZKeTk1Y25GNXU3SjFHZ1dpcWtxVnNsbw?oc=5",
-   "source": "vtmarkets.com",
-   "pubDate": "2026-09-23T18:12:34.000Z",
-   "description": "India’s Russian Crude Dependence Rises as US Sanctions Bill Raises 100% Tariff Threat&nbsp;&nbsp;vtmarkets.com",
+   "title": "Bloomberg: EU sanctions relief ‘surprises’ Russian billionaire Mikhail Fridman",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN0Y4VXI3X2JFbHU4XzlvQlRJbVhyNlltMmRlYzZxSUc2SlVzY2kzeHhXZDlVTlNPZE1nQlR5WlhWcHpBSWxPU09fUnZ4RExpSTlmUWZxQmtIVGN5QzhUcFZQMTFFSmVIenVhdm8wNlFtRWx1aUxMUTBVLUtDX1hmVjItUEVaTG9iU0JtdXpUMGNTZlRDYkNoaUU0X25DME1JWWhWRzFjNV9zX1k3OHFEREpB0gG3AUFVX3lxTFB1Smp1bnRDSkYxNm5sLWUwUE5FMkpYblMxYVYxZFd4b2NXVEdJdl9EaC14WTZFdFdtTzdFTHVRRWxjM2tjZ0dvSUhyV29OYVh4UUpKLVdGZUVmeEJ5TkZodElsS0N0YndhRzNuQ0NqYXg0dkE2STdDV0JVT1B6Y1NIclZUVnluS0lCaDJMM3FjT2ZDZDJnc21Hc3ZTNzh5X1U1LXBJbzlBNjEtTEFNWGx4VHI3YjBvZw?oc=5",
+   "source": "Meduza",
+   "pubDate": "2026-09-23T18:14:00.000Z",
+   "description": "Bloomberg: EU sanctions relief ‘surprises’ Russian billionaire Mikhail Fridman&nbsp;&nbsp;Meduza",
    "categories": [
     "russia_ukraine",
-    "usa_policy",
-    "market"
+    "usa_policy"
    ],
    "severity": "medium"
   },
@@ -669,6 +1249,28 @@
    "severity": "medium"
   },
   {
+   "title": "Brent Peterson's legacy lives on through Parkinson's foundation he helped build",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFhlMVZvOWZUWkhZWXdqbjg2ZDdTR1lFQ01UMXU2ZjBEd01sMGtoa0NRN2ViMVJid0d5TXU3Z2dhejJBWVN0ODREUUJ0TUZtaWhLVGw2bjdzUTBUaWw4Vk05NXIzR1VKZG13dm9RSWkyTVJLc1l6YXY5T0szRHk3azE2VWI1STRIeWxGTUhsbUsxMWh5NXpuVnM4aXJZREJxcG1zdkpnTjlCNkdqS2lmWmJzT1dDUHRYcGhZYm1pdm5oN1JhVHdSYnBtbFl3a0QwZUhV?oc=5",
+   "source": "News Channel 5 Nashville",
+   "pubDate": "2026-09-23T18:00:00.000Z",
+   "description": "Brent Peterson's legacy lives on through Parkinson's foundation he helped build&nbsp;&nbsp;News Channel 5 Nashville",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Pezeshkian UN Speech | Iran | US | Israel | Peaceful Nuclear Program",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YazFyNTRTMzdiWmNIY0FGRkN2NmJsZTljYUtkTm9fakFEcWxrdGJlNHo1R1VrQjdzQXJaalNucEhMaFpoUkhSYXVxMS0?oc=5",
+   "source": "Aaj News",
+   "pubDate": "2026-09-23T17:55:07.000Z",
+   "description": "Pezeshkian UN Speech | Iran | US | Israel | Peaceful Nuclear Program&nbsp;&nbsp;Aaj News",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Azerbaijan pardons French national Martin Ryan jailed on spy charges",
    "link": "https://www.aljazeera.com/news/2026/9/23/azerbaijan-pardons-french-national-jailed-for-spying?traffic_source=rss",
    "source": "Al Jazeera",
@@ -703,17 +1305,6 @@
    "severity": "high"
   },
   {
-   "title": "Brent Peterson's legacy lives on through Parkinson's foundation he helped build",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFhlMVZvOWZUWkhZWXdqbjg2ZDdTR1lFQ01UMXU2ZjBEd01sMGtoa0NRN2ViMVJid0d5TXU3Z2dhejJBWVN0ODREUUJ0TUZtaWhLVGw2bjdzUTBUaWw4Vk05NXIzR1VKZG13dm9RSWkyTVJLc1l6YXY5T0szRHk3azE2VWI1STRIeWxGTUhsbUsxMWh5NXpuVnM4aXJZREJxcG1zdkpnTjlCNkdqS2lmWmJzT1dDUHRYcGhZYm1pdm5oN1JhVHdSYnBtbFl3a0QwZUhV?oc=5",
-   "source": "News Channel 5 Nashville",
-   "pubDate": "2026-09-23T17:47:00.000Z",
-   "description": "Brent Peterson's legacy lives on through Parkinson's foundation he helped build&nbsp;&nbsp;News Channel 5 Nashville",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
    "link": "https://www.aljazeera.com/news/2026/9/23/board-of-peace-plans-2-4bn-gaza-reconstruction-as-israel-kills-seven?traffic_source=rss",
    "source": "Al Jazeera",
@@ -727,9 +1318,9 @@
   {
    "title": "Jaishankar Meets Rubio In New York, Discusses Russia Sanctions Bill | UNGA | Videos",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdTdrdEZabld1YmRDOFlKS0g0SmVNSU9kdkVMTzBua2x3TVptMWEzcXdCbk1kT3U3N0RvS1R2MVJPSkt4RmNydW1admpuS0VxeFBTeVFiOVFaMDNJZ3BrTXg2ZHBSZDFoNzdFMXB0YUkxQWtfOF92cG1icThPVEJXRGdLVThGU0NaQU1DblVfNmtfcEZwaGNqVktuYjZ3d0RReGpNN0tpLXNhcTFXOHlfNnQxQVdsWW9WOGd3X3FVY183RG1BMVdKWjlB0gHPAUFVX3lxTFBhVGFQeFF5Wl8tNlBkci1XZFA4QXBQazlhd3FmaElwemtCcFZPVzNGVmlMRFZXQndiRkNaVEJzaXZmYVJTZEkwTWtmUzYwQ3g2bnMtdTZhaDBBYzBHYlZwWXRDN05fOVBsZXRQUjMyTnB0Z1FHUVVFUkh5X0xlbzlnd1RfRXRTNDBYUi1RTlVRY2NfQ3ZFRDNtVTBDeUt6T25uOTNxbUpGNlR3SXR4M1laNFAtVHVRLXlGeXpMWmtjQnB1Sk1MaXM3THNhS1NfQQ?oc=5",
-   "source": "Hindustan Times",
+   "source": "hindustantimes.com",
    "pubDate": "2026-09-23T17:44:16.000Z",
-   "description": "Jaishankar Meets Rubio In New York, Discusses Russia Sanctions Bill | UNGA | Videos&nbsp;&nbsp;Hindustan Times",
+   "description": "Jaishankar Meets Rubio In New York, Discusses Russia Sanctions Bill | UNGA | Videos&nbsp;&nbsp;hindustantimes.com",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -737,15 +1328,26 @@
    "severity": "medium"
   },
   {
-   "title": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
-   "source": "Reuters",
-   "pubDate": "2026-09-23T17:38:47.000Z",
-   "description": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender&nbsp;&nbsp;Reuters",
+   "title": "Indian seafarer dies as capesize bulker gets struck in the Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm15dGJ0RHM3YXZ0ajBzMHhPS3k5LWthbDhocXAwV0dsbmtyU3phUHNiUmI0Sm0zNllGZ2hsNFE5dGh4QjlBS2RzTkVZbkJkQkd4SzZQSUkyeE9sam9GMW56NlV4ZWNpekNnenhmWW9zSmxrcTcxdG1NTFFjaEhWWVg3cFRIWWFjaWpZSXNDemlSUlJ2SnpDd1ctVDIzYW95MVg1ZzVUcjVpaThsa1EwTC00LWhPdmRxQVFNMA?oc=5",
+   "source": "TradeWinds News",
+   "pubDate": "2026-09-23T17:43:06.000Z",
+   "description": "Indian seafarer dies as capesize bulker gets struck in the Strait of Hormuz&nbsp;&nbsp;TradeWinds News",
    "categories": [
-    "iran_israel"
+    "hormuz_redsea"
    ],
-   "severity": "medium"
+   "severity": "high"
+  },
+  {
+   "title": "Key Takeaways From Brent Venables' Press Conference Ahead of Oklahoma's Matchup vs. Georgia",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOM0w0dnlUY3ZILTludGNBZXQ1MWRRZFpneEZvMFBObkpzeGdrczh0ZExSckJHV05ReEtya2RQTmJidVljeEc5aVYxTVgwTk9fS3VWb052aGdITVJpQkYwSDNfT1FETnczWmxmV3RudFdXQUFnbjNsd0NkUVZJSjg2TzZCUXhOMC1rSklCTjFyT2NsaGp1Z0lUNUhqNmVuNnZCY0E2Q05mdjBYOF9FZV9UUlFxdmVsLVNobGlvOGF4cDd4R2NlNHN6a3pqeXdqVm56Vnc?oc=5",
+   "source": "roundtable.io",
+   "pubDate": "2026-09-23T17:38:05.000Z",
+   "description": "Key Takeaways From Brent Venables' Press Conference Ahead of Oklahoma's Matchup vs. Georgia&nbsp;&nbsp;roundtable.io",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
   },
   {
    "title": "Brent Faiyaz Announces ‘I Spent The Night With Brent Faiyaz’ Limited-Run Arena Tour",
@@ -759,17 +1361,6 @@
    "severity": "low"
   },
   {
-   "title": "Jerusalem Daily: World leaders condemn Israel at UN",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/jerusalem-daily-world-leaders-condemn-israel-at-un?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T17:35:55.000Z",
-   "description": "Palestinians protest Israel’s prison visit bans as settler pogroms continue across the occupied West Bank.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "Brent back above $100 per barrel",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0l2ZldmTkd0UUV2VG1yaXhqVHA3RG04UWJfRHFsdWlqY1lxTElrN1dFekZsLUhGTjUyM2NwYk1ORVhUNkxFMk1BZE1qWjBWd0t0RDJkck9feXJ5V3BZOWQzMTRlQlhEWmtWanJwUl9qMnVSZjRLYVhIMXpJUVRNV1dNTXN1MERm?oc=5",
    "source": "New Age BD",
@@ -781,11 +1372,33 @@
    "severity": "low"
   },
   {
+   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+   "source": "LiteFinance",
+   "pubDate": "2026-09-23T17:35:12.000Z",
+   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
    "title": "Dollar jumps near 2-month high on Fed outlook, rising oil price",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUVMTURyMFU4MzB5ci00eE1mZnFlQjh1bWlNOFJJYzVISGpKTlA3ai1QemlYRU1NSU9TTlhFbW9FN0JpdjduMzMtQlpMa2VNbEVxeUdwZ25NTFhLRnVHTWZYUmVCeEV6N0Rod3JsZms5d0JybjFBOWpMdWwxZEdNMkNzWGNyYlJ2aGV3eTNDZWpELWhDeXZxbzF6NnlOd0xKSDFUa0VWUl9leklBaDRJc2xwUE0?oc=5",
-   "source": "Nikkei Asia",
+   "source": "asia.nikkei.com",
    "pubDate": "2026-09-23T17:34:00.000Z",
-   "description": "Dollar jumps near 2-month high on Fed outlook, rising oil price&nbsp;&nbsp;Nikkei Asia",
+   "description": "Dollar jumps near 2-month high on Fed outlook, rising oil price&nbsp;&nbsp;asia.nikkei.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaUJjZnNVTFFocjc5QWs3d0t5YzYxeERpNjZRbklJaGQ4MmxxX29sWlJ5Rk1xeUxFSjhJSDhZQWdWYlBBa2NFbGowZ0VYYkVqbFZwa2czZDh0cXNRb3cxOXlham9tMDB5Y1VTaC0xdXJqZHloUUxoX1BsQnJLOVNGakgtU1BhNlNvWDhpZXlIdzJZamZTM3FmXzg1alM4dkFfNjRCS1J4Nk8xRlR4VHpOa1JRS1FlTEM0MTU0SGVJYjMxQ3NWelQ0T1B2VEHSAdIBQVVfeXFMUEYwakhyYlRiR3h3c2tWeXhydWtuRmNuQVo1U0hMbjVTb2tRRkhuMldPYmpUSDVRcGhNRFBoM0FhSVd1bGtWT3pHZXdHckhlTjhfaG5hQzg5cHZaZjdUM3l6Ukt1NEwzMzVxQmpwalRUbXo2RG9kTDdtSDlEOUJ5XzVpd0VUcVVvSlRzTDM3blhBemFkV0tmTXREOUlUT3pMT0QxWjNpY3FOUHdTWGdzbEpjZ1Jzc0NleWotOEJJN3czVDRLS3FzMElsVWFEdmlrYkhR?oc=5",
+   "source": "Crude Oil Prices Today | OilPrice.com",
+   "pubDate": "2026-09-23T17:30:00.000Z",
+   "description": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
    "categories": [
     "market"
    ],
@@ -793,13 +1406,25 @@
   },
   {
    "title": "EU plans sanctions on 77 candidates in Russian parliamentary elections held in Ukraine's occupied territories",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpVEUyYnR3TGVpaEhEdEY2bVZINkFOM3ltaEFQMlpxLVUzLXNOLWtKMzFTeWllVWMtM1RMN2pESjU3SHFJRUJ2QUZOODdpUVdFZ25JRGxSQXRtZGszOVZvOGZ2TGnSAXBBVV95cUxPUkNuNWVGT3ZrVlNGMzBDcnAxZkJKenZxZmdPSWRya2NFSHlSZjlFRDBpVE5pUFV0SWE3N1JQcVFibkZHS01MM1RjaU51OFU2TDN2Z3JGUjJJUGl2UHVoWDY0dHRubV9zMUwyV2tTaldB?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SQ241ZUZPdmtWU0YzMENycDFmQkp6dnFmZ09JZHJrY0VIeVJmOUVEMGlUTmlQVXRJYTc3UlBxUWJuRkdLTUwzVGNpTnU4VTZMM3ZnckZSMklQaXZQdWhYNjR0dG5tX3MxTDJXa1NqV0HSAXBBVV95cUxPUkNuNWVGT3ZrVlNGMzBDcnAxZkJKenZxZmdPSWRya2NFSHlSZjlFRDBpVE5pUFV0SWE3N1JQcVFibkZHS01MM1RjaU51OFU2TDN2Z3JGUjJJUGl2UHVoWDY0dHRubV9zMUwyV2tTaldB?oc=5",
    "source": "Українська правда",
    "pubDate": "2026-09-23T17:30:00.000Z",
    "description": "EU plans sanctions on 77 candidates in Russian parliamentary elections held in Ukraine's occupied territories&nbsp;&nbsp;Українська правда",
    "categories": [
     "russia_ukraine",
     "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "“Our Esteemed Supreme Leader Was Assassinated Without Any Legal Framework Or Reason” — Iran’s Pezeshkian Tells UN, Vows Never To Bow To Trump",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOalc4cndUc0J4X1hFOHJxaU1xQWNMd2ctRnN5Z2JRbVNJSjIxUHA0aklLREczTExjbGdMMkhic0JLTUdtdll5SzV4QTBiMDQ5NklxV0ZBcnF1R0NHc01mTTJYZjQ5dFdsS1FQMEFSaDZDcXN0c000WFl6T09vb2YxQnRqUWZVUG8wUlVXZXVxZ3JVbEZ5aGhWdFJ1X3lKWkctMWU1dy0xZl91T1dyLS1HZDIwUVZxb01QWjF3enJZLTNkYXVERU9nYnREa01pQUNCdnc0Z3R1Nl9zdHBrNnFyNjZVNk9hUnU2U05XZnNfcHpodlhYU1E0OQ?oc=5",
+   "source": "TheNigeriaLawyer",
+   "pubDate": "2026-09-23T17:29:11.000Z",
+   "description": "“Our Esteemed Supreme Leader Was Assassinated Without Any Legal Framework Or Reason” — Iran’s Pezeshkian Tells UN, Vows Never To Bow To Trump&nbsp;&nbsp;TheNigeriaLawyer",
+   "categories": [
+    "iran_israel",
+    "supply_other"
    ],
    "severity": "medium"
   },
@@ -839,9 +1464,9 @@
   {
    "title": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUNxemRIbEN1UnlNWDNnX3BTOTMxRXhfVmFlYzlTSGpqVkpfSlY2bHhnRUNwZHI5T21SVm5PQXk3RzExdTRZMnZ2aVdCMW9CT2JUYTNJT3NjUWRMc3dqY0hpdzJHRW5nemk4ckpnQmF1Rkl0SkxLUndVWm1nWndjTGtoR0dfLTN6LWJJRjVqcDV5OTl5c3ZGMVdoVXQ?oc=5",
-   "source": "thebulwark.com",
+   "source": "The Bulwark",
    "pubDate": "2026-09-23T17:18:41.000Z",
-   "description": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too&nbsp;&nbsp;thebulwark.com",
+   "description": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too&nbsp;&nbsp;The Bulwark",
    "categories": [
     "hormuz_redsea",
     "opec"
@@ -895,9 +1520,9 @@
   {
    "title": "Trump gets new tariff powers to pressure Russian oil buyers, says Rubio",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcWVnWGFWSnVfT1VtdjhGdy0yV3U0ZHdqc1JGel9sNDVWZlVzdUk0VkxJZW5PZDFBaGg2Q1B1dzczWG1QNFgzbzlKQ1NCZ1RCSDdyVE1EMDJfa0pQWWJoLWdYelJQWk5Bd3ROYWVKZTdmVmJJZlVvUlFxdHZVMUdpVXpHcnRTOVFhcGRYU29CY2lKRDZrUG0xMEY0YjNMbmxtSU1Yd2EwYnVTX3o5cEFqU2RVd0xmemPSAbwBQVVfeXFMTXA1Y3VDZkx0Q0FncHNOeVBJZDMxQVQ0UUdmYjR2dDZoMzg3VUF1QTNnNnh6MndMNWhRUGlOMS1VSERaQzJlenRGeFE1ekFZNU41X1VrV21Id29tNTRCTzRzN0pMdldNQ19xT1Jkd1V1S1lhUXpybTRieVhxWU1iTm83dndRY3VPSUtPc1dkcUlXQnpfclJJQkU4MmdKRTVyQjIzMkJRbDVob2pOWUw4TG1TMXMwUnVjLVczOU0?oc=5",
-   "source": "India Today",
+   "source": "indiatoday.in",
    "pubDate": "2026-09-23T16:58:37.000Z",
-   "description": "Trump gets new tariff powers to pressure Russian oil buyers, says Rubio&nbsp;&nbsp;India Today",
+   "description": "Trump gets new tariff powers to pressure Russian oil buyers, says Rubio&nbsp;&nbsp;indiatoday.in",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -906,7 +1531,7 @@
   },
   {
    "title": "Donald Trump needs to show Iran that it wants long-term objectives over cheaper fuel",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9fTE1mU2Q3WXdxUlFaNGJXX2NRdl9rVjVPZFpjQlNjMHNWd2o3UTZySUVyVFZxdjZGcmI5eC1pXzg3RHNyZlBaU3NwaGdTM3BOQVVCcWoyX25nRHp2VGk0?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QWJkVS1oS2xTMkxpdXZzZjlaSVJaQzV4cW14N3RrVldKenVqMklBQzYzalRsZXJmckktNlJoOXVBSmdic1dJMi15MERCOTJ4Mk1DTzBwRFExaXFtWnc?oc=5",
    "source": "The Jerusalem Post",
    "pubDate": "2026-09-23T16:56:35.000Z",
    "description": "Donald Trump needs to show Iran that it wants long-term objectives over cheaper fuel&nbsp;&nbsp;The Jerusalem Post",
@@ -918,9 +1543,9 @@
   {
    "title": "‘We go way back’: Kirby Smart shares admiration for Oklahoma coach Brent Venables",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNczUxekRFaXFvb0phTG9BTkJJc2hsVERkMmdMUk1HMWZDeUI2OHVjWHpqQmY2QnEzTXQ5bVpjUU5fX09EU2ZOdWVkNjU0S1BZZUxqbjJURzkzQi1Ic2pNeXM5Tk8xaFNfZWYtYktVRUt5V1pubGJrRTJfTFowZDltUGc3dzE3YVNlVTJHRVowQUx2RVl2dmZnb0haMjI4alVvLTU1eVNpWDVRZlNhX0xUWmJtZmtoSmFUUTV3SUwwcHVNWDdqektvVTB6WldUUkpO?oc=5",
-   "source": "247Sports",
+   "source": "247sports.com",
    "pubDate": "2026-09-23T16:55:46.000Z",
-   "description": "‘We go way back’: Kirby Smart shares admiration for Oklahoma coach Brent Venables&nbsp;&nbsp;247Sports",
+   "description": "‘We go way back’: Kirby Smart shares admiration for Oklahoma coach Brent Venables&nbsp;&nbsp;247sports.com",
    "categories": [
     "market"
    ],
@@ -929,9 +1554,9 @@
   {
    "title": "UNGA: one 'nuclear' comment by Iran's Pezeshkian makes entire Israel panic?| US| Hormuz| Netanyahu | Hindustan Times",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQM1VrVFVSMWNrc3VPV2xud1dXc2lwZm1jQzI3LUd5M0d4UW1mWXFtbG13Z0JDUjZ0MG9pMHVNQTNRNHFhVlJmYm1rNTNUaDlONEptMHZ1YWduRGpBOG1rYkdFaDdSTU9NUEZxTlVVYm1mNFgtbkpHWTQzSUFUNko3MDdIVkc0MDBmaDZYYThKM3R5RW5XMHZmMk5Ud0oxR2ZXLXdMUVNUS0Z3dmVXWnFNRnRFZGlNZ1pNdnZJb3pWdENtU1FOOWkxd3ZmY2lVQ1I4UEtOQkUtRi1wZnJiSEtGdWhueGJCWWp4TkI4ZU1MWlVHd9IB9wFBVV95cUxNSy1lN1A0VElQQmRDcjZzQS02dUctaTZGM0hLV0EzQXhNcFlzOXhsMlR5ZzgyMjZsVms2b0dGRFBHQkVOWEtUc3hjZm9ZNDFNX2MySVBRbUVWNkJ6N08yTDdXSmROWTJCcGkyelpKV3huYzFTRmVzMDN1Tm8tUGtKamwtSUwtcFBJZ2ZnTFQ2UnRwR1ZKNHYwRXpaOTJUMzNZc1E4TElxVlJSdWJ3WWNSNGxhZ2FvdTBkV25vd0pCN3FCSXdjc216U2RWV1d6UzNRQjhlQzg3aGFreGhRVnl2SS1UZ09Kd19Wamg2QlB3OFRqMDJXZFdz?oc=5",
-   "source": "Hindustan Times",
+   "source": "hindustantimes.com",
    "pubDate": "2026-09-23T16:54:05.000Z",
-   "description": "UNGA: one 'nuclear' comment by Iran's Pezeshkian makes entire Israel panic?| US| Hormuz| Netanyahu | Hindustan Times&nbsp;&nbsp;Hindustan Times",
+   "description": "UNGA: one 'nuclear' comment by Iran's Pezeshkian makes entire Israel panic?| US| Hormuz| Netanyahu | Hindustan Times&nbsp;&nbsp;hindustantimes.com",
    "categories": [
     "iran_israel",
     "hormuz_redsea"
@@ -950,6 +1575,29 @@
    "severity": "high"
   },
   {
+   "title": "EU drops sanctions for Russian oligarchs Usmanov and Fridman",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONmNaaDZEQnhNNGZXdlRNSDcwaU40Z0tJTEFhOG5aYll0ZnpuSnc2a1FFMTduU1UtTG4xSU9xYnctNWVBN3NSRUtrQVdVRlRxU1YtNVFyWUliM1NzWjNZMV9ld0RHMEViR01SQk1jUlBsSlZkUTVXc3hWQkFDS09rWkYzZ9IBgwFBVV95cUxOT2tBLTJUVXI3OTlOLUVaWS00WGYyVGJtWHpvX2xMQjh0U21UQllFMnR5R04zNHFlNHNIWGgxbW9lYmJuOUFJZ1UwcndJNWd0NHpIT1ExMGJNX3JOR1NNUUt4MHBZRTVPQ1lpMmc2Smdra08tNEdBZ2pBa2poTzFVdExLVQ?oc=5",
+   "source": "dw.com",
+   "pubDate": "2026-09-23T16:50:33.000Z",
+   "description": "EU drops sanctions for Russian oligarchs Usmanov and Fridman&nbsp;&nbsp;dw.com",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "At UN, Pezeshkian turns terrorism accusation back on Iran’s critics",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9SNmJ3bXJzc3ZZcEpxZHJfVjI3NUhWSWhVY0JCRHRLclJIeUg0RXFFX2xPTm5VaEtDU09wY2tNZG9qV0thS05IRWQ0TTBQcldRcFBFeTI0bw?oc=5",
+   "source": "UN News",
+   "pubDate": "2026-09-23T16:50:16.000Z",
+   "description": "At UN, Pezeshkian turns terrorism accusation back on Iran’s critics&nbsp;&nbsp;UN News",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "'We will never bow our head': Pezeshkian says Iran open to talks, rejects 'language of force'",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNVlfS1hLYW9fQTFyMmVBS0FyVHBYTEpqMVRFdEU1MzNuMGd0MGF4Z29vMnNIYXZhYnpnVVdsQ01qNnNXY2JOd2lqLWtKOHJjRnNpbmgxWmtRQjNPOWFmRXotVG1rZlV2VTl5eUhXUjJ0ajRUY3RZaWg5ZTh1S1VnM0d0OG9QMlJUcVowempfUjBwZWxROWd5N0lnN085dHpVWk5ZMHY3YlN4R3RRSUhFa19rWXNTbEJzNmZOY0tDaVVQQQ?oc=5",
    "source": "The Express Tribune",
@@ -961,28 +1609,6 @@
    "severity": "medium"
   },
   {
-   "title": "Israel’s destruction leaves Lebanon’s border villages in ruins",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/israels-destruction-leaves-lebanons-border-villages-in-ruins?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T16:48:33.000Z",
-   "description": "Israel’s destruction leaves Lebanon’s border villages in ruins",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Commercial ship comes under attack in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xcWZnTXMzRjdpV1ZKN1h3M2RKc21mQnh5aUJzNUZZcmE5cUgzQzNKSXdyQlNQUHRmNjlpbXdGY3ZhaUFENVlsZXJoc3g4b2p3YTFiSg?oc=5",
-   "source": "AzerNews",
-   "pubDate": "2026-09-23T16:47:00.000Z",
-   "description": "Commercial ship comes under attack in Strait of Hormuz&nbsp;&nbsp;AzerNews",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Iran’s president hits out at ‘bully’ Trump in UN speech but signals willingness to talk",
    "link": "https://www.theguardian.com/world/2026/sep/23/iranian-leader-hits-back-at-bully-trump-signals-willingness-to-talk",
    "source": "The Guardian",
@@ -992,17 +1618,6 @@
     "iran_israel"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "Syria’s al-Sharaa urges Israeli withdrawal in UN General Assembly speech",
-   "link": "https://www.aljazeera.com/news/2026/9/23/syrias-al-sharaa-warns-israeli-attacks-endanger-delicate-post-war-recovery?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T16:44:01.000Z",
-   "description": "President Ahmed al-Sharaa calls for Israeli withdrawal, condemning its attacks as Syria emerges from civil war.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
   },
   {
    "title": "Indian killed in ship attack near Strait of Hormuz, Indian embassy says",
@@ -1027,15 +1642,16 @@
    "severity": "low"
   },
   {
-   "title": "US envoy walks out on Pezeshkian UN speech slamming war on Iran",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/us-envoy-walks-out-on-pezeshkian-un-speech-slamming-war-on-iran?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T16:34:47.000Z",
-   "description": "As Iran’s president began his speech at the UN General Assembly, an official from the US delegation walked out.",
+   "title": "Russian Tycoon’s Personal Networks Helped Beat EU on Sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTkVLVnFUU3FtSHE1Q1FUYUN2Y1dOdnhNeXFkT01jbDYtd3prVDZmSXRfaGU2ZDdoOHl3NGVsSnJGNjZZa0IySFRzblg0M1RHeWwzMV9sUzF1UTdmeWdxX3pxT2xhN2l5T3JleDlTcTBrN1BmU01OcEloWngxVENTQnU0U3BFX2lHaFowd2xyYXd0SF82enR4bXhkQlBDeGRuSHBwNXhURUh3RDNuUFhRTk01NA?oc=5",
+   "source": "Bloomberg.com",
+   "pubDate": "2026-09-23T16:34:51.000Z",
+   "description": "Russian Tycoon’s Personal Networks Helped Beat EU on Sanctions&nbsp;&nbsp;Bloomberg.com",
    "categories": [
-    "iran_israel"
+    "russia_ukraine",
+    "usa_policy"
    ],
-   "severity": "high"
+   "severity": "medium"
   },
   {
    "title": "Dangote's Kenya Refinery Project Launches This Week at Up to $20B",
@@ -1050,10 +1666,10 @@
   },
   {
    "title": "Yemeni government in military and diplomatic push to reverse Houthi gains",
-   "link": "https://www.aljazeera.com/news/2026/9/23/yemeni-government-in-military-and-diplomatic-push-to-reverse-houthi-gains?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T16:21:18.000Z",
-   "description": "Government claims battlefield advances as diplomats attempt to put anti-Houthi fight at UN centre stage.",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUxQTXNqbWxJdmFqNkVDZmFMcDhWLXN0UVQ1TDlTaUp1Y1RJTWRpNDYyQkdYZVRHSF9vVHBpemozNGhvYUpTWTNTVWw0bWhwQU43NFk3UWVoREZMdUQwZEhlSXNSVldNTkpSTTlBdmRqVHhVZnNWUEVoNmY1Mk9MUWxwSUJkM1VreHBDbFlTU2xCVGI5cm45OXlCbm40QkVnTlFadUxsVnMwdTk5VFpmOXRHWnPSAboBQVVfeXFMTlpIVHAtMHJpMWVaMzRaLW42NlJiOGtHQ3ZIU3U1b0tsUXlRU1VPWTRnaWNpRXJzbXFrUklzZ0ZraTJhbl9LWXo3U2haTFl0RWdTR2FaVkpYSVBvOGVqcnhmcnNIRzZnZmRIbXo4NGFPN29jWjBqV0c2ZVRpRWdTN0xIaHRpTXF6RmZkWTUzVzAzWUkwSloyUGhxc000dVZUeElBSmNsV1M4U3l2WHcwdVljbzgxRldidVpn?oc=5",
+   "source": "aljazeera.com",
+   "pubDate": "2026-09-23T16:25:22.000Z",
+   "description": "Yemeni government in military and diplomatic push to reverse Houthi gains&nbsp;&nbsp;aljazeera.com",
    "categories": [
     "hormuz_redsea"
    ],
@@ -1068,6 +1684,18 @@
    "categories": [
     "russia_ukraine",
     "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "‘Saudi Arabia is a key friend’: Ex-Defense Minister backs UK support against Houthi threat",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeHI0WHVNNkVmRnhOMGVNaXpESDFIRnBvVmtxclNJTVN1VUFUdnpGcE9tTkYyU0RNdHBuWVpMVWpoUHlodHRVTW1xdnVyZl9vcDh3X0FtNXZXbGxDa0dJQXhXQ2hraGZjMUFPclFaeGxlaTM5RmNhOE1QdUtnVnVaUjR0NUdnMmNNNmQzTms2V3AxdzVDVzZocF8tUzlldE5CMlhROEQ5dzk3MndNM0NvdjM2akEyZ1I3TjJGazNDa3c3M1pwYU9KalBJdm85R3RsMWhzV29XS05iSi1KOEFmNNIB5gFBVV95cUxQZG8tSXl4RzFldTFVcEQ3R21iMVFaay1NQ2E5OUhpRHgxdDJWendqVmNPVS0wdnZtbG50bzhrd1ppek50NEJfRUxsOXlCRGlnY1N5S3BKcUd6SC1FdjMzb3FQUHBHNWJCVDBubU9rSVE0RmN3SEFkcDhKcEh4NUFiSTRLWkM0d1ZtQ0ktN2pNblFySkhqcVBQYVdwckFYQmlZM1NoZnU2RUxmUFAyNUUyNzFLSjM4MXZ6bXRjS1c1c29tZDBFT3VlUXBRYlotQWZYenhwNkJNTzNFRHRURkl4SEtsZ1FTQQ?oc=5",
+   "source": "english.alarabiya.net",
+   "pubDate": "2026-09-23T16:15:00.000Z",
+   "description": "‘Saudi Arabia is a key friend’: Ex-Defense Minister backs UK support against Houthi threat&nbsp;&nbsp;english.alarabiya.net",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
    ],
    "severity": "medium"
   },
@@ -1130,654 +1758,29 @@
     "usa_policy"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "US told: Don’t meddle in Saudi-Houthi conflict",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE51eGplSXBYZXlaRGREY1JIaTRTZk1tbTNfS0wyNmplUW1kRWswb0FJeGs1V0hXZXUzOFhqd0tySE5UODBNQzVnSEw3ZDVLOVdfWmxlVHhSZ0ZGOEROd2JkUU95XzJOcmNjUnJTMXdGbmxPUU1Ealk3N1d6ajdLT2ZNWnUzU3JTQkQwU2c4bFczLXJfUWx1S3Y0WHlrcURISXpjWl8yS1pSdWJsdGtJZ9IBtgFBVV95cUxQTFBiM21aNk9YdEtKOUdFOTk2b2l0NTBKcWtCT0hmRlZ6N1ZHNEsyVUNYcjN0SnZpSzBhQUhYRjBMYVhTX0tfOVRHYldVTUFGRlY3NnBPdU0xS2F5ckgzQzRhTGlyNG01LXd5SXJBWVRoOWpRY2tDcHAxVVNDZnpjdEVBOTlWY2pmUUpEOGlac3pqRUhiakdlYWUtYVFpcTNSUzFYNFFIQTFuU29jTmd5QndxSUwtdw?oc=5",
-   "source": "The Manila Times",
-   "pubDate": "2026-09-23T16:02:00.000Z",
-   "description": "US told: Don’t meddle in Saudi-Houthi conflict&nbsp;&nbsp;The Manila Times",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "America Walks Out During Iran’s Speech At U.N.",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkhWcXdFNXhiM29sQ05MdDhZY3BUQWxDZlZLNTAxNFdCSjV1RU03M1hJV0dua0hJRk1LSkVoNlNLU3BYMGgwcXJxRExQdFNFZE9xbElsZmRJMlBnLWhpcXNta2ZWRFNkb05uckt4UFZSN1VEc2hpUnFYZnV6X1pSXw?oc=5",
-   "source": "The Daily Wire",
-   "pubDate": "2026-09-23T16:01:30.000Z",
-   "description": "America Walks Out During Iran’s Speech At U.N.&nbsp;&nbsp;The Daily Wire",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "The Houthis Sustain Their War Machine With Chinese Goods",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdmJoODRyRGRnNW8yTUtWOEl5YjJNTW5DY3RMbVdRVzIxTEMxbjZFWDJuRlhuZ204Y1gxWkpiUjc2Q0F3bEtIdEQ1Um9tWDQzLUdaYXJCT09waDVaUkVFczR1dnpoRUM3UXJzQzkyby1lbkRKRDVTRmZZVUw3UEJIcVdCSUV3elI2V3VHRXNKYk15dHIySzlzZ3NwZERMUHhmZno5dVM1R3M5SWo1ZWxSZ2pqT0hLVFVpVkdndlVhb1FQdlMzN2ZQUXg1cXRfbF9KWEdr?oc=5",
-   "source": "Bloomberg",
-   "pubDate": "2026-09-23T16:00:21.000Z",
-   "description": "The Houthis Sustain Their War Machine With Chinese Goods&nbsp;&nbsp;Bloomberg",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "'After Trump's failure in Iran, the Houthi offensive is another blow to a fragile house of cards'",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQXV2TFJtbHVKZFk5VWlOWWZmUjh3TmJhclp6OHRGQjJ4bDNNb0trS1VIa1F1eFp2QnRET0NkbzlULWEyRk5qWGplbURCanRoODZKTXJSeTQ3RUZFajNaNTZkalEyWXFPbjg5Q29KWjRCaEZGMWptNG9wc3ZJY1JJWktVc0MzWWxOMUNkUUIxUUNCZ1hUcUFmTHdRZDhFUjNnNmxSSmFDdTlxUUNjWUNaYnZwX2xxUDNfUWtVZ0dpdFhLSWt3TUZTdWFtZ2NycGN6RlpDdUxxN2dTWVRVbHZaRmNIMU8wSjVUNjhOUUVWRDV0QnRNbWc?oc=5",
-   "source": "Le Monde.fr",
-   "pubDate": "2026-09-23T16:00:13.000Z",
-   "description": "'After Trump's failure in Iran, the Houthi offensive is another blow to a fragile house of cards'&nbsp;&nbsp;Le Monde.fr",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Russia Banks on China Gas Ties Amid Mounting Sanctions",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vYkpLYTgzX2dybjNJMG1rOXhFVXFfOUpoWHRKMEFVcWxidWhrZ2pZQVY1RUw5eWx1WFdMVzBfZTgyY0dDNmdrbXR4R052QUctQXlKVjRWVWFURFRWVUJkb1FkdE10VHA5ejl5aWJVWmFVQQ?oc=5",
-   "source": "Energy Intelligence",
-   "pubDate": "2026-09-23T15:59:31.000Z",
-   "description": "Russia Banks on China Gas Ties Amid Mounting Sanctions&nbsp;&nbsp;Energy Intelligence",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "FTSE MIB in the red, Eni tops the board with Brent above $100",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbzMydE9xUE9ERHkzbFNRdjJGUThFaHRhU1RQbW1XckpGSlc0bXk1WWE2dExjaWw0Z3pfRHRRZ29pQ193enlNOUpEN2hfVTRBeENQNXhrRldzZDI4MlJTRkZyZkd0YlB4WW1rNUhfQ3VhV29BZWYtbVQ3ejhkcGEwMFBYaEl0b1BCNWpOS3cyRnBwV2E2ZjhrRlZqZGM5VGZBMk9UVzNXcGl6U0dMTHROREFB?oc=5",
-   "source": "marketscreener.com",
-   "pubDate": "2026-09-23T15:55:47.000Z",
-   "description": "FTSE MIB in the red, Eni tops the board with Brent above $100&nbsp;&nbsp;marketscreener.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Masoud Pezeshkian UN Speech | Iran | Israel | Nuclear Energy | UNGA | 08PM HEADLINES | 23 SEP 26",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BN243RlFWR2R0TTl2dzktcEVSS19tOGh6dVE4ZGxncDlSakpZVE1LUVl6ZUEwUFhtZFZaem40MFZtd3p2SVozaHJfLWI?oc=5",
-   "source": "Aaj News",
-   "pubDate": "2026-09-23T15:55:09.000Z",
-   "description": "Masoud Pezeshkian UN Speech | Iran | Israel | Nuclear Energy | UNGA | 08PM HEADLINES | 23 SEP 26&nbsp;&nbsp;Aaj News",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "‘They kill, we are punished’: Iran calls out Western hypocrisy",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/they-kill-we-are-punished-iran-calls-out-western-hypocrisy?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T15:49:59.000Z",
-   "description": "Iranian President Masoud Pezeshkian has accused Israel and the US of applying ‘double standards’.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Pezeshkian's fiery UNGA speech, calls out Israel's nuclear weapons | 'Israel has the bombs' | N18G",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVXNaaFFPcnlQMXJ0Q1pPaFFIdVdtanVwWG5JVjNMM0NFSDEwZEZfVGFxQjBfYkV4SXZ0NHJyeW15d1RkclBVT3l6alMwOTdTYkoyVTYtVzRBUC1RdG43dFNHRVU3d1kyQXU3cjExVlhtbnpFVEpVT1pRNm5oQ19GTGlRRmtHblc0ZGpnYlpTWndrd29RTTRJSWxLYjhTU3NUbW4xRUZXNkRyenB5V3FhMHd2Skl6WE1uSXp1aE5hc1REb0VqMWlhWHNoOWRMc2Q50gHWAUFVX3lxTE1pYWJaM0UtdlpFQmNkSWdjbXVLTlpzLW9xNXJEYmdhaGRxV3FJT2NaS1JiQmFfWmw0THVZbUdwMXhmUDNJZTRJYWJrMmdsTWdEdFVMUnNjdC1sWTY0cnE4cW1HaXpSZ3pYbFhrWVVGMEU2cmRtQkRRQUhHWlpMb1FIY2RFNEEyUU5EbHhHTzA1Vk5pckJMUDctWE5WWEVVcENCTjFIZG1zRFlHRWZjaFNjSVRzd2lvb1NoSTFaMlV5OXpmdGdwZ1k1anJuVFF5ZFF2cWp0ZHc?oc=5",
-   "source": "News18",
-   "pubDate": "2026-09-23T15:49:00.000Z",
-   "description": "Pezeshkian's fiery UNGA speech, calls out Israel's nuclear weapons | 'Israel has the bombs' | N18G&nbsp;&nbsp;News18",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "'Mushroom cloud of smoke and flames': Toledo residents’ lives upended by deadly Brent Industries explosions",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX1QxT3dieHpzakEyLU5GZ1Y3My11bUt3NFc5Mk1fWVFaSThhZWxHWGFjRjI2VnRGbmtIMGtmYVRFNndfTXJHRVh2YmktWkp4M0ZNOEVSZ0tEb3cyUE5QT1VUNDhtSGlIeUQxZUZjRWlTQTJWclhUdjhheTBMbkhsSTQzSXhPbHZOb3liUnYxaGc3VGtJN0Nz?oc=5",
-   "source": "The Real News Network",
-   "pubDate": "2026-09-23T15:48:54.000Z",
-   "description": "'Mushroom cloud of smoke and flames': Toledo residents’ lives upended by deadly Brent Industries explosions&nbsp;&nbsp;The Real News Network",
-   "categories": [
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Indian seafarer killed after torpedoes hits vessel near Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZnRmaUVtblBMN3FxZnBWb2NSYjUxZ2xGTUxxTUFVcGpYX19iY1hNRUN5eFFWVGxETTRJTDNXV3ZRd3QwWDBuT3pLNEJuY21VajRkdkp3NGhRYTZjcHc5azR3Z3pYcC1ZWnN3U29UX3FDTGpyX2hQY1VGMEFGdU1kaUpJQ2pXY2tDRWh2UzNkTVlMdFo4UjFHRkVXLTllNVBDSHZueUpyczJLa0VwMnR4cW5tRHBOcElUSTlwV3dYZU4xMjRORVhSYld3VE3SAdIBQVVfeXFMT1luVmZYVW54dFNEQzV6UTlORG9iMmZuemtmZ3VGZ3NJaENXQXdHUW01b2hITFZYTzNvSU91Z2ZrUFdyV0F0RTFuekpNTWN5ZnRlZlU1ZWFDUEp4THJxU2g5OC04alVmV3h2Vjg5YlEyX3BINDhBbFh1NU1NTGNfUXpOTDRVcGZvYjBxLW5PTlp2NmIxMjZGMHAxSjFlWUJMWTRUTHR2Yko3UnZ1Zm1uS2pXemd0MVNFUUVzUFdlMVQza2NIODZvaGtjWmRfbTRrVl9R?oc=5",
-   "source": "WION",
-   "pubDate": "2026-09-23T15:47:00.000Z",
-   "description": "Indian seafarer killed after torpedoes hits vessel near Strait of Hormuz&nbsp;&nbsp;WION",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "‘Iran Will Never Bend The Knee’: Pezeshkian’s Defiant Message To Trump At UNGA",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNalBvbC11Q3VNVXNmRU9tWlZWQVpOaWtjTWUybzg4Ymo4NVpGa3FVQmlLbjdkMk4wWUpNLXBWdllqeDF2dURELWJrMURHcGU0TW9oQ0wzY0RGSHpfUVhHeHFFbk12UXdLOGtGQzdmXy1RUWVIamdBcDE1VXlESkU2S0g4dG0xTjBsVFRVaWFmNHQyVVBXUC1HckxPUEhzakg0c09LTmdLZ1l1dU9mRm02VHpDTdIBuAFBVV95cUxNRkZwSEg3ZVYxVVNqRWdRRGRIbzFJN0V4Tk0yRjlBYnQ5bG5NVm03Nmc4VEZ4dVZ6VURJRXNlamlLUG8tWVBya3FoRlpaMEIwX09oQ0std3lzX1REYkIyWm1zZlExOW1JNnR5UmNLRW9nQ3pyN3h1SXhUXy05U0ljQzJVN2xmZUxWbDQ2NFRvTzJJTHBES0lVZjZaWnZtT3g5ZFNDYURfdmVLSW9YNWgzbDVXX2RLQ09y?oc=5",
-   "source": "ABP Live English",
-   "pubDate": "2026-09-23T15:44:12.000Z",
-   "description": "‘Iran Will Never Bend The Knee’: Pezeshkian’s Defiant Message To Trump At UNGA&nbsp;&nbsp;ABP Live English",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’ | AJ #shorts",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mMUh4NERRY1hXTTB3ejFweG52cjZscEhQdVFBUzRzSHpTaERRMy1yWDU4RUs2STdWUGhtLUl3X0dxclE5Z21BMzgtR1ZUc2lWLWxmeTNFZ1d1MG5KU2hHSVRnMWs4d0nSAVxBVV95cUxPdVBUQjFJUFRrWjlsZndVV0wtVi1DYmhyRXVNZ09fLXF2dVdTek1wY3V2NVpoY245ZDExdThGRmtzRWhsZzBPTnlzZnpRTEUxU1hKZ3lmbUtEa0ZqVw?oc=5",
-   "source": "Modern Ghana",
-   "pubDate": "2026-09-23T15:43:26.000Z",
-   "description": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’ | AJ #shorts&nbsp;&nbsp;Modern Ghana",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Jaishankar meets Rubio, raises concerns over US sanctions bill targeting Russian oil buyers",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLUtJM3RLc0hxSHViUW1OR0l0bE0wMTkzSGo2Ujl6b3owOHM5OUxic19iQ0E2TmtJajlwQkswTDF0TWxvY0V3VHgwZGQ1TmZpVE9yZEplWnY4cXVnRjBoMmx4Qnhyb2J1eDZkWUo4S2hORjhpWjBvdjZJQWRVVkpkSnlwcUtudjJUU1pfbjVxZmpXR080R2RyTXh6T3lPaUZ4Sm13d2VDQmVrdzh5MmgtRndEcThfWi0tcnNBdEU3cFgtdXp2Q0pibEp6SnBKQlNjaEt1U2dRTTTSAd4BQVVfeXFMTjFXbk9sNGZLOVBUZmFWTEJ3bTdsb0RiNXF6dUVEYmg3alJFUjNsSGZ0bkY2NEJnY3cyVERDS1B3R1k2Y3dJYTZNdnA1THdscnZBR2R6ZnltTnQyMjFqd3JnSEluSF9OekVpQnB0ai10b3VSbnZLOHN3SmROLXdnbzFGam9FdkpSV241X2JKVlNtaE52bHVRUTRvdUdfVkxqdmktVzV3UngtSHpfUTllOGtsWTU4OW43eTZmOWU4QU9xZkVoSEhVUUE3aEhDbUlQQi02Qk5ZSWk4OGZiR1l3?oc=5",
-   "source": "The Statesman",
-   "pubDate": "2026-09-23T15:41:00.000Z",
-   "description": "Jaishankar meets Rubio, raises concerns over US sanctions bill targeting Russian oil buyers&nbsp;&nbsp;The Statesman",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Watch Brent Venables struggles to fix Oklahoma's offensive woes - Wake Up Barstool",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkRNNnVMM0JJVWlfQi1zVFlmLWNjcUFOc2FYeDBPZm9GMFBIWDVKR3dRczZEeHR1Q0R6eUlNMl8tQ21oc29fOFB5dXVLWWNhaEY1c3A4cjdvaXpsVkpIYlNGU1Voc1laUklNd2pWQUtFMVRvNUpJaU5PaVhuMzc4NjZRMDd2bW5vbkFGMl9YNUxTdjdYcUU1NTUzWFBmbVdSV0Vzd2FHTllyVktCX0E?oc=5",
-   "source": "FOX One",
-   "pubDate": "2026-09-23T15:38:36.000Z",
-   "description": "Watch Brent Venables struggles to fix Oklahoma's offensive woes - Wake Up Barstool&nbsp;&nbsp;FOX One",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Glencore Joins Project Vault With $500 Million Cobalt Commitment",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Glencore-Joins-Project-Vault-With-500-Million-Cobalt-Commitment.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-23T15:30:00.000Z",
-   "description": "Glencore committed $500 million to VaultCo, the Export-Import Bank public-private partnership sourcing critical minerals for a US government stockpile, Reuters reported Wednesday. The commitment makes Glencore the fourth supplier named to Project Vault, joining Hartree Partners, Mercuria Americas an",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Iran war live: Iranian President tells UN his country will “never bend the knee”",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-   "source": "Arabian Business",
-   "pubDate": "2026-09-23T15:28:02.000Z",
-   "description": "Iran war live: Iranian President tells UN his country will “never bend the knee”&nbsp;&nbsp;Arabian Business",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russian Flag as a Shield: How Moscow Is Rebuilding the Shadow Fleet After Western Interceptions",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVnVVM1ZDeGx6M1ZIX0d6R1drWE9HcXV2TmF4XzY0YWFwZjBTOTNraXd6TGlmQlIzQ2VDVGY0b29ycDI2N1VoLU83a2JRMHE1c3VRV0FXRElITjJfdUZiVVVrQ2EwR2lKaDRjbDN1NktBLUQtMFBXbnE0c2FKZ3QtVFlENTdua2lZcHlFQlIwbFd5c0FYY0xZTC1BRXhPa1ZVZU5rM0o5VnptTFd0VmV4SEpORlMzdTlRRnJXOWNkNkRUT0h1RTNnZTlXM2xySkct?oc=5",
-   "source": "Robert Lansing Institute",
-   "pubDate": "2026-09-23T15:26:38.000Z",
-   "description": "Russian Flag as a Shield: How Moscow Is Rebuilding the Shadow Fleet After Western Interceptions&nbsp;&nbsp;Robert Lansing Institute",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/iran-strait-of-hormuz-wont-be-used-to-impose-insecurity-on?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T15:24:13.000Z",
-   "description": "Iranian President Masoud Pezeshkian told the UN General Assembly that ‘warfare knows no borders’.",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "India: Russian dependence and security focus – Standard Chartered",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ3BMWENNSERZTUVMd1YyU3hYOWtyLVlVNGVld1p0Szc2YnpSaW5McWU1cWlFa2d3R2xZSVJfeklnRzc4dGZqMl8wd1M2dUljTFpQOXdiWllGcGVkblR3TWRFRHM2MWtQQzRrVGdQSEFqZllFcUg5X0FTYlJqWUxTaXF6NVpOdGFTWjE2UjNKWGpPUGxsZFlOS2t6dmxXMEU2VWxFa1R6U0VlY2RxRnBSRFo0VmFxYkZkT0JrakRadlY1Q0dQUlpB?oc=5",
-   "source": "tmgm.com",
-   "pubDate": "2026-09-23T15:23:10.000Z",
-   "description": "India: Russian dependence and security focus – Standard Chartered&nbsp;&nbsp;tmgm.com",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Marco Rubio says the US will 'continue to defend' the Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU0J0bVQwQ2kyVUN3bU41ZjlNT0FZSElPaWVLdFFkcmx6LWlZRDQ4Q3Y4WVhtTnpSY04zTjNBSzBjV01WMk9jcE5NRFRmN1pHSDF3SEFqUEx5VGU5N2N6bUQzMkxGMjBrSHJSQXduNUEwOV91UGN0VUI2dnlvTVppYTljNmV0U3pfalVTY1B3NGtTUUhKSmhmSG8yaVdfUGRSNzFRSHUzVQ?oc=5",
-   "source": "Sky News",
-   "pubDate": "2026-09-23T15:17:07.000Z",
-   "description": "Marco Rubio says the US will 'continue to defend' the Strait of Hormuz&nbsp;&nbsp;Sky News",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US yields jump after bullish economic data, oil price rise",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXFzbzU5TXNfUEZpSzY3SEFHcW9iaUVpa2hUTm9mU2ZhVk5yaU9fUk5IOTZRZm4wS0QtMV8wQkxzY05oOFJKdHAwOTRvTEVlZnVhRlBZMm1zSHpEc21FZnlmR000Tzk4SnFHSmJpSll1NWMtVXFSMXFramY4bTNaa0Rkc2Q0Ukx2UmZtQW1KaVdmcXphVVhwN1NUUUVWemxZNUFpcXlCNEViRDRaR3F2Z0ItUndPbE56RHRUT3A1OFpoRkJNR0E?oc=5",
-   "source": "TradingView",
-   "pubDate": "2026-09-23T15:16:11.000Z",
-   "description": "US yields jump after bullish economic data, oil price rise&nbsp;&nbsp;TradingView",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "British Maritime Agency: Crew Evacuated From Targeted Ship in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTENDZHpTNWRvYjBXM1k0VV9JVzFLeXdFazdNUWpiMTM4V29CT0F5c0tGWDBvLWVKSnlISmY1QV9jLUlnVnpUSXJHclJYYUdzbHdHMHFpRWRqb0xYR3QwMkVyUXFNWjc5V3AtX1VseTdzd2U4UFJfY0ctYmY3Z0lQMVlRaTlreThYYzhnZ3o5bXdwaXdRQ1QyZ1huY1otU1VaSDRKV296bWdic0ozdGp4VjNaWElsYkpQNFp6MG82Z2w2cGNobVlpZw?oc=5",
-   "source": "صوت الإمارات",
-   "pubDate": "2026-09-23T15:13:30.000Z",
-   "description": "British Maritime Agency: Crew Evacuated From Targeted Ship in Strait of Hormuz&nbsp;&nbsp;صوت الإمارات",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "US delegation walks out as Iranian President attacks Israel, US at UN",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14UnE5ak53cU9wMTNBMzVhTkRCeHBtM2JvQm5vMGw4WjRlaUlpaWlDMko5c3k2ZVJTUkJ5c0FTVFhsbXRFZDJUc1J2VVowTENLZkZQX3NjOFFYdw?oc=5",
-   "source": "Israel National News",
-   "pubDate": "2026-09-23T15:11:30.000Z",
-   "description": "US delegation walks out as Iranian President attacks Israel, US at UN&nbsp;&nbsp;Israel National News",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Oil Market Heats Up As Rubio Says 'No Breakthrough' In Iran Talks; Brent Surges Past $101",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHlkNFNjQndRUUJBVlF5aUxJMXEtNll6aGpWTTBuSjdMVGNscGpCX0NpeHpwdnNzcktURjNNdWtydXNVT2d4NFBod09YUE44WXlIMkFHWlYycnpxT1pTWDNEOGVVUGxBOUUwd29kQzg4YV9KVU1QVGcwVUpuVmhrRTA1a0t5ZHNNY3VXNzVwNzZHdjVxMmhPcWVUZ2ZLVDJKQVRkc2lrcUtVaFdHdEs1ZDQ0bVRBSHRwcl8zMzdZQWpJRy1EWVdCNdIB0AFBVV95cUxOYjEyb2lkVFNvS0JqblhhMmxBLVppTVliOEtwVjVId2J4VjVIVGJWZWNGOHI0dFNmQjZQaW9iQklIZ2JhMEp5MVZ1Y3R4V2tSamNtR0dKUTU1MExBNEVkMDQ5VndVaGctYmNTY1lON1hyaC1UcS1ubHpsbUh5YUNmR19yajJzUk4yTTFMMW5pcDR1SERYcVk4LWRSOWJkY2R5UWc3TVQyMW1zWmcycmdsV0xBbDN6Y3huSlhlZ1hnMVdKMXNKYmJfOHRRUTJTcnM4?oc=5",
-   "source": "NDTV Profit",
-   "pubDate": "2026-09-23T15:10:06.000Z",
-   "description": "Oil Market Heats Up As Rubio Says 'No Breakthrough' In Iran Talks; Brent Surges Past $101&nbsp;&nbsp;NDTV Profit",
-   "categories": [
-    "iran_israel",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "RED ALERT: The Strait of Hormuz and the \"All Hell Breaks Loose\" Scenario",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObk1JR19PWG1GV0x0M2FfSWFLUUVWQm0xcHBpWTVDb2xJMHFFM2VWclpJMF9lWE9hMFhJNXBkMTFLclUxcFVWRThfMkJ1QVVIRXh6LWY2eFJ3OG83M3BaSlR6cXdBeFdYYU5TalpHajh4eHoxYzNmLW1rTFU4UFFqcW5nLTdXcUx2aTdhWXZwWHJPOFlDbWd2alRWZUJOTkxfY2p0ck1WSUpnUQ?oc=5",
-   "source": "investingLive",
-   "pubDate": "2026-09-23T15:09:51.000Z",
-   "description": "RED ALERT: The Strait of Hormuz and the \"All Hell Breaks Loose\" Scenario&nbsp;&nbsp;investingLive",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Jaishankar flags India’s concerns over Russia-Iran sanctions law in talks with Rubio",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdHVOcm1OQ19uVDhZNHRuOVlTZ2psUUpoV0lKdjljR3NOZllWV1lSanVSRDVXLUx3WWxHNElHRDFYSGcyUjZxcFBXM1p6SkhxNkxnYktHTnJiNEh6NXVERU9XZUF6TGx6QlZZOTFQSDhvM1JUbzctUzhhWjVhd0tmR1VGY0VUR1NkcTRoYWFrSjNaRXRCekotblhONUpmejk0ZzY0TkRwRTdLall0SkgtZHpJcmVEMjRISk9JQXd0c0N0UdIBxgFBVV95cUxPTC04MnVBUzBpc3NPdUo1LVZ5ZGNGU1pja3NQU0tvWWlwMmNfUmJIeHZhQVRtU2J6dTNERFRydG0za2plRzZubzhHd3dJNTE1MTlwMW1IMDZiQ2tlMlVkdWlqczVPYktVTU9vZWEzSXBZS1lwUTN1ZHFkZ0hOOEZxZ0Q2UExVQkJnRzJINERTeWEwa2JYaDdVNnFubjh2SVFIMmdJZGJ6WjhEdTlpQ21nNEJnTElkNWljenNLaXFJQ19qRkxBeWc?oc=5",
-   "source": "The Tribune",
-   "pubDate": "2026-09-23T15:08:49.000Z",
-   "description": "Jaishankar flags India’s concerns over Russia-Iran sanctions law in talks with Rubio&nbsp;&nbsp;The Tribune",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iran reviews US response on Strait of Hormuz and blockade talks – Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa01mUVVsRlJNYVBpSmZYbi1zTm5RV1ZERkZRWUhvNDBvWjR2SkM0eUZwZVJaMDRveHZzZTBDQWY1SE9VTndUNUoxNVhwQTcxRW9Ld0pySGhYMmswLVNJWUVhY1hSQnphZjQ5SlhJNHI1ZDZoeFJDeWZyVHlabENxanY0NGRFMUN6OVNVRFV1UjRSeTIxWmQ3ekFYQ3B5N0hWeDNPNVJKVFlsQU0?oc=5",
-   "source": "FXStreet",
-   "pubDate": "2026-09-23T15:08:17.000Z",
-   "description": "Iran reviews US response on Strait of Hormuz and blockade talks – Reuters&nbsp;&nbsp;FXStreet",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Jaishankar-Rubio meeting: India flags sanctions, US waves friendship",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM2poVkFEREdrUzNONGJLMm1xTWlsZmY4cEpwWUpTVVdlTmRuSkFkWTFOY1B2Z3I3bTBRTGc5cWpONHNDQ0ctakQzaFhDZmtZQWcxYXBRLVVpSXZCb2ZWazJjZDRyTlV2VVpvMEpBclhpVEQtWWhyMl9xTHFSd3JGX2cwYlFmU0k2ZVZlS0YxQTl0MEZaWlBvZzlENDdLWEx0VUVudnd3c2hPOWhOZ19PbXdiazNmUTdRT2JCNWxaUGpKem1hMldXZGNHNEp4a1BRMHFr0gHYAUFVX3lxTE0wdnloRGRfQ3RuaTQ0Z2pDeVVmUHNFNHk3UEV0Q3BSYTJxblRKajVWaGlYRV9YZHFyS2dGb3pEWmFWcVdkSUFfYnc0VFFaYm55dFJlQ3NEbGw4RmRoODM0ZmNCQUphamg0anZWdW9raWVOd1drMnBRTXhpOWtMMjdxeGhSOXl6ZjZYWEpvWUMzUmw5VW13Mzdxb0I2OEZST1NtWkVrcDBlYXZsRi1MajVDcmc5UFZqVHNlWUNRS0VXSkowVy16NEUtU3pMUnA2NUdxdDBrd2dKaA?oc=5",
-   "source": "The Times of India",
-   "pubDate": "2026-09-23T15:07:00.000Z",
-   "description": "Jaishankar-Rubio meeting: India flags sanctions, US waves friendship&nbsp;&nbsp;The Times of India",
-   "categories": [
-    "usa_policy"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Jaishankar Raises India’s Concerns Over Russian Oil Tariff Law With Rubio",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1lBdDVpWk80R01ULTk2NFY0WHFCOWt2cGpoNXZoUGY0Rmlzam9QVXd4UHI0ZzNwXzM2WWY0bUlCZzFSM1ZfcEZ5dUo2RVRqOEE0QURLNTZZdEpwdE1xaWFFcXVwMnlWTDRpWUlld3R4aDM0TDF6ZlpHb0FZa2YtZ2N0X2gxVmpfV0NBQkQ3V0Q2QWUxaURFNElHX0Z2dXJZNEJZ?oc=5",
-   "source": "indianewengland.com",
-   "pubDate": "2026-09-23T15:05:40.000Z",
-   "description": "Jaishankar Raises India’s Concerns Over Russian Oil Tariff Law With Rubio&nbsp;&nbsp;indianewengland.com",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Pezeshkian: Iran will not surrender, we will defend our homeland until our last breath",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGEwa01Wb051VXBXeGEzTXVIMlB6bkpxdzFjcDR3MmlRdVdETWhUeUktZEdUTFBmTDA2WjRHcGpiZkN5YnJUUzR5YnA2bzNKdlZLVzJ0dGR1MzI2X29MZzFCZldZcjVkbmdpUGF4Z194YzlNTzcwS3dMM1pibGtielFRR2VkV1NpZ2lTOHdVUnU0TlFMRkp3NkxqOFROQzZXRm5TLTNjV3JvMmZtaUE4eEloN0FiRWhZ0gG4AUFVX3lxTFBYYTBrTVZvTnVVcFd4YTNNdUgyUHpuSnF3MWNwNHcyaVF1V0RNaFR5SS1kR1RMUGZMMDZaNEdwamJmQ3liclRTNHlicDZvM0p2VktXMnR0ZHUzMjZfb0xnMUJmV1lyNWRuZ2lQYXhnX3hjOU1PNzBLd0wzWmJsa2J6UVFHZWRXU2lnaVM4d1VSdTROUUxGSnc2TGo4VE5DNldGblMtM2NXcm8yZm1pQTh4SWg3QWJFaFk?oc=5",
-   "source": "vijesti.me",
-   "pubDate": "2026-09-23T15:03:37.000Z",
-   "description": "Pezeshkian: Iran will not surrender, we will defend our homeland until our last breath&nbsp;&nbsp;vijesti.me",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Morgan Stanley refreshes Strait of Hormuz reopening analysis",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVpycDd5OHBCaXdLc3YyYjNhT2UxM2FnUXl2MzJIeUpzT0FaWDd4aDVaM0UyRnBLenVzUWdUN0lnbXZ1NmF3UzJDX3hCaVBldFZHb2l4Qm9mSDYwbFM3clB6ajFCWFUzTmRZTXhvN1JBTUMycEQ3a3hmamh5d3dodDFoVzVQQWFqUF9MQ1Q1YllYNHQ2RktGUFR5NWZTOTV6NWJwbWh1Um5nVlQwalAyNWZzWF9MbUt0YWdmbVdhdw?oc=5",
-   "source": "Investing.com",
-   "pubDate": "2026-09-23T15:02:05.000Z",
-   "description": "Morgan Stanley refreshes Strait of Hormuz reopening analysis&nbsp;&nbsp;Investing.com",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "BREAKING: Vessel hit in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84T3A3S1ZGQWxhM3JINkFUV2xrSFBpX25WLWZXNHpnTmJjN1FKZHI4ZEtDOVlqbmc1b2QwbzVkd0xzR0pLMVB3aU1iSlhVUTFRa3BiTWt3?oc=5",
-   "source": "Fox News",
-   "pubDate": "2026-09-23T15:02:02.000Z",
-   "description": "BREAKING: Vessel hit in Strait of Hormuz&nbsp;&nbsp;Fox News",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "CBC's Aarti Pole talks to Brent Arnold about the possible smart glasses ban.",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5adVQyZTVUN0xxWmRuekhMNGNKRzZMNWdsVUxZTU1Ub0NrNi14SU9sN2tUN0Z5SmtLX0JKNnR1SlU3QjFrX1JMM1laaDBwNFlGTFRDZDJNUlo1dw?oc=5",
-   "source": "CBC",
-   "pubDate": "2026-09-23T15:01:47.000Z",
-   "description": "CBC's Aarti Pole talks to Brent Arnold about the possible smart glasses ban.&nbsp;&nbsp;CBC",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Marco Rubio says US committed to Saudi defense agreement amid Houthi threat",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wV1EteUJQUDRPOE5ZUnJ0YWx4bmpzcms3Um1FV0tfMVFyaFdiS2NWTk9xTE41WldIUzBzZ3puZlNjMV9oTlpSNkk2QUxPQzhrc0hPRWJGNVVjUlRf?oc=5",
-   "source": "The Jerusalem Post",
-   "pubDate": "2026-09-23T15:00:27.000Z",
-   "description": "Marco Rubio says US committed to Saudi defense agreement amid Houthi threat&nbsp;&nbsp;The Jerusalem Post",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Copper Erases Tariff Selloff as Shanghai Stockpiles Hit Three-Year Low",
-   "link": "https://oilprice.com/Metals/Commodities/Copper-Erases-Tariff-Selloff-as-Shanghai-Stockpiles-Hit-Three-Year-Low.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-23T15:00:00.000Z",
-   "description": "Copper closed Tuesday a hair below its all-time high, extending its winning streak to six sessions as Chinese buyers restocked ahead of back-to-back holidays and warehouse inventories in Shanghai and London kept draining. Three-month copper on the London Metal Exchange settled at $14,783 a metric to",
-   "categories": [
-    "usa_policy",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "India's top diplomat raises concerns over Russia sanctions law with Rubio in New York",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc19rZlZXLVBKTVdlNVotMjc1Sm1hb2VTcHZ4QWFHYjRMSlZ1cVJaaFlfUlZpX3QycXNLa3JBRUtYLXZ0VjQyTlh6Vy1EaWx3anplay1NVXNZZFhlUG40UkRBb3RvSU5OSFIxcW40QVRaQV96Uy14OVJoM2RPYVoydElvd3FDOTRSaVl5LTBzU2hmRUVON0k0X01pdG9RMFhkV0xGQ0ViakU5UjRMZVFVSTdwc3VDZ2w5UHhfVnRXU1E0T3NfWkhPMFJB?oc=5",
-   "source": "Anadolu Ajansı",
-   "pubDate": "2026-09-23T14:59:42.000Z",
-   "description": "India's top diplomat raises concerns over Russia sanctions law with Rubio in New York&nbsp;&nbsp;Anadolu Ajansı",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iranian official says reopening the Strait of Hormuz was discussed in U.S. talks",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2U2SkwzbU9sOHNSa3hGUDZmSHVrdkwzQzM0WXI1bFdadVBlaVNWZlZEWVFGQjAyRTlZakY3MmxnZnNKQ3FhcG91MUpXcFB5ZUpJelZhbkxXSEh0Q1pScFl3d3Fqd0NTYjRlNU9VS2htMk9ZM1RqZEpJRzVpQlZlX0tRLXNtVXZMeGprVldBMm9MU2tuanBOMnk2WXlRaXpVVkNuRklHdGxINENESW9FVg?oc=5",
-   "source": "investingLive",
-   "pubDate": "2026-09-23T14:59:10.000Z",
-   "description": "Iranian official says reopening the Strait of Hormuz was discussed in U.S. talks&nbsp;&nbsp;investingLive",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russia’s strikes on Kyiv, Donetsk kill six after Trump-Zelenskyy talks",
-   "link": "https://www.aljazeera.com/news/2026/9/23/russian-drone-strikes-target-kyiv-infrastructure-after-zelenskyy-trump-talk?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T14:58:23.000Z",
-   "description": "Ukraine's Zelenskyy met Trump on Tuesday and discussed a potential bilateral ceasefire on energy-related targets.",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Resupply Israel to Deter Iran and Protect U.S. Forces",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUEY4dVBUUjU5MTFtTzJKdm9oWkFyWWZnS2JFckdyNDhtU0R0NjdYZW1RcERFcHN0anNKWXBaVUhqVHNDclJmaHljQncwQWJkRTYxQU5WVnBaMVUxRDJhbUgtOTN4dkZ3Zl95Rk1nMVJXZE1FUUZYeEhjaGt1eEozbVNrMWZfVk1VSmZN?oc=5",
-   "source": "JINSA",
-   "pubDate": "2026-09-23T14:55:02.000Z",
-   "description": "Resupply Israel to Deter Iran and Protect U.S. Forces&nbsp;&nbsp;JINSA",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "US government bond yields rise amid oil price volatility — CNBC Top News",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUndWZXVJT19meW8xNXRROUFNTFdpY0VScTR4YldId1hvUUJCMTN6YmNqSlJkWS1OX2x5T3E2Y2tvNDZkMm5UbWxRLThMbHJCaGhRczZIQkpQV3pUdExYSmhlemd1WmxWeUF3LURZNm1qb09wLWdjMzA3aWxHaUhZUno2LXNfWmdsSjVJOEJRZmpRZWZ0LXAyTGcwZGdVdE5EMkt2N3o1TXI5Q1Jo?oc=5",
-   "source": "ua.news",
-   "pubDate": "2026-09-23T14:53:36.000Z",
-   "description": "US government bond yields rise amid oil price volatility — CNBC Top News&nbsp;&nbsp;ua.news",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
-   "link": "https://www.aljazeera.com/news/2026/9/23/trump-pushes-russia-ukraine-energy-truce-can-it-work?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-09-23T14:49:04.000Z",
-   "description": "Talks of a possible halt in attacks on energy facilities come as strikes on such targets continue unabated.",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Seafarer Killed in Hormuz Attack as Trump Pushes Iran Deal at UN",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMDB2bGZpNmw3SnBOY1p6MVF3NGJxdlpVUGZnMm1ZMllmakMtb1AtVkU2STlqU1FlbVRwNWhJOTRLaExuZDZzaHFNMVM1QVhJRW9EdEc2ajR5UFFRNGY5aUJsbV9MN1VzR0dJdGVBVUVDRTcwWGN3aUJ0QVhZaVE5X3ZhNDBHdEw3cHV6S2RRYw?oc=5",
-   "source": "gCaptain",
-   "pubDate": "2026-09-23T14:47:51.000Z",
-   "description": "Seafarer Killed in Hormuz Attack as Trump Pushes Iran Deal at UN&nbsp;&nbsp;gCaptain",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "EIA Reports 3M Barrel Crude Build as Distillate Stocks Fall 12% Below Average",
-   "link": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-09-23T14:47:00.000Z",
-   "description": "Crude oil inventories in the United States saw an increase of 3 million barrels during the week ending September 18, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The increase brings commercial stockpiles to 426.4 million barrels, according to gov",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Brent Crude Settles at $99.25 a Barrel as Diesel Market Stays Tight",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN09nU1JxNWMzUEQ4WnRHZFJTcXFQZEl1ZEV3SlFHTldYSDlJd0czZm5aZG4xMVV2Wk1zV2hYbkNhMHF0VnJubE5wdUFMTUtBSVkyTzc0TC14a20zMWdDUURva2hyWXNxVGt5SEtXZGtPeDM1VERXMENCc2JoamNYUklBWkRDWU5ESkRyV0VuUXZBYUtSZUE?oc=5",
-   "source": "energynews.pro",
-   "pubDate": "2026-09-23T14:46:02.000Z",
-   "description": "Brent Crude Settles at $99.25 a Barrel as Diesel Market Stays Tight&nbsp;&nbsp;energynews.pro",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "US-Iran Standoff Unresolved as Brent Crude Returns to $100; All Four Major US Stock Indexes Open Lower",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxdE1zRHhtX1FRMVUwNHhqTUNjdUktaDdBTUM3Z25qcFFBdWc4WlNyOXNLWUJPWlljMHVRRmNNLU1wNlhZMDJpWHljNkVSOGFOWXdReEJfbmVUS216eXFqXzcyZmNDRjk2ZG1kd0V3dktIWGhWc0E?oc=5",
-   "source": "finance.biggo.com",
-   "pubDate": "2026-09-23T14:35:00.000Z",
-   "description": "US-Iran Standoff Unresolved as Brent Crude Returns to $100; All Four Major US Stock Indexes Open Lower&nbsp;&nbsp;finance.biggo.com",
-   "categories": [
-    "iran_israel",
-    "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-   "source": "LiteFinance",
-   "pubDate": "2026-09-23T14:33:33.000Z",
-   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Azerbaijan pardons Frenchman after EU lifts sanctions on Russian billionaire",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yX3VzcWV0QlBkVVhwV1pHOXVGYnFsRkFBTmxiaU02VWRROVVPa2gteDA4Tmk2cUhsbkNKbUY4cUJNTTJpZDF3anZBVFJLdHo0NHo4Z09FZHpITTM5NUE?oc=5",
-   "source": "BBC",
-   "pubDate": "2026-09-23T14:32:42.000Z",
-   "description": "Azerbaijan pardons Frenchman after EU lifts sanctions on Russian billionaire&nbsp;&nbsp;BBC",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Jaishankar reiterates India’s concerns over Russia-Iran sanctions act in talks with Rubio",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcTNEUElTUGYzLVp2bFF6ZHJvVXVNZEduODNNaXBUX3UySm4zOFRqRFNwbWFFdEdsR1NrTmVXS2M5MDBDYXZTemZGWWx2eWxOZGI5Z1NmOWliMVBQNjVqTjZTWkRPR250cC0tX0NCdlpuc0NZa0xVVlJWTlc4bjJ6UkpCcTZ1WkViRU5QdFJJc01xTVJRSXF6cFNtSDN1cFNoaFQwMDZ5azBkVmhDUGtEUVhlSDcxNHhmT0o5bnNNd2xiNDBPemtWNG9ad1lhTG_SAdQBQVVfeXFMTUg4Ni1TcHptcG5kbEpsNUJsdzNjd1RKUm1uZG9VUGxnandVUWkwaFcxcXdlamREZUpqenRyWXBuS2Vya1oxOGxqcUlodUdoZ2VTQU5xeDVCd0owYUt3dzVUZWp4OC1jS195VnVPbU8tY3RhOFJaM08tZkdjS01NTkVIYmRzeFl2T2NuLXhrbF9GX3o0NnRLODlLQjkxUF85Y3pKeGNlZldrU0F3WHR5TGxvRTVaRWRXeHJDSzl0N01CclVIN2NGdzdPckVhWkZfTHA2MEM?oc=5",
-   "source": "Firstpost",
-   "pubDate": "2026-09-23T14:31:11.000Z",
-   "description": "Jaishankar reiterates India’s concerns over Russia-Iran sanctions act in talks with Rubio&nbsp;&nbsp;Firstpost",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Brent Crude Bounces Back Above $101",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWTg2MDJTZ2hMSlhlUXEzamdZeWgxT0VWSFlTbHdWNkNPZ2d0dzh4dHlOMzlWdXAxTkxuTS1zYWhjdXFaUHZiU0ZlOHNDbUQtNDAxN0xOdzdqdUZQNWNnbXYyUHRSdmFzVi10c1hSZlk1WERxY3FHUFpOdlVFUGFyZVRvQzBKbXVzY0dtZnJB?oc=5",
-   "source": "TradingView",
-   "pubDate": "2026-09-23T14:31:08.000Z",
-   "description": "Brent Crude Bounces Back Above $101&nbsp;&nbsp;TradingView",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Ukrainian Drones Attack Russia’s Bashkortostan, Smoke Spotted Near Ufa Oil Refinery",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbWUwcHd0VWxObFJIUWN0Nkp1Ukp6ZzRWOEktYThfeGt3d3RVR05DMTdOQXFienp0U3hxd210UklMYm10aVI2R1hLeHowTko2WXkwaWhLMFJrajN4ay11RV9LZm1FcWY5cXdkQmI0RmdBeTF5VmVMeEhIcDdQd29TdU9HNXY3ZWxnWl9oTUZ1Sl9OV3NsLTZTZWRTNUJWZUN6RWVQMGRLTmZaVnUtVnNCN1czSHpnZzNsTlNXRktDWjVzSnNEeEhF?oc=5",
-   "source": "UNITED24 Media",
-   "pubDate": "2026-09-23T14:30:55.000Z",
-   "description": "Ukrainian Drones Attack Russia’s Bashkortostan, Smoke Spotted Near Ufa Oil Refinery&nbsp;&nbsp;UNITED24 Media",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Climate Startup Signs CO2 Deals With Three U.S. Oil Producers",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMlZOaE9zd3pjQU1TMTYtYXFKNEh2X1VsUXpvbEphNkF1V1pHcjZsUnBvTWdFblloRGNUSDhWQjEtd0xtRkFRZkQtQkZCVjZLYWRfZjBxWEJGTW16a2hWRTZmaUM0SjhKbl92Z2NENHdYNFVzR0dfSVNlWkVFcWNVRllwWno3aVJUb05IZG50QU9hdDRyeGFid2lrMWFZdzkxVDdmeUQ4UEhVc3hCQ3ktd0tyU3ZHQdIBuwFBVV95cUxPd25ELUJGVTUyLXQyWGJLQjBGTUM0YXZCd1lrTEN2SkF1M0VCQUhKVFJ0WlJRdFZKeUQ2M1BISzEtOTQ3Nmo2V3JwY3NwT1ZvcF9hOTFfQ1ktc0hjYmxQUGd2dW4tT1BqWXA0OEMzZUIzREc2N3hYSXFtWF8zWVB2SkdmZFphM3BFbVlXVWdiYjRRQVd2NGZKeVIxMnhYbWpHWDNJbXJoN2hBVXlsMDdnUlpKU1pXQW5PVFdV?oc=5",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "pubDate": "2026-09-23T14:30:00.000Z",
-   "description": "Climate Startup Signs CO2 Deals With Three U.S. Oil Producers&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Pezeshkian accuses US, Israel of attacks on Iran at UN",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnFhVDN2SGZFaDd2ZElMX2pBdWxyc1M5dFJlcnpZeXplbmk1NGxfSlZjV0szelhRcUNXd2g2V3NYUl9QNkt3Ui1KeDNaZ1BiU1dKWXFZOElLSGxwclhwSm1pQURaVnkzV0dYUk0wc2dhT1RyMlpWcHJzc1lRRUpZcS1veW9xazREWDlTWjVFWkhpMDl2alE?oc=5",
-   "source": "Aaj English TV",
-   "pubDate": "2026-09-23T14:29:21.000Z",
-   "description": "Pezeshkian accuses US, Israel of attacks on Iran at UN&nbsp;&nbsp;Aaj English TV",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran: Atomic, nuclear bombs in Israel's hands",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMmM3d2ZDYXJDakVnQWZNMWwxS2lvbWtGWF9WQ3NhaUR2akxPSFN1R0Fuckl2QzdsR1M5WW5ycHJDc2lLbzI0LUVndVZaNldHbWN1Qk1CcGM4a1ZjaUt1elAwM18ycVM1RUZydmpESUlmc044a1VNVU5SejdCbnhTVE1VMElHMGxMeHowanE5Z2tQcXM?oc=5",
-   "source": "Breakingthenews.net",
-   "pubDate": "2026-09-23T14:27:00.000Z",
-   "description": "Iran: Atomic, nuclear bombs in Israel's hands&nbsp;&nbsp;Breakingthenews.net",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Pezeshkian: Atomic, nuclear bombs in Israel's hands",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9xQkR6RkxXeWplODlEYWpQQmJ4N0tCcVZvV3BYLUVKTjZCMm14XzVYeWdBWEF4QjNlOGlBeE1ZQUl3WEp1ajV2b3lxNG1udHplYlNjNEZuTjRHMGR0LTdIMVYxMVlnYXd4OURmOXBueG8yMmVaQWg4UmJHc0pTNHFvODdBUExaT1JYOEZZa1RQNVAyM1pOWjBxZw?oc=5",
-   "source": "Breakingthenews.net",
-   "pubDate": "2026-09-23T14:27:00.000Z",
-   "description": "Pezeshkian: Atomic, nuclear bombs in Israel's hands&nbsp;&nbsp;Breakingthenews.net",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 48,
-   "high24h": 26,
+   "count24h": 41,
+   "high24h": 21,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 27,
-   "high24h": 23,
+   "count24h": 23,
+   "high24h": 19,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 28,
-   "high24h": 4,
-   "level": "angespannt"
+   "count24h": 33,
+   "high24h": 8,
+   "level": "kritisch"
   },
   {
    "id": "opec",
@@ -1789,16 +1792,16 @@
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 22,
-   "high24h": 0,
+   "count24h": 28,
+   "high24h": 4,
    "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 1,
-   "high24h": 0,
-   "level": "ruhig"
+   "count24h": 3,
+   "high24h": 1,
+   "level": "erhöht"
   }
  ]
 }
