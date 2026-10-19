@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T19:15:21.480Z",
+ "updatedAt": "2026-10-19T23:03:09.862Z",
  "quotes": [
   {
    "id": "brent",
@@ -124,9 +124,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 98.32,
-   "prevClose": 99.02,
-   "changePct": -0.71,
+   "price": 98.25,
+   "prevClose": 98.54,
+   "changePct": -0.29,
    "change24hPct": null,
    "spark": [
     {
@@ -243,8 +243,8 @@
    "name": "Henry Hub Gas",
    "unit": "USD/MMBtu",
    "price": 3.04,
-   "prevClose": 3.12,
-   "changePct": -2.31,
+   "prevClose": 3.04,
+   "changePct": -0.1,
    "change24hPct": null,
    "spark": [
     {
@@ -360,9 +360,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 101.99,
+   "price": 101.97,
    "prevClose": 101.78,
-   "changePct": 0.21,
+   "changePct": 0.19,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -373,9 +373,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 4144.47,
-   "prevClose": 4165.69,
-   "changePct": -0.51,
+   "price": 4134.66,
+   "prevClose": 4140.83,
+   "changePct": -0.15,
    "change24hPct": null,
    "spark": [],
    "sparkKind": "daily",
@@ -383,6 +383,989 @@
   }
  ],
  "news": [
+  {
+   "title": "Trump’s latest moves back Russia, buck Congress and U.S. allies",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcGJUWl9nR0N2cEpMTHE3eHVRS2w5WWxVNWhHNFF1WVlQdTg0bWdCWk5Ga2xsWU5HUXRlTWN5UUVha0M0QjI0MHgwV2h6WWhDSE42aFJrbjl3eG9lWXY5ZnJJZ0RQVU9WM1lMXzBJbUV6WjhSSXRzR05tODJDX29tYWpPM2p0Q2tya1pzdlFpa2VVYU50Q0ZmalRVQ1JHdmF3LVpCaEdYLUVnM2p3QnExRA?oc=5",
+   "source": "NBC News",
+   "pubDate": "2026-10-19T23:00:24.000Z",
+   "description": "Trump’s latest moves back Russia, buck Congress and U.S. allies&nbsp;&nbsp;NBC News",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "List of Republicans Breaking With Trump on Russia Sanctions Waiver",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVExBbEh5MmZzXzM1cDN4UVROODF4eGdYcFhuWENuMUZ4TlRuZVYwVThBRmE2WEtmWGsxaUVaMmxUaDFSdEN6OC1WOW5RNTBNUURubEhWVUVFWG4wandIRV9iZ0VSU0JLaVlLTGc4RWdoUUlCOXB2WlE4TGt0Z1JHNXFqVkw2Y2haMG0tR2VIRlg1NW8?oc=5",
+   "source": "Newsweek",
+   "pubDate": "2026-10-19T22:52:00.000Z",
+   "description": "List of Republicans Breaking With Trump on Russia Sanctions Waiver&nbsp;&nbsp;Newsweek",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump’s Russia Sanctions Waiver Draws Bipartisan Backlash as Fuel Prices Loom Over Midterms",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVVxS1JwS3hrTzVrUXhOSHB5Z1RnYm8tb0pobVZSTEpMWlZUNzdCRWtrQ3Rrc29CSURtcUZqbFg4a0NVakNlNWV1bzdUaEpfNHBfdkF0bkJxVXJDMG9wTGljV3FBRmxDci0zUU5yZTllNGhNWE9NeHlEdEs2U1d3bjUzMUtwRjdzbDR6WlVxNTJKT2J2UkZxOVpBM2xpNFFkWWg2SnN2aVBWd3QzTHRLclhxQ1N1NTlFcWFlUEM2Zw?oc=5",
+   "source": "WZMQ 19 News",
+   "pubDate": "2026-10-19T22:50:52.000Z",
+   "description": "Trump’s Russia Sanctions Waiver Draws Bipartisan Backlash as Fuel Prices Loom Over Midterms&nbsp;&nbsp;WZMQ 19 News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWdnUjEtMkFZeExVWnAzdTBRT0VJSnlka0JHZnM5SmQwUTNRUEtjNjJ1SGlncXdiTmg4aXFxZUlicnZZYUdVcWx1ckEtZUxkb1NGRzNEUmw1Nlc4bFlzQ3dRelYxaWpHc0w1Vy00MlpWdklrVzB1d2dDTDg4WnNSYXg5ei05QnkxZUdmMkFVLXNldy1ucEZwVlVUb1BtNUx5XzZJTkxuMThkckFndEtzOE80WWJGQQ?oc=5",
+   "source": "Washington Times",
+   "pubDate": "2026-10-19T22:40:50.000Z",
+   "description": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates&nbsp;&nbsp;Washington Times",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Three Russia Export Cases Put End-User Diligence in the Spotlight",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ1NDR0p4UmhkaklYbFJlQ1luWkhSaDBhRExBM21mOHA3aFhHNEVrWVZNT0ZJbXRLSTNjRXRld01udFozOXVha0hYZTBhRVF6eTk3Sl9GaUEzYkRtM0ZuZTlGb2xMVEhEQV9rajVlUzJaYlItbGhoY2Nhalk0M2E1d2dkNFBXbnhXcjEyZ2ltVkxWUQ?oc=5",
+   "source": "Global Trade & Sanctions Law",
+   "pubDate": "2026-10-19T22:39:16.000Z",
+   "description": "Three Russia Export Cases Put End-User Diligence in the Spotlight&nbsp;&nbsp;Global Trade & Sanctions Law",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+   "link": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+   "source": "The Guardian",
+   "pubDate": "2026-10-19T22:34:43.000Z",
+   "description": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on MondaySend us your questions about immigration and the midtermsMore than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland ",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudi flagship investment conference delayed to 2027 amid Houthi attacks",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTENHVnNEdFJPUVZXUE8wOWtVTjBTVTJOdXJobW1xZHAzT0stRlF1SEU1Si1rczBwcjg0QlNoVXBlLXpGNGhRVkRXeXNIR1JLR2J5Vm5oWjd1X21TcU45WTlYMTdpcDk2MGtmU1pkdEhNOG0wM0lNeGN2azlES3k5eFZBNGx3aVMxUGVkNEFab1lxVTdhYTVRTUduVXhvZnVQc1ZUX0J0bEF6bm5fZ21pWXVqZGdINklRUVE?oc=5",
+   "source": "The Times of Israel",
+   "pubDate": "2026-10-19T22:33:44.000Z",
+   "description": "Saudi flagship investment conference delayed to 2027 amid Houthi attacks&nbsp;&nbsp;The Times of Israel",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump slams Zelenskyy amid Russia sanctions rift and says ‘somebody else’ should negotiate for Ukraine - live",
+   "link": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
+   "source": "The Guardian",
+   "pubDate": "2026-10-19T22:30:01.000Z",
+   "description": "President facing criticism for his move to waive sanctions for Russia as a new poll by Reuters shows only 31% of Americans approve of his performance in officeSign up for US Breaking News emailA new Washington Post-ABC poll shows that Donald Trump’s approval rating has reached a new low – 33%.This c",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudis postpone investment conference until 2027 amid fighting with Houthis",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUZXZ0UwQllHUlFEQk5oZWwwTkQ3eFcySGlEcDVIZnBPSFg4VmxBcDNwckszQXNYQjFIRFdpcGlGUnA0OW5FTGNZT2R3VGliTjlKNC1zWnFnblY4Ym9CSVJXRnhWbVZkOGdoMy1zSWRuMFRpclF0S1NyQ2JZU1NJUUxMQXNmOEtPYzd3NjhDQUEybVdhbEIxcFlB0gGfAUFVX3lxTE1NbXR2U0VuRDh1SzBrenpvT29KbVRsNnVLSDhZaXJ2ZU1YS1psVmpMUDl0dWNVM0UtNjJvWTRsZEowSHNNSzBzMmVXXzkxeFpzcWozMUJDcW5iaS1ndmVvaUJ0OHRxR0xHX0h4Q0JMOEZCejVrempPMV9UOFMxZmZvWndEVEpFQUxPQ0pwVnd2UVhwMUtmVXU4eVRzR08yTQ?oc=5",
+   "source": "The Hill",
+   "pubDate": "2026-10-19T22:23:00.000Z",
+   "description": "Saudis postpone investment conference until 2027 amid fighting with Houthis&nbsp;&nbsp;The Hill",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran pols finally admit they want nuclear weapons: 'It’s a necessity more important than bread'",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWVdUTzdWWVhxQmlxNHU2d25RYmlsaUtnMTJGdEZMVzlzdVMtN3FXOEc5czZVQUp5RnBMTFVWVWhUUkVWQXpwZ2dDd05MdFpydGw4Q0VWOE5ERmxZZ29VWVdhUVk5a0xDWlpmbUV6VkRhZTdlVFg3YUttSk0wZkI0Y0hYZ1pLcUUzZlcyQUlRQkdQTi1pSHVNVkNkOE41MmNsS2lKdzRnWXNsSGszWWZMOXVMeWMwZi04NXE1UVdSY1V2YXZ4c1FnSmdBR0xfZw?oc=5",
+   "source": "New York Post",
+   "pubDate": "2026-10-19T22:20:00.000Z",
+   "description": "Iran pols finally admit they want nuclear weapons: 'It’s a necessity more important than bread'&nbsp;&nbsp;New York Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Press Release: John Larson and Connecticut House Delegation Respond to Trump’s Russia Sanctions Waiver",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWHF4bDdqN0tncl9YNlpXWmJwTThxb3hJLTdsR3dJQlpJRG9ZakM2QWVTamstU1VXd2FIa3pFZXp2UVR6RzVmZ1ZNeFlqZm5LNS1GNHJoWDU4SGs0MUlsVFVTcW94WDNxeEtUUFpKZEpUZkNid0tkblVBV2M5REJVeEJNdFNocmUxa0pYakJaR3JKbXBESHM5c2lxSDhZYzVTNFBfQllkdGJCajgxdTQ5QVllMjJoVzYzTzZlTlBqOU9ISnYtY3ZMLTF3bTJiYkYzd3V0Z1FQa1EyS1dFT3c?oc=5",
+   "source": "Quiver Quantitative",
+   "pubDate": "2026-10-19T22:20:00.000Z",
+   "description": "Press Release: John Larson and Connecticut House Delegation Respond to Trump’s Russia Sanctions Waiver&nbsp;&nbsp;Quiver Quantitative",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "State Auditor Cindy Byrd faces new lawsuit in Brent Swadley case",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdjZhbnpqTDc5a2dsR2pfbi1WMUljMXZsb19uQUstZVpkZDhkX1Nmelk0QVAtdUwyVC1BZHp0ZnNtRHhfb3RPWEFmSWhNWWVDLUUxU1A0QXpTNkRoU1RSdnJZRWtBczZmcTA4X21veGFoZzM5dlgtMERSTDhaLVVlUm4wSnd0VmlQei0xcUQzSUd4T3dzYlRsUdIBngFBVV95cUxQX1k3RUc1Y0RjZHNWN1h2R1cwYlNfZXRDYzdvMXBySjJrNUQzM2h1S0hNeG5yUTF6TTFJS3BvS1lyYTc5MWZHeUtxeXllUUZnNE9FUFBhcTFTTUlxM0JidEVmTHplT0pZVGRRWFRxblN1VVdsV2FoRlZNQUVMWG9SdTUwM1R1aHRqeXg0Wm4zQVkta2lxLVl3UnhST3lPZw?oc=5",
+   "source": "KFOR",
+   "pubDate": "2026-10-19T22:14:15.000Z",
+   "description": "State Auditor Cindy Byrd faces new lawsuit in Brent Swadley case&nbsp;&nbsp;KFOR",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Pres. Trump defends decision to pause sanctions",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFRqNEY5MnQyMjJ0VGt5UWF6dkZyd2NJMnM0QlA1TnJDUUJHM0hOWVhuV3Q0dHMzYVFua3RycmFnNmlKZ0FiWWlaMGxaNnFuamh5a2xScmxvWTl6UnhTUlZsekUwdWdZODhQVGhBaXQyMG5ONWpSWnAxZHVNa0k4Uk9xYVBxVUlDNjBzaUR3?oc=5",
+   "source": "Gray TV",
+   "pubDate": "2026-10-19T22:14:00.000Z",
+   "description": "Pres. Trump defends decision to pause sanctions&nbsp;&nbsp;Gray TV",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Rallies As Houthis Attack Shaybah Oil Field",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONWpGUjVZZWJQT05VS0hUQ2EtNXJuNGpCRmJITGtpdkZ3OWluZUV2cXBNLS11WEh1aHctS1didDlZb213ZGowTFFYcGl2QjVncTFJM3pxekJOajYtSkl1RDcxZVRyQkhLRjRSZlViQ0NjSXJ0V1VWeFRTeEdob0l0ZDhSR2o4WkVBc2RNdEpGYk54dXV6aF9JVGlZVHRXS2FHcC1ReEotRXB5dktTM3BVR2FTX19FT0JXY0NYV1FtYnNZdi1xdVBZeHBicVhyNFdkN016dnI4X0NyZw?oc=5",
+   "source": "FXEmpire",
+   "pubDate": "2026-10-19T22:08:24.000Z",
+   "description": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Rallies As Houthis Attack Shaybah Oil Field&nbsp;&nbsp;FXEmpire",
+   "categories": [
+    "hormuz_redsea",
+    "supply_other",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Stock Market Today: Tech Stocks Rebound After Friday’s Selloff, Oil price at $109",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlBiclFVeXFjU3MyN2lEMXp1czYyVTlKMkJsc2Z1ZGZtb1Q3TldLY0Nqb2ZxcFFNaHF2TjNBRFctN0ZwUU9wdEVPVEcwMkVfeXhqWm5JNlFpVVlBdGp4NmcwcTNEeGpiZHhmTWxvYW1STHBuQ18zdWV0enJtcEVGSV8tU2dDbjNyTHBBWE04c283UjNRTDRWRjB3d0wydXFrWlBCbndac0IyeERzMDdSS1ZoRENESU1hMnFMRFJn?oc=5",
+   "source": "Eurasia Business News",
+   "pubDate": "2026-10-19T22:04:03.000Z",
+   "description": "Stock Market Today: Tech Stocks Rebound After Friday’s Selloff, Oil price at $109&nbsp;&nbsp;Eurasia Business News",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent Venables praises the fight of the offensive line after loss",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNmN5dFF1UC1SRk5oU1IzRXkzTjM4cnpGUlBqWktaVlJhd3BwdGpPNnVEY2xReFdwc0FFc2FuQTBwdDNHenZhMHZzRDFtS0pOVEJZWFYyYURUZnZCSjEyZUFGX0V3RzlRSGZHSFZsNzA4NmJsUUZZME1OTjR2M3owYmlJUUFtSjVvd0tRdXJaZ3RnQ3QyeHpCSkpjMXpPc2tQcjktN3dlRzdmNGhSN0k1eDcxSTFfZDYyOXJYd3ZvZVdQNEMzR0pDbUtFaHhFM1JTSmt1bmJfeXRXcEJ3?oc=5",
+   "source": "Sooners Wire",
+   "pubDate": "2026-10-19T22:00:00.000Z",
+   "description": "Brent Venables praises the fight of the offensive line after loss&nbsp;&nbsp;Sooners Wire",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Why Brent Spiner's 'Justice League Of Star Trek' Never Got Made",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3Y2eE93ZEMyQUV0c3ZyOUp3aUpXWEZXYVZTWnFSVHV4YjZvVXZWa3d5Q0tDVUdfbElMU3kxZC10a2R1VndVMng0MUpRYjFXYmVnMVplTkJMR1dlc2lhdi1NZGdVd1BZbnFTSFdxVVB1UG9PTjBtS2RZRjB5bTdjRWRReHhnWC05NUxKMHQ3Zlo?oc=5",
+   "source": "SlashFilm",
+   "pubDate": "2026-10-19T22:00:00.000Z",
+   "description": "Why Brent Spiner's 'Justice League Of Star Trek' Never Got Made&nbsp;&nbsp;SlashFilm",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Form 4 Walt Disney Co For: Oct 16 Filed by: WOODFORD BRENT",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHZPWWltTXRidVViNmtiZ2hBMnNJNEtCREhxZ1A3clQ3eFpoOEFRMFdxSnA4LUdtNGVPempFNkV6WFFRNVRUQlRsVFhFYnhTQVo5ZlhCTjJBd2tWR0pwZVhlTnNZQktRNjVLVVVZdWt2cnF2Z3BWdWJmdEV1THhGMUc3X01iVlptRld5eHJiX1JOdkhGc1Q5bTd0UE5RMS1taElwdG9DNHV1S3ZCeXBkLUtqV09rQlpwNWc?oc=5",
+   "source": "StreetInsider",
+   "pubDate": "2026-10-19T21:59:28.000Z",
+   "description": "Form 4 Walt Disney Co For: Oct 16 Filed by: WOODFORD BRENT&nbsp;&nbsp;StreetInsider",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+   "link": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-10-19T21:46:00.000Z",
+   "description": "Lawmakers adjourn session as opposition party tells members to abstain over unclear commitment.",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran adds 122 ships to Strait of Hormuz blacklist",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNklhQmkxWllPdzhRdzF4VXFJWHJ5WEpKZW9IMXBEUkhLSUZzYWRJMVgyZk90cHpsU0ZBMUdzZjNwWDhtYUowQlJ1TnhDYmhDX2M4QzFDeGhsVERWMlRBZmpBUEh0YXY3Ty15dnkyRDZzcUdDS192VnFGZDZ6RHhGUUQ5eVB4MzZhQzdLQTQyXzltejNDS0hKSEVB?oc=5",
+   "source": "Breakingthenews.net",
+   "pubDate": "2026-10-19T21:45:00.000Z",
+   "description": "Iran adds 122 ships to Strait of Hormuz blacklist&nbsp;&nbsp;Breakingthenews.net",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthis claim new attacks on Saudi Arabia as Riyadh postpones its flagship investment conference",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTX0dybnI2S2NXRkxQRnc5cDNXZ3RkSGV1N2JPQmR3bHVBSWEwV3RvY204Yy1jOFVZUjhCbHV0VUxqS05vUjFlanNveV9WN0dCQjh4am85cmhuNWY5WS04Z0NBejMzQWpuanhheTdvc1ItZnVlamxQeUpoSW8?oc=5",
+   "source": "Xinhua",
+   "pubDate": "2026-10-19T21:42:15.000Z",
+   "description": "Houthis claim new attacks on Saudi Arabia as Riyadh postpones its flagship investment conference&nbsp;&nbsp;Xinhua",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oregon man who killed school shooter reportedly took part in military drills with Iraq veterans",
+   "link": "https://www.theguardian.com/us-news/2026/oct/19/oregon-school-shooter",
+   "source": "The Guardian",
+   "pubDate": "2026-10-19T21:33:50.000Z",
+   "description": "New details emerge about Kaylub Giamanco, who went on to elementary school campus and shot Bend suspect deadNew details are emerging about the parent who fatally shot the 16-year-old shooter who killed three children and a teacher in Oregon last week.In a 2018 Facebook post, Kaylub Giamanco, the 36-",
+   "categories": [
+    "supply_other"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Worker killed in crane accident during Brent Spence Bridge Corridor construction",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMFFQLU94VE1JWkl6bTNmdUhGUlh6MGFJSUdUSGdGMXJtazk2OS1wQjhRTjVuS1pyS3dOY2tTZnJFT1k1QzFhQ0lvUjRqUkIwRXNhbVdMdVlZVTU1THFERHVuUC1jQTd4ZnJuNEFhRGV2M0dnRnJHNXYyUW9hVUtOd3BaY3ZmeWh5ODY0ckwwRnJVUGNQVGt6XzNNd01HWGZ2ampPaFQ3T1VYUzcwVmRCTm9SOTdGUDdOV1lRS2hxczFhY0d0bEd3QktpZTZKczN2dW1QR1dfZm84LXYtQVVNY2RGLWc4VkJf?oc=5",
+   "source": "WKRC",
+   "pubDate": "2026-10-19T21:30:32.000Z",
+   "description": "Worker killed in crane accident during Brent Spence Bridge Corridor construction&nbsp;&nbsp;WKRC",
+   "categories": [
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Could your halal pension be funding Israel’s military?",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/could-your-halal-pension-be-funding-israels-military?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-10-19T21:28:02.000Z",
+   "description": "HSBC’s ‘sharia-compliant’ fund invested over $100 million in companies linked to Israel’s military.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Yemen : 4 Airstrikes Target Houthi Missile Sites at Taiz Airport",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzVGZMLU9Md1R6VmRnOHdXUlRfQjZOUk51VW1QaFpERDVqSWZPM0hrS2VNSlg1WVNVd1c3cGV0YWgtZGxhMzU1Y1VRRFNDaFFnSm91M0ZWbTZ6UQ?oc=5",
+   "source": "Yemen Online",
+   "pubDate": "2026-10-19T21:22:30.000Z",
+   "description": "Yemen : 4 Airstrikes Target Houthi Missile Sites at Taiz Airport&nbsp;&nbsp;Yemen Online",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Speaker Johnson warns WH of 'unintended consequences' of sanctions relief on Russia: 'Putin cannot be trusted'",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdWFTMWwzSVJIZExCWlBJMVVBR3dWckM2ZHpjallCYnF4bWl3RkJkamttSHdBdFQtMU4xelV4bm96VXVGLXE1RjhnUWFuNUdrMzF1aVd5TlZITlN3TGNnbm5Sc3F1X2RjMUptZTNxUEdmQVowclNLNkdkMVF3STJVMG1FT0hvMjVwSlpSejZ5ajFWb0FZRGtUemptSHQ0NktqemY1WjFjNXZQazN6Tk53SVd3bXYzX0xQNXNTVUMxLUxEeV9KX0FQbWl4YWFTTjRPTzRFNW9vUDNTajd4?oc=5",
+   "source": "New York Post",
+   "pubDate": "2026-10-19T21:22:00.000Z",
+   "description": "Speaker Johnson warns WH of 'unintended consequences' of sanctions relief on Russia: 'Putin cannot be trusted'&nbsp;&nbsp;New York Post",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "UIndy Alum, Longtime Golf Coach Brent Nicoson Voted to WGCA Coaches Hall of Fame",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDBOMEROeXB0SXhXaENLWWNZbWxkR3JXZ3RzQzNfbFlCNXVjeGdqb3ozR2s3VU9uTzhrX0F6cjlNV0ZJb0gxRHZlZVl3Y2d2eFE2X09STmlCZnJPVlBlVVBNWlF2aVpINFFGT1hseEpBcTV4WlZNdjhndlBKYmVLM0M2eURHOFlHMDZqQTVZYjROajZsY2FRVUZBcm5ESVpKbVFpYklqNWdwMVRET2Y5cjNCWG5vWGhvcm5sOTgxZ1JIOElMQU5r?oc=5",
+   "source": "UIndy Athletics",
+   "pubDate": "2026-10-19T21:19:00.000Z",
+   "description": "UIndy Alum, Longtime Golf Coach Brent Nicoson Voted to WGCA Coaches Hall of Fame&nbsp;&nbsp;UIndy Athletics",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yS0FDd1duN1hYeEFmX2xiNVVIdTN2bXQ5ZW9rYnpjazhyeHRaSGtEMjVDMXF4OFJyRXBwUDIyNFJLdTY0SFRsUTlxbi1qNW83eHB4VFpXVGRmM2lfVUJOY3lpVS1PckxYQ3BIZmNWMmVYOXRJZXozbTQwUC1JRlE?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-10-19T21:08:04.000Z",
+   "description": "Live Updates: Latest from Israel, Iran, and the Middle East&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudi Arabia Postpones ‘Davos in the Desert’ Conference; Houthi Strikes Kill 53 in Yemen Military Facility",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeWF3RUhHQ1RJVW5UOTliclpqVWI0STIzVXNrSGFIbl8yUGljcmcwUHZDZGhGSFJlQm5JZVIwRzN0VllvS3NqNXQ2MlkzYmZDNUN0bHQtdUhPS1FzSWw1bHlFMjJTcU5aNGI0VkVJYXJ6UzNaQTRodHB1dHdTS3JqVC1qLUFUYmRKSzNsTEtQcHBaNXBxX3Vxb0ZxdUMzdV9qUzJPSGptb1hrc0NxNnZNOG5JamYzYXVxSmg0VXJVSERLdTdCMTNZb1ZkcmFQWmtHRXotN1l3?oc=5",
+   "source": "The Media Line",
+   "pubDate": "2026-10-19T21:03:01.000Z",
+   "description": "Saudi Arabia Postpones ‘Davos in the Desert’ Conference; Houthi Strikes Kill 53 in Yemen Military Facility&nbsp;&nbsp;The Media Line",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthi Strike on Aramco HQ in Dhahran: What It Costs MBS",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVVzhWb1ZVdEU3YXFvV081SjdJa0JxS0FlMWZXZkx5M0pPcUhJeExBLVRjRXZEYUtJU1gzLV9vY1FPdjlrYlhmMlNiZ3FoX0dtcjA1STJHaGVYemFneFVlUGdTUjd5VXBpVlhhQUcyU3pnR3BN?oc=5",
+   "source": "https://houseofsaud.com/",
+   "pubDate": "2026-10-19T21:01:17.000Z",
+   "description": "Houthi Strike on Aramco HQ in Dhahran: What It Costs MBS&nbsp;&nbsp;https://houseofsaud.com/",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent Venables saw offensive improvement despite Kentucky loss",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbnhZZC1VbF85RzhuQUkwRklUVUZfNktYSEZIZ0VVay02TjhvM2o0VDVqZ1lYMlFTRXBHcVFfbk91VzJLenVsMHdnQXp6aUM3ZzhFNG1pdDJkeEgwNFhmV0RlUUFKLXZYc2N5emNnM09wZlhyRHNuUHVzNU5fYU1lLWNWVnQ2bjczdENfNU1pa2R2azFpSWhyX3k1MEZzczRnSnNCMVQtbUZUTHB2MG42ckJKbm1TVW5KT0gyUUZYQmNXY25pXzRGOVJIOGtrVXYxdVBwdnlBT3FsUVIyNlg1Snltcw?oc=5",
+   "source": "Sooners Wire",
+   "pubDate": "2026-10-19T21:01:00.000Z",
+   "description": "Brent Venables saw offensive improvement despite Kentucky loss&nbsp;&nbsp;Sooners Wire",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "What Brent Brennan said at his press conference to open Iowa State week",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcG01aWhHYlp5aUZ4SzRESGFScGJubTN4WmRwNXBtV0RTVl9tU2JOWS1kNFIxcTlFb2x0RHA5TTZEQnNTbXhrQlFjWUpGaTU4bVFyOWZ6YmZFWHF3UVdMcThSYWNNaFZEbkgtWVZnUk1yeDZRdnpGNlM0QjFlSjJ6VDBqOTc5UmppQUF6bW50Z0lsakV6V3Z5ZU56M0IzZmdzbFpqb1VqNF8wQ0xqVGt6RTFQZUVudlhGM2cwYW1VU1RySUo1b2hERUgyNzU0c01NRnJHX2lwazNCM1RsUjhMMllncnkyUUticHlrNg?oc=5",
+   "source": "Arizona Desert Swarm",
+   "pubDate": "2026-10-19T21:00:20.000Z",
+   "description": "What Brent Brennan said at his press conference to open Iowa State week&nbsp;&nbsp;Arizona Desert Swarm",
+   "categories": [
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Israeli police say they arrested 10 in connection with settler attacks",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/israeli-police-say-they-arrested-10-in-connection-with-settler-attacks?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-10-19T21:00:03.000Z",
+   "description": "Israeli police released a video they say shows the arrest of 10 suspects over weekend settler violence.",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
+   "link": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-10-19T21:00:00.000Z",
+   "description": "The ghosts of Baghdad and Kabul should be enough to silence any talk of sending American troops into Iran. Yet here we are, more than seven months into a war that began on 28 February with U.S.-Israeli strikes that killed Supreme Leader Ali Khamenei, and voices in Washington and Tel Aviv are again w",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "How does Brent Venables' record at home stack up to predecessors after Kentucky loss?",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVk9TMmZQMDNOXy1qempyQXVBWHhZeDJXb3pFaUs1T29DaXBqb3dUTXBrOWN5SmdHWlJkY1ZFRmFiNTA3R0hRbWgwT0VqdjBIb3VJZGE1Mm5aVVF2cjBDQ0E4OVFUQ1dsUWsycGNIT2cwekR6SUMzY2diVmVVV2ZoSHc1eTAwTTZleFc0Z0piLTltX0RQ?oc=5",
+   "source": "Tulsa World",
+   "pubDate": "2026-10-19T21:00:00.000Z",
+   "description": "How does Brent Venables' record at home stack up to predecessors after Kentucky loss?&nbsp;&nbsp;Tulsa World",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "How the Iran war is ruining Saudi Arabia’s plans",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2I2bWZkUTFFRDVvUHYwU0dLS2otVkN3QUVsV3dOMXVvcm42azIzemxjTExOd0ZxTDdTVGN4NVN1bGRrelk5OVo2Tzc4T3lqTUdtalBGX1ZvQmlMUWNTdjV4WjlsQWNCNE40ejRZQThTWUhiNXBoQnhJVzVtUVBtM2NzcjZnZw?oc=5",
+   "source": "Vox",
+   "pubDate": "2026-10-19T21:00:00.000Z",
+   "description": "How the Iran war is ruining Saudi Arabia’s plans&nbsp;&nbsp;Vox",
+   "categories": [
+    "iran_israel",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump faces bipartisan backlash over waiving Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVW5KeFN2cWxTOGpmS3RNdkl4WVhBTTJnbDYzNjJCWUpxSXAzYUdxSG9VYTVyc0s5YjZvdGgySF96X0tuY1lqeGRPb2lHMXNVYWdXTW1Da0FrNGFIWGFMUFhkV1ktejdSXzV6OU1CQjdkM3hGOG5STDhGZ0N1eERiZGtMUTBwYUpIMEJBZ1FsMTVpdzZWblE?oc=5",
+   "source": "CBS News",
+   "pubDate": "2026-10-19T21:00:00.000Z",
+   "description": "Trump faces bipartisan backlash over waiving Russia sanctions&nbsp;&nbsp;CBS News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Qatar says ‘no thanks’ to tolls on Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSVU4SHdhZExTWnIzbWU5X2pDb2tZWVRSNU9WY3ZZUXhMTXhkdDlicUNEeGFFNjNOWE43ZlRjbk8zWnVoSFpXdEtsVlNaem11UHlaam81T0JvXzEwQ3lvdl8wREpFTVpWUjZaVDN1RDR6RVo2XzZFSmpKb0tGQ1U4d0NhZ1pLRTgwblBZUE83dGJtblhFV3N5bkNiRXI?oc=5",
+   "source": "TradeWinds News",
+   "pubDate": "2026-10-19T20:56:52.000Z",
+   "description": "Qatar says ‘no thanks’ to tolls on Strait of Hormuz&nbsp;&nbsp;TradeWinds News",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump signs executive order waiving Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
+   "source": "WBUR",
+   "pubDate": "2026-10-19T20:56:23.000Z",
+   "description": "Trump signs executive order waiving Russia sanctions&nbsp;&nbsp;WBUR",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_ukrainian-soldier-rescued-in-drone-evacuation-191026?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-10-19T20:49:39.000Z",
+   "description": "The Ukrainian army says it has carried out the world’s first drone evacuation of a wounded soldier from the front line.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent crude settles below $106 as profit-taking offsets Middle East and Russia supply fears",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ENnIzVXZESEdLSlhWMEN0MV9EYVVCaTJteTVmUzRXWF9NSGJYOGhfczh0WDZPYTk2VW9relBqZGRfWkpZYW9GbUx3TWVsS042M1BpTUxaQmpGZzBWYXFZZGhRVGV1TFVKRlE?oc=5",
+   "source": "Energies Media",
+   "pubDate": "2026-10-19T20:45:12.000Z",
+   "description": "Brent crude settles below $106 as profit-taking offsets Middle East and Russia supply fears&nbsp;&nbsp;Energies Media",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Putin’s summit EXCLUDES Zelenskyy as Trump eases Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ic3hGNmU2X2hTVTk0bXU0MC05ME8zNEloQ0pXV2F6TnN4bm0wWjZKeHlEczdWZlVUQWRwTmJyczlkX0twMVlGNTNBUDg5WFBuNGVYQlpR?oc=5",
+   "source": "Fox News",
+   "pubDate": "2026-10-19T20:39:31.000Z",
+   "description": "Putin’s summit EXCLUDES Zelenskyy as Trump eases Russia sanctions&nbsp;&nbsp;Fox News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Why a Democratic Lawmaker Calls Trump's Russia Sanctions Waiver a Surrender",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMzdJYUJwV09fOWxOeXNXZnFTa1dCU3FvdjBKNS0xNFdXTnVWWEFNT3Y1SmlrcXk0NkNYb28zS2Y3N2xQeG83OWdDRVpaQ1N0eHlSMWg3aXN2bk5GYTlBaHczalE5MXltSkNuMllQZlQtRk5VQUUxQWU3MFVWYlhTdFBEZjBqVjYwUjdFYm1TZlNYRDhrQUhJNXRjNEp2M0ZYY25MZU1UNUdnZl93M1cw?oc=5",
+   "source": "Around Prague",
+   "pubDate": "2026-10-19T20:37:57.000Z",
+   "description": "Why a Democratic Lawmaker Calls Trump's Russia Sanctions Waiver a Surrender&nbsp;&nbsp;Around Prague",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Houthi rebels strike Yemen’s government forces, killing at least 53",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON01aUDFyR0hVZ3ZyLTRLNFpxbGJ4SlBTM0ZyMEpfRFRsZU9UOFZlR0l5TnY2WVBwVmd2TTNVT21pc3FBdVlrd04zRndnNmZoWDFKRUJjWFB0RG5qcllhY2U4bEhVakg5ZHNTQWxRVnE2RjlydXFCb3hmMk5VamV1cmpOYXI5elB4el9NV2ZES1FHdw?oc=5",
+   "source": "AP News",
+   "pubDate": "2026-10-19T20:37:00.000Z",
+   "description": "Houthi rebels strike Yemen’s government forces, killing at least 53&nbsp;&nbsp;AP News",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Strategic Consultations Between the United Arab Emirates and Saudi Arabia Launched in Response to the Houthi Escalation",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNOXpwM1ZhMGQ4WG9MQ1dVNnRudkxUZVVjWUdOT0xaZFhsQ19VTWpueUdkZDRHdWhiaXFHUmRvNk9uMmxhQmlOTndUWFBrNHR3aEE0SDhyWUxlZWdtWUpnVDlWbVNLWXdOTXRFRGNGb2h1ajkteDcwbWc1TUR2VkcxWTZXOWZOT2RuU3JvOGxkRkNKNXJ3dHdBQ2hLMm5TNDJzOEJnQWwtcWZwbE1nMlV4Y0NEUW13Y2FtWW5RUmVBdE1MRnIzQXFZTXBGT0Y0QkVCTG02RlpWLW1pRjZZN1BKWndxdjdJNHdaVnNvdUJqUVJsVkE1UndHZ2RIRkl2RlZHdjRPeWo0SVladlBWRkR6RWh4M05RX21EdW9z?oc=5",
+   "source": "Atalayar",
+   "pubDate": "2026-10-19T20:30:40.000Z",
+   "description": "Strategic Consultations Between the United Arab Emirates and Saudi Arabia Launched in Response to the Houthi Escalation&nbsp;&nbsp;Atalayar",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Trump’s Russia moves could complicate lame-duck agenda",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU09tdmRDazZHZFBmb1lPOXJOMHl0MnRCaVFwMUljdUlNWjl4RXZHUVUwYnVMbFpPYThveG83U1M1WklTTUVVQzltbzh2clZMa1BJclBnUkswc28wLWIzUUV2SXUzejNDdUlMRFIxdzlSNUxOV0pyREdrOVBRZTQxOTRkMEwybmFlNWwweU1EMA?oc=5",
+   "source": "Roll Call",
+   "pubDate": "2026-10-19T20:29:26.000Z",
+   "description": "Trump’s Russia moves could complicate lame-duck agenda&nbsp;&nbsp;Roll Call",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudi-backed Yemeni forces say they targeted Houthi reinforcements in Taiz",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOHBFaWRNcFl2VEVaWk9VZTQ5YlhYSnowNnhLQUltemhfT3dzaXJpbmF2S2xlMzd5NHg5THJncWdlOFZqWlBFSkRsMFhxYWp0YnlUUV9wOXc4LWlRQUlMVU5nWVNtRmx3TXdVMjdEN3ZQckpqOS04LXljelFJTjdVanpfc252aXQyeVJISHZSWEduZWZQLVNpbFJOeEd1TWtCekxjMlVTcG1uZTRQSVVOWWdCeUtHZ0haaUpNczZEMjZRRDZWdjFn?oc=5",
+   "source": "Middle East Eye",
+   "pubDate": "2026-10-19T20:25:00.000Z",
+   "description": "Saudi-backed Yemeni forces say they targeted Houthi reinforcements in Taiz&nbsp;&nbsp;Middle East Eye",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Saudi Arabia postpones ‘Davos of Desert’ conference amid Houthi attacks",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGJYY0p3YnVZTS0xVHVaZkJ0UVhUNl8za1hIcDRZNHNCUXpScUJHbEZRa29vQmtQNHF6aGhXaHBTY1dpOWRSZW12ejAwNjhjeTlOMDFWVC0yVFVSdEpsREVmcERyejU5UmprVVd5Z2FBaUJ2NndLM2pac3BBalZmYV9KLVdOQklPcnVtR3FPREZwRUFLYm1zenVVdkp0MmoxYXNFckptMGhNSjhfc0ttcWNwU0wtdw?oc=5",
+   "source": "The Washington Post",
+   "pubDate": "2026-10-19T20:24:34.000Z",
+   "description": "Saudi Arabia postpones ‘Davos of Desert’ conference amid Houthi attacks&nbsp;&nbsp;The Washington Post",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "GOP senator: Reagan, Graham would be ‘ashamed’ of Trump waiving Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lSVE0SXljMTAtM29iSnZHSWdEWHN1eFh0N2NRc3JXUjNmbFU3UUdRWGpQcGJXSkN3b3VMaGJuRkVLcmQ0eENWQWRqcHkzY3lKZV82R2dBSVlJeHh0SzJQV2t3aEZ1TjRnUDBZeHJWeV9meGJucWI2STlpNHR6NXM?oc=5",
+   "source": "The Hill",
+   "pubDate": "2026-10-19T20:22:00.000Z",
+   "description": "GOP senator: Reagan, Graham would be ‘ashamed’ of Trump waiving Russia sanctions&nbsp;&nbsp;The Hill",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Tug Attacked Near Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVElaWVNMWUZUUFhRdFVXcjRleEVfWkZlMjgxTmFtOTRSTzRlQ3NiMHAzRXB4ZTRFMHVxUWJKZkxFRV9hOEdQVjcxM1h2NU04QXRwTGtCVmdjeUhoNFBNMm9rQjhlbXpWT29xNEpVZEJYVTRkalpKc0w4SDFDdw?oc=5",
+   "source": "The Maritime Executive",
+   "pubDate": "2026-10-19T20:17:00.000Z",
+   "description": "Tug Attacked Near Strait of Hormuz&nbsp;&nbsp;The Maritime Executive",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "‘STOP BEGGING PUTIN’: Ossoff EXPOSES Trump’s Russia Oil Deal; Erupts At Jared Kushner’s Corruption",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTVNqMjB5WGp0d0JzTFVhTkgzYXRoMHZ2b3VveEtmMTdKaFBpQWRBMTRTTjJvV2IxaXlYQ3QxNzJ0LWQ4VTkxcEY5OXBvLWY3WnRRNnZaS1Vpd2g4VjFPczVlV3daXzJ1SXIyaFpsNGJFYnJOamNyM1pLWTE3cHh5ekx1VTFPZnNzZS1iaWRUY1FEdHpqYmlPZmU0M1BrX0I5eWlnc1lQOFQ4ME45bFY5Q3BLR0VuZnc0R1VfeWI3eWFVM3YtazlkMkZkTHhGdmdvaEp5Z2liZXhLWlVVYmVub3k1cWZ3LVR3emdwTHZGTkFGaDVhNHVvZm1xcmxoRkR5M0hJ0gGIAkFVX3lxTFB5d1QtUkdyZGY2QWtTV3JhM21IMHlOMGhZUnhzejVJaGxKbU1RVEtkMUxtVzgtN3VObVA5WERZM0lxd1F1ZC1tWnQtRXlIemNOWXB3UlNJcVNLTUdlYUozWXBWSm90anlhUFNra3V1ZnB6ZTlRRnBDQkl4ZXVYSFF4LVd3b3lqaXVtZFFOVkZlakdNM3MyUWpCT3ZSbktGOWs3X29UMEdvTGdSNXdCOUE3LTEyUGNmOFdETzNpNUJBN05XMTBLeDM4M2Y1eGZrVlc4M2F6ZG9KNmxnamc5ZFU3STV1Zk11UG0wWThUWGc4ZFFJcUk2X2o5LW1yeWFKaEFEZHV0NXJnWg?oc=5",
+   "source": "The Times of India",
+   "pubDate": "2026-10-19T20:15:00.000Z",
+   "description": "‘STOP BEGGING PUTIN’: Ossoff EXPOSES Trump’s Russia Oil Deal; Erupts At Jared Kushner’s Corruption&nbsp;&nbsp;The Times of India",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Strait of Hormuz blockade is ‘key’ to maintaining economic pressure on Iran: Former Defense secretary",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuVENlNlBzMWhaTFJJcU9oeWxfYVFMb0UxOTl1QjNNTkMxWXNJSko2LXIwaHctaVhQS2U0UlJrWko3VkRlVlpJVFk2eDk5N1dKcHFBb2tR?oc=5",
+   "source": "Fox News",
+   "pubDate": "2026-10-19T20:14:15.000Z",
+   "description": "Strait of Hormuz blockade is ‘key’ to maintaining economic pressure on Iran: Former Defense secretary&nbsp;&nbsp;Fox News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Ex-OpenAI employee accused of planting device appeared to receive support from Saudi government: Prosecutors",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUJwNHRQU0VKTkJodG5tWmk5SkptcHNRRUZlMm9nMWNSc0JBQVB0Ny1YdHlxaWVjWUNqbXRuemo1QzhiVUEtaEx3bng5azBHbF9qNUk4cV9lRjV5bmlSVk12ZjZaeDU1czBXY3hDY1RuWXJLVUpLX2dQaUY2elBDTnI4ZHgyeTdTcGliM2RKR3ZuRVcwaG1CdjJwVmFPVmk3bVV3RlgyWElFSkxq?oc=5",
+   "source": "Business Insider",
+   "pubDate": "2026-10-19T20:13:00.000Z",
+   "description": "Ex-OpenAI employee accused of planting device appeared to receive support from Saudi government: Prosecutors&nbsp;&nbsp;Business Insider",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil Prices Hover Near Five-Month High",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWFjR1QyakFhZEpfSzZXWDJGT1BSRDlvLVl4LWY5Z1NjdXc0ZXpGVFhCeml1bnBxZE5CVHFQdmFBc1N3RUgyclcyLUdrSDkwM2R4SFdXclRUYllYcmlBb0RnczJScEljQWlELWxvblB1bWxKaVdLZEZrWld5YVdGTjdVUk9OdGkxUjlsSnl4MlFVNjJaX3BIRC1mZFU4aDA?oc=5",
+   "source": "Rigzone",
+   "pubDate": "2026-10-19T20:12:56.000Z",
+   "description": "Oil Prices Hover Near Five-Month High&nbsp;&nbsp;Rigzone",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthi rebels strike a government military camp in southern Yemen, killing at least 53 fighters",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa0RLM3BVNUsxcWRJVGV0MV9iSTVaR1JramNmbVNWN0ZneVpYeWI1Y1d5dkhCcTRpU3NxbTU5WlA1UjhTOUVPenl0b0JwcE40dm45el9ERDNBaHhJdkhfMy1SQjQwT3gtRHFDLXhaY195dk1qWmJ2bFc0bmRlOXZCT0FEd05yWjdiQ0RmLVpRZlNvNUtfR0ktRjNtb0JiYUUwdlhNU2xvb1pieEpaYVAzNjNULWZJTzhReDNJQnFjLUY3QTI4czVyNmhqbWZJeUpIZUNVaw?oc=5",
+   "source": "Sentinel Colorado",
+   "pubDate": "2026-10-19T20:10:56.000Z",
+   "description": "Houthi rebels strike a government military camp in southern Yemen, killing at least 53 fighters&nbsp;&nbsp;Sentinel Colorado",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Reports: Iran threatens seven undersea internet cables in Strait of Hormuz - HESPRESS English",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3VoY2ltLXN3RFBJTWtmWm9sZWVXNzJKc1U4ZXFLMHpoZEZXSXI1SkZFYzZSbFhSbU44NGNRUHhNeHoyV1pJTGR6OGVOSW03MHJ6WWFCUjlLM2hrX01mRnJBZzBtaFNyQkpCalhZTnZrRklveTE1NXJZZlBybWo5SE9heGdwVWJaTDNKNHNPVHBVQVpfVG5JdnNENXpYOEd1ZW9SV210bmpwdGxxWlE?oc=5",
+   "source": "Morocco News",
+   "pubDate": "2026-10-19T20:05:31.000Z",
+   "description": "Reports: Iran threatens seven undersea internet cables in Strait of Hormuz&nbsp;&nbsp;HESPRESS English - Morocco News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Prices Fall as Donald Trump’s Russia Sanctions Relief Meets Hormuz Crisis",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNai10blFhUm1aak5sLXRzNzl0SXJIN2VEOGFzVmVYUmlBMjRpbDlhVkRlX0ZiWUdQYkFVc3E0WWxKNVM3OFVhaXg4ejdYYmNDQmFKZjQ0OTJabUhfTlZRRFFVN3lmRWVOUXhhQXNuT2hUMHFtczZTYkZRMWlUbTE3VzFEUTVfNlBtSW9UbUZB?oc=5",
+   "source": "Yahoo Finance",
+   "pubDate": "2026-10-19T20:05:08.000Z",
+   "description": "Oil Prices Fall as Donald Trump’s Russia Sanctions Relief Meets Hormuz Crisis&nbsp;&nbsp;Yahoo Finance",
+   "categories": [
+    "hormuz_redsea",
+    "russia_ukraine",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Brent Tops $104 on Supply Concerns",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUFNiN0FXMjF0eEpiOHVHbWRGYUxUUEkzSkRMX1d0eDh1TF9lbFdIQlVBaW5QSFFKbUxpMWVrZWdsLU5PYTJJaHN5VVdZS2dzaUN4MTdGZWoxUTVkZ3FITFVrckU2Tlc0a01qRzFxWVJVUUlCNUxQY1RubC1HRV9US0hpT1JGN0dpVTRLZA?oc=5",
+   "source": "TradingView",
+   "pubDate": "2026-10-19T20:04:56.000Z",
+   "description": "Brent Tops $104 on Supply Concerns&nbsp;&nbsp;TradingView",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
+   "link": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
+   "source": "OilPrice.com",
+   "pubDate": "2026-10-19T20:00:00.000Z",
+   "description": "The debate over new oil and gas fields usually ends in a familiar deadlock. Industry argues that production will still be needed for decades, supports jobs and reduces dependence on imports. Climate campaigners respond that every new field locks in emissions incompatible with net zero. Both sides th",
+   "categories": [
+    "supply_other"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Finland seeking one million land mines as it eyes Russian threat",
+   "link": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-10-19T19:57:10.000Z",
+   "description": "Helsinki recently joined regional peers in withdrawing from UN Charter banning munitions as it eyes its eastern border.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+   "source": "LiteFinance",
+   "pubDate": "2026-10-19T19:53:20.000Z",
+   "description": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days&nbsp;&nbsp;LiteFinance",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-10-19T19:52:21.000Z",
+   "description": "Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Saudi-led coalition warns against Houthi arms smuggling using fishing boats",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3A1U0xlWGtLX1djYU1ITWFnSElLTVRFcDFRY1k5d2pXUGhSZXd4aEt1cDlDaVB3RGV1ZTNfR01PTmd4X3lFM0RZbEJRak9nX19zM1FXVzBydEpCVmVyaFlOaGp1WEo3S3BnQ0wzc0s2S0JnVmFnS1dEZVV1R1g2N0xrT2lrbDdFMXdsV1o4TnJOZExiYmdUUWhVd3A5TkJ4bTFfVlFxd2RaZk1jbDh2QjZoMmVEVmNaeGx2Z0lNMWhBdHY3T3gwRS01NnrSAdIBQVVfeXFMT3ZIZllfWmJZR2JHMTJsMi1xOGRxZ3ZmNlIwWnpyb0dPVF9UaHAyLUdSUlJDQmhYQ2VJLVRwYm1rMmZyS0MxX2FhTWkzUFB4LVhEYjZlaGNoQUsxNnlOX1ZFWVhvZUlqbVRyODJKMF83eXM2SjZuQ1QwQ0owanhJWkk3OFFCUGxwTWs1MFVhbHBsUGN4R1hMYnY0RGV5MVlFdlJTSVRfUl9WYWJQZEZySi1PVWU0REdLTXpHTjZJaWtkT0NsY0hVQ1RoR1VSMmNHRER3?oc=5",
+   "source": "Al Arabiya English",
+   "pubDate": "2026-10-19T19:52:00.000Z",
+   "description": "Saudi-led coalition warns against Houthi arms smuggling using fishing boats&nbsp;&nbsp;Al Arabiya English",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Unpacking Ukraine’s Campaign against Russian Refineries",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FNkExTmZwTERlMHVCY0N4VFFtbTQ4ZjlJWTc1WEY4R0hqTVpDWnNTSmZRUUc3bkpzQXFEZ3p4VFNxOV9mdWNjdTJsRXRHVy14dGxOMnVrdGg2cXhtVnVmRW5pZ2Z6b2pURFRpeEw5RUVjS293Wldr?oc=5",
+   "source": "Geopolitical Monitor",
+   "pubDate": "2026-10-19T19:51:58.000Z",
+   "description": "Unpacking Ukraine’s Campaign against Russian Refineries&nbsp;&nbsp;Geopolitical Monitor",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US hits the brakes on Russia sanctions law, waiving tariffs, enforcement",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Lak0wR05hdlN4UlI4NWFXMkx6TFpvMXhWdjgxQ2s0VmZKaWw1SUlNN3Nkd1phV0hOdndTR2htWXdUbkhyN0RnNEpjek9Lbm44Zk9rZnVZX0RMd9IBWkFVX3lxTE5Lak0wR05hdlN4UlI4NWFXMkx6TFpvMXhWdjgxQ2s0VmZKaWw1SUlNN3Nkd1phV0hOdndTR2htWXdUbkhyN0RnNEpjek9Lbm44Zk9rZnVZX0RMdw?oc=5",
+   "source": "MLex",
+   "pubDate": "2026-10-19T19:51:00.000Z",
+   "description": "US hits the brakes on Russia sanctions law, waiving tariffs, enforcement&nbsp;&nbsp;MLex",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "US-Israel-Iran War Latest Live News: Iran Warns 9 Nations ‘If US Strikes Resume’ as Oil Prices Surge Above $110 Amid Renewed Houthi Attacks on Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNzFfV3M5R19BLWZJR0xDdDFTNDdUQ0FyWDZfNnIzMnd5UkFzaFpQMDVwZmN2a2IzQU83bWNIMVBaZ3hoTGlXdUF1bTJINzdkOVpQMnhMdl9aNktrZE9WaV9fN21FOXhYaVZLWWR5TllWdUFaeUY5TXRqeE5fREdZTzJwSC15ZV9wME5ubGRJWmxvZ1V0Y3IzWFE1LU1QZzNXdVdiV1FpNkVHSlRTbHdaRFdWbVpBd3A4dWp3LU04b2FQclNTeTVvTlE2TzZ6NU1PeDdfZEMzT2M0NUxxcjY4RUxVdXBKOXdkQlhyRHF2NVJoUE9MaHY4XzI3b0hQdE1RM2dUY3V5QnJJMEJXd3Q4TEdJTTlxd3FuOUgzLTFZMEhoQdIBpwJBVV95cUxPQlc3YXB1R3hHd05mamdCOGtRTC1sX1piUDNmUXFmbHlqLUp0UVhLYnVhNzBSdEpnX05WT1JGWF9wWDlMNjJTUTVyc2dSTXpLQVd5N2RSVmhLNS1aUjRYS2ZKd3ZaR0htaWtvN3paMDcxYUNCVFd5OEJNczY3ZVVEdVhiR1dualFOcGgxWVVqT0p3Ml9ma1Z4QU1SWjRJbVVXSkdSQXVxVDhCOERlWW1PR3pqSjNoUV9kVmNLdjZRcnF3VXcwd3BZVGhVLUdYYnFWTnNhYUJPVTU4dG1hWEo1c093MFZVN1BMd1NOTkNXaGgzenhTMDZxS0JMejlmWWhpVmZOTEFVU1V0azI4S1NpTGZUM1dMMkh3My1kZ3ZtVEFJaEFoS3U0?oc=5",
+   "source": "The Sunday Guardian",
+   "pubDate": "2026-10-19T19:49:15.000Z",
+   "description": "US-Israel-Iran War Latest Live News: Iran Warns 9 Nations ‘If US Strikes Resume’ as Oil Prices Surge Above $110 Amid Renewed Houthi Attacks on Saudi Arabia&nbsp;&nbsp;The Sunday Guardian",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea",
+    "opec",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Zelenskyy briefs bipartisan group of lawmakers amid backlash over Trump’s Russia deal",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY0Z2T1NxTG5ySF9NcFQ4a3BxSHhRbDNwSTNPdmZwd3dTNHBmb1FiTmJ3TnJFVm5wejNpUndSRmZ5RElkMEJqNVB4ZkUySTdTSTRFT0ZDWlBXUG9wc0xqZ0hJWDlRcnktVGlyWUpQcUlxemtVaE1HT25NLUpia0dmTUpoR29fcmVLMTRmb3FPNA?oc=5",
+   "source": "Politico",
+   "pubDate": "2026-10-19T19:47:00.000Z",
+   "description": "Zelenskyy briefs bipartisan group of lawmakers amid backlash over Trump’s Russia deal&nbsp;&nbsp;Politico",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent tops $110 per barrel, reaches highest level since May — Anadolu Agency",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmtKUEdDTWJJeHdlSEVYd2drclZRLTdOYzNwY2JUemp5eTZpdXVVQlJEclJwOXo5VnBQMV95MGpGVXlvSk9sVzN2Z1huMDlhMXZpVU5aQWlXRTBrNlk2enJkaFZrejFuSVQ4T0JKaEY1WVdPdEZJQ0wtdzhXVll4RTZuOThpdUM2cGUyc0pNcVVENjFlSms4VVFvNmxkYk5xNEN4VTdVUVgxcmRG?oc=5",
+   "source": "UA.NEWS",
+   "pubDate": "2026-10-19T19:46:14.000Z",
+   "description": "Brent tops $110 per barrel, reaches highest level since May — Anadolu Agency&nbsp;&nbsp;UA.NEWS",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Brent tops $109 after Houthis announce attacks on Saudi airports and Aramco facilities",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFBXczBwQXhvNmZqVUdtMlRsNkRQTnI2MVJ2ZUhDbUhvT0VCcGE5clRQUTF4NWcwMzNrTjFzZ014c2FxZzEzb2xEYzRVcjA4eDdSMlNuN1RHWWszN2hiZnJaWVB5Sk03MDhqNVhQWGJYSE1Jb0tjSUZ5bUlNcF9rYS1kcWhHY09oQ1dkVDNUbFYxLXBEbnptZ1IycEF6Y0lPSWxtdWNtbU44MW9CNVBvT1ktaU9FQlVHdldhdUN4OUF6clVvdHIyVWV0OXFPVndkdVhTTmZR?oc=5",
+   "source": "Economies.com",
+   "pubDate": "2026-10-19T19:45:00.000Z",
+   "description": "Brent tops $109 after Houthis announce attacks on Saudi airports and Aramco facilities&nbsp;&nbsp;Economies.com",
+   "categories": [
+    "hormuz_redsea",
+    "opec",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjUxeXdZWDd5c3MxTHBocWZqajJlQ2UwRTF6dW9KMXh6Q1ROdllKRGZiMV9kWUhvRW9CQzNQMU1LYk80U04zc0dLU2ppcFkySWRjenZFSm8wQjA5QmRPVXhPN3dhMTZPdnFiWjh1QjZ6VDR1ZDg5dFFlZ0t0STJzZlBrUzBMQ0N1R1RTQ2FkekRVaTlPN3lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8?oc=5",
+   "source": "WSJ",
+   "pubDate": "2026-10-19T19:43:00.000Z",
+   "description": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions&nbsp;&nbsp;WSJ",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
+   "source": "Scripps News",
+   "pubDate": "2026-10-19T19:42:39.000Z",
+   "description": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them&nbsp;&nbsp;Scripps News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzVRa1NjOVQ3X01WWU5aV0wwWVR6el9MQmZCT0gzVlU5SkNwR0VwZDNhRVFIMUdJc2FJeHd0UFIwdkt1QXJaQUlrSl93RU5OQ2RlM3hSWlJHVF9rM2ZXc2MxdDI4TFY2VDlOeDRibEVGTVowb3VYNkh5dnQwdDVBUVBvYTVreGRjSHlQdnJ6em14eUJhSy1HSGx4UGdLZVRtRE5F?oc=5",
+   "source": "CT Insider",
+   "pubDate": "2026-10-19T19:37:25.000Z",
+   "description": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions&nbsp;&nbsp;CT Insider",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Growing signs of an impending strike on Iran",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmltMFBPc25TX0R6WW13RGtjOWhXeHc0WXpNQ20taTRCRlRxN0Z6RWoyUkViM3BPOGNFM1UwVzJNUWNDVFJwaVZLYjh6RkxWUnc1TUtLU0I5d0xkbWU1aE5JSjhHcEJ3ckYxaE93NnR6WHlsa0tDcTdJY3doanhQWkJ3dHpWSXJaWDBB?oc=5",
+   "source": "JNS.org",
+   "pubDate": "2026-10-19T19:31:02.000Z",
+   "description": "Growing signs of an impending strike on Iran&nbsp;&nbsp;JNS.org",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "DAILY OIL PRICE: October 19, 2026",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JU1JDekplaElRVHZoUlRpLWY0SFlqUFhZaVhHbHNyRnNENlVzdk1QYVFpOW9aSmJ3aVhsLVdUSkJqRFl2aUxJdy1acUY1MWlqYlJLelJUY2JSb2NGY2pPQ1QtVGx6SFBaU011cGg0NEE0dw?oc=5",
+   "source": "Odessa American",
+   "pubDate": "2026-10-19T19:25:26.000Z",
+   "description": "DAILY OIL PRICE: October 19, 2026&nbsp;&nbsp;Odessa American",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "President Trump defends Russia sanctions waiver",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPXzlxSWhsOENzSXExZGZTNW9wMk9hQUxlNFdWS2NBUkxsUTJfakxWeWhCdWJTOEdKVnRObldmUWppOHF2RDAwVjA0MmJONVBIRWlJc0hGeWhLZ1lScGFvTVdWTHl6OEFOaXAxWXdlcHlFQ1hrSzlJcWZLX29MLTRVamNfWnNjbmk5cmpKYzBjS3JDWEk?oc=5",
+   "source": "Yahoo",
+   "pubDate": "2026-10-19T19:23:52.000Z",
+   "description": "President Trump defends Russia sanctions waiver&nbsp;&nbsp;Yahoo",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Max Miller comes out against Trump waiving Russia sanctions",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1MyeVE2NWNVQmpNSFJnWUNScjE4NmEzYmhNUXdmRExCRS1xaWhTM1dKTV9Wb3pLRkJaaU9lNjFmaDNkLWdIN1ZEMkx6Y3JSbmVSYVBJbDkxYnNySDVwN1MzWlRTVGxyM1RCblhYaVd2WkxDR2hmQ1lmcGUyeUJNalZsQVV3ZXh4OGZqLUlELXdjQdIBlwFBVV95cUxQTjctNTVNeU9XSklFNEo5R0ZmSk9UUkctaW8zQWRfVTZUYnY1QklzSDBfMDVuaGNfZGdlb1g3YTc2NE9uVjF0OFVncmtpWkNmS0ppdmVIWjVsaUFtMmo0UUE2cDdoVUFTQS1KX2dVTEd3UHZhQTNKN3M0c3p4X1NsNlgxa2szVndPWldpRnFjN01LdzA3VHdZ?oc=5",
+   "source": "The Hill",
+   "pubDate": "2026-10-19T19:22:00.000Z",
+   "description": "Max Miller comes out against Trump waiving Russia sanctions&nbsp;&nbsp;The Hill",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Brent Climbs to Highest Level Since May as Energy Prices Surge",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWmttQno2SFRhdFpkR2Y5dlpwVjBScFRQam9Ib29jWlNEb054TUFPNGhKYy00aEFBUjVsTUFuTWZxLVhaSTEzQ0RqZjkyTEVhQy1SeGdoZXBFdDVlQmZBc2ZIN3BpdHczcmh4Rmt4ZURJYnQ5bW14QUJOaFhxQTMtck5wV3lwQjJ5NXhjWGwxSVpkb1d4cTk0bQ?oc=5",
+   "source": "Caspian Post",
+   "pubDate": "2026-10-19T19:13:26.000Z",
+   "description": "Brent Climbs to Highest Level Since May as Energy Prices Surge&nbsp;&nbsp;Caspian Post",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Oil Prices Split As Houthi Attacks Raise Shipping Risks",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTUJRTjlVSEszZWowSzEtZmJEbVN1Wm5mWjVPSHZiaTJMc1VKaEJ0bGw1TWNkYXN1UU1TaWVRWFZ1VHlXb2I1dGY1Skh6N3JiUHZZblVudkNWRFYxZWlvczNBOFpaZU4zX2d2Q1Q0MkRiWlVjdE95S3BVWHBIYzZvanlsYm5wQllmR051Qw?oc=5",
+   "source": "Finimize",
+   "pubDate": "2026-10-19T19:08:56.000Z",
+   "description": "Oil Prices Split As Houthi Attacks Raise Shipping Risks&nbsp;&nbsp;Finimize",
+   "categories": [
+    "hormuz_redsea",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Republicans revolt over Trump’s sanctions waiver for Russia",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXZkM3pnYTl6bFRneTlVWkN2NkJfa1E1ZHhmcEVrdUp2c0YwdEJTNGF4NW1KNXhySUk2Rk9EeUl6THpScVJTeVphQmxiM0hIOUc2YXJfaVgtd2VfSWxWVFl1MU42ZTNlak1UbWpUX0hhdHNERm5zNEU0OUhsRUJSWF9Obl9Bd0o2UG15RXNlS1lyMnUxeTJhMWhzZlg3MnlORHZPQVVfSXVXek9NVUZpUS16ZWk0X1dLUEtXU01HM2Z4RFdmOU1J?oc=5",
+   "source": "The Times",
+   "pubDate": "2026-10-19T19:00:21.000Z",
+   "description": "Republicans revolt over Trump’s sanctions waiver for Russia&nbsp;&nbsp;The Times",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Colombia's Critical Minerals Could Be a Game Changer for America",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbUNLZENqSnZheHZrdTJkX1ZtZ3VpSS1YaWQzX0s5VXpOSXR3T0FtckNxTnFGd1BoaGJDa2JTc25sbTRfRlk4R2x3NDYxYWlqT1N3dzdJUVF1Njc0MkwzVDVlSGtjT0plT1VpYjJQOUZwblZzSFE2YmhzRFJ6ZHNFUDhVTzB3UTVYX3VnZk02QUhlSHNWaVBNY3kzUk0xQS02MTQyb3JYNWtQZUMxNERaX9IBtgFBVV95cUxPaW1GOFFKWGkyZXRDZnJ3UlZVeW13TjlrQnhWLURaeThyZHBhcUZxZ21YSmpFM3VpbkQ4S2o0NDBSNTRVZVlqTlA1UmZQc2xkQnRxcFF5RXZtZmoyN0FObmFZWTk0bHJsNXVoOXV0WHpxSzBPVXNYQkU0RjVzOUR2aGdmb05UOFg3a1VVdldPRTY4a0l3SGZoTHFZQUVBeTA5WFRPU0NwbkFidUNPSXVPeDBVUmF0QQ?oc=5",
+   "source": "Crude Oil Prices Today | OilPrice.com",
+   "pubDate": "2026-10-19T19:00:00.000Z",
+   "description": "Colombia's Critical Minerals Could Be a Game Changer for America&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Houthi attacks force Saudi Arabia to postpone flagship investment summit until 2027",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR2lnZ2xZVnFsQ3hNTFh0WDdYR1ZjR2hreHBzczBzODZQV2lZUlNFLTBLTWlJNFNUVTdyVTlCd1NpTkJRbFhNWEZFLU45ZVFWYXRxdXlkUmtRZ0p1b1JPSjJUQ1RkQ3cwcldWTXZJUGhUeGk3Ny1OaW9CVi0yV3pnTzhhUkhOUXNsbE4wclo1d1p0Mjk2UUo0aHZfbHh3T0FNWUJOZjZmQkhzdUNpTXBCTk5ZdUVkSlVobnY3cFNPaUhXMndaNnMyeGk0cW16UQ?oc=5",
+   "source": "Los Angeles Times",
+   "pubDate": "2026-10-19T18:59:39.000Z",
+   "description": "Houthi attacks force Saudi Arabia to postpone flagship investment summit until 2027&nbsp;&nbsp;Los Angeles Times",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM250VXpkdlZ3blZTMU9Rd0R6ZmxPR1k5MVdoa0tDZVdDTVd3QW1GYndjbnRRR0otVFd1XzdkNTNxckVudDdjZ1NwREd2WE5DeS1TYlNITFVtTXJ3STFQRkxhZWFvajI0b1RnUndhclBLNzVaakZMc25oNnhyN0FGdGdZVGwycTd6NW5kWW5TaHhPNi1vQllFbk5DT1Zub3llZG91eFBxSnYzMmExUWpIM1JidVhZR0I3dWZudi0wX0lCM090RnfSAcYBQVVfeXFMUDNudFV6ZHZWd25WUzFPUXdEemZsT0dZOTFXaGtLQ2VXQ01Xd0FtRmJ3Y250UUdKLVRXdV83ZDUzcXJFbnQ3Y2dTcERHdlhOQ3ktU2JTSExVbU1yd0kxUEZMYWVhb2oyNG9UZ1J3YXJQSzc1WmpGTHNuaDZ4cjdBRnRnWVRsMnE3ejVuZFluU2h4TzYtb0JZRW5OQ09Wbm95ZWRvdXhQcUp2MzJhMVFqSDNSYnVYWUdCN3VmbnYtMF9JQjNPdEZ3?oc=5",
+   "source": "Baird Maritime",
+   "pubDate": "2026-10-19T18:56:50.000Z",
+   "description": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves&nbsp;&nbsp;Baird Maritime",
+   "categories": [
+    "hormuz_redsea",
+    "opec",
+    "market"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Energy prices soar as Brent hits highest level since May",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSm9UNXp3UGVYeFFtR0pQOEhtMURNMWR3V1RyVVpNNUJRZXVrcWVRSzFFVnRRVFA2WW5TUHJhLWlkMVBuVjJNa2FNem82bEpaZENIMnV2U3V5am50ekhZM0pPNC1uMkRNTzVJb0REcVVuU1pYVEdkek9MNWNYVnVla29ESm9UbExtQ3pFLTRQTkNBUk1zOWF5T184WmVIQQ?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-10-19T18:54:50.000Z",
+   "description": "Energy prices soar as Brent hits highest level since May&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Mitt Romney issues rare statement as Republicans challenge Trump’s Russia deal",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWVvZVBhd2JfOVprYVg5RVozMWN4MV9icXFfLWJ4RDJiUjRjLTB0LXBpZ2p6eElWWnZCUGpFYjJKQXBkNTRxaUJpYmdZTDBnMDVPMFdlY0hyaDV5Umpnd1ZhY002M0ZkNlJ3ay1sbHgtSFZEcmI0YmNBRDlQODZURTRGUjYwNnRHbTBBR2o1eHdTZw?oc=5",
+   "source": "Deseret News",
+   "pubDate": "2026-10-19T18:47:27.000Z",
+   "description": "Mitt Romney issues rare statement as Republicans challenge Trump’s Russia deal&nbsp;&nbsp;Deseret News",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Worker dies in equipment accident at Brent Spence Bridge Corridor project",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzhuMXV0QUJEVWNWdFpYOWxrZlpwbFNWYkRDRy1iQzFHX1h5RHI2WDgxLUNDZzdmM0NybUpBcE5LUUIwdHJfcHZmSWF6QjdiM1BLUmRXSDdvTHVLUVNYZWU3bFQ0bXJqdjhvZzh4ZWNFMXdoZE1vc1dtcXVTUzROVkdqdVdhZFdaMEx2ejZXVkxmQXZWVjJnb0E0dDhrWmwxNkRmNG1nSmtOM1RRTmVKcVMyV0NPUXR4djlQckstRmNzdVpkZXfSAdoBQVVfeXFMTm9Ldm4yOEx5dFk0aFl3QjlacG9PMng1aEpnM3Nrck5ISzcyWXJVemJDMS1PX0V6TC1rcHdQZzJhXzB6eXlBOGh6dmF3R1d3Q1QtdEp0UjJzNjNMVmRvdGxkVUdvcVltNTVJbmQ0MVl3c0lqNi1YSmdGZkRUdzVud3RzTUdGQ0RkMUJCOEJUdnFYdFB1TXdqSlgwVWdzUi1HVzJkZkJxcTJreEdrNGpUMGtybFRsaXBoNUVJNEZnNHNDVERRdTZGeExVRlhtaXJkY0p1Y290VDl5ZFE?oc=5",
+   "source": "WHIO TV",
+   "pubDate": "2026-10-19T18:44:21.000Z",
+   "description": "Worker dies in equipment accident at Brent Spence Bridge Corridor project&nbsp;&nbsp;WHIO TV",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
   {
    "title": "The Sulfur Crisis Threatening the World's Food Supply",
    "link": "https://oilprice.com/Energy/Energy-General/The-Sulfur-Crisis-Threatening-the-Worlds-Food-Supply.html",
@@ -407,6 +1390,17 @@
    "severity": "medium"
   },
   {
+   "title": "Saudi Arabia executes 2 Bangladeshis over ‘indecent acts,’ and other Mideast news",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPczQ3OVJFY0ZmMWU1VFNVWUlfWmNiQTg3dlNVd09LYjVJcVlSZVZkdG11amN0T2RWV2VXZDN2VmNaTzBuX3F2eVRJbWFTOFdaYlpFd3Q4UmVSUVRXT29SMkFHS0NpX1djajF2ZXpzV0xMZGpVWFl6b0l6aUJXRVVzTWtZV3ljblZ1X196QkVnQUlDT3lQdEdYcWdRYzBOajhZVVV1cHNCWWhnRDlyVjc2VmZoMlpKVDRPcGRZYi01bljSAcYBQVVfeXFMTkI1R3RHb3h3S21ja3lZN0VyWE9ESHFLRS1zZ0tnMTZ4RkU1ZTROeXoxNXY5dlJFTTdiYk1KSHZQeTliRmpLQ2M4aWkxaE1FcjcxLTAwZTB5alZUVUVyX01NdWhsVTVMdkVfbzZ5YWM4SDlELWtNQWQzemJEU3ZUQmUzNmZrRmtrR3ZfNzhRcmpxTUFPWS1sS3YyNVNQaTRyLUR3UWk4S3pMMmswSjZuSU02SDFvX3VmT2ZQZ19kUXRVMDdzWkd3?oc=5",
+   "source": "WKBN.com",
+   "pubDate": "2026-10-19T18:25:03.000Z",
+   "description": "Saudi Arabia executes 2 Bangladeshis over ‘indecent acts,’ and other Mideast news&nbsp;&nbsp;WKBN.com",
+   "categories": [
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
    "link": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor?traffic_source=rss",
    "source": "Al Jazeera",
@@ -414,6 +1408,17 @@
    "description": "US federal prosecutors allege the defendant was in frequent contact with unnamed member of royal family.",
    "categories": [
     "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Republican Party Demands Answers Over Ukraine Starshield Restrictions",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZNWFsUk1HSm1KLW5CMmRNVnJ0bFRpQlJicmJjY3RkaC1JS05JTWlmOTA3TzhidGx3ZnU3aTJOZzRhUnpDSjhzeU9tQQ?oc=5",
+   "source": "Kyiv Post",
+   "pubDate": "2026-10-19T18:21:56.000Z",
+   "description": "Republican Party Demands Answers Over Ukraine Starshield Restrictions&nbsp;&nbsp;Kyiv Post",
+   "categories": [
+    "russia_ukraine"
    ],
    "severity": "medium"
   },
@@ -427,6 +1432,40 @@
     "iran_israel"
    ],
    "severity": "medium"
+  },
+  {
+   "title": "‘Tariff Man’ finally found tariffs he doesn’t like",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNWM1bEdyRi1zMk44TWVmTDZrOTk2ZUV6dHhybS1VRUdoWTB0TDFrdC12N2o1OUo4N0JJWjhZdk9ybmt3Q0JHeWdVTzJMWUU5T3BTM0RYREtEaVNQSUwtRW14YWVNV1NyZUNVVV8yaVNvQldfb2hFdm91UVhkLXB1Nmh3?oc=5",
+   "source": "CNN",
+   "pubDate": "2026-10-19T18:12:48.000Z",
+   "description": "‘Tariff Man’ finally found tariffs he doesn’t like&nbsp;&nbsp;CNN",
+   "categories": [
+    "usa_policy"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Is Trump’s Plan to Import Diesel From Russia Legal?",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGw0aWZ4ZV9IQWxmQXpuX3hhaXk4VmxtMXlfaG8tVTYxcWFuSXFfRWhYbWU3WS1xdnl2djgxTmlObUdpbGlMTFE4dWFIOGJpTWI2RFJhTlp5WHhMcDl1SUxJbWZ3LWtjN1RLcGI1UU5aYk11cGFKekhiSkN1Q2RUTURGeHEtaE9jWFNwR19wWDJyS0liVXhwTTRxOW9iSjF4THNBQWpTWWxfaDFVTEZocFNkSHg?oc=5",
+   "source": "Bloomberg",
+   "pubDate": "2026-10-19T18:12:45.000Z",
+   "description": "Is Trump’s Plan to Import Diesel From Russia Legal?&nbsp;&nbsp;Bloomberg",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Trump accuses Zelenskyy of prolonging war as Russia pounds Ukraine's power grid",
+   "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNcERpR0hxcXpfZU16OUdHOTQxTFlaeVZ0Nm4tLUJKOXRaQUJ2dWhCZGlOWHduU1ZfOExLQmZtNE04bXdmUjlNbDUwNHREYUMzck9NSWJEQ0VydjhMcWhmNTlmOGhoRkRZd0RqSVoxWHZQZGRJX3dRSVZBajQ2T0lLUWlhTVNDa3dJZ1did2lqQXNkUVFlcEp0T2pLazktUXhheV85LVhNaFY3WEpScU5YRGsxWmNHVURYcmJaRnYxdFlwRkF1alp4VnhDbU5RTzg0VWRDZWRxc19TYnJKMjVwYU5VU2xxS05IY3plVTlkanBwSVRUSlJwckxoX2p6N0puT0pqN05xYzZkcWhqaU0tMHpUZWZwNm5RWTJMTDVlSnpKXzlVZjlsak4xa2JCQ2p4MHpSN3FRYnZaM0ZJVGNmMlhmTHJzZnlOdXhMUmk0QTVTRGlnUHU3dkd3?oc=5",
+   "source": "WSET",
+   "pubDate": "2026-10-19T18:11:15.000Z",
+   "description": "Trump accuses Zelenskyy of prolonging war as Russia pounds Ukraine's power grid&nbsp;&nbsp;WSET",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
   },
   {
    "title": "Benny Gantz drops out of Israel’s election race",
@@ -451,6 +1490,158 @@
    "severity": "high"
   },
   {
+   "title": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjZHQ2NNTXM1Tlh3MHF1TDZxYUJmd2RBUi1tVU4tWkpsbnNvYi1FM0pOcWdrMjRqZHZET3JZRzZUSnd4Zy1KRW5GZEppNkREdjZROTRQeUdodXR2MjM3aHVtN3RxXzFGMHZqZksxZV9hZkUtcnNaR3FSRlptQU1aT1NRUU80VkRjZU1yNFE1dzlYQ05XZVJqZWlRcXE?oc=5",
+   "source": "CNN",
+   "pubDate": "2026-10-19T18:03:15.000Z",
+   "description": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks&nbsp;&nbsp;CNN",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Saudi Arabia Postpones Davos In The Desert To 2027 After Houthi Attacks: 8 outlets compared",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSkZlRjZjQWx6WE16RjJjaGJuSFQ1N1EzbllJVnpPTnFBUnRtd0ZhWVJiMmt5WWRkdlBaLW1yNUNRX1FrVnY1NjlVdG4zWU10ZFpVMlpKZkI0NFpid2VKQ0tid0R6YUgwZFRJT0N2Vk5JZGdsc1NHVlJvYjF3RjRhdVRPbS1FWm9mU1BmU0hmOXVXMEROLUVwd3BQaHVLTnk5WUNha0h0OExpOGlpWjY2ZUV6QjN1OGJMaDJVUGtVelBXNlBPSWMybXBwMkhYN0FyZ2htbkRCVlc2bzdkQ0E?oc=5",
+   "source": "NewsCord",
+   "pubDate": "2026-10-19T18:02:15.000Z",
+   "description": "Saudi Arabia Postpones Davos In The Desert To 2027 After Houthi Attacks: 8 outlets compared&nbsp;&nbsp;NewsCord",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Russia Ramps Up Arctic Oil Exports as Global Shipping Crisis Disrupts Trade Routes",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnpSVTB3OGN1MDNCbG5TQXJILXU5ZmZUZmFwa2wzVnRoblI1WFJIWmUxd1B2Y3RkZ3RFTmkzSlZiUi1WRkRDRGhiZ05xaVRMdldfQ2NObWVEVmFaUm0tT3lUUjg5VTlrcnNaUWtWekpKTWFLOENQVUZ5RUFrdnFTckxOc1ctZUpSSXRsVmpHT2oyOXR5bXBKVzJRalk5b1ZSeWNuQXFsNHlUTHA4aFRBTlJHbjhsbVdjVWhLRjNR?oc=5",
+   "source": "Modern Diplomacy",
+   "pubDate": "2026-10-19T18:02:12.000Z",
+   "description": "Russia Ramps Up Arctic Oil Exports as Global Shipping Crisis Disrupts Trade Routes&nbsp;&nbsp;Modern Diplomacy",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "‘Structural Vulnerabilities’ Lead to Complications, Sharp Oil Price Spikes Last Week",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQV9POVhMd05scG93eFJKMWhhREdKR1pmV2ZoMGN6WkVYQ2k2dkRIV0U5dkVxczAtbWZpc3RaRWdKRnp1NFdJY1Noazl6UXduejQ1LU41blpVRlhJS1FvTThjM1NfcTh0WFFOcklXanpEUHYzbGRMcVRQR2pXRjBmd1BfcEZVYV9LOGROSWFTZFVXd1RLczNfZkx0VUxsQTJ6TEhXSHZlZXBONmk3UHNJTkl3RQ?oc=5",
+   "source": "Hart Energy",
+   "pubDate": "2026-10-19T18:02:00.000Z",
+   "description": "‘Structural Vulnerabilities’ Lead to Complications, Sharp Oil Price Spikes Last Week&nbsp;&nbsp;Hart Energy",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "‘Pure atrocity’: Zelensky urges partners not to lift Russia sanctions after children killed in Kharkiv region",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaXFqWEx6Z2hDQ1IzOTdnWDdCcDBDUGdwazNmeDE4R2t6Vkl0eG11RVpCekE4eTVVWk00d0x1S2M3dFNIb211clFxc3dVdlZFNHJsbEFld3Z3Q3VjRmFFSVhndGVwOUlMc1B4cFUxU09RU0NmVjR6blZoNkRHYmlvalVWeC1lVzRfckw3SndSQVdRUTBrdjFQczVvcjJhYlROeElqTGRvRjFwbFB6aUhoeFp2SzhPbzR4Wl84VEFDMDFSZ0VxTEp4MHlDT1hTclFHeTUzOVk2Rk0tUFVwWklGdllpS2tNd3FjT1NRa9IB8gFBVV95cUxNV1ROOHU1TExyRVJnSlN0TG55cFNBUWxvZ2V0RDhzWTVYbkdrOTJtNDloUW5tckxyS3ZpQlFzaDJISmVlSzV0dEVNWS1mOHk1dDhiWnNkemh3dlNLR2Z4S3c3MjV4NVdvWUlZQjJaWjhkODJ0WERhY1gxMzU0NWZKcy15NFgwT0RnRUVGdV83blBSbEtZM2xWYUhyUkJEc0VFb0lxSXpURUZ3VHJDYmx1RXRqcHZhZlE4ZlgxMENUcUlyUVgyTnkwc3dySDdtRHNQZ0VBT0VGMmNSU3VxTi1uSFZHMnI2OWppUm44MnY2eHJyZw?oc=5",
+   "source": "Ukrinform",
+   "pubDate": "2026-10-19T17:55:00.000Z",
+   "description": "‘Pure atrocity’: Zelensky urges partners not to lift Russia sanctions after children killed in Kharkiv region&nbsp;&nbsp;Ukrinform",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Montana State’s Brent Vigen on Eastern Washington win, Weber State",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQOUdfNk5tS1VVcWxHR3JnQ2RoMUhRc3lJOHlub2FMbXRyZDJMYVZYZ290VG54V0dWaUN0SnE2cXZ6MlZWdWtjLWpEcUMxbGttd29WWGpjUFNndy1Ha2VhVW5BRnJKdzhGcFZodzQ2ZGJWZy13dnRlcEdtS0ZwRFBrU3RpSmxfRFZ5T19LTjlOOUlIRi13NHp6ejNySFdTZTRaR1p2cEh0Y3d5WGJ6eWFPaU1DYXJlNjRmWGNScG9tSkNsSWYtMG1KMzBVTURTVXV3MEoxT0tNMDc2M3pCNEZ1TWttYWRlOWxsSjRGRnJPRFYxNlZ3SzkxckM0R1AtWHl0Sk1XR1R5Nm12Q3oxeFJIdEJ0SE5sVWZ2?oc=5",
+   "source": "406 Sports",
+   "pubDate": "2026-10-19T17:54:00.000Z",
+   "description": "Montana State’s Brent Vigen on Eastern Washington win, Weber State&nbsp;&nbsp;406 Sports",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Iran's Araghchi Blames US For \"Insecurity\" In Strait Of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdXlLX3ZTVk9iZjRGeHFnV3pzNXRPdEVpQWUyenhnWEM3alFqWVFMbGItN3BUMklhMVFwSE1FUnJ4aXE1WkdqMTlUdFh2amVIUnZpQUk3bE1Lc1Nod0lsQlBSaUc4MnZVWm93S1IxWExFN2MxN1EyaEN4TlZmUXozNkJib0gzS1lHaDJMNklacVRsVlUxQ255SUJVd2FCNlc0Y0HSAaoBQVVfeXFMT3NJQm1TNlRSUnlsa2k0TXVDaUtvTUMwMTNOUFhaYWdoa3VLM0ZMQWFmQkdDZjRTc1JyNExlRDZfVUFNcXNJUW5OdV8tRE02Um9zRXJhQnlKd2RydFJUSXF1cVdIbjZxZURhRGwxc2t2dy1XWXFKaUhKdG5pS1VFRFh6TTF6UHppck1mOWt4d05jMTR0MllQRHRHSkdhNE9zSTBVdkxhWnJmUlE?oc=5",
+   "source": "NDTV",
+   "pubDate": "2026-10-19T17:53:38.000Z",
+   "description": "Iran's Araghchi Blames US For \"Insecurity\" In Strait Of Hormuz&nbsp;&nbsp;NDTV",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Houthi missile strike kills 53 Yemeni soldiers, wounds 200 as Saudi Arabia cancels major summit",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OM244alZ1MWNDS3VBbEZNWjFNLU9uRVcxb2hrVzB3dFRKWXh1VW9zdlRyTUl0NnR2al9rdXphLWlzUUdpTHRoa3JsSDJFUjlWalExZy1B?oc=5",
+   "source": "Ynetnews",
+   "pubDate": "2026-10-19T17:52:59.000Z",
+   "description": "Houthi missile strike kills 53 Yemeni soldiers, wounds 200 as Saudi Arabia cancels major summit&nbsp;&nbsp;Ynetnews",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "LIVE: More than 53 killed in Houthi attack on southern Yemen",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS3FmcmFBdS1RQVhzQzlES0U0Y2N4Yk1reTlsbV9MTldDdDBYdVY1LWlXSXU2WTMyc2x4aGU1UnNWaWRpTHhTUldma1hrZlRNbERSZWlISFU2dHQyOU5IZUtjM2VSdVhjRENSY3V3THBCMS10MHBNRlJURnJLRDlGaWc0MWRZWDQ?oc=5",
+   "source": "Latest news from Azerbaijan",
+   "pubDate": "2026-10-19T17:50:03.000Z",
+   "description": "LIVE: More than 53 killed in Houthi attack on southern Yemen&nbsp;&nbsp;Latest news from Azerbaijan",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQY2x2RDB2SV8zZEpHNHcxNzBGMXlaRnBIUmhNajlWc1hwWjVsSnEtXzBJREYtZEE4TVRUUkxVX1VWYmQ1Tk9Za2plZ1BUMmtqZmJ3VTh6MlF5NEJuUS1STXl5NTRydkUwSHFLamtadkxPNHdaYk1UR3l0b0xrV1lPVldCRWcyUWxidVI3X3JrWEhPSUotUkRwSTlkQ09qUDFQTTJTZ3FZNmswNGRNV25vMm40TXNPcHZLeGRPaUZkTmhidGRsekZHazdyakJDVldvYjVXUzhyM1E?oc=5",
+   "source": "Oil & Gas Journal",
+   "pubDate": "2026-10-19T17:49:56.000Z",
+   "description": "US waives Russia sanctions as Gulf oil shipments face renewed disruption&nbsp;&nbsp;Oil & Gas Journal",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Oil edges higher as investors weigh renewed Houthi attacks on Saudi infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWF9ZRWw4cmxLS29rWXVKd0drRm1pRC1yOHBMRmU0Rzlnc0JVOWlXRUVhUXJKYzQxbGwyTzdYLWJxSno5bnZQRjllNWlqRS1nb25VTU81a2xYQV9LM3VJZVZRV3JreFlTX3k0V2F3SnprdU9ON0RMQ2RnWkFIczZsdEd3?oc=5",
+   "source": "AOL.com",
+   "pubDate": "2026-10-19T17:43:08.000Z",
+   "description": "Oil edges higher as investors weigh renewed Houthi attacks on Saudi infrastructure&nbsp;&nbsp;AOL.com",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Kinder Morgan Stock And Other Pipeline Plays Tied To Oil Price Whiplash",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUHVXNFJYdUVCckkwWWhpd0NDam9WZThsSW9fek9GWXVkRmh5UkxkRy1yUVdQbHpjYlFqYWQ4dFJ5VW9GR1FDYWFCX09ZemZyLXJXLWhhSW51NVpzU0thenF6Tm9Fd25ydTBLX0tLc2lkR0loUnR1TEJPcTVJbXRhb1Budk9ieXdVbkdPNVhqc2hKdzhOdnhwZkltbnJiZ3VMUWZESG1UTWxnMXFvRVp5NXlrWXZGOHJqTW1JNzFfLVRrN3FyTUHSAcsBQVVfeXFMT1l4RFNsYnE1VXM1bzFFcVA3d1hzcXR1MmRma2F4TEhMYzE2WEpYMDNnS2NESnY0SjlfenU1MVkyUWdrODhjZEpkdVZtd3VLWi1YRzFERDVZQzluU0lrdkJkNkx6WmRKNTdYdXpLUDQxRDBiZjU5dkZDcklmVHRiV0JCYWVNY2JacWNLRkVVaFZSS2tDbERVLThGb29lTXpuZzliWVJmMk9rMmRnM1hPNHEySjFwNEJBb0pZNGN4dFByWkpBSW1kYVZtWDQ?oc=5",
+   "source": "Simply Wall Street",
+   "pubDate": "2026-10-19T17:40:28.000Z",
+   "description": "Kinder Morgan Stock And Other Pipeline Plays Tied To Oil Price Whiplash&nbsp;&nbsp;Simply Wall Street",
+   "categories": [
+    "supply_other",
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Oil futures: Brent steadies as Russian waiver offsets Mideast tensions",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSzFEc3Jaam5SUG1rRVQ0VW9KM2ZFYnJnakxSVGVMX1BYbUJ6UGNuVlA5anNWcTRsZ1RuMXlBT2cwb2ZSX2h2XzI5WTNNdU9NLVZoQmJmNjlPWU40TFk5b09PVW1VUWczaUJVeVJneFQ2WGthenNOOThTTlFFU1Y1NkpjLXlwTGc4TUlMLW9oZEd5U3J0NlFsd1paRHRTc2JqR2dIUEt3RkVkSHFmVjhoTTRB?oc=5",
+   "source": "Quantum Commodity Intelligence",
+   "pubDate": "2026-10-19T17:37:00.000Z",
+   "description": "Oil futures: Brent steadies as Russian waiver offsets Mideast tensions&nbsp;&nbsp;Quantum Commodity Intelligence",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Pakistan’s Growth Slows as Hormuz Crisis Hits Industry",
    "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
    "source": "OilPrice.com",
@@ -462,11 +1653,56 @@
    "severity": "high"
   },
   {
+   "title": "Brent Crude's Surge Drives the FTSE 100 to Its Best Week in Six Months",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQXlZY2d4T0dELWFDTFROM1c3a29qSl9iRjlXamJBeUNZZW5IMldPVGw0c3paTU85NFNrd2xncU9qaUFWbGlXS2cwMUc4OXdYVVgtT1NIS1RaMEhYRXlnQjRfSi1xRldNLVNoUUpHUlota1pvZ01rZXFfcHdCYTNhNnJUOTByUXA5ay15UjZLWm1wTG9LeW5UNUM1aXp1ZktNMFBwd1BTMkVlUQ?oc=5",
+   "source": "StoneX",
+   "pubDate": "2026-10-19T17:29:53.000Z",
+   "description": "Brent Crude's Surge Drives the FTSE 100 to Its Best Week in Six Months&nbsp;&nbsp;StoneX",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Oil reverses course higher after US and Houthi attacks",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOE1IZGVDQ2Y4U3pQM2wtcFZpNHhyT2x2WFJaVlNLM3RDSGpBNjhFT0J2SlE0di1ZUDUxWUxkSzJMREg5RkVIQl9fWFBwajhvTDdHZlRqVEhuWndLSGN4WFVFM05ObEdfWmd6UjlkUGJvMEVzSVR1WnJENk1LT2NOcS0zaUVncGMxRENhNUZPb3NxS3V0cG81Sw?oc=5",
+   "source": "investingLive",
+   "pubDate": "2026-10-19T17:25:01.000Z",
+   "description": "Oil reverses course higher after US and Houthi attacks&nbsp;&nbsp;investingLive",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Samuel Brent Hughes Obituary (2026) - Tallahassee, FL - Bevis Funeral Home - Tallahassee",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVG80THBrSDFWeHY3Ml9jdXIwTFA0N29VQTRCdFo3eEVUOXdnYk1oSE5RNWtFMXg3dTNCa0M4ZVZRT3BtR2NTVjhEaER3bkZLbDQ3TU5jeDJqRzF1MVU5bm1QMFM3MXVXSUY5QkRMMEpubW4wV2dQX2N5UThid2lRUFdn?oc=5",
+   "source": "Legacy | Obituary",
+   "pubDate": "2026-10-19T17:20:50.000Z",
+   "description": "Samuel Brent Hughes Obituary (2026) - Tallahassee, FL - Bevis Funeral Home - Tallahassee&nbsp;&nbsp;Legacy | Obituary",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Saudi Arabia postpones major investment summit to 2027 amid Houthi attacks",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZN04xS3UzZTZXVjVjVzNJdDFIX041LTByd1l2Q3duN0JOWnFibTFqakRzRzlnVWtEcmViNWlKckwzZ1QzRE5mcFc5WVJxalhWN005U1NsT2d1NTE0?oc=5",
+   "source": "The Jerusalem Post",
+   "pubDate": "2026-10-19T17:20:45.000Z",
+   "description": "Saudi Arabia postpones major investment summit to 2027 amid Houthi attacks&nbsp;&nbsp;The Jerusalem Post",
+   "categories": [
+    "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
-   "link": "https://www.aljazeera.com/news/2026/10/19/trump-backs-netanyahu-is-the-us-planning-a-new-iran-attack-with-israel?traffic_source=rss",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa1Zud0l3Tmd1WENUNlFUTXM3QjVudnRWdnVrTHk2enF0eTZsWmtyR1RsMFRmUHhHTzYyN2NRdVlNamlMUFhlNkNsUmI5TkQ3V1hhMV9ISVlPaUtxYkYybkJfYzljcFZsUWtjT2oxOTdPelJ4UmZMeVNDX0U2QVRLZ2tIdXo1NjBFMTFSVGZDOHN5Z1RMVGdUc3BzSi1oRE5FMTdSaGNBdjJyMUYwYjFKdWh30gG3AUFVX3lxTE9vR1ZvNVZoeWNMbnYtRWhPalliR3NjZ2NsbGNWckR6bURQN0JLYkxqQUtRZ2lJOGVtMnZ4T29yeEFBczlFQWVQR2xwb0lnTFdZelVOaUxKTVBEbTYwUzN0ZnJoekZQZUVmOXJYdFE0VEMwdVQ2MWxJZ1FQbDEyUy16ZTlhSXhfMGhKSnVoZS16bW5rcjJvb2RJTFRHcHdxUHltUkZSMHkzQ2tReklsNE1UT1N2NHNBOA?oc=5",
    "source": "Al Jazeera",
-   "pubDate": "2026-10-19T17:16:22.000Z",
-   "description": "Trump’s endorsement comes after he previously shied away from fully backing Netanyahu’s election campaign.",
+   "pubDate": "2026-10-19T17:19:53.000Z",
+   "description": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?&nbsp;&nbsp;Al Jazeera",
    "categories": [
     "iran_israel"
    ],
@@ -484,17 +1720,6 @@
    "severity": "high"
   },
   {
-   "title": "How HSBC’s Sharia fund invested millions in Israeli war-linked firms",
-   "link": "https://www.aljazeera.com/news/2026/10/19/how-hsbcs-sharia-fund-invested-millions-in-israeli-war-linked-firms?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T17:14:41.000Z",
-   "description": "HSBC bought $130m in shares in firms tied to Israel’s military, in breach of Islamic law compliance requirements.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
    "title": "Why Canadian Oil Is Lagging Even As Global Crude Soars",
    "link": "https://oilprice.com/Energy/Crude-Oil/Why-Canadian-Oil-Is-Lagging-Even-As-Global-Crude-Soars.html",
    "source": "OilPrice.com",
@@ -508,139 +1733,22 @@
    "severity": "high"
   },
   {
-   "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T16:30:00.000Z",
-   "description": "Gasoline and fuel oil pushed Canada's annual inflation rate to 3.1% in September, up from 3.0% in August, as the war in the Middle East kept fuel prices high, Statistics Canada said on Monday. Gasoline prices rose 27.8% from a year earlier, up from 22.8% in August, despite the switch to the cheaper ",
+   "title": "Brent Venables laments failing to land knockout punch in Kentucky loss",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaDlIT3N0NnJPN3NKaFFfc1VlMjMwdGJWd0hjZW9sTGRrUDZRZFNlWHZEeXVNODczMVRyQ1NmWjZYVV9iNDVoYlpzTmJ3QVViOHdId2NHeFRZel9nOXNFcDBVVXNWWkhyMU9rTC1rcTlIekpTTm9LMGpBcE53RG1MY2Fxdm9xdnVucHpVMkFSN1gzQ1Z5WC03NFhmQ0EwcTRLazVDQ0ZyMG5BekJzWDFFZFYwTk9MNFFUWlpVOTNBTWNwVGp5UGw1Z3kxRmZ4Rk5wLUgtanA4RnFYRjZWRE9EakZfS3d0andaX044aHRvaFE1dw?oc=5",
+   "source": "Sooners Wire",
+   "pubDate": "2026-10-19T17:00:00.000Z",
+   "description": "Brent Venables laments failing to land knockout punch in Kentucky loss&nbsp;&nbsp;Sooners Wire",
    "categories": [
     "market"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "War on Iran backlash threatens Republican control of Congress",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_iran-war-fuels-anger-ahead-of-us-midterms-191026?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T16:24:30.000Z",
-   "description": "Public opposition to the war on Iran could threaten Republican control of Congress.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Gaza faces worsening hunger as WFP announces food aid cuts",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/gaza-faces-worsening-hunger-as-wfp-announces-food-aid-cuts?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T16:06:57.000Z",
-   "description": "The World Food Programme has announced that funding shortages will force it to suspend food assistance in Gaza",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "What’s Trump’s Thinking Behind The ‘Diesel Deal’ With Russia?",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T16:00:00.000Z",
-   "description": "While it is very trendily woke to attack U.S. President Donald Trump whenever possible, the truth is rarely trendy or woke -- it is usually tough, pragmatic, and increasingly unpopular in today’s world. Precisely where his recent decision to import Russian diesel into the U.S. fits into this matrix ",
-   "categories": [
-    "russia_ukraine",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Trump endorses Netanyhu ahead of elections",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/jerusalem-daily-settlers-attack-eu-diplomats?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T15:54:25.000Z",
-   "description": "Trump endorses Netanyahu ahead of Israel’s election, Ben-Gvir faces student protesters.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Iraq's October Oil Exports Top 3.4 Million Bpd, Nearing Pre-War Levels",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T15:30:00.000Z",
-   "description": "Iraq's oil exports have averaged more than 3.4 million barrels per day so far in October, Oil Minister Bassem Mohammed Khudair told the state news agency INA on Monday. That puts them close to the 3.3-3.5 million bpd Iraq shipped before the war with Iran choked traffic through the Strait of Hormuz. ",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea",
-    "supply_other",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russia’s Lavrov discusses US war and regional security in Tehran visit",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/russias-lavrov-discusses-us-war-and-regional-security-in-tehran-visit?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T15:15:02.000Z",
-   "description": "Russia’s FM Sergey Lavrov is in Tehran for his first visit since the outbreak of the US-Israeli war on Iran.",
-   "categories": [
-    "iran_israel",
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Famine fears as aid cuts and shipment restrictions coincide in Gaza",
-   "link": "https://www.aljazeera.com/news/2026/10/19/famine-fears-as-aid-cuts-and-shipment-restrictions-coincide-in-gaza?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-10-19T15:05:16.000Z",
-   "description": "Displaced families in Gaza fear worsening food insecurity as planned aid cuts coincide with continued restrictions.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Wright Says Gas Prices Peaked As Brent Holds Above $108",
-   "link": "https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T15:00:00.000Z",
-   "description": "Brent crude futures briefly tagged $109.99 a barrel in overnight trading before retreating from five-month highs during the Asian session and into European trading, as signs of recovering Middle Eastern supply offset renewed attacks on energy infrastructure and critical maritime shipping lanes. US E",
-   "categories": [
-    "hormuz_redsea",
-    "market"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-   "link": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
-   "source": "The Guardian",
-   "pubDate": "2026-10-19T14:48:56.000Z",
-   "description": "At least 15 vessels struck in waterway in past 10 days, with rumours that they were carrying valuable goodsPeople have been scouring the strait of Hormuz for spilt cargo after Iran attacked at least 15 container ships passing through the crucial waterway in the past 10 days.Some ships have been hit ",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Mozambique Pitches Sasol and ROMPCO on $250 Million Gas Project",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Pitches-Sasol-and-ROMPCO-on-250-Million-Gas-Project.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T14:30:00.000Z",
-   "description": "Mozambique is in discussions with South African energy firm Sasol and pipeline company ROMPCO to potentially invest in a new $250 million gas project offshore Mozambique that could send more gas to South Africa. Mozambique plans to have floating storage and regasification units (FSRUs) at the new pr",
-   "categories": [
-    "supply_other"
    ],
    "severity": "low"
   },
   {
-   "title": "Trump Defends Russia Sanctions Waiver as Rift With Ukraine Deepens",
-   "link": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T13:30:00.000Z",
-   "description": "President Donald Trump defended his decision to waive sweeping sanctions planned against Russia as an effort to keep Moscow at the negotiating table amid strong criticism from Kyiv and some US lawmakers that it sends the wrong message to the Kremlin. Trump signed an executive order late on October 1",
+   "title": "We need more economic sanctions against Russia",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPS3pjUmd5eHI1TTZXX1c3aWo1X3FUdlFvYlMxTHNKNU11Y1RKbURFVnNTUWl6WVlJUUIyNWVLMUV5LVpBc1FHYW13bTR4OTdHMzNRemtnQ2xGS0J5eUdPem9NcjVMemhDejJLMVFuWDE1NUtzREtGc0ZuQlJNU3FWZGx2TERDUWEwQkpsTVFrQzczb19XRXRjcFlzZHJEa1dXLXNLQ3p6bXZmTHZ4YzZ6TWtMeTU0WXNWaXpZbGtFeUxScUkyRXhjblIzeTZvdElIV3ZYbTl6TmJ5VHBXU0JwbVYyeFFBMUppWG4ySG1BUzNDV3c?oc=5",
+   "source": "Columbia Missourian",
+   "pubDate": "2026-10-19T17:00:00.000Z",
+   "description": "We need more economic sanctions against Russia&nbsp;&nbsp;Columbia Missourian",
    "categories": [
     "russia_ukraine",
     "usa_policy"
@@ -648,134 +1756,59 @@
    "severity": "medium"
   },
   {
-   "title": "Qatari LNG Cargo Heads Through Red Sea to Europe in Rare Suez Run",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Qatari-LNG-Cargo-Heads-Through-Red-Sea-to-Europe-in-Rare-Suez-Run.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-10-19T13:30:00.000Z",
-   "description": "A Qatari LNG cargo is traveling north in the Red Sea to deliver gas to Europe via the Suez Canal in a rare shipment on the shortest but dangerous route to Europe amid the Houthi threats to tankers in the southern Red Sea and the Bab el-Mandeb Strait. The tanker loaded LNG from Qatar in August and is",
+   "title": "West of Suez: Crude, LSGO rebounds despite US sanctions relief",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbm1fOGJYTDJZN3FwYlpyN21MWGVmcXZWb3oxZEpKeGgxRzdVUzBqNVZycjdpaW9NOHd4cWpZUE8weDZHRGZPZk9hWmlBLU1sMk1SQW9rVzBTbTktZkNfZ043aG9fMWRJemNmTlhGb3JHYldKWXRtaTBoRDY0VDI4amFhZlAxN2JqbUFaZlNra0gzeEVtZjgxSkt1dE9jX0NVRlc1aFNn?oc=5",
+   "source": "Quantum Commodity Intelligence",
+   "pubDate": "2026-10-19T16:57:50.000Z",
+   "description": "West of Suez: Crude, LSGO rebounds despite US sanctions relief&nbsp;&nbsp;Quantum Commodity Intelligence",
    "categories": [
-    "hormuz_redsea"
+    "hormuz_redsea",
+    "usa_policy",
+    "market"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
-   "link": "https://www.bbc.co.uk/news/articles/cqn7323p0dxyo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-10-19T10:34:18.000Z",
-   "description": "It comes after masked settlers attacked Palestinians and European officials visiting the West Bank during olive harvesting season.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
-   "link": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
-   "source": "The Guardian",
-   "pubDate": "2026-10-19T09:54:33.000Z",
-   "description": "Two-thirds of population face crisis levels of food insecurity and 200,000 people are in danger of famineThis winter is likely to deepen hunger for Palestinians in Gaza, after sweeping aid cuts forced the UN’s World Food Programme (WFP) to end support for more than half a million people each month, ",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
-   "link": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-10-19T08:17:19.000Z",
-   "description": "Saudi Arabia said it executed two Bangladeshis last week for committing an \"indecent act\" in a mosque.",
-   "categories": [
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Bomb threat forces Israel to Austria flight into emergency landing",
-   "link": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-10-19T06:29:55.000Z",
-   "description": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-   "link": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-10-19T06:00:18.000Z",
-   "description": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Guardian reporter filmed masked militants seconds before West Bank attack on French mayor",
-   "link": "https://www.theguardian.com/world/2026/oct/18/guardian-reporter-filmed-masked-militants-seconds-before-west-bank-attack-on-french-mayor",
-   "source": "The Guardian",
-   "pubDate": "2026-10-18T18:39:23.000Z",
-   "description": "New video footage of Israeli settler assault on European delegation as Netanyahu attempts to raise doubtHours after Israeli militants attacked a delegation of European diplomats, French clerics and a visiting mayor in the occupied West Bank, Israel’s leader, Benjamin Netanyahu, responded by question",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "European diplomats attacked by Israeli settlers in West Bank",
-   "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-10-18T12:16:14.000Z",
-   "description": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 19,
-   "high24h": 10,
+   "count24h": 21,
+   "high24h": 16,
    "level": "angespannt"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 8,
-   "high24h": 7,
-   "level": "angespannt"
+   "count24h": 38,
+   "high24h": 35,
+   "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 3,
-   "high24h": 2,
-   "level": "erhöht"
+   "count24h": 37,
+   "high24h": 5,
+   "level": "kritisch"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 2,
-   "high24h": 0,
-   "level": "erhöht"
+   "count24h": 23,
+   "high24h": 17,
+   "level": "angespannt"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 1,
-   "high24h": 0,
-   "level": "erhöht"
+   "count24h": 25,
+   "high24h": 3,
+   "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 2,
+   "count24h": 4,
    "high24h": 1,
    "level": "erhöht"
   }
