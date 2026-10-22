@@ -99,13 +99,21 @@
   }
   .tile {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 14px; padding: 14px 16px 10px; position: relative; overflow: hidden;
+    border-radius: 14px; padding: 14px 16px 12px; position: relative; overflow: hidden;
+    text-align: left; color: inherit; font: inherit; width: 100%;
   }
-  .tile.hero { border-color: rgba(57,135,229,.45); }
-  .tile.hero::before {
+  button.tile { cursor: pointer; transition: border-color .15s, background .15s; }
+  button.tile:hover { border-color: rgba(57,135,229,.5); background: var(--surface-2); }
+  .tile.active { border-color: rgba(57,135,229,.55); }
+  .tile.active::before {
     content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
     background: linear-gradient(90deg, var(--accent), transparent 75%);
   }
+  .tile .chart-hint {
+    margin-top: 8px; font-size: 10.5px; color: var(--muted);
+    letter-spacing: .04em; display: flex; align-items: center; gap: 5px;
+  }
+  .tile.active .chart-hint { color: var(--accent); }
   .tile .label {
     font-size: 11px; font-weight: 700; letter-spacing: .12em;
     text-transform: uppercase; color: var(--muted);
@@ -114,7 +122,7 @@
   .tile .unit { font-size: 10px; letter-spacing: .04em; text-transform: none; font-weight: 500; }
   .tile .value-row { display: flex; align-items: baseline; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
   .tile .value { font-size: 28px; font-weight: 750; font-variant-numeric: tabular-nums; }
-  .tile.hero .value { font-size: 36px; }
+  .tile.hero .value { font-size: 34px; }
   .delta {
     font-size: 13px; font-weight: 650; font-variant-numeric: tabular-nums;
     display: inline-flex; align-items: center; gap: 3px;
@@ -122,7 +130,6 @@
   .delta.up { color: var(--up); }
   .delta.down { color: var(--down); }
   .delta.flat { color: var(--muted); }
-  .tile .spark { margin-top: 6px; display: block; width: 100%; height: 44px; }
   .tile .stale-tag {
     font-size: 10px; color: var(--st-warn); letter-spacing: .04em; font-weight: 600;
   }
@@ -212,15 +219,6 @@
   .badge-sev.medium { color: var(--st-serious); }
   .empty { padding: 26px 18px; color: var(--muted); font-size: 13px; }
 
-  /* ---------- Sparkline-Tooltip ---------- */
-  #spark-tip {
-    position: fixed; z-index: 50; pointer-events: none; display: none;
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
-    padding: 5px 9px; font-size: 12px; font-variant-numeric: tabular-nums;
-    color: var(--ink); box-shadow: 0 4px 14px rgba(0,0,0,.5); white-space: nowrap;
-  }
-  #spark-tip small { color: var(--muted); }
-
   footer {
     margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--grid);
     color: var(--muted); font-size: 12px; display: flex; flex-wrap: wrap; gap: 6px 24px;
@@ -255,8 +253,8 @@
   <div class="main-grid">
     <div class="card chart-card">
       <div class="card-head">
-        <h2>Brent Live-Chart</h2>
-        <span class="hint">TradingView · ICE Brent Futures</span>
+        <h2 id="chart-title">Brent Live-Chart</h2>
+        <span class="hint">TradingView · Echtzeit · Kachel anklicken wechselt das Instrument</span>
       </div>
       <div class="tv-holder">
         <div class="tradingview-widget-container">
@@ -285,11 +283,9 @@
 
   <footer>
     <span>Quellen: Yahoo Finance / TradingView · OilPrice, Al Jazeera, BBC, The Guardian, Google News</span>
-    <span>Keine Anlageberatung · Kacheln aktualisieren minütlich (Futures ~10 Min verzögert) · News alle 5 Min</span>
+    <span>Keine Anlageberatung · Kurse minütlich (Futures ~10 Min verzögert) · News alle 5 Min live</span>
   </footer>
 </div>
-
-<div id="spark-tip"></div>
 
 <script src="https://s3.tradingview.com/tv.js"></script>
 <script>
@@ -316,7 +312,10 @@ const LEVEL_META = {
 };
 const LEVEL_RANK = { ruhig: 0, "erhöht": 1, angespannt: 2, kritisch: 3 };
 
-let state = { data: null, filterCat: "all", onlyImportant: false, lastVisit: 0, liveAt: 0 };
+let state = {
+  data: null, filterCat: "all", onlyImportant: false, lastVisit: 0,
+  liveAt: 0, newsAt: 0, chartId: "brent",
+};
 
 function isLive() {
   return state.liveAt > 0 && Date.now() - state.liveAt < 3 * 60 * 1000;
@@ -348,80 +347,7 @@ function deltaHtml(pct, suffix = "%") {
   return `<span class="delta ${cls}">${arrow} ${fmtNum(Math.abs(pct))}${suffix}</span>`;
 }
 
-/* ---------------- Sparklines ---------------- */
-function sparkSvg(points, id) {
-  if (!points || points.length < 2) return "";
-  const w = 300, h = 44, pad = 3;
-  const vs = points.map((p) => p.v);
-  const min = Math.min(...vs), max = Math.max(...vs);
-  const span = max - min || 1;
-  const x = (i) => pad + (i / (points.length - 1)) * (w - 2 * pad);
-  const y = (v) => h - pad - ((v - min) / span) * (h - 2 * pad);
-  const path = vs.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
-  const lastY = y(vs[vs.length - 1]).toFixed(1);
-  return `
-    <svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"
-         data-spark="${id}" role="img" aria-label="Kursverlauf">
-      <defs>
-        <linearGradient id="g-${id}" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-      <path d="${path}L${w - pad},${h}L${pad},${h}Z" fill="url(#g-${id})" stroke="none"/>
-      <path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2"
-            stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
-      <circle cx="${x(points.length - 1).toFixed(1)}" cy="${lastY}" r="2.6" fill="var(--accent)"/>
-      <circle class="hover-dot" r="3.2" fill="var(--ink)" stroke="var(--accent)"
-              stroke-width="2" style="display:none"/>
-    </svg>`;
-}
-
-function attachSparkHover() {
-  const tip = $("#spark-tip");
-  document.querySelectorAll("svg[data-spark]").forEach((svg) => {
-    const q = state.data.quotes.find((x) => x.id === svg.dataset.spark);
-    const pts = q?._sparkView;
-    if (!pts || pts.length < 2) return;
-    const dot = svg.querySelector(".hover-dot");
-    const w = 300, h = 44, pad = 3;
-    const vs = pts.map((p) => p.v);
-    const min = Math.min(...vs), max = Math.max(...vs), span = max - min || 1;
-
-    svg.addEventListener("mousemove", (ev) => {
-      const rect = svg.getBoundingClientRect();
-      const frac = (ev.clientX - rect.left) / rect.width;
-      const i = Math.max(0, Math.min(vs.length - 1, Math.round(frac * (vs.length - 1))));
-      const p = pts[i];
-      dot.style.display = "";
-      dot.setAttribute("cx", pad + (i / (vs.length - 1)) * (w - 2 * pad));
-      dot.setAttribute("cy", h - pad - ((p.v - min) / span) * (h - 2 * pad));
-      const d = new Date(p.t * 1000);
-      const when = q.sparkKind === "daily"
-        ? d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit" })
-        : `${d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit" })} ${d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" })}`;
-      tip.innerHTML = `${fmtNum(p.v)} <small>· ${when}</small>`;
-      tip.style.display = "block";
-      tip.style.left = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8) + "px";
-      tip.style.top = ev.clientY - 34 + "px";
-    });
-    svg.addEventListener("mouseleave", () => {
-      dot.style.display = "none";
-      tip.style.display = "none";
-    });
-  });
-}
-
 /* ---------------- Kacheln ---------------- */
-// Sparkline bis zum aktuell angezeigten Preis verlängern
-function buildSparkView(q) {
-  const spark = q.spark ?? [];
-  if (spark.length >= 2 && q.price != null) {
-    return [...spark, { t: Math.floor(Date.now() / 1000), v: q.price }];
-  }
-  return spark;
-}
-
 function liveChipHtml() {
   return isLive()
     ? `<span class="live-badge" title="Kurs aktualisiert sich minütlich via TradingView"><span class="ld"></span>LIVE</span>`
@@ -436,9 +362,10 @@ function renderTiles() {
   const tiles = [];
   for (const q of qs) {
     const hero = q.id === "brent";
-    q._sparkView = buildSparkView(q);
+    const active = q.id === state.chartId;
     tiles.push(`
-      <article class="tile ${hero ? "hero" : ""}">
+      <button class="tile ${hero ? "hero" : ""} ${active ? "active" : ""}" data-chart="${q.id}"
+              title="${esc(q.name)} im Live-Chart anzeigen">
         <div class="label"><span>${esc(q.name)}</span>
           <span class="unit">${q.stale ? `<span class="stale-tag">⚠ veraltet</span>` : esc(q.unit)}</span>
         </div>
@@ -447,8 +374,8 @@ function renderTiles() {
           ${deltaHtml(q.changePct)}
           ${hero ? liveChipHtml() : ""}
         </div>
-        ${sparkSvg(q._sparkView, q.id) || `<div class="subnote">Noch kein Verlauf verfügbar</div>`}
-      </article>`);
+        <div class="chart-hint">${active ? "▸ im Live-Chart" : "Chart anzeigen"}</div>
+      </button>`);
     if (q.id === "wti" && brent?.price != null && wti?.price != null) {
       const spread = brent.price - wti.price;
       const prevSpread = brent.prevClose != null && wti.prevClose != null
@@ -465,7 +392,9 @@ function renderTiles() {
     }
   }
   $("#tiles").innerHTML = tiles.join("");
-  attachSparkHover();
+  document.querySelectorAll("button.tile[data-chart]").forEach((el) =>
+    el.addEventListener("click", () => setChart(el.dataset.chart))
+  );
 }
 
 /* ---------------- Lagebild ---------------- */
@@ -557,13 +486,115 @@ function renderNews() {
 
 /* ---------------- Kopf / Stand ---------------- */
 function renderStand() {
-  const t = Date.parse(state.data.updatedAt);
+  // News-Frische: der jüngere Stand aus Live-API und GitHub-Snapshot
+  const t = Math.max(Date.parse(state.data.updatedAt) || 0, state.newsAt);
   const kursPart = isLive()
     ? `Kurse: <span class="live-badge"><span class="ld"></span>LIVE</span> &nbsp;·&nbsp; `
     : "";
   $("#stand").innerHTML =
-    `${kursPart}News: <strong>${new Date(t).toLocaleString("de-DE", { weekday: "short", hour: "2-digit", minute: "2-digit" })} Uhr</strong> · vor ${relTime(state.data.updatedAt)}`;
+    `${kursPart}News: <strong>${new Date(t).toLocaleString("de-DE", { weekday: "short", hour: "2-digit", minute: "2-digit" })} Uhr</strong> · vor ${relTime(new Date(t).toISOString())}`;
   $("#stale-banner").classList.toggle("show", Date.now() - t > 4 * 3600 * 1000);
+}
+
+/* ---------------- Live-News via GDELT (client-seitig, alle 5 Min) ----------------
+   GDELT indexiert Weltnachrichten alle 15 Min, keyless und CORS-offen.
+   Klassifikation läuft mit derselben Konfiguration wie im Fetcher
+   (data.json → classifier). Der GitHub-Snapshot bleibt Basis und Fallback. */
+
+function classifyClient(item, cfg) {
+  const text = `${item.title} ${item.description ?? ""}`.toLowerCase();
+  const cats = cfg.categories
+    .filter((c) => c.keywords.some((k) => text.includes(k)))
+    .map((c) => c.id);
+  if (cats.length === 0) return null;
+  const hot = cats.some((c) => cfg.geoHot.includes(c));
+  const impact = cfg.highImpact.some((k) => text.includes(k));
+  const severity =
+    text.includes("hormuz") || (hot && impact)
+      ? "high"
+      : hot || impact || cats.includes("opec") ? "medium" : "low";
+  return { ...item, categories: cats, severity };
+}
+
+function buildRegionsClient(news, cfg) {
+  const dayAgo = Date.now() - 24 * 3600 * 1000;
+  return cfg.categories.filter((c) => c.id !== "market").map((c) => {
+    const recent = news.filter(
+      (n) => n.categories.includes(c.id) && Date.parse(n.pubDate) >= dayAgo
+    );
+    const high = recent.filter((n) => n.severity === "high").length;
+    const medium = recent.filter((n) => n.severity === "medium").length;
+    const score = 2 * high + medium;
+    const level =
+      score === 0 ? "ruhig"
+        : score <= cfg.thresholds.erhoeht ? "erhöht"
+          : score <= cfg.thresholds.angespannt ? "angespannt"
+            : "kritisch";
+    return { id: c.id, label: c.label, count24h: recent.length, high24h: high, level };
+  });
+}
+
+const GDELT_QUERY =
+  '(iran OR israel OR hormuz OR houthi OR "red sea" OR opec OR "brent crude" OR ' +
+  '"oil price" OR "crude oil" OR tanker OR "oil sanctions" OR ' +
+  '(russia AND oil) OR (ukraine AND refinery)) sourcelang:english';
+
+async function refreshNews() {
+  const cfg = state.data?.classifier;
+  if (!cfg) return;
+  // GDELT erlaubt 1 Request / 5 s pro IP – Tab-übergreifend bremsen
+  try {
+    const last = Number(localStorage.getItem("bw_gdelt_at") || 0);
+    if (Date.now() - last < 90 * 1000) return;
+    localStorage.setItem("bw_gdelt_at", String(Date.now()));
+  } catch {}
+  try {
+    const url =
+      "https://api.gdeltproject.org/api/v2/doc/doc?query=" +
+      encodeURIComponent(GDELT_QUERY) +
+      "&mode=artlist&format=json&maxrecords=100&timespan=8h";
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    // Rate-Limit-Antworten sind Klartext – JSON.parse wirft dann
+    const json = JSON.parse(await res.text());
+
+    const seen = new Set(
+      state.data.news.map((n) =>
+        n.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60))
+    );
+    const fresh = [];
+    for (const a of json.articles ?? []) {
+      const m = a?.seendate?.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+      if (!a?.title || !a?.url || !m) continue;
+      const item = classifyClient({
+        title: a.title.trim(),
+        link: a.url,
+        source: a.domain || "GDELT",
+        pubDate: `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`,
+        description: "",
+      }, cfg);
+      if (!item) continue;
+      const key = item.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      fresh.push(item);
+    }
+
+    const cutoff = Date.now() - 72 * 3600 * 1000;
+    state.data.news = [...fresh, ...state.data.news]
+      .filter((n) => Date.parse(n.pubDate) >= cutoff)
+      .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
+      .slice(0, 150);
+    state.data.regions = buildRegionsClient(state.data.news, cfg);
+    state.newsAt = Date.now();
+    renderRegions();
+    renderFilters();
+    renderNews();
+    renderStand();
+  } catch (err) {
+    // Still bleiben: der GitHub-Snapshot bleibt als Fallback stehen
+    console.warn("Live-News (GDELT) nicht erreichbar:", err.message);
+  }
 }
 
 /* ---------------- Live-Kurse (client-seitig, minütlich) ---------------- */
@@ -607,14 +638,26 @@ async function refreshLive() {
   }
 }
 
-/* ---------------- TradingView ---------------- */
-let tvDone = false;
-function initTradingView() {
-  if (tvDone || typeof TradingView === "undefined") return;
-  tvDone = true;
+/* ---------------- TradingView (echter Live-Chart) ---------------- */
+const CHART_SYMBOLS = {
+  brent: ["OANDA:BCOUSD", "Brent Live-Chart"],
+  wti: ["OANDA:WTICOUSD", "WTI Live-Chart"],
+  natgas: ["OANDA:NATGASUSD", "Henry-Hub-Gas Live-Chart"],
+  dxy: ["TVC:DXY", "Dollar-Index Live-Chart"],
+  gold: ["OANDA:XAUUSD", "Gold Live-Chart"],
+};
+
+let tvShownId = null;
+function renderChart() {
+  if (typeof TradingView === "undefined") return;
+  if (tvShownId === state.chartId) return;
+  tvShownId = state.chartId;
+  const [symbol, title] = CHART_SYMBOLS[state.chartId] ?? CHART_SYMBOLS.brent;
+  $("#chart-title").textContent = title;
+  $("#tv-chart").innerHTML = "";
   new TradingView.widget({
     container_id: "tv-chart",
-    symbol: "OANDA:BCOUSD",
+    symbol,
     interval: "60",
     timezone: "Europe/Berlin",
     theme: "dark",
@@ -627,6 +670,13 @@ function initTradingView() {
     backgroundColor: "#1a1a19",
     gridColor: "rgba(44,44,42,0.6)",
   });
+}
+
+function setChart(id) {
+  if (!CHART_SYMBOLS[id]) return;
+  state.chartId = id;
+  renderChart();
+  if (state.data) renderTiles();
 }
 
 /* ---------------- Laden ---------------- */
@@ -647,6 +697,11 @@ async function load() {
         }
       }
     }
+    // Frischere Live-News nicht mit dem älteren Snapshot überschreiben
+    if (state.data && state.newsAt > (Date.parse(fresh.updatedAt) || 0)) {
+      fresh.news = state.data.news;
+      fresh.regions = state.data.regions;
+    }
     state.data = fresh;
   } catch (err) {
     $("#stand").textContent = `Daten konnten nicht geladen werden (${err.message})`;
@@ -658,11 +713,12 @@ async function load() {
 state.lastVisit = Number(localStorage.getItem("bw_last_visit") || 0);
 localStorage.setItem("bw_last_visit", String(Date.now()));
 
-initTradingView();
-window.addEventListener("load", initTradingView);
-load().then(refreshLive);
+renderChart();
+window.addEventListener("load", renderChart);
+load().then(() => { refreshLive(); refreshNews(); });
 setInterval(load, REFRESH_MS);
 setInterval(refreshLive, 60 * 1000);
+setInterval(refreshNews, REFRESH_MS);
 setInterval(() => { if (state.data) renderStand(); }, 60 * 1000);
 </script>
 </body>

@@ -2,9 +2,10 @@ name: Stündliches Daten-Update
 
 on:
   schedule:
-    # Doppelt geplant, weil GitHub Cron-Läufe drosselt/verschiebt –
-    # effektiv kommt so etwa stündlich ein Lauf durch
-    - cron: "7,37 * * * *"
+    # GitHub drosselt Cron-Läufe in freien Repos stark (real feuern nur
+    # wenige pro Tag) – daher dicht geplant; update-b.yml läuft versetzt
+    # als zweite unabhängige Chance. Leerläufe committen nichts.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:       # manueller Start über den Actions-Tab
 
 permissions:
@@ -22,7 +23,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Daten holen
         run: node scripts/fetch_data.mjs
@@ -34,4 +35,5 @@ jobs:
           git add data/data.json
           git diff --cached --quiet && echo "Keine Änderungen" && exit 0
           git commit -m "data: stündliches Update"
+          git pull --rebase -X theirs origin main
           git push
