@@ -120,8 +120,10 @@ export const HIGH_IMPACT = [
 export const GEO_HOT = ["iran_israel", "hormuz_redsea", "russia_ukraine"];
 const GEO_HOT_SET = new Set(GEO_HOT);
 
-// Schwellwerte der Lagebewertung (score = 2*high + medium, letzte 24 h)
-export const LEVEL_THRESHOLDS = { erhoeht: 8, angespannt: 40 };
+// Schwellwerte der Lagebewertung (score = 2*high + medium, letzte 24 h).
+// Auf ~400 Meldungen inkl. Social-Quellen abgestimmt – bei mehr/weniger
+// Quellen mitskalieren, sonst kippt alles auf „kritisch“ bzw. „ruhig“.
+export const LEVEL_THRESHOLDS = { erhoeht: 25, angespannt: 120 };
 
 // GDELT indexiert Weltnachrichten alle 15 Min, ist keyless und CORS-offen.
 // Klammern nur um OR-Ketten – AND in Klammern lehnt GDELT als Fehler ab.
