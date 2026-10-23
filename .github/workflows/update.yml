@@ -1,15 +1,29 @@
-name: Stündliches Daten-Update
+name: Daten-Update (Dauerlauf)
+
+# GitHub drosselt Cron-Läufe in freien Repos stark (real nur alle 1–4 h).
+# Deshalb holt EIN Job in einer Schleife alle TAKT_MIN Minuten neue Daten,
+# läuft knapp 6 h (Job-Limit) und startet am Ende selbst seinen Nachfolger.
+# Der Cron ist nur Wächter: reißt die Kette ab, startet er sie neu. Solange
+# ein Lauf aktiv ist, wartet ein neuer in der concurrency-Gruppe.
+#
+# Takt 6 Min = max. 10 Pushes/h – das ist das weiche Limit für
+# GitHub-Pages-Builds. Öffentliche Repos zahlen keine Action-Minuten.
 
 on:
   schedule:
-    # GitHub drosselt Cron-Läufe in freien Repos stark (real feuern nur
-    # wenige pro Tag) – daher dicht geplant; update-b.yml läuft versetzt
-    # als zweite unabhängige Chance. Leerläufe committen nichts.
-    - cron: "7,22,37,52 * * * *"
-  workflow_dispatch:       # manueller Start über den Actions-Tab
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      laufzeit_min:
+        description: "Laufzeit der Schleife in Minuten"
+        default: "340"
+      takt_min:
+        description: "Abstand zwischen zwei Abrufen in Minuten"
+        default: "6"
 
 permissions:
   contents: write
+  actions: write          # zum Starten des Nachfolge-Laufs
 
 concurrency:
   group: data-update
@@ -18,6 +32,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
 
@@ -25,15 +40,38 @@ jobs:
         with:
           node-version: 22
 
-      - name: Daten holen
-        run: node scripts/fetch_data.mjs
-
-      - name: Committen & pushen
+      - name: Daten holen (Schleife)
+        env:
+          LAUFZEIT_MIN: ${{ inputs.laufzeit_min || '340' }}
+          TAKT_MIN: ${{ inputs.takt_min || '6' }}
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "brent-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json
-          git diff --cached --quiet && echo "Keine Änderungen" && exit 0
-          git commit -m "data: stündliches Update"
-          git pull --rebase -X theirs origin main
-          git push
+          ende=$(( $(date +%s) + LAUFZEIT_MIN * 60 ))
+          while :; do
+            start=$(date +%s)
+            # Neuen Code/Konfig aus dem Repo übernehmen, ohne neu zu starten
+            git pull -q --rebase -X theirs origin "$BRANCH" || true
+            node scripts/fetch_data.mjs || echo "::warning::Abruf fehlgeschlagen"
+            git add data/data.json
+            if git diff --cached --quiet; then
+              echo "Keine Änderungen"
+            else
+              git commit -q -m "data: Update"
+              for i in 1 2 3; do
+                git pull -q --rebase -X theirs origin "$BRANCH" && git push -q origin "HEAD:$BRANCH" && break
+                sleep 5
+              done
+            fi
+            naechster=$(( start + TAKT_MIN * 60 ))
+            [ "$naechster" -ge "$ende" ] && break
+            pause=$(( naechster - $(date +%s) ))
+            [ "$pause" -gt 0 ] && sleep "$pause"
+          done
+
+      - name: Nachfolger starten
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update.yml --ref main

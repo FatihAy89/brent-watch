@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Brent Watch – Öl-Lagebild</title>
-<meta name="description" content="Stündliches Lagebild: Brent-Preis, Marktindikatoren und geopolitische Konflikte, die den Ölpreis bewegen.">
+<meta name="description" content="Laufend aktualisiertes Lagebild: Brent-Preis, Marktindikatoren und geopolitische Konflikte, die den Ölpreis bewegen.">
 <style>
   :root {
     color-scheme: dark;
@@ -215,6 +215,13 @@
     font-size: 10.5px; font-weight: 750; letter-spacing: .06em;
   }
   .badge-sev { font-weight: 700; letter-spacing: .05em; }
+  .badge-social {
+    color: var(--ink); border: 1px solid var(--border); border-radius: 5px;
+    padding: 0 6px; font-size: 10.5px; font-weight: 650; letter-spacing: .03em;
+  }
+  .badge-social.telegram { border-color: #2aabee; color: #6cc6f5; }
+  .badge-social.bluesky { border-color: #1185fe; color: #6eaefc; }
+  .chip.soc.active { background: #1185fe; border-color: #1185fe; }
   .badge-sev.high { color: var(--st-critical); }
   .badge-sev.medium { color: var(--st-serious); }
   .empty { padding: 26px 18px; color: var(--muted); font-size: 13px; }
@@ -234,7 +241,7 @@
       <span class="dot" aria-hidden="true"></span>
       <div>
         <h1>BRENT<span>WATCH</span></h1>
-        <small>Öl-Lagebild · Kurse &amp; Konflikt-Monitor · stündlich aktualisiert</small>
+        <small>Öl-Lagebild · Kurse &amp; Konflikt-Monitor · alle paar Minuten aktualisiert</small>
       </div>
     </div>
     <div class="header-right">
@@ -282,8 +289,8 @@
   </div>
 
   <footer>
-    <span>Quellen: Yahoo Finance / TradingView · OilPrice, Al Jazeera, BBC, The Guardian, Google News</span>
-    <span>Keine Anlageberatung · Kurse minütlich (Futures ~10 Min verzögert) · News alle 5 Min live</span>
+    <span>Quellen: Yahoo Finance / TradingView · OilPrice, Al Jazeera, BBC, The Guardian, Google News, GDELT · Social: Telegram, Bluesky</span>
+    <span>Keine Anlageberatung · Kurse minütlich (Futures ~10 Min verzögert) · Bluesky alle 2 Min live, übrige Quellen alle ~6 Min</span>
   </footer>
 </div>
 
@@ -293,7 +300,9 @@
 
 /* ---------------- Konfiguration ---------------- */
 const DATA_URL = "data/data.json";
-const REFRESH_MS = 5 * 60 * 1000;
+const REFRESH_MS = 2 * 60 * 1000;      // data.json (Action schreibt alle ~6 Min)
+const GDELT_MS = 5 * 60 * 1000;        // GDELT selbst nur alle 15 Min neu
+const BLUESKY_MS = 2 * 60 * 1000;
 
 const CAT_LABELS = {
   iran_israel: "Iran – Israel",
@@ -304,6 +313,7 @@ const CAT_LABELS = {
   supply_other: "Weitere Förderländer",
   market: "Markt & Nachfrage",
 };
+const SOCIAL_LABELS = { telegram: "✈ Telegram", bluesky: "🦋 Bluesky" };
 const LEVEL_META = {
   ruhig:      { cls: "lv-ruhig",      ico: "✓", label: "Ruhig" },
   "erhöht":   { cls: "lv-erhoeht",    ico: "▲", label: "Erhöht" },
@@ -313,8 +323,9 @@ const LEVEL_META = {
 const LEVEL_RANK = { ruhig: 0, "erhöht": 1, angespannt: 2, kritisch: 3 };
 
 let state = {
-  data: null, filterCat: "all", onlyImportant: false, lastVisit: 0,
-  liveAt: 0, newsAt: 0, chartId: "brent",
+  data: null, filterCat: "all", onlyImportant: false, onlySocial: false,
+  lastVisit: 0, liveAt: 0, newsAt: 0, chartId: "brent",
+  liveNews: [],   // client-seitig geholte Meldungen (GDELT, Bluesky)
 };
 
 function isLive() {
@@ -440,11 +451,13 @@ function renderFilters() {
       <button class="chip ${state.filterCat === c ? "active" : ""}" data-cat="${c}">
         ${c === "all" ? "Alle" : esc(CAT_LABELS[c])}
       </button>`).join("") +
-    `<button class="chip imp ${state.onlyImportant ? "active" : ""}" data-imp="1">⚠ Nur wichtig</button>`;
+    `<button class="chip imp ${state.onlyImportant ? "active" : ""}" data-imp="1">⚠ Nur wichtig</button>` +
+    `<button class="chip soc ${state.onlySocial ? "active" : ""}" data-soc="1">💬 Nur Social</button>`;
 
   document.querySelectorAll("#filters .chip").forEach((el) =>
     el.addEventListener("click", () => {
       if (el.dataset.imp) state.onlyImportant = !state.onlyImportant;
+      else if (el.dataset.soc) state.onlySocial = !state.onlySocial;
       else state.filterCat = el.dataset.cat;
       renderFilters(); renderNews();
     })
@@ -454,10 +467,15 @@ function renderFilters() {
 function renderNews() {
   const items = state.data.news.filter((n) =>
     (state.filterCat === "all" || n.categories.includes(state.filterCat)) &&
-    (!state.onlyImportant || n.severity === "high")
+    (!state.onlyImportant || n.severity === "high") &&
+    (!state.onlySocial || n.social)
   );
-  $("#news-count").textContent =
-    `${items.length} Meldungen · letzte 72 h`;
+  const srcs = state.data.sources ?? [];
+  const dead = srcs.filter((s) => s.items === 0).map((s) => s.name);
+  const countEl = $("#news-count");
+  countEl.textContent = `${items.length} Meldungen · letzte 72 h` +
+    (srcs.length ? ` · ${srcs.length - dead.length}/${srcs.length} Quellen aktiv` : "");
+  countEl.title = dead.length ? `Ohne Treffer beim letzten Abruf: ${dead.join(", ")}` : "";
 
   if (!items.length) {
     $("#news-list").innerHTML = `<li class="empty">Keine Meldungen für diesen Filter.</li>`;
@@ -475,6 +493,7 @@ function renderNews() {
           <div class="n-meta">
             ${isNew ? `<span class="badge-new">NEU</span>` : ""}
             ${sevLabel ? `<span class="badge-sev ${n.severity}">${sevLabel}</span>` : ""}
+            ${n.social ? `<span class="badge-social ${n.social}">${SOCIAL_LABELS[n.social] ?? "Social"}</span>` : ""}
             <span>${esc(n.source)}</span>
             ${n.categories.filter((c) => c !== "market" || n.categories.length === 1)
               .map((c) => `<span class="n-cat">${esc(CAT_LABELS[c] ?? c)}</span>`).join("")}
@@ -539,6 +558,85 @@ const GDELT_QUERY =
   '"oil price" OR "crude oil" OR tanker OR "oil sanctions" OR ' +
   '(russia AND oil) OR (ukraine AND refinery)) sourcelang:english';
 
+const newsKey = (title) => title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
+
+// Snapshot-News + Live-Meldungen zusammenführen (72 h, dedupliziert)
+function mergeNewsClient(lists) {
+  const cutoff = Date.now() - 72 * 3600 * 1000;
+  const seen = new Set();
+  const out = [];
+  for (const n of lists.flat()) {
+    const key = newsKey(n.title);
+    if (!key || seen.has(key) || !(Date.parse(n.pubDate) >= cutoff)) continue;
+    seen.add(key);
+    out.push(n);
+  }
+  return out
+    .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
+    .slice(0, 250);
+}
+
+function applyNews() {
+  const cfg = state.data.classifier;
+  state.data.news = mergeNewsClient([state.data.news, state.liveNews]);
+  state.data.regions = buildRegionsClient(state.data.news, cfg);
+}
+
+// Roh-Items klassifizieren, merken und Ticker neu zeichnen
+function addLiveNews(rawItems) {
+  const cfg = state.data?.classifier;
+  if (!cfg) return;
+  const fresh = rawItems.map((r) => classifyClient(r, cfg)).filter(Boolean);
+  state.liveNews = mergeNewsClient([fresh, state.liveNews]);
+  applyNews();
+  state.newsAt = Date.now();
+  renderRegions();
+  renderFilters();
+  renderNews();
+  renderStand();
+}
+
+/* Bluesky: offene AppView-API (keyless, CORS) – Accounts aus data.json */
+function socialTitle(text, max = 220) {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max);
+  const stop = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf(" "));
+  return cut.slice(0, stop > 80 ? stop : max).trim() + " …";
+}
+
+async function refreshBluesky() {
+  const accounts = state.data?.social?.bluesky ?? [];
+  if (!accounts.length || document.hidden) return;
+  const results = await Promise.allSettled(accounts.map(async (acc) => {
+    const res = await fetch(
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=" +
+      encodeURIComponent(acc.handle) + "&limit=30&filter=posts_no_replies");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const items = [];
+    for (const entry of (await res.json()).feed ?? []) {
+      if (entry.reason) continue;   // Reposts überspringen
+      const post = entry.post, rec = post?.record;
+      const rkey = post?.uri?.split("/").pop();
+      const pub = Date.parse(rec?.createdAt ?? post?.indexedAt);
+      if (!rec?.text || !rkey || !Number.isFinite(pub)) continue;
+      const ext = post.embed?.external ?? rec.embed?.external;
+      items.push({
+        title: socialTitle(rec.text),
+        link: `https://bsky.app/profile/${post.author?.handle ?? acc.handle}/post/${rkey}`,
+        source: acc.name,
+        pubDate: new Date(pub).toISOString(),
+        description: (rec.text + (ext ? ` ${ext.title ?? ""} ${ext.description ?? ""}` : "")).slice(0, 600),
+        social: "bluesky",
+      });
+    }
+    return items;
+  }));
+  const items = results.flatMap((r) => r.status === "fulfilled" ? r.value : []);
+  if (items.length) addLiveNews(items);
+  else console.warn("Live-News (Bluesky) nicht erreichbar");
+}
+
 async function refreshNews() {
   const cfg = state.data?.classifier;
   if (!cfg) return;
@@ -558,39 +656,19 @@ async function refreshNews() {
     // Rate-Limit-Antworten sind Klartext – JSON.parse wirft dann
     const json = JSON.parse(await res.text());
 
-    const seen = new Set(
-      state.data.news.map((n) =>
-        n.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60))
-    );
-    const fresh = [];
+    const items = [];
     for (const a of json.articles ?? []) {
       const m = a?.seendate?.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
       if (!a?.title || !a?.url || !m) continue;
-      const item = classifyClient({
+      items.push({
         title: a.title.trim(),
         link: a.url,
         source: a.domain || "GDELT",
         pubDate: `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`,
         description: "",
-      }, cfg);
-      if (!item) continue;
-      const key = item.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
-      if (!key || seen.has(key)) continue;
-      seen.add(key);
-      fresh.push(item);
+      });
     }
-
-    const cutoff = Date.now() - 72 * 3600 * 1000;
-    state.data.news = [...fresh, ...state.data.news]
-      .filter((n) => Date.parse(n.pubDate) >= cutoff)
-      .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
-      .slice(0, 150);
-    state.data.regions = buildRegionsClient(state.data.news, cfg);
-    state.newsAt = Date.now();
-    renderRegions();
-    renderFilters();
-    renderNews();
-    renderStand();
+    addLiveNews(items);
   } catch (err) {
     // Still bleiben: der GitHub-Snapshot bleibt als Fallback stehen
     console.warn("Live-News (GDELT) nicht erreichbar:", err.message);
@@ -697,12 +775,9 @@ async function load() {
         }
       }
     }
-    // Frischere Live-News nicht mit dem älteren Snapshot überschreiben
-    if (state.data && state.newsAt > (Date.parse(fresh.updatedAt) || 0)) {
-      fresh.news = state.data.news;
-      fresh.regions = state.data.regions;
-    }
     state.data = fresh;
+    // Live-Meldungen (GDELT, Bluesky) mit dem Snapshot vereinigen
+    if (state.liveNews.length) applyNews();
   } catch (err) {
     $("#stand").textContent = `Daten konnten nicht geladen werden (${err.message})`;
     return;
@@ -715,10 +790,15 @@ localStorage.setItem("bw_last_visit", String(Date.now()));
 
 renderChart();
 window.addEventListener("load", renderChart);
-load().then(() => { refreshLive(); refreshNews(); });
+load().then(() => { refreshLive(); refreshNews(); refreshBluesky(); });
 setInterval(load, REFRESH_MS);
 setInterval(refreshLive, 60 * 1000);
-setInterval(refreshNews, REFRESH_MS);
+setInterval(refreshNews, GDELT_MS);
+setInterval(refreshBluesky, BLUESKY_MS);
+// Zurück im Tab: sofort aktualisieren statt auf den nächsten Takt zu warten
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) { load().then(refreshBluesky); refreshLive(); }
+});
 setInterval(() => { if (state.data) renderStand(); }, 60 * 1000);
 </script>
 </body>

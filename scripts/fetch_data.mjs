@@ -1,4 +1,4 @@
-// Brent Watch – stündlicher Daten-Fetcher (GitHub Action)
+// Brent Watch – Daten-Fetcher (GitHub Action, läuft alle paar Minuten)
 // Läuft ohne Dependencies unter Node 20+ (global fetch).
 // Holt Kurse (Yahoo → TradingView-Fallback) und News (scripts/news_core.mjs)
 // und schreibt data/data.json als Snapshot/Fallback für das Dashboard.
@@ -9,7 +9,8 @@ import { writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  fetchNews, buildRegions, CATEGORIES, HIGH_IMPACT, GEO_HOT, LEVEL_THRESHOLDS,
+  fetchNews, mergeNews, buildRegions, CATEGORIES, HIGH_IMPACT, GEO_HOT, LEVEL_THRESHOLDS,
+  BLUESKY_ACCOUNTS,
 } from "./news_core.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -173,14 +174,20 @@ for (const q of QUOTES) {
   }
 }
 
-const news = await fetchNews();
-console.log(`News: ${news.length} relevante Meldungen`);
+const { news: freshNews, sources } = await fetchNews();
+// Meldungen des letzten Snapshots behalten (max. 72 h): fällt eine Quelle
+// kurz aus, verschwinden ihre Posts nicht sofort aus dem Ticker
+const news = mergeNews([...freshNews, ...(previous?.news ?? [])]);
+console.log(`News: ${freshNews.length} neu abgerufen, ${news.length} im Ticker`);
 
 const data = {
   updatedAt: new Date().toISOString(),
   quotes,
   news,
   regions: buildRegions(news),
+  sources,
+  // Accounts, die das Dashboard zusätzlich live im Browser abfragt
+  social: { bluesky: BLUESKY_ACCOUNTS },
   // Konfiguration für die client-seitige Klassifikation der Live-News
   classifier: {
     categories: CATEGORIES,
