@@ -556,7 +556,7 @@ function buildRegionsClient(news, cfg) {
 const GDELT_QUERY =
   '(iran OR israel OR hormuz OR houthi OR "red sea" OR opec OR "brent crude" OR ' +
   '"oil price" OR "crude oil" OR tanker OR "oil sanctions" OR ' +
-  '(russia AND oil) OR (ukraine AND refinery)) sourcelang:english';
+  '"russian oil" OR "refinery attack") sourcelang:english';
 
 const newsKey = (title) => title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
 
@@ -573,7 +573,7 @@ function mergeNewsClient(lists) {
   }
   return out
     .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
-    .slice(0, 250);
+    .slice(0, 400);
 }
 
 function applyNews() {

@@ -32,7 +32,6 @@ export const TELEGRAM_CHANNELS = [
   { id: "FaytuksNews", name: "Faytuks News" },
   { id: "AuroraIntel", name: "Aurora Intel" },
   { id: "bnonews", name: "BNO News" },
-  { id: "QudsNen", name: "Quds News Network" },
   { id: "warmonitors", name: "War Monitor" },
   { id: "spectatorindex", name: "The Spectator Index" },
   { id: "insiderpaper", name: "Insider Paper" },
@@ -46,7 +45,6 @@ export const BLUESKY_ACCOUNTS = [
   { handle: "theguardian.com", name: "The Guardian" },
   { handle: "osinttechnical.bsky.social", name: "OSINTtechnical" },
   { handle: "javierblas.bsky.social", name: "Javier Blas" },
-  { handle: "liveuamap.bsky.social", name: "Liveuamap" },
 ];
 
 export const CATEGORIES = [
@@ -125,12 +123,13 @@ const GEO_HOT_SET = new Set(GEO_HOT);
 // Schwellwerte der Lagebewertung (score = 2*high + medium, letzte 24 h)
 export const LEVEL_THRESHOLDS = { erhoeht: 8, angespannt: 40 };
 
-// GDELT indexiert Weltnachrichten alle 15 Min, ist keyless und CORS-offen –
-// dieselbe Abfrage nutzt auch das Dashboard client-seitig für Live-News.
+// GDELT indexiert Weltnachrichten alle 15 Min, ist keyless und CORS-offen.
+// Klammern nur um OR-Ketten – AND in Klammern lehnt GDELT als Fehler ab.
+// Dieselbe Abfrage nutzt auch das Dashboard client-seitig für Live-News.
 export const GDELT_QUERY =
   '(iran OR israel OR hormuz OR houthi OR "red sea" OR opec OR "brent crude" OR ' +
   '"oil price" OR "crude oil" OR tanker OR "oil sanctions" OR ' +
-  '(russia AND oil) OR (ukraine AND refinery)) sourcelang:english';
+  '"russian oil" OR "refinery attack") sourcelang:english';
 
 export function gdeltUrl(maxrecords = 100, timespan = "8h") {
   return (
@@ -393,7 +392,7 @@ export function newsKey(title) {
 }
 
 // Filtern (72 h), deduplizieren, klassifizieren, sortieren
-export function mergeNews(all, limit = 200) {
+export function mergeNews(all, limit = 400) {
   const cutoff = Date.now() - 72 * 3600 * 1000;
   const seen = new Set();
   const news = [];
@@ -404,7 +403,8 @@ export function mergeNews(all, limit = 200) {
     const item = classify(raw);
     if (!item) continue;
     seen.add(key);
-    news.push(item);
+    // Beschreibung nur zur Klassifikation nötig – kürzen hält data.json klein
+    news.push({ ...item, description: item.description.slice(0, 300) });
   }
   news.sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate));
   return news.slice(0, limit);
