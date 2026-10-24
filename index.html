@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brent Watch – Öl-Lagebild</title>
+<meta name="description" content="Laufend aktualisiertes Lagebild: Brent-Preis, Marktindikatoren und geopolitische Konflikte, die den Ölpreis bewegen.">
+<style>
+  :root {
+    color-scheme: dark;
+    --page:        #0d0d0d;
+    --surface:     #1a1a19;
+    --surface-2:   #222220;
+    --ink:         #ffffff;
+    --ink-2:       #c3c2b7;
+    --muted:       #898781;
+    --grid:        #2c2c2a;
+    --border:      rgba(255,255,255,0.10);
+    --accent:      #3987e5;   /* Serie 1 blau (dark) */
+    --up:          #0ca30c;   /* Delta gut */
+    --down:        #e66767;   /* Serie rot (dark) */
+    --st-good:     #0ca30c;
+    --st-warn:     #fab219;
+    --st-serious:  #ec835a;
+    --st-critical: #d03b3b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.45;
+    min-height: 100vh;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 0 20px 60px; }
+
+  /* ---------- Header ---------- */
+  header {
+    display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center;
+    justify-content: space-between; padding: 22px 0 18px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand .dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--accent); position: relative; flex: none;
+  }
+  .brand .dot::after {
+    content: ""; position: absolute; inset: -5px; border-radius: 50%;
+    border: 2px solid var(--accent); opacity: .5;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(.55); opacity: .8; }
+    70% { transform: scale(1.25); opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .brand .dot::after { animation: none; opacity: .35; }
+  }
+  .brand h1 { font-size: 20px; font-weight: 800; letter-spacing: .14em; }
+  .brand h1 span { color: var(--accent); }
+  .brand small { display: block; color: var(--muted); font-size: 12px; letter-spacing: .02em; font-weight: 400; }
+  .header-right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .stand { color: var(--muted); font-size: 13px; text-align: right; }
+  .stand strong { color: var(--ink-2); font-weight: 600; }
+
+  .live-badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 750; letter-spacing: .08em;
+    color: var(--st-good);
+  }
+  .live-badge .ld {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--st-good);
+    animation: livepulse 1.6s ease-in-out infinite;
+  }
+  @keyframes livepulse { 50% { opacity: .3; } }
+  @media (prefers-reduced-motion: reduce) { .live-badge .ld { animation: none; } }
+
+  .lage-pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700;
+    letter-spacing: .06em; border: 1px solid var(--border); background: var(--surface);
+  }
+  .lage-pill .ico { font-size: 14px; line-height: 1; }
+
+  .banner {
+    display: none; margin: 0 0 16px; padding: 10px 16px; border-radius: 10px;
+    background: rgba(250,178,25,.12); border: 1px solid rgba(250,178,25,.4);
+    color: var(--st-warn); font-size: 13px;
+  }
+  .banner.show { display: block; }
+
+  /* ---------- Kacheln ---------- */
+  .tiles {
+    display: grid; gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 14px 16px 12px; position: relative; overflow: hidden;
+    text-align: left; color: inherit; font: inherit; width: 100%;
+  }
+  button.tile { cursor: pointer; transition: border-color .15s, background .15s; }
+  button.tile:hover { border-color: rgba(57,135,229,.5); background: var(--surface-2); }
+  .tile.active { border-color: rgba(57,135,229,.55); }
+  .tile.active::before {
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: linear-gradient(90deg, var(--accent), transparent 75%);
+  }
+  .tile .chart-hint {
+    margin-top: 8px; font-size: 10.5px; color: var(--muted);
+    letter-spacing: .04em; display: flex; align-items: center; gap: 5px;
+  }
+  .tile.active .chart-hint { color: var(--accent); }
+  .tile .label {
+    font-size: 11px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted);
+    display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+  }
+  .tile .unit { font-size: 10px; letter-spacing: .04em; text-transform: none; font-weight: 500; }
+  .tile .value-row { display: flex; align-items: baseline; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
+  .tile .value { font-size: 28px; font-weight: 750; font-variant-numeric: tabular-nums; }
+  .tile.hero .value { font-size: 34px; }
+  .delta {
+    font-size: 13px; font-weight: 650; font-variant-numeric: tabular-nums;
+    display: inline-flex; align-items: center; gap: 3px;
+  }
+  .delta.up { color: var(--up); }
+  .delta.down { color: var(--down); }
+  .delta.flat { color: var(--muted); }
+  .tile .stale-tag {
+    font-size: 10px; color: var(--st-warn); letter-spacing: .04em; font-weight: 600;
+  }
+  .tile .subnote { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+  /* ---------- Hauptbereich ---------- */
+  .main-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 12px; margin-top: 12px; }
+  @media (max-width: 980px) { .main-grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; overflow: hidden;
+  }
+  .card-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 14px 18px 10px;
+  }
+  .card-head h2 {
+    font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .card-head .hint { font-size: 11px; color: var(--muted); }
+
+  .chart-card .tv-holder { height: 460px; }
+  @media (max-width: 980px) { .chart-card .tv-holder { height: 380px; } }
+  .tradingview-widget-container { height: 100%; }
+
+  /* ---------- Lagebild ---------- */
+  .regions { display: flex; flex-direction: column; gap: 8px; padding: 4px 12px 14px; }
+  .region {
+    display: grid; grid-template-columns: 1fr auto; gap: 4px 10px;
+    padding: 10px 12px; border-radius: 10px; background: var(--surface-2);
+    border: 1px solid transparent; cursor: pointer; text-align: left;
+    color: inherit; font: inherit; width: 100%;
+    transition: border-color .15s;
+  }
+  .region:hover { border-color: var(--border); }
+  .region .r-name { font-size: 14px; font-weight: 650; }
+  .region .r-meta { grid-column: 1; font-size: 12px; color: var(--muted); }
+  .region .r-level {
+    grid-row: 1 / span 2; align-self: center;
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase;
+    padding: 5px 11px; border-radius: 999px; white-space: nowrap;
+  }
+  .lv-ruhig      { color: var(--st-good);     background: rgba(12,163,12,.12); }
+  .lv-erhoeht    { color: var(--st-warn);     background: rgba(250,178,25,.12); }
+  .lv-angespannt { color: var(--st-serious);  background: rgba(236,131,90,.14); }
+  .lv-kritisch   { color: var(--st-critical); background: rgba(208,59,59,.16); }
+  .lv-kritisch.blink { animation: blink 1.6s ease-in-out infinite; }
+  @keyframes blink { 50% { background: rgba(208,59,59,.34); } }
+  @media (prefers-reduced-motion: reduce) { .lv-kritisch.blink { animation: none; } }
+
+  /* ---------- News ---------- */
+  .news-card { margin-top: 12px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 18px 12px; }
+  .chip {
+    font: inherit; font-size: 12px; font-weight: 600; color: var(--ink-2);
+    background: var(--surface-2); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 999px; cursor: pointer;
+    transition: background .15s, color .15s;
+  }
+  .chip:hover { background: var(--grid); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip.imp.active { background: var(--st-critical); border-color: var(--st-critical); }
+
+  .news-list { list-style: none; max-height: 640px; overflow-y: auto; border-top: 1px solid var(--grid); }
+  .news-item {
+    display: grid; grid-template-columns: 66px 10px 1fr; gap: 12px;
+    padding: 12px 18px; border-bottom: 1px solid var(--grid);
+  }
+  .news-item:last-child { border-bottom: none; }
+  .n-time { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; white-space: nowrap; }
+  .n-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; background: var(--muted); }
+  .n-dot.high { background: var(--st-critical); }
+  .n-dot.medium { background: var(--st-serious); }
+  .n-title { font-size: 14px; font-weight: 550; text-decoration: none; }
+  .n-title:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+  .n-meta { margin-top: 3px; font-size: 11.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+  .n-cat { color: var(--ink-2); background: var(--surface-2); border-radius: 5px; padding: 1px 7px; }
+  .badge-new {
+    color: #fff; background: var(--accent); border-radius: 5px; padding: 1px 7px;
+    font-size: 10.5px; font-weight: 750; letter-spacing: .06em;
+  }
+  .badge-sev { font-weight: 700; letter-spacing: .05em; }
+  .badge-social {
+    color: var(--ink); border: 1px solid var(--border); border-radius: 5px;
+    padding: 0 6px; font-size: 10.5px; font-weight: 650; letter-spacing: .03em;
+  }
+  .badge-social.telegram { border-color: #2aabee; color: #6cc6f5; }
+  .badge-social.bluesky { border-color: #1185fe; color: #6eaefc; }
+  .chip.soc.active { background: #1185fe; border-color: #1185fe; }
+  .badge-sev.high { color: var(--st-critical); }
+  .badge-sev.medium { color: var(--st-serious); }
+  .empty { padding: 26px 18px; color: var(--muted); font-size: 13px; }
+
+  footer {
+    margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--grid);
+    color: var(--muted); font-size: 12px; display: flex; flex-wrap: wrap; gap: 6px 24px;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <div>
+        <h1>BRENT<span>WATCH</span></h1>
+        <small>Öl-Lagebild · Kurse &amp; Konflikt-Monitor · alle paar Minuten aktualisiert</small>
+      </div>
+    </div>
+    <div class="header-right">
+      <span class="lage-pill" id="lage-pill" hidden></span>
+      <div class="stand" id="stand">Lade Daten …</div>
+    </div>
+  </header>
+
+  <div class="banner" id="stale-banner">
+    ⚠️ Die News-Daten sind älter als 4 Stunden – GitHub verzögert gerade die Update-Läufe.
+    Die Kurse oben aktualisieren sich davon unabhängig live.
+  </div>
+
+  <section class="tiles" id="tiles" aria-label="Marktindikatoren"></section>
+
+  <div class="main-grid">
+    <div class="card chart-card">
+      <div class="card-head">
+        <h2 id="chart-title">Brent Live-Chart</h2>
+        <span class="hint">TradingView · Echtzeit · Kachel anklicken wechselt das Instrument</span>
+      </div>
+      <div class="tv-holder">
+        <div class="tradingview-widget-container">
+          <div id="tv-chart" style="height:100%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>Geopolitisches Lagebild</h2>
+        <span class="hint">letzte 24 h · Klick filtert Ticker</span>
+      </div>
+      <div class="regions" id="regions"></div>
+    </div>
+  </div>
+
+  <div class="card news-card">
+    <div class="card-head">
+      <h2>Ereignis-Ticker</h2>
+      <span class="hint" id="news-count"></span>
+    </div>
+    <div class="filters" id="filters"></div>
+    <ul class="news-list" id="news-list"></ul>
+  </div>
+
+  <footer>
+    <span>Quellen: Yahoo Finance / TradingView · OilPrice, Al Jazeera, BBC, The Guardian, Google News, GDELT · Social: Telegram, Bluesky</span>
+    <span>Keine Anlageberatung · Kurse minütlich (Futures ~10 Min verzögert) · Bluesky alle 2 Min live, übrige Quellen alle ~6 Min</span>
+  </footer>
+</div>
+
+<script src="https://s3.tradingview.com/tv.js"></script>
+<script>
+"use strict";
+
+/* ---------------- Konfiguration ---------------- */
+const DATA_URL = "data/data.json";
+const REFRESH_MS = 2 * 60 * 1000;      // data.json (Action schreibt alle ~6 Min)
+const GDELT_MS = 5 * 60 * 1000;        // GDELT selbst nur alle 15 Min neu
+const BLUESKY_MS = 2 * 60 * 1000;
+
+const CAT_LABELS = {
+  iran_israel: "Iran – Israel",
+  hormuz_redsea: "Hormus & Rotes Meer",
+  russia_ukraine: "Russland – Ukraine",
+  opec: "OPEC+",
+  usa_policy: "USA & Sanktionen",
+  supply_other: "Weitere Förderländer",
+  market: "Markt & Nachfrage",
+};
+const SOCIAL_LABELS = { telegram: "✈ Telegram", bluesky: "🦋 Bluesky" };
+const LEVEL_META = {
+  ruhig:      { cls: "lv-ruhig",      ico: "✓", label: "Ruhig" },
+  "erhöht":   { cls: "lv-erhoeht",    ico: "▲", label: "Erhöht" },
+  angespannt: { cls: "lv-angespannt", ico: "◆", label: "Angespannt" },
+  kritisch:   { cls: "lv-kritisch",   ico: "⬤", label: "Kritisch" },
+};
+const LEVEL_RANK = { ruhig: 0, "erhöht": 1, angespannt: 2, kritisch: 3 };
+
+let state = {
+  data: null, filterCat: "all", onlyImportant: false, onlySocial: false,
+  lastVisit: 0, liveAt: 0, newsAt: 0, chartId: "brent",
+  liveNews: [],   // client-seitig geholte Meldungen (GDELT, Bluesky)
+};
+
+function isLive() {
+  return state.liveAt > 0 && Date.now() - state.liveAt < 3 * 60 * 1000;
+}
+
+/* ---------------- Helfer ---------------- */
+const $ = (sel) => document.querySelector(sel);
+const esc = (s) => s.replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function fmtNum(v, digits = 2) {
+  return v == null ? "–" : v.toLocaleString("de-DE", {
+    minimumFractionDigits: digits, maximumFractionDigits: digits,
+  });
+}
+function relTime(iso) {
+  const diff = Date.now() - Date.parse(iso);
+  const min = Math.round(diff / 60000);
+  if (min < 1) return "jetzt";
+  if (min < 60) return `${min} Min`;
+  const h = Math.round(min / 60);
+  if (h < 24) return `${h} Std`;
+  return `${Math.round(h / 24)} Tg`;
+}
+function deltaHtml(pct, suffix = "%") {
+  if (pct == null) return `<span class="delta flat">–</span>`;
+  const cls = pct > 0.001 ? "up" : pct < -0.001 ? "down" : "flat";
+  const arrow = cls === "up" ? "▲" : cls === "down" ? "▼" : "◆";
+  return `<span class="delta ${cls}">${arrow} ${fmtNum(Math.abs(pct))}${suffix}</span>`;
+}
+
+/* ---------------- Kacheln ---------------- */
+function liveChipHtml() {
+  return isLive()
+    ? `<span class="live-badge" title="Kurs aktualisiert sich minütlich via TradingView"><span class="ld"></span>LIVE</span>`
+    : "";
+}
+
+function renderTiles() {
+  const qs = state.data.quotes;
+  const by = (id) => qs.find((q) => q.id === id);
+  const brent = by("brent"), wti = by("wti");
+
+  const tiles = [];
+  for (const q of qs) {
+    const hero = q.id === "brent";
+    const active = q.id === state.chartId;
+    tiles.push(`
+      <button class="tile ${hero ? "hero" : ""} ${active ? "active" : ""}" data-chart="${q.id}"
+              title="${esc(q.name)} im Live-Chart anzeigen">
+        <div class="label"><span>${esc(q.name)}</span>
+          <span class="unit">${q.stale ? `<span class="stale-tag">⚠ veraltet</span>` : esc(q.unit)}</span>
+        </div>
+        <div class="value-row">
+          <span class="value">${fmtNum(q.price)}</span>
+          ${deltaHtml(q.changePct)}
+          ${hero ? liveChipHtml() : ""}
+        </div>
+        <div class="chart-hint">${active ? "▸ im Live-Chart" : "Chart anzeigen"}</div>
+      </button>`);
+    if (q.id === "wti" && brent?.price != null && wti?.price != null) {
+      const spread = brent.price - wti.price;
+      const prevSpread = brent.prevClose != null && wti.prevClose != null
+        ? brent.prevClose - wti.prevClose : null;
+      tiles.push(`
+        <article class="tile">
+          <div class="label"><span>Brent-WTI-Spread</span><span class="unit">USD/bbl</span></div>
+          <div class="value-row">
+            <span class="value">${fmtNum(spread)}</span>
+            ${prevSpread != null ? deltaHtml(spread - prevSpread, "") : ""}
+          </div>
+          <div class="subnote">Differenz der beiden Benchmarks – weitet sich oft bei Angebotsschocks in Europa/Nahost</div>
+        </article>`);
+    }
+  }
+  $("#tiles").innerHTML = tiles.join("");
+  document.querySelectorAll("button.tile[data-chart]").forEach((el) =>
+    el.addEventListener("click", () => setChart(el.dataset.chart))
+  );
+}
+
+/* ---------------- Lagebild ---------------- */
+function renderRegions() {
+  const regions = [...state.data.regions].sort(
+    (a, b) => LEVEL_RANK[b.level] - LEVEL_RANK[a.level] || b.count24h - a.count24h
+  );
+  $("#regions").innerHTML = regions.map((r) => {
+    const m = LEVEL_META[r.level] ?? LEVEL_META.ruhig;
+    return `
+      <button class="region" data-cat="${r.id}" title="Ticker auf ${esc(r.label)} filtern">
+        <span class="r-name">${esc(r.label)}</span>
+        <span class="r-meta">${r.count24h} Meldungen · davon ${r.high24h} kritisch (24 h)</span>
+        <span class="r-level ${m.cls} ${r.level === "kritisch" ? "blink" : ""}">
+          <span class="ico" aria-hidden="true">${m.ico}</span>${m.label}
+        </span>
+      </button>`;
+  }).join("");
+
+  document.querySelectorAll(".region").forEach((el) =>
+    el.addEventListener("click", () => {
+      state.filterCat = el.dataset.cat;
+      renderFilters(); renderNews();
+      $(".news-card").scrollIntoView({ behavior: "smooth", block: "start" });
+    })
+  );
+
+  const worst = regions[0];
+  const pill = $("#lage-pill");
+  if (worst) {
+    const m = LEVEL_META[worst.level];
+    pill.hidden = false;
+    pill.className = `lage-pill ${m.cls}`;
+    pill.innerHTML = `<span class="ico" aria-hidden="true">${m.ico}</span> Lage: ${m.label.toUpperCase()} · ${esc(worst.label)}`;
+  }
+}
+
+/* ---------------- News ---------------- */
+function renderFilters() {
+  const cats = ["all", ...Object.keys(CAT_LABELS)];
+  $("#filters").innerHTML =
+    cats.map((c) => `
+      <button class="chip ${state.filterCat === c ? "active" : ""}" data-cat="${c}">
+        ${c === "all" ? "Alle" : esc(CAT_LABELS[c])}
+      </button>`).join("") +
+    `<button class="chip imp ${state.onlyImportant ? "active" : ""}" data-imp="1">⚠ Nur wichtig</button>` +
+    `<button class="chip soc ${state.onlySocial ? "active" : ""}" data-soc="1">💬 Nur Social</button>`;
+
+  document.querySelectorAll("#filters .chip").forEach((el) =>
+    el.addEventListener("click", () => {
+      if (el.dataset.imp) state.onlyImportant = !state.onlyImportant;
+      else if (el.dataset.soc) state.onlySocial = !state.onlySocial;
+      else state.filterCat = el.dataset.cat;
+      renderFilters(); renderNews();
+    })
+  );
+}
+
+function renderNews() {
+  const items = state.data.news.filter((n) =>
+    (state.filterCat === "all" || n.categories.includes(state.filterCat)) &&
+    (!state.onlyImportant || n.severity === "high") &&
+    (!state.onlySocial || n.social)
+  );
+  const srcs = state.data.sources ?? [];
+  const dead = srcs.filter((s) => s.items === 0).map((s) => s.name);
+  const countEl = $("#news-count");
+  countEl.textContent = `${items.length} Meldungen · letzte 72 h` +
+    (srcs.length ? ` · ${srcs.length - dead.length}/${srcs.length} Quellen aktiv` : "");
+  countEl.title = dead.length ? `Ohne Treffer beim letzten Abruf: ${dead.join(", ")}` : "";
+
+  if (!items.length) {
+    $("#news-list").innerHTML = `<li class="empty">Keine Meldungen für diesen Filter.</li>`;
+    return;
+  }
+  $("#news-list").innerHTML = items.map((n) => {
+    const isNew = Date.parse(n.pubDate) > state.lastVisit;
+    const sevLabel = n.severity === "high" ? "WICHTIG" : n.severity === "medium" ? "RELEVANT" : "";
+    return `
+      <li class="news-item">
+        <span class="n-time" title="${new Date(n.pubDate).toLocaleString("de-DE")}">vor ${relTime(n.pubDate)}</span>
+        <span class="n-dot ${n.severity}" aria-hidden="true"></span>
+        <div>
+          <a class="n-title" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+          <div class="n-meta">
+            ${isNew ? `<span class="badge-new">NEU</span>` : ""}
+            ${sevLabel ? `<span class="badge-sev ${n.severity}">${sevLabel}</span>` : ""}
+            ${n.social ? `<span class="badge-social ${n.social}">${SOCIAL_LABELS[n.social] ?? "Social"}</span>` : ""}
+            <span>${esc(n.source)}</span>
+            ${n.categories.filter((c) => c !== "market" || n.categories.length === 1)
+              .map((c) => `<span class="n-cat">${esc(CAT_LABELS[c] ?? c)}</span>`).join("")}
+          </div>
+        </div>
+      </li>`;
+  }).join("");
+}
+
+/* ---------------- Kopf / Stand ---------------- */
+function renderStand() {
+  // News-Frische: der jüngere Stand aus Live-API und GitHub-Snapshot
+  const t = Math.max(Date.parse(state.data.updatedAt) || 0, state.newsAt);
+  const kursPart = isLive()
+    ? `Kurse: <span class="live-badge"><span class="ld"></span>LIVE</span> &nbsp;·&nbsp; `
+    : "";
+  $("#stand").innerHTML =
+    `${kursPart}News: <strong>${new Date(t).toLocaleString("de-DE", { weekday: "short", hour: "2-digit", minute: "2-digit" })} Uhr</strong> · vor ${relTime(new Date(t).toISOString())}`;
+  $("#stale-banner").classList.toggle("show", Date.now() - t > 4 * 3600 * 1000);
+}
+
+/* ---------------- Live-News via GDELT (client-seitig, alle 5 Min) ----------------
+   GDELT indexiert Weltnachrichten alle 15 Min, keyless und CORS-offen.
+   Klassifikation läuft mit derselben Konfiguration wie im Fetcher
+   (data.json → classifier). Der GitHub-Snapshot bleibt Basis und Fallback. */
+
+function classifyClient(item, cfg) {
+  const text = `${item.title} ${item.description ?? ""}`.toLowerCase();
+  const cats = cfg.categories
+    .filter((c) => c.keywords.some((k) => text.includes(k)))
+    .map((c) => c.id);
+  if (cats.length === 0) return null;
+  const hot = cats.some((c) => cfg.geoHot.includes(c));
+  const impact = cfg.highImpact.some((k) => text.includes(k));
+  const severity =
+    text.includes("hormuz") || (hot && impact)
+      ? "high"
+      : hot || impact || cats.includes("opec") ? "medium" : "low";
+  return { ...item, categories: cats, severity };
+}
+
+function buildRegionsClient(news, cfg) {
+  const dayAgo = Date.now() - 24 * 3600 * 1000;
+  return cfg.categories.filter((c) => c.id !== "market").map((c) => {
+    const recent = news.filter(
+      (n) => n.categories.includes(c.id) && Date.parse(n.pubDate) >= dayAgo
+    );
+    const high = recent.filter((n) => n.severity === "high").length;
+    const medium = recent.filter((n) => n.severity === "medium").length;
+    const score = 2 * high + medium;
+    const level =
+      score === 0 ? "ruhig"
+        : score <= cfg.thresholds.erhoeht ? "erhöht"
+          : score <= cfg.thresholds.angespannt ? "angespannt"
+            : "kritisch";
+    return { id: c.id, label: c.label, count24h: recent.length, high24h: high, level };
+  });
+}
+
+const GDELT_QUERY =
+  '(iran OR israel OR hormuz OR houthi OR "red sea" OR opec OR "brent crude" OR ' +
+  '"oil price" OR "crude oil" OR tanker OR "oil sanctions" OR ' +
+  '"russian oil" OR "refinery attack") sourcelang:english';
+
+const newsKey = (title) => title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
+
+// Snapshot-News + Live-Meldungen zusammenführen (72 h, dedupliziert)
+function mergeNewsClient(lists) {
+  const cutoff = Date.now() - 72 * 3600 * 1000;
+  const seen = new Set();
+  const out = [];
+  for (const n of lists.flat()) {
+    const key = newsKey(n.title);
+    if (!key || seen.has(key) || !(Date.parse(n.pubDate) >= cutoff)) continue;
+    seen.add(key);
+    out.push(n);
+  }
+  return out
+    .sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate))
+    .slice(0, 400);
+}
+
+function applyNews() {
+  const cfg = state.data.classifier;
+  state.data.news = mergeNewsClient([state.data.news, state.liveNews]);
+  state.data.regions = buildRegionsClient(state.data.news, cfg);
+}
+
+// Roh-Items klassifizieren, merken und Ticker neu zeichnen
+function addLiveNews(rawItems) {
+  const cfg = state.data?.classifier;
+  if (!cfg) return;
+  const fresh = rawItems.map((r) => classifyClient(r, cfg)).filter(Boolean);
+  state.liveNews = mergeNewsClient([fresh, state.liveNews]);
+  applyNews();
+  state.newsAt = Date.now();
+  renderRegions();
+  renderFilters();
+  renderNews();
+  renderStand();
+}
+
+/* Bluesky: offene AppView-API (keyless, CORS) – Accounts aus data.json */
+function socialTitle(text, max = 220) {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max);
+  const stop = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf(" "));
+  return cut.slice(0, stop > 80 ? stop : max).trim() + " …";
+}
+
+async function refreshBluesky() {
+  const accounts = state.data?.social?.bluesky ?? [];
+  if (!accounts.length || document.hidden) return;
+  const results = await Promise.allSettled(accounts.map(async (acc) => {
+    const res = await fetch(
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=" +
+      encodeURIComponent(acc.handle) + "&limit=30&filter=posts_no_replies");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const items = [];
+    for (const entry of (await res.json()).feed ?? []) {
+      if (entry.reason) continue;   // Reposts überspringen
+      const post = entry.post, rec = post?.record;
+      const rkey = post?.uri?.split("/").pop();
+      const pub = Date.parse(rec?.createdAt ?? post?.indexedAt);
+      if (!rec?.text || !rkey || !Number.isFinite(pub)) continue;
+      const ext = post.embed?.external ?? rec.embed?.external;
+      items.push({
+        title: socialTitle(rec.text),
+        link: `https://bsky.app/profile/${post.author?.handle ?? acc.handle}/post/${rkey}`,
+        source: acc.name,
+        pubDate: new Date(pub).toISOString(),
+        description: (rec.text + (ext ? ` ${ext.title ?? ""} ${ext.description ?? ""}` : "")).slice(0, 600),
+        social: "bluesky",
+      });
+    }
+    return items;
+  }));
+  const items = results.flatMap((r) => r.status === "fulfilled" ? r.value : []);
+  if (items.length) addLiveNews(items);
+  else console.warn("Live-News (Bluesky) nicht erreichbar");
+}
+
+async function refreshNews() {
+  const cfg = state.data?.classifier;
+  if (!cfg) return;
+  // GDELT erlaubt 1 Request / 5 s pro IP – Tab-übergreifend bremsen
+  try {
+    const last = Number(localStorage.getItem("bw_gdelt_at") || 0);
+    if (Date.now() - last < 90 * 1000) return;
+    localStorage.setItem("bw_gdelt_at", String(Date.now()));
+  } catch {}
+  try {
+    const url =
+      "https://api.gdeltproject.org/api/v2/doc/doc?query=" +
+      encodeURIComponent(GDELT_QUERY) +
+      "&mode=artlist&format=json&maxrecords=100&timespan=8h";
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    // Rate-Limit-Antworten sind Klartext – JSON.parse wirft dann
+    const json = JSON.parse(await res.text());
+
+    const items = [];
+    for (const a of json.articles ?? []) {
+      const m = a?.seendate?.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+      if (!a?.title || !a?.url || !m) continue;
+      items.push({
+        title: a.title.trim(),
+        link: a.url,
+        source: a.domain || "GDELT",
+        pubDate: `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`,
+        description: "",
+      });
+    }
+    addLiveNews(items);
+  } catch (err) {
+    // Still bleiben: der GitHub-Snapshot bleibt als Fallback stehen
+    console.warn("Live-News (GDELT) nicht erreichbar:", err.message);
+  }
+}
+
+/* ---------------- Live-Kurse (client-seitig, minütlich) ---------------- */
+const LIVE_SYMBOLS = {
+  futures: { "ICEEUR:BRN1!": "brent", "NYMEX:CL1!": "wti" },
+  global: { "NYMEX:NG1!": "natgas", "TVC:DXY": "dxy", "TVC:GOLD": "gold" },
+};
+
+async function refreshLive() {
+  if (!state.data) return;
+  const jobs = Object.entries(LIVE_SYMBOLS).map(async ([scope, map]) => {
+    const res = await fetch(`https://scanner.tradingview.com/${scope}/scan`, {
+      method: "POST",
+      // bewusst ohne Content-Type-Header: text/plain braucht keinen CORS-Preflight
+      body: JSON.stringify({
+        symbols: { tickers: Object.keys(map), query: { types: [] } },
+        columns: ["close", "change"],
+      }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    let updated = false;
+    for (const row of (await res.json()).data ?? []) {
+      const q = state.data.quotes.find((x) => x.id === map[row.s]);
+      const [close, change] = row.d ?? [];
+      if (!q || close == null) continue;
+      q.price = close;
+      if (change != null) {
+        q.changePct = change;
+        q.prevClose = close / (1 + change / 100);
+      }
+      q.stale = false;
+      updated = true;
+    }
+    return updated;
+  });
+  const results = await Promise.allSettled(jobs);
+  if (results.some((r) => r.status === "fulfilled" && r.value)) {
+    state.liveAt = Date.now();
+    renderTiles();
+    renderStand();
+  }
+}
+
+/* ---------------- TradingView (echter Live-Chart) ---------------- */
+const CHART_SYMBOLS = {
+  brent: ["OANDA:BCOUSD", "Brent Live-Chart"],
+  wti: ["OANDA:WTICOUSD", "WTI Live-Chart"],
+  natgas: ["OANDA:NATGASUSD", "Henry-Hub-Gas Live-Chart"],
+  dxy: ["TVC:DXY", "Dollar-Index Live-Chart"],
+  gold: ["OANDA:XAUUSD", "Gold Live-Chart"],
+};
+
+let tvShownId = null;
+function renderChart() {
+  if (typeof TradingView === "undefined") return;
+  if (tvShownId === state.chartId) return;
+  tvShownId = state.chartId;
+  const [symbol, title] = CHART_SYMBOLS[state.chartId] ?? CHART_SYMBOLS.brent;
+  $("#chart-title").textContent = title;
+  $("#tv-chart").innerHTML = "";
+  new TradingView.widget({
+    container_id: "tv-chart",
+    symbol,
+    interval: "60",
+    timezone: "Europe/Berlin",
+    theme: "dark",
+    style: "1",
+    locale: "de",
+    autosize: true,
+    hide_top_toolbar: false,
+    hide_legend: false,
+    allow_symbol_change: true,
+    backgroundColor: "#1a1a19",
+    gridColor: "rgba(44,44,42,0.6)",
+  });
+}
+
+function setChart(id) {
+  if (!CHART_SYMBOLS[id]) return;
+  state.chartId = id;
+  renderChart();
+  if (state.data) renderTiles();
+}
+
+/* ---------------- Laden ---------------- */
+async function load() {
+  try {
+    const res = await fetch(`${DATA_URL}?_=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const fresh = await res.json();
+    // Live-Kurse nicht mit dem älteren Stunden-Snapshot überschreiben
+    if (isLive() && state.data) {
+      for (const q of fresh.quotes) {
+        const cur = state.data.quotes.find((x) => x.id === q.id);
+        if (cur?.price != null) {
+          q.price = cur.price;
+          q.changePct = cur.changePct;
+          q.prevClose = cur.prevClose;
+          q.stale = false;
+        }
+      }
+    }
+    state.data = fresh;
+    // Live-Meldungen (GDELT, Bluesky) mit dem Snapshot vereinigen
+    if (state.liveNews.length) applyNews();
+  } catch (err) {
+    $("#stand").textContent = `Daten konnten nicht geladen werden (${err.message})`;
+    return;
+  }
+  renderStand(); renderTiles(); renderRegions(); renderFilters(); renderNews();
+}
+
+state.lastVisit = Number(localStorage.getItem("bw_last_visit") || 0);
+localStorage.setItem("bw_last_visit", String(Date.now()));
+
+renderChart();
+window.addEventListener("load", renderChart);
+load().then(() => { refreshLive(); refreshNews(); refreshBluesky(); });
+setInterval(load, REFRESH_MS);
+setInterval(refreshLive, 60 * 1000);
+setInterval(refreshNews, GDELT_MS);
+setInterval(refreshBluesky, BLUESKY_MS);
+// Zurück im Tab: sofort aktualisieren statt auf den nächsten Takt zu warten
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) { load().then(refreshBluesky); refreshLive(); }
+});
+setInterval(() => { if (state.data) renderStand(); }, 60 * 1000);
+</script>
+</body>
+</html>
