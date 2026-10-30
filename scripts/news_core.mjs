@@ -227,6 +227,24 @@ function parseRss(xml, fallbackSource) {
   });
 }
 
+// Werbeanhänge mancher Telegram-Kanäle („💧 Rainbet.com … Casino“) – alles ab
+// dem ersten Treffer wird abgeschnitten. Nur auf Social-Posts angewendet.
+const AD_PATTERNS = [/rainbet/i, /\bnon-?kyc\b/i, /\bcasino\b/i, /\bsportsbook\b/i, /\bpromo ?code\b/i];
+// Eil-Präfixe nur in Großschreibung, als Hashtag oder mit Doppelpunkt –
+// „Urgent talks …“ als normaler Satzanfang bleibt stehen
+const LEAD_RE =
+  /^(?:[\s\p{Extended_Pictographic}️]|#(?:BREAKING|Breaking|breaking|JUSTIN|JustIn|URGENT|Urgent)\b:?|(?:BREAKING|JUST IN|URGENT|ALERT)\b:?|(?:Breaking|Just in|Urgent|Alert):)+/u;
+
+// Social-Text säubern: Werbung, „⚡#BREAKING“-Präfixe, angehängte Kurzlinks
+export function cleanSocialText(text) {
+  let t = text ?? "";
+  const cut = Math.min(...AD_PATTERNS.map((re) => re.exec(t)?.index ?? t.length));
+  t = t.slice(0, cut).replace(/[\s\p{Extended_Pictographic}️|•·–-]+$/u, "");
+  t = t.replace(LEAD_RE, "");
+  t = t.replace(/\s+(?:https?:\/\/)?[a-z0-9-]+(?:\.[a-z0-9-]+)+\/\S*$/i, "");
+  return t.trim();
+}
+
 // Social-Posts haben keine Überschrift: erster Satz/Zeile als Titel,
 // der Rest wandert in die Beschreibung (für die Klassifikation).
 export function socialTitle(text, max = 220) {
@@ -246,9 +264,9 @@ export function parseTelegram(html, channel) {
     );
     const time = [...chunk.matchAll(/<time[^>]*datetime="([^"]+)"/g)].at(-1);
     if (!body || !time || !/^[\w]+\/\d+$/.test(postId)) continue;
-    const text = decodeEntities(body[1].replace(/<br\s*\/?>/gi, " "));
+    const text = cleanSocialText(decodeEntities(body[1].replace(/<br\s*\/?>/gi, " ")));
     const pub = Date.parse(time[1]);
-    if (!text || !Number.isFinite(pub)) continue;
+    if (text.length < 15 || !Number.isFinite(pub)) continue;
     posts.push({
       title: socialTitle(text),
       link: `https://t.me/${postId}`,
@@ -295,12 +313,14 @@ export function mapBlueskyFeed(json, account) {
     // Link-Karten (Schlagzeile des verlinkten Artikels) helfen der Klassifikation
     const ext = post.embed?.external ?? rec.embed?.external;
     const extra = ext ? ` ${ext.title ?? ""} ${ext.description ?? ""}` : "";
+    const text = cleanSocialText(rec.text);
+    if (text.length < 15) continue;
     out.push({
-      title: socialTitle(rec.text),
+      title: socialTitle(text),
       link: `https://bsky.app/profile/${post.author?.handle ?? account.handle}/post/${rkey}`,
       source: account.name,
       pubDate: new Date(pub).toISOString(),
-      description: (rec.text + extra).slice(0, 600),
+      description: (text + extra).slice(0, 600),
       social: "bluesky",
     });
   }
@@ -398,7 +418,16 @@ export function mergeNews(all, limit = 400) {
   const cutoff = Date.now() - 72 * 3600 * 1000;
   const seen = new Set();
   const news = [];
-  for (const raw of all) {
+  for (let raw of all) {
+    // Auch ältere Snapshot-Posts säubern, damit Keys mit frischen übereinstimmen
+    if (raw.social) {
+      raw = {
+        ...raw,
+        title: cleanSocialText(raw.title),
+        description: cleanSocialText(raw.description),
+      };
+      if (raw.title.length < 15) continue;   // reine Werbung
+    }
     if (!raw.title || !raw.pubDate || Date.parse(raw.pubDate) < cutoff) continue;
     const key = newsKey(raw.title);
     if (!key || seen.has(key)) continue;
