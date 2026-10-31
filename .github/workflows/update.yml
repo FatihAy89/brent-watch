@@ -1,0 +1,100 @@
+name: Daten-Update (Dauerlauf)
+
+# GitHub drosselt Cron-Läufe in freien Repos stark (real nur alle 1–4 h).
+# Deshalb holt EIN Job in einer Schleife alle TAKT_MIN Minuten neue Daten,
+# läuft knapp 6 h (Job-Limit) und startet am Ende selbst seinen Nachfolger.
+# Der Cron ist nur Wächter: reißt die Kette ab, startet er sie neu. Solange
+# ein Lauf aktiv ist, wartet ein neuer in der concurrency-Gruppe.
+#
+# Archiv stündlich: innerhalb einer UTC-Stunde ersetzt der Bot seinen
+# eigenen letzten Daten-Commit (amend + force-with-lease), statt neue
+# anzuhängen – die History behält einen Stand pro Stunde und wächst nicht
+# 10× so schnell. Fremde Commits (Code-Änderungen) werden nie ersetzt.
+#
+# Takt 6 Min = max. 10 Pushes/h – das ist das weiche Limit für
+# GitHub-Pages-Builds. Öffentliche Repos zahlen keine Action-Minuten.
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      laufzeit_min:
+        description: "Laufzeit der Schleife in Minuten"
+        default: "340"
+      takt_min:
+        description: "Abstand zwischen zwei Abrufen in Minuten"
+        default: "6"
+
+permissions:
+  contents: write
+  actions: write          # zum Starten des Nachfolge-Laufs
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Daten holen (Schleife)
+        env:
+          LAUFZEIT_MIN: ${{ inputs.laufzeit_min || '340' }}
+          TAKT_MIN: ${{ inputs.takt_min || '6' }}
+          BRANCH: ${{ github.ref_name }}
+          TZ: UTC
+          # Push-Alarme (optional): Secret NTFY_TOPIC = geheimer Themen-Name in
+          # der ntfy-App; ohne Secret werden Alarme nur im Dashboard gelistet
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: |
+          git config user.name "brent-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          ende=$(( $(date +%s) + LAUFZEIT_MIN * 60 ))
+          while :; do
+            start=$(date +%s)
+            # Neuen Code/Konfig aus dem Repo übernehmen, ohne neu zu starten
+            git pull -q --rebase -X theirs origin "$BRANCH" || true
+            node scripts/fetch_data.mjs || echo "::warning::Abruf fehlgeschlagen"
+            git add data/data.json
+            if git diff --cached --quiet; then
+              echo "Keine Änderungen"
+              ersetzt=0
+            elif [ "$(git log -1 --format=%an)" = "brent-watch-bot" ] &&
+                 [ "$(git log -1 --format=%cd --date=format-local:%Y%m%d%H)" = "$(date +%Y%m%d%H)" ] &&
+                 [ "$(git rev-parse HEAD)" = "$(git ls-remote origin "refs/heads/$BRANCH" | cut -f1)" ]; then
+              # Eigener Commit aus dieser Stunde, noch nichts darüber: ersetzen
+              alt=$(git rev-parse HEAD)
+              git commit -q --amend --no-edit --date=now
+              git push -q --force-with-lease="$BRANCH:$alt" origin "HEAD:$BRANCH" && ersetzt=1 || ersetzt=2
+            else
+              git commit -q -m "data: Update"
+              ersetzt=2
+            fi
+            if [ "$ersetzt" = 2 ]; then
+              for i in 1 2 3; do
+                git pull -q --rebase -X theirs origin "$BRANCH" && git push -q origin "HEAD:$BRANCH" && break
+                sleep 5
+              done
+            fi
+            naechster=$(( start + TAKT_MIN * 60 ))
+            [ "$naechster" -ge "$ende" ] && break
+            pause=$(( naechster - $(date +%s) ))
+            [ "$pause" -gt 0 ] && sleep "$pause"
+          done
+
+      - name: Nachfolger starten
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update.yml --ref main
