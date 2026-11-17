@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-17T15:54:28.578Z",
+ "updatedAt": "2026-11-17T16:06:28.698Z",
  "quotes": [
   {
    "id": "brent",
    "symbol": "BZ=F",
    "name": "Brent Crude",
    "unit": "USD/bbl",
-   "price": 93.09,
+   "price": 93.15,
    "prevClose": 92.44,
-   "changePct": 0.7,
+   "changePct": 0.77,
    "source": "tradingview"
   },
   {
@@ -16,9 +16,9 @@
    "symbol": "CL=F",
    "name": "WTI Crude",
    "unit": "USD/bbl",
-   "price": 86.32,
+   "price": 86.45,
    "prevClose": 85.72,
-   "changePct": 0.7,
+   "changePct": 0.85,
    "source": "tradingview"
   },
   {
@@ -26,9 +26,9 @@
    "symbol": "NG=F",
    "name": "Henry Hub Gas",
    "unit": "USD/MMBtu",
-   "price": 3.1,
+   "price": 3.14,
    "prevClose": 3.12,
-   "changePct": -0.74,
+   "changePct": 0.51,
    "source": "tradingview"
   },
   {
@@ -36,9 +36,9 @@
    "symbol": "DX-Y.NYB",
    "name": "US-Dollar-Index",
    "unit": "",
-   "price": 103.47,
+   "price": 103.52,
    "prevClose": 103.59,
-   "changePct": -0.12,
+   "changePct": -0.07,
    "source": "tradingview"
   },
   {
@@ -46,9 +46,9 @@
    "symbol": "GC=F",
    "name": "Gold",
    "unit": "USD/oz",
-   "price": 3877.07,
+   "price": 3870.65,
    "prevClose": 3856.4,
-   "changePct": 0.54,
+   "changePct": 0.37,
    "source": "tradingview"
   },
   {
@@ -56,9 +56,9 @@
    "symbol": "^OVX",
    "name": "Öl-Volatilität (OVX)",
    "unit": "Index",
-   "price": 49.02,
+   "price": 49.68,
    "prevClose": 49.59,
-   "changePct": -1.15,
+   "changePct": 0.18,
    "source": "cboe"
   }
  ],
@@ -67,10 +67,6 @@
    "interval": "15m",
    "source": "snapshot",
    "points": [
-    [
-     1794499200,
-     93.78
-    ],
     [
      1794500100,
      93.48
@@ -1930,6 +1926,14 @@
     [
      1794930857,
      93.09
+    ],
+    [
+     1794931217,
+     93.36
+    ],
+    [
+     1794931577,
+     93.15
     ]
    ]
   }
@@ -1972,11 +1976,117 @@
  ],
  "news": [
   {
+   "title": "- US attacks Iran’s Qeshm island in Strait of Hormuz: official bit.ly/3X9HP11 Follow @InsiderPaper for more news",
+   "link": "https://t.me/insiderpaper/45964",
+   "source": "Insider Paper",
+   "pubDate": "2026-11-17T16:05:23.000Z",
+   "description": "- US attacks Iran’s Qeshm island in Strait of Hormuz: official bit.ly/3X9HP11 Follow @InsiderPaper for more news",
+   "social": "telegram",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "India Condemns Attack on LPG Tanker in Strait of Hormuz as Indian Seafarer Remains Missing",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ1pEaVZuTzBNejZDSmloZ1h5OWpJY2lKRjNvWEY4TjlRTUJmVkplRWRyUTNXVVQwcW5aMzBqOENId0JhZFNBY0NwdGhaWmZBVG1xdTRHcGZlTGZ5OGM2LV9aRDRneHRYdEdCdU9kUUI0SFZmRzVUaWlobm9XVUhJN1pYaWpLOUx4SEFUN0FSeF9aamVoX1BxUC1BQk9LcHcyYVNXY2FUNTRRYUlYLWZzeno5V3JTRkRpMmVR?oc=5",
+   "source": "INDIA New England News",
+   "pubDate": "2026-11-17T16:03:12.000Z",
+   "description": "India Condemns Attack on LPG Tanker in Strait of Hormuz as Indian Seafarer Remains Missing&nbsp;&nbsp;INDIA New England News",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "U.S. authorities are investigating after a tanker on the Mississippi River crashed into a smaller river cruise ship docked in New Orleans, sending dozens of people into the water.",
+   "link": "https://bsky.app/profile/apnews.com/post/3n2jfzhuslj2z",
+   "source": "AP",
+   "pubDate": "2026-11-17T16:00:38.000Z",
+   "description": "U.S. authorities are investigating after a tanker on the Mississippi River crashed into a smaller river cruise ship docked in New Orleans, sending dozens of people into the water. What we do and don't know about a tanker with steering failure that hit a cruise boat in New Orleans U.S. authorities ar",
+   "social": "bluesky",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "A CNN report quoting unnamed US officials alleges Tehran is developing plans for an attack on officials in Washington.",
+   "link": "https://bsky.app/profile/aljazeera.com/post/3n2jfyigk3l2h",
+   "source": "Al Jazeera",
+   "pubDate": "2026-11-17T16:00:05.211Z",
+   "description": "A CNN report quoting unnamed US officials alleges Tehran is developing plans for an attack on officials in Washington. Is Iran plotting a ‘dirty bomb' attack in the US? What we know A CNN report quoting unnamed US officials alleges Tehran is developing plans for an attack on officials in Washington.",
+   "social": "bluesky",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Insight: Trump and Tehran gamble on time as Iran war stalemate deepens",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5",
+   "source": "Reuters",
+   "pubDate": "2026-11-17T16:00:04.000Z",
+   "description": "Insight: Trump and Tehran gamble on time as Iran war stalemate deepens&nbsp;&nbsp;Reuters",
+   "categories": [
+    "iran_israel"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "UK sanctions firms over Israeli West Bank settlements",
+   "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC",
+   "pubDate": "2026-11-17T15:59:47.000Z",
+   "description": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
+   "categories": [
+    "iran_israel",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "EU targets owners and ship managers with new sanctions on Russia",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHhmdEQ2X0ZodnNYY2JRTmRLTjQwUDBfMV81SkxGenJxams2TzBqdlUwQ2xLemhYLU13VGdIU20yNEVhcWlDTl9Lb19oT3V2Zk5MOWI4XzUzaVpfWU1FLXRiZnBVUHFWOWZTVDU1YnpVZXlZNklRSDg3RXFFTkVBVGdOUDhIOVdaNnN3anAwV3lKUGN3SDZVV3RoSE9Ca1JERjVSSHFtUVZoUWQ3MzAwUGpWTUhCdw?oc=5",
+   "source": "TradeWinds News",
+   "pubDate": "2026-11-17T15:54:40.000Z",
+   "description": "EU targets owners and ship managers with new sanctions on Russia&nbsp;&nbsp;TradeWinds News",
+   "categories": [
+    "russia_ukraine",
+    "usa_policy"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Gasoline made from Russian oil returns to Russia via India: Ukraine’s Defence Intelligence exposed fuel supply schemes",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ3Y3UUhiRFg0aVRBNlZiVmVBX3pub0pDLUxuV2RQS0tLTmVnVXhWaVhWbkswYkUzZVJHc1NMQzlRcExhZ3pxWEVvZExoenBfRUNOZENrME00NllIZkNoRElicTdUWlBXZEdtZXdHRFBHcTdpcWpGN0ZzMXB0cmV0QnNQam9sekZsQjJBYjhzYXVISDN0c1lmSk5RektjSjg1XzZXcGEwdkxaVkIyNjNocTZKYVlZMUs3dXp2YnZEcHFsLTFSdjUzYkdmWkdBUjJvMHlqRFV30gHUAUFVX3lxTE1fQTlnaFpfaHM0WW4xY3JYUnFUNkUxc1pabU9LeEZCYzE2WnluTzA2NnFCUGxlaTNQel9vb1VZRThfdU84NUZPcEtxa1ctbmtmdHJWXzIzOFpJQXY1eEVIWmJIN3Q1aHZXQ3lFaUxwRkttRXhjal9sM3hOS2RNbVgyV3c4X3NrN3hDQ21sVXU4M2Ezb3RtdTBCLV9nTnVzX1hWRDlvbkg4bFZBVDd5UUd6UmtzNmEya2tOTnVhTUV0OTdxMmdNTzJWT0pCOTZtc0ZaX0RH?oc=5",
+   "source": "Українські Національні Новини (УНН)",
+   "pubDate": "2026-11-17T15:54:11.000Z",
+   "description": "Gasoline made from Russian oil returns to Russia via India: Ukraine’s Defence Intelligence exposed fuel supply schemes&nbsp;&nbsp;Українські Національні Новини (УНН)",
+   "categories": [
+    "russia_ukraine",
+    "market"
+   ],
+   "severity": "medium"
+  },
+  {
    "title": "Short: India strongly condemns Strait of Hormuz tanker attack as one national remains missing",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQlFjX0lwcmNqY3dteXVWdDE0a0lheEY2NFZUejJvM0E1anRZZVZGT09ySXRadGl2ZEw4UjFkcnM5ZFh5UUg5RzVHU2hQNVBvYWhQZUZxdDNCQjJtMEg0aF9rdVg5djNiQnRTN25vMUtfVmpkUzl5MlZMMER1TFhzR2pYQTRpWERQdVhuUGo4dmZCS3lxdVA1c3dqYTZhT1dadkt5cTB5UXZpNmpFY1N6QXAxY1ZodGxTVTRYQUY0d1RFRUhxYTJqZ1g2MVg4QdIBzgFBVV95cUxOQlFjX0lwcmNqY3dteXVWdDE0a0lheEY2NFZUejJvM0E1anRZZVZGT09ySXRadGl2ZEw4UjFkcnM5ZFh5UUg5RzVHU2hQNVBvYWhQZUZxdDNCQjJtMEg0aF9rdVg5djNiQnRTN25vMUtfVmpkUzl5MlZMMER1TFhzR2pYQTRpWERQdVhuUGo4dmZCS3lxdVA1c3dqYTZhT1dadkt5cTB5UXZpNmpFY1N6QXAxY1ZodGxTVTRYQUY0d1RFRUhxYTJqZ1g2MVg4QQ?oc=5",
    "source": "Rising Kashmir",
    "pubDate": "2026-11-17T15:49:30.000Z",
    "description": "Short: India strongly condemns Strait of Hormuz tanker attack as one national remains missing&nbsp;&nbsp;Rising Kashmir",
+   "categories": [
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
+   "title": "Shipping faces trade route rethink after Hormuz disruption, says ex-UK PM Tony Blair",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbDZLTGJwbkZFNGQzTEtpeDduMTBwYVBiYk0tODZwNVpSeEg4UHA1LUF1V2VlSFNiRXE1ZmttbEJyOFVfSXhKWVdJTkVobkNJc1Zxc0gtaEE2bTBjT2dqUUludXZBbkFmQWs2MlBIMmxRRE9CaC1kWUE4aEl0SUtFYmptbWJfVG82VTRwMEFYOU51cllTQl9hYjN3aG1IWUoxWnl6VTdVaHhSVXpGaHYzQ0o1SG00UDhTZ1FOdkF5OXNWVWpIMHRpcmJERlVxZw?oc=5",
+   "source": "TradeWinds News",
+   "pubDate": "2026-11-17T15:45:00.000Z",
+   "description": "Shipping faces trade route rethink after Hormuz disruption, says ex-UK PM Tony Blair&nbsp;&nbsp;TradeWinds News",
    "categories": [
     "hormuz_redsea"
    ],
@@ -2149,6 +2259,18 @@
    "description": "OPEC Officials Meet to Discuss Production Capacity Review&nbsp;&nbsp;صحيفة مال",
    "categories": [
     "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Closing Iran’s Second Front: A U.S. Strategy for the Houthi Threat",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLZFJQUE1uUGg0c2lmUDRwQVc2Z0MzQWdQbGlUSWF2blg2eklpVHZRQ2E5MlJOaEU2elNnTHdTRVNVbm1SdXdxNXdEQ1hHMkNjUlUzLTNRcHBQcGF4MjUwaUtfY3VWUlZRSWc?oc=5",
+   "source": "JINSA",
+   "pubDate": "2026-11-17T15:04:11.000Z",
+   "description": "Closing Iran’s Second Front: A U.S. Strategy for the Houthi Threat&nbsp;&nbsp;JINSA",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
    ],
    "severity": "medium"
   },
@@ -2385,7 +2507,7 @@
   },
   {
    "title": "China, Russia’s reality check for Trump: Why US sanctions may not matter any more",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPU1EyUTA1aFdjejFJTm83OTRBQVJsbmZrWU0zRnM0R3lGWDhfNnR6X1lFc1Zpak1iRjNsTHBrY2ctdkFKRjZEdFdDc1d6R0tkR1FFbGhCd2xsSGpXY2xaZ2ctQk90UHpucWlKbGNxZHpFUHJMZlpiNHBVY2VrTWo1SlloejZ3NDlRdVpiZV9oRGg0MUlGXzVPUWRwOGtJQnlhMnZxVktIb21LbUlJZEY4N2txZUstLTBHcnZoZDRyYWJLa2YtU0Y0OTBiMHY5XzVEa1FzR2djdTNLNmtRTzUyR1pTWXl4Q2h1S2ktOUkwdmloUmpDLWRhSWpBQ3Q0UVNoVVHSAYcCQVVfeXFMT1diQXZIMjJmZ1FtbDZsZWpuV1BlM2JQaWxzR1o4Q0ItRjYyS0wxRU5kdm9VcGo0UDJ6R05mbjlpRURzYllicC1NTC1CVF9jQkVsanBoVldjZDFFOC14SjF2TmNNNTkzazRvWnZ0b0FlTXVoenJBYUZmalBVbC15bTd6ZFE3eTdNWTNpUjZ5eno5N1ltWHRMWVdQX25Jc2o3Y010cWhHQ09UaDI2M3hnRFE1bjF4X1ltdFhjTXNkeWN3QXQ0U3JxUGh3UzVRTmlSdldBRW9QSkNUWDJLTGxMTDI2SVBqMzRnZDBJX0V3YTRRNDBZRjltVDhpcXV1MkNmZ1l6SGlmMlU?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPU1EyUTA1aFdjejFJTm83OTRBQVJsbmZrWU0zRnM0R3lGWDhfNnR6X1lFc1Zpak1iRjNsTHBrY2ctdkFKRjZEdFdDc1d6R0tkR1FFbGhCd2xsSGpXY2xaZ2ctQk90UHpucWlKbGNxZHpFUHJMZlpiNHBVY2VrTWo1SlloejZ3NDlRdVpiZV9oRGg0MUlGXzVPUWRwOGtJQnlhMnZxVktIb21LbUlJZEY4N2txZUstLTBHcnZoZDRyYWJLa2YtU0Y0OTBiMHY5XzVEa1FzR2djdTNLNmtRTzUyR1pTWXl4Q2h1S2ktOUkwdmloUmpDLWRhSWpBQ3Q0UVNoVVE?oc=5",
    "source": "The Times of India",
    "pubDate": "2026-11-17T14:20:00.000Z",
    "description": "China, Russia’s reality check for Trump: Why US sanctions may not matter any more&nbsp;&nbsp;The Times of India",
@@ -2511,6 +2633,18 @@
    "severity": "medium"
   },
   {
+   "title": "Iran says US LUCAS drone intercepted over Strait of Hormuz",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcE9IYk9sRGhZZ3UtZFhNZlJ3elA5NXQ5TXdlVUMyT1J1azdGWTd2TWY3SjZUNmQ3ZktyQnJTUVhIak9XQTJIc1VXNk9YVmJzT2NPOXBUSEkwWlVYaGJBbzZMMGFwQkZsSDVBMGhDRW5lMEpoZkZCOVRVQk1MTUQwNm1JbHFleElEamduYzRfcW9rbnZIU2FycnlOb2pRMzA3?oc=5",
+   "source": "Anadolu Ajansı",
+   "pubDate": "2026-11-17T13:52:00.000Z",
+   "description": "Iran says US LUCAS drone intercepted over Strait of Hormuz&nbsp;&nbsp;Anadolu Ajansı",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Russia's Arctic oil shipments hit record amid sanctions, melting ice",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGlPakY5VzJWeGFpOGM3YWRvQm5PN0NubVgzUEExYW01ZzVhc3JCVFhtTVpQbTJYdmExbmJpdUttVF9ESEJGZTF4TURoR1BuWWtzOHItNlZ2NG1WTGJZSWIzZVZOd3p4bkRnZ3p5RC1wWDJBc09wUFR6UlNoM3RCOXNrcEdmMkdnM3VFdnZkempJU0pEWWV0aVJ1U0R2YXRNOXJmS0VLWGk?oc=5",
    "source": "Anadolu Ajansı",
@@ -2542,18 +2676,6 @@
    "social": "telegram",
    "categories": [
     "iran_israel"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Iran says US LUCAS drone intercepted over Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQME1SdDc2OUozME9oV29XSnNCTlo2UFpVUUxnTlZqVTRPeXZGUGhuMFV1b2JCNEFXSTFfRVF1S05sQmlua2Z3M3RtcnJsVFR3Q0VOSVlJYlZsdE13Rmo4YlNVSWRFU0lUaGFoM0JIeTU4M0wtX2Z6ajVueXVpQW1hWk4tS2NwRW15Q1ZfdTZYSXNNWjJTdTJyRlhkYXI3MjBibFlma0hCQTVod9IBrwFBVV95cUxOVTJEY0U1YllJUWxnc0dldnNBQlR3VkVMa051Zlp6b0xraXB1enFGSmU5NDVlTHZPTDViTF9ZdTlxSFB6dzlMczVQNXNJLWR3UlQ5QTBvVExUVlJXeTdsOWYzMUwxVEk3QS1MYmxsX21qaUt0THN4NVVoWEZKRXZXVzdsZTYyZXQ4eVdQaEc4VTFFOVFYOGhjMlhNdmFZVFdta0d5THEzR0x1bDkwTEhF?oc=5",
-   "source": "A News",
-   "pubDate": "2026-11-17T13:50:28.000Z",
-   "description": "Iran says US LUCAS drone intercepted over Strait of Hormuz&nbsp;&nbsp;A News",
-   "categories": [
-    "iran_israel",
-    "hormuz_redsea"
    ],
    "severity": "high"
   },
@@ -2684,6 +2806,18 @@
    "severity": "low"
   },
   {
+   "title": "US attacks Iran’s Qeshm island in Strait of Hormuz: official",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVZxQ2s5Ym90THU4ak1RLWh3dVJack5WRWdJYnY4RmppVjAyU0dIREhGUnBfX0pEY2RNTFAwaXVDRlpMYUU2NHpITVVtejZyMUVnck5jWGk2ZUExSi1FSEU3bGI4TlJRcEVsTWk0ODJzRG1EeHIzdzF0WnRDQzhQTDk4RHgzY28yNnVlTDFrUmpTMVlBZXptc003V0tVWEJtZ3pmTXNn?oc=5",
+   "source": "Arab News",
+   "pubDate": "2026-11-17T13:31:42.000Z",
+   "description": "US attacks Iran’s Qeshm island in Strait of Hormuz: official&nbsp;&nbsp;Arab News",
+   "categories": [
+    "iran_israel",
+    "hormuz_redsea"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Brent crude oil price on Nov 18, 2026 at 5:00 PM EST",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObWRvajVuWUo1eXZ3emp5RnN6dmRCdXFiOEJOelFhdmZoQkE4el9xR0V4dElYZ3U1aVBSVDQ4QWMwN1dvSGFwYmtYZlQ5aTNVajlBV3B4ZXVpZnN0dWpWWFExVzE1endMN3Bwc2JZSjBDVmg5MjZCaGpET2cyWmVYQnA2ek5yOENlNVVNQXNONklTYmQzN1J3dEJ6bWZVS05xYW4yVFBXRlBDcldNVDBxQWZnYWVVUkxBR0p2T0l2U1ljTGNzVDVKZzJB?oc=5",
    "source": "Robinhood",
@@ -2792,18 +2926,6 @@
    "description": "Middle East latest: Crew unaccounted for after huge blast on tanker off Oman&nbsp;&nbsp;The National",
    "categories": [
     "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "UK sanctions firms over Israeli West Bank settlements",
-   "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC",
-   "pubDate": "2026-11-17T13:10:06.000Z",
-   "description": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
-   "categories": [
-    "iran_israel",
-    "usa_policy"
    ],
    "severity": "medium"
   },
@@ -3291,17 +3413,6 @@
    "severity": "high"
   },
   {
-   "title": "Goldman Sachs Raises Oil Price Forecasts, Sees Brent Upside at $140 a Barrel",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWWdLclFHZ2c4cHNSTG5Gb2pzM3dyUXJ0dTRfaURrRW1QcUVaeVNOWEJxQmtrRDRmUFhUc3YxVjI4Q1B1M2ZKb3paWExmOGx0dU4tU3VIWVV4V0VrbmI1TlhWQng2eWZkejkxdXk5LWF0RWpkNl9ET1ZWTHFxeGxfeFNMTEVTbURCSF9zNm5WTWkxZWViX3FTYUNhRk5laTA3WGxJOWszQm0?oc=5",
-   "source": "EnergyNow.com",
-   "pubDate": "2026-11-17T11:33:00.000Z",
-   "description": "Goldman Sachs Raises Oil Price Forecasts, Sees Brent Upside at $140 a Barrel&nbsp;&nbsp;EnergyNow.com",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
    "title": "Ukrainian forces strike one of Russia's largest petrochemical companies – video",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEb2VheC1pcGFsQVZHM29jWTlMcmNVRXJVa0k2eXlVeFg5eEF2WnRQT3h6YzV6R0I2Q0pTUDJwS1MzY1FXeDNqTlp3X1JDcktITmVEZEhNeUREUGl1c25qRF92d0PSAXBBVV95cUxOU0VqaV9Va2N3ejRRdjRXY0toNlFhYko1Z1J0WUN2dmhoaW16YUhSWDllR0RrVHdrWm1YbEo0VnktZGJ5NXhKdkJQSERtRS11Yk1IWHc3RjI3VTkzMHdDV2RFekVxbjE1cExwU0RRNWNx?oc=5",
    "source": "Українська правда",
@@ -3758,18 +3869,6 @@
    "severity": "high"
   },
   {
-   "title": "Iran’s Biggest Win Yet Is Closing in on US and Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXpwbHkxOUoyMkNOT0dkODlKakYwMkhGTVFZanNvUkFBZ3ZNRHR3Zjk2bWR5Tmw0eVpVSE9CWVFJblAzWmZ1eW5aWHVZX1NMUnBnSy11ckp4akE4a3E0bXY3d2dwa3BCenZVQUV2Z05yRjFVRkd0QVRnZVAtVFNCVVAzcFdyWnFTTk15UVlPbXQ3QQ?oc=5",
-   "source": "Newsweek",
-   "pubDate": "2026-11-17T10:00:00.000Z",
-   "description": "Iran’s Biggest Win Yet Is Closing in on US and Saudi Arabia&nbsp;&nbsp;Newsweek",
-   "categories": [
-    "iran_israel",
-    "opec"
-   ],
-   "severity": "medium"
-  },
-  {
    "title": "🇾🇪🇸🇦 The Houthis are showing off wrecked armored vehicles that belonged to Saudi-backed forces near the Bab el-Mandeb strait. Saudi-backed troops pulled out of the area over the weekend to defend Aden, and Houthi fighters are reportedly holding positi",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQLXYyc2h1QnlUMWpnOTlBNjBDRi1GNzMxdUwxanVGWWs2QnZYSXhBdW9RUE91LWsyM2x3NnJWVVBQaWI4aUZQcWlhQXdOZmE4alhCNFdXUV9LTWhWcjMtSTF2TTN5MjlvTXZINw?oc=5",
    "source": "X",
@@ -3777,6 +3876,18 @@
    "description": "🇾🇪🇸🇦 The Houthis are showing off wrecked armored vehicles that belonged to Saudi-backed forces near the Bab el-Mandeb strait. Saudi-backed troops pulled out of the area over the weekend to defend Aden, and Houthi fighters are reportedly holding positi&nbsp;&nbsp;X",
    "categories": [
     "hormuz_redsea",
+    "opec"
+   ],
+   "severity": "medium"
+  },
+  {
+   "title": "Iran’s Biggest Win Yet Is Closing in on US and Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXpwbHkxOUoyMkNOT0dkODlKakYwMkhGTVFZanNvUkFBZ3ZNRHR3Zjk2bWR5Tmw0eVpVSE9CWVFJblAzWmZ1eW5aWHVZX1NMUnBnSy11ckp4akE4a3E0bXY3d2dwa3BCenZVQUV2Z05yRjFVRkd0QVRnZVAtVFNCVVAzcFdyWnFTTk15UVlPbXQ3QQ?oc=5",
+   "source": "Newsweek",
+   "pubDate": "2026-11-17T10:00:00.000Z",
+   "description": "Iran’s Biggest Win Yet Is Closing in on US and Saudi Arabia&nbsp;&nbsp;Newsweek",
+   "categories": [
+    "iran_israel",
     "opec"
    ],
    "severity": "medium"
@@ -5071,6 +5182,17 @@
    "source": "Inquirer.net",
    "pubDate": "2026-11-17T03:55:00.000Z",
    "description": "Manibela holds protest against oil price hikes, Pax Silica&nbsp;&nbsp;Inquirer.net",
+   "categories": [
+    "market"
+   ],
+   "severity": "low"
+  },
+  {
+   "title": "Goldman Sachs Raises Oil Price Forecasts, Sees Brent Upside at $140 a Barrel",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWWdLclFHZ2c4cHNSTG5Gb2pzM3dyUXJ0dTRfaURrRW1QcUVaeVNOWEJxQmtrRDRmUFhUc3YxVjI4Q1B1M2ZKb3paWExmOGx0dU4tU3VIWVV4V0VrbmI1TlhWQng2eWZkejkxdXk5LWF0RWpkNl9ET1ZWTHFxeGxfeFNMTEVTbURCSF9zNm5WTWkxZWViX3FTYUNhRk5laTA3WGxJOWszQm0?oc=5",
+   "source": "EnergyNow.com",
+   "pubDate": "2026-11-17T03:44:05.000Z",
+   "description": "Goldman Sachs Raises Oil Price Forecasts, Sees Brent Upside at $140 a Barrel&nbsp;&nbsp;EnergyNow.com",
    "categories": [
     "market"
    ],
@@ -6439,166 +6561,49 @@
     "hormuz_redsea"
    ],
    "severity": "medium"
-  },
-  {
-   "title": "Listed Oil & Gas Firms Declare N11.8tn Revenue Amid Hike in Oil Price",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQenNGLW9ja0Z1c1NoQmtQeGNkUnlvLW4yQWtSTERnbkhGS3o3Ql9lSEtHY1dMSTZYdWpac3NJbm1UZ0VzY3ZMSU5iR3RIaFZNVFZzVUpBNlBlbnczbFRBbFNtQ0g2UDBDbWloUnBsTmVmV3BsNldhQzhUbkxmWWtrSTBxZFRVdEljcWs2NTVqazA5SlItdlh3a19ZQ3VzVGRreEFVT0hEckk4ZkE?oc=5",
-   "source": "THISDAYLIVE",
-   "pubDate": "2026-11-16T20:00:51.000Z",
-   "description": "Listed Oil & Gas Firms Declare N11.8tn Revenue Amid Hike in Oil Price&nbsp;&nbsp;THISDAYLIVE",
-   "categories": [
-    "market"
-   ],
-   "severity": "low"
-  },
-  {
-   "title": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
-   "link": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss",
-   "source": "Al Jazeera",
-   "pubDate": "2026-11-16T20:00:07.000Z",
-   "description": "Rivals call for investigation into reports that PM's office tried to frame Arab parties.",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Libya Has Africa's Biggest Oil Reserves, but Western Majors Aren't Biting",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Libya-Has-Africas-Biggest-Oil-Reserves-but-Western-Majors-Arent-Biting.html",
-   "source": "OilPrice.com",
-   "pubDate": "2026-11-16T20:00:00.000Z",
-   "description": "In the immediate aftermath of Russia’s 24 February 2022 invasion of Ukraine, the pressure was on the West to quickly find new sources of oil and gas to compensate for those from Russia that would be lost through initial supply-chain disturbances and then because of sanctions. The net was cast wide, ",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy",
-    "supply_other"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Though Trump is giving him the cold shoulder, Netanyahu is pulling out all the stops to cling to power. And he just might | Simon Tisdall",
-   "link": "https://bsky.app/profile/theguardian.com/post/3n2hcvb2xon2y",
-   "source": "The Guardian",
-   "pubDate": "2026-11-16T19:59:16.156Z",
-   "description": "Though Trump is giving him the cold shoulder, Netanyahu is pulling out all the stops to cling to power. And he just might | Simon Tisdall Though Trump is giving him the cold shoulder, Netanyahu is pulling out all the stops to cling to power. And he just might | Simon Tisdall The downfall of the Isra",
-   "social": "bluesky",
-   "categories": [
-    "iran_israel"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Ukraine has imposed sanctions against seven vessels from Russia’s shadow fleet and six Russians",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbHFHQmxUSG1XR1JwaFhFRUwteGRva1ViMlFNd0VCUkRaWEhyY25wc2FrQnVtTG9sRklPNTZCQVRVdUhHMWE5WmhfX1Bic1RiUGlmd2JGTjl2UGlGUmp4ZzJRZVZWckFQWENiMk9NUmgzNHBkR2h4Y0lVbURJS1lGZWJxMVc5ZnVDTDVYX3NtLXVkV040UkYxS29pUnFudnpuYXhNdUpWWll1dmZycVpQb0VTQzk3S1VG0gG3AUFVX3lxTE5qRjVyRzV2Z2RONjNsM0lQNWE0WDZvcG42Ql9XcjU4RUJuVjdlQktRUVd2LXNZUVNaU3AyNGVSQWdSZ2RkcnlQeVBtbnBqc3FSQ0hlRmRhcXdqbnh3WmxKQTFyZHAxMnFUbUEyUjgwRWxobVg5a2xqS25CTzQ4VW4yeGo5akJYa3FsY3dfZW9sSmVJRjNVaVgyRHhqVkRkLWlMWUFacGtaTExhSUdfbWMzVndHOFhpQQ?oc=5",
-   "source": "Українські Національні Новини (УНН)",
-   "pubDate": "2026-11-16T19:58:30.000Z",
-   "description": "Ukraine has imposed sanctions against seven vessels from Russia’s shadow fleet and six Russians&nbsp;&nbsp;Українські Національні Новини (УНН)",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "Yemen's parliament approves bill designating Houthi militia 'terrorist organisation'",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZRkw0MWpHYWs4Q2ZDSFJwUUFockFETDZfelBQOEtSaC1heTdicHBRQ2pBUm1fUV96ZTdRREdxN3c1dDY4Qmh6Q2V0Zk96QUkySm1jbGRTeU4?oc=5",
-   "source": "TRT World",
-   "pubDate": "2026-11-16T19:56:20.000Z",
-   "description": "Yemen's parliament approves bill designating Houthi militia 'terrorist organisation'&nbsp;&nbsp;TRT World",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "AFU attack Ilsky Oil Refinery in russia, oil refining facilities hit",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNckJEUFhiNHd4MFNndUhfQ0h6Y0pUR1lmV3JSWXZWemFqOUg5ZG9fZmxwc0k2NGZDZGcyc2N1alB6OWtKbTYzRUFyak9BdUxfRk1NQ3hXQ20yZHdPby1WYU9BVmpoMVNxLXU5TjI1Z3pQcXNiZHc4LURZam1uMGhQUHpEYTlXRHVaakY5emtzNUdoV2FGUnJIaHYwQm5CU3RfaUhvWWQtZmdnRzVpUUhSRkp1OTRwNVNjcER6TmNRRUJBcHE4cFlUMlRSOWVxVnNIeUV30gHYAUFVX3lxTE9FbnZLdlVMUmZhS0M1bTJ3V0w0YzFLZXNwbjFScFpBXzhZTGR5ZVQwa3VaalppTkRzVjYwZ01ua3BuLWM1aWJTa3J5Zk9jdFhhbzdFYkVnbVlnbDVncUJ3MkpuZWdIVUdsUEkzSV9LVTBYZkVrWXN6VUZGaXFpcDlqdmJ6emFLeTRBcFVib2pHbVRVaF8zdXdvbmJPcEhnaFFOaUc0WTdLbDFNNk5CUG92cmZKa1BaR0lqYTJlZTRfMG5vemZKYTNoTWVCd2NYRHlLRHhmZGtncw?oc=5",
-   "source": "Ukrainian News Agency",
-   "pubDate": "2026-11-16T19:55:07.000Z",
-   "description": "AFU attack Ilsky Oil Refinery in russia, oil refining facilities hit&nbsp;&nbsp;Ukrainian News Agency",
-   "categories": [
-    "russia_ukraine"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Saudi-backed forces retreat to defend Aden as Houthis seize more ground in Yemen",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2FWNGduTlpEeXhuVlFxTWFKdElkZ1B5M1hKRWNXcHJ1M3FSdEhWYjJ2MDcxQzdlRDFXeFhxazltRnpFc3ZnMUk0QWd2OU42MmRBWUI0aTRVZUlhdVlCRUNINjdBa1FEMDkyeXZ1ODhWa1lBZTk2S0doZ05DS09YLS1uVUZ6SVlseVRVSnlqX1RzZmpPYUlNcFlaSUZKeUIzUnp2bDlkZ3hKdw?oc=5",
-   "source": "NBC News",
-   "pubDate": "2026-11-16T19:48:10.000Z",
-   "description": "Saudi-backed forces retreat to defend Aden as Houthis seize more ground in Yemen&nbsp;&nbsp;NBC News",
-   "categories": [
-    "hormuz_redsea",
-    "opec"
-   ],
-   "severity": "high"
-  },
-  {
-   "title": "Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict a year after taking her $5 billion online retail empire into Africa",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZJQTdCLUlSQTl2dXF3YUhESzNIaEs2ZTJ6Q0dmWE4zYjUzOWpONUZQUFlWUThPczlGOGh2WF81b0dOT2NxcHFGRlpGR0FvaXZNTmx1bDVZdGJlTk9pMmtDd3VETy1INVRESnpLdHVORmFPT1QyNi1OaGQxaG92aDF1YUxtNjRYZmQ0Z2JtUXU3MmhSX01OYjZYamJleDRWLTk1OFktMng3MzMwNlAxUDJlWW5YWUdPWFJIcGFOOUNmY2ZUMlk0elFFaHFPMEl1YWd6T2gydFZ6dw?oc=5",
-   "source": "Business Insider Africa",
-   "pubDate": "2026-11-16T19:47:49.000Z",
-   "description": "Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict a year after taking her $5 billion online retail empire into Africa&nbsp;&nbsp;Business Insider Africa",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
-  },
-  {
-   "title": "A year after taking her $5 billion online retail empire into Africa, Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlZ3a0txRVRIdDB6NlRzZjZLc3B2aTJuNXh3bC03b2VHaWc3dXNGY3pzaHdFYWtmSDA5MGNnMW1TbUcxd1FBdVNDRXVhb0NSazRLVkk0TWNpa1hQTF9LemhMYURiVFN5c3RMcG5iZjRNMTJ0cHhaR1J1ZVl5MG5UeDN6TFZZa29CMG8wU29nRk1Ed2F3QVZGRnA0OHVvNmlmNUsyeTdGMXpRS0FjZm8xTnl1RHl4clN4dS1XZ3dYd1VUT3FOZ2kzRUJJUUN1a1d4SUYw?oc=5",
-   "source": "Business Insider Africa",
-   "pubDate": "2026-11-16T19:47:49.000Z",
-   "description": "A year after taking her $5 billion online retail empire into Africa, Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict&nbsp;&nbsp;Business Insider Africa",
-   "categories": [
-    "russia_ukraine",
-    "usa_policy"
-   ],
-   "severity": "medium"
   }
  ],
  "regions": [
   {
    "id": "iran_israel",
    "label": "Iran – Israel",
-   "count24h": 143,
-   "high24h": 107,
+   "count24h": 146,
+   "high24h": 111,
    "level": "kritisch"
   },
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 153,
-   "high24h": 128,
+   "count24h": 157,
+   "high24h": 131,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 80,
-   "high24h": 39,
+   "count24h": 77,
+   "high24h": 37,
    "level": "angespannt"
   },
   {
    "id": "opec",
    "label": "OPEC+",
-   "count24h": 31,
-   "high24h": 7,
+   "count24h": 30,
+   "high24h": 6,
    "level": "angespannt"
   },
   {
    "id": "usa_policy",
    "label": "USA & Sanktionen",
-   "count24h": 44,
-   "high24h": 5,
+   "count24h": 41,
+   "high24h": 4,
    "level": "angespannt"
   },
   {
    "id": "supply_other",
    "label": "Weitere Förderländer",
-   "count24h": 13,
-   "high24h": 5,
+   "count24h": 12,
+   "high24h": 4,
    "level": "erhöht"
   }
  ],
@@ -6614,32 +6619,17 @@
    "items": 45
   },
   {
-   "name": "OilPrice.com",
-   "kind": "rss",
-   "items": 15
-  },
-  {
    "name": "BBC",
    "kind": "rss",
    "items": 27
   },
   {
-   "name": "@osinttechnical.bsky.social",
-   "kind": "bluesky",
-   "items": 39
+   "name": "OilPrice.com",
+   "kind": "rss",
+   "items": 15
   },
   {
-   "name": "@reuters.com",
-   "kind": "bluesky",
-   "items": 40
-  },
-  {
-   "name": "@javierblas.bsky.social",
-   "kind": "bluesky",
-   "items": 38
-  },
-  {
-   "name": "@aljazeera.com",
+   "name": "@bnonews.com",
    "kind": "bluesky",
    "items": 40
   },
@@ -6649,24 +6639,49 @@
    "items": 40
   },
   {
+   "name": "@reuters.com",
+   "kind": "bluesky",
+   "items": 40
+  },
+  {
+   "name": "@aljazeera.com",
+   "kind": "bluesky",
+   "items": 40
+  },
+  {
+   "name": "@osinttechnical.bsky.social",
+   "kind": "bluesky",
+   "items": 39
+  },
+  {
+   "name": "@javierblas.bsky.social",
+   "kind": "bluesky",
+   "items": 38
+  },
+  {
    "name": "@theguardian.com",
    "kind": "bluesky",
    "items": 40
   },
   {
-   "name": "t.me/spectatorindex",
-   "kind": "telegram",
-   "items": 20
+   "name": "Google News #3",
+   "kind": "rss",
+   "items": 56
   },
   {
-   "name": "t.me/insiderpaper",
-   "kind": "telegram",
-   "items": 19
+   "name": "Google News #1",
+   "kind": "rss",
+   "items": 100
   },
   {
-   "name": "t.me/warmonitors",
-   "kind": "telegram",
-   "items": 19
+   "name": "Google News #2",
+   "kind": "rss",
+   "items": 100
+  },
+  {
+   "name": "Google News #4",
+   "kind": "rss",
+   "items": 100
   },
   {
    "name": "t.me/AuroraIntel",
@@ -6674,9 +6689,14 @@
    "items": 17
   },
   {
-   "name": "Google News #3",
-   "kind": "rss",
-   "items": 57
+   "name": "t.me/warmonitors",
+   "kind": "telegram",
+   "items": 19
+  },
+  {
+   "name": "t.me/bnonews",
+   "kind": "telegram",
+   "items": 19
   },
   {
    "name": "t.me/FaytuksNews",
@@ -6689,29 +6709,14 @@
    "items": 13
   },
   {
-   "name": "Google News #4",
-   "kind": "rss",
-   "items": 100
+   "name": "t.me/spectatorindex",
+   "kind": "telegram",
+   "items": 20
   },
   {
-   "name": "t.me/bnonews",
+   "name": "t.me/insiderpaper",
    "kind": "telegram",
    "items": 19
-  },
-  {
-   "name": "@bnonews.com",
-   "kind": "bluesky",
-   "items": 40
-  },
-  {
-   "name": "Google News #1",
-   "kind": "rss",
-   "items": 100
-  },
-  {
-   "name": "Google News #2",
-   "kind": "rss",
-   "items": 100
   },
   {
    "name": "GDELT",
