@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Türkisch-Trainer Fachsprache</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f6f6f4; --fg:#1c1c1c; --mut:#666; --card:#fff; --line:#d5d5d0; --acc:#0b62a8; --ok:#1d7a3e; --no:#b3261e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#181818; --fg:#eaeaea; --mut:#a0a0a0; --card:#242424; --line:#3c3c3c; --acc:#6cb4ee; --ok:#5fc27e; --no:#f2867f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.45 system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width:760px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.2rem; margin:0 0 12px; }
+  h2 { font-size:1rem; margin:0 0 10px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; margin-bottom:14px; }
+  button, .filebtn { font:inherit; padding:8px 14px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg); cursor:pointer; }
+  button:disabled { opacity:.45; cursor:default; }
+  button:focus-visible, .filebtn:focus-within { outline:2px solid var(--acc); outline-offset:2px; }
+  kbd { font:12px ui-monospace, monospace; border:1px solid var(--line); border-radius:4px; padding:0 4px; color:var(--mut); }
+  .bar { height:10px; background:var(--line); border-radius:5px; overflow:hidden; }
+  .bar > div { height:100%; width:0; background:var(--acc); }
+  .row { display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
+  .mut { color:var(--mut); font-size:.9rem; }
+  #meta { display:flex; justify-content:space-between; }
+  #frage { font-size:1.7rem; font-weight:600; margin:18px 0 6px; overflow-wrap:anywhere; }
+  #antwort { font-size:1.35rem; color:var(--acc); margin:6px 0 12px; overflow-wrap:anywhere; }
+  #satz { border-left:3px solid var(--line); padding-left:10px; margin:0 0 14px; }
+  #karte { min-height:230px; }
+  .ok { border-color:var(--ok); color:var(--ok); }
+  .no { border-color:var(--no); color:var(--no); }
+  .wide { flex:1 1 180px; padding:12px; font-weight:600; }
+  table { border-collapse:collapse; width:100%; font-size:.9rem; }
+  th, td { text-align:right; padding:4px 6px; border-bottom:1px solid var(--line); }
+  th:first-child, td:first-child { text-align:left; }
+  input[type=number] { font:inherit; width:5em; padding:4px; }
+  input[type=file] { position:absolute; width:1px; height:1px; opacity:0; }
+  label { cursor:pointer; }
+  #hinweis { border-color:var(--no); }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Türkisch-Trainer Fachsprache</h1>
+
+  <section id="hinweis" hidden></section>
+
+  <section>
+    <div class="row" style="justify-content:space-between">
+      <strong id="tagText">Heute 0 / 30</strong>
+      <span class="mut" id="queueText"></span>
+    </div>
+    <div class="bar" style="margin-top:8px"><div id="tagBar"></div></div>
+  </section>
+
+  <section id="karte">
+    <div id="laden" hidden>
+      <h2>Vokabeldatei laden</h2>
+      <p>Die Datei <code>vokabeln.json</code> konnte nicht automatisch gelesen werden. Beim Öffnen per Doppelklick (<code>file://</code>) verbieten Browser den direkten Zugriff auf Nachbardateien. Wähle die Datei einmal aus; sie wird danach im Browser gespeichert.</p>
+      <label class="filebtn">vokabeln.json auswählen<input type="file" accept=".json,application/json" class="vokFile"></label>
+    </div>
+    <div id="fertig" hidden>
+      <h2>Nichts mehr fällig</h2>
+      <p id="fertigText"></p>
+    </div>
+    <div id="lern" hidden>
+      <div id="meta" class="mut"><span id="feldName"></span><span id="fachName"></span></div>
+      <div id="frage"></div>
+      <div id="loesung" hidden>
+        <div id="antwort"></div>
+        <p id="satz" lang="tr"></p>
+      </div>
+      <div class="row" style="margin-bottom:14px">
+        <button id="btnWort">🔊 Begriff <kbd>A</kbd></button>
+        <button id="btnSatz">🔊 Beispielsatz <kbd>S</kbd></button>
+      </div>
+      <div class="row" id="vorher">
+        <button id="btnZeigen" class="wide">Aufdecken <kbd>Leertaste</kbd></button>
+      </div>
+      <div class="row" id="nachher" hidden>
+        <button id="btnNein" class="wide no">Nicht gewusst <kbd>←</kbd> <kbd>1</kbd></button>
+        <button id="btnJa" class="wide ok">Gewusst <kbd>→</kbd> <kbd>2</kbd></button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Einstellungen</h2>
+    <div class="row">
+      <span>Richtung:</span>
+      <label><input type="radio" name="richtung" value="tr-de"> Türkisch → Deutsch</label>
+      <label><input type="radio" name="richtung" value="de-tr"> Deutsch → Türkisch</label>
+      <span class="mut">umschalten: <kbd>R</kbd></span>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <label>Tagesziel (gewusste Karten): <input type="number" id="ziel" min="1" max="500"></label>
+      <label><input type="checkbox" id="auto"> Begriff automatisch vorlesen</label>
+    </div>
+    <div class="row" style="margin-top:10px" id="felder"></div>
+    <p class="mut" id="stimme" style="margin:10px 0 0"></p>
+  </section>
+
+  <section>
+    <h2>Fortschritt</h2>
+    <table id="stat"></table>
+    <p class="mut" style="margin:8px 0 0">Wiederholung: Fach 1 nach 1 Tag, Fach 2 nach 2, Fach 3 nach 4, Fach 4 nach 8, Fach 5 nach 16 Tagen. Nicht gewusst → zurück in Fach 1, kommt in derselben Sitzung wieder.</p>
+  </section>
+
+  <section>
+    <h2>Daten</h2>
+    <div class="row">
+      <button id="btnExport">Lernstand exportieren</button>
+      <label class="filebtn">Lernstand importieren<input type="file" accept=".json,application/json" id="impFile"></label>
+      <label class="filebtn">Vokabeldatei neu laden<input type="file" accept=".json,application/json" class="vokFile"></label>
+      <button id="btnReset" class="no">Lernstand zurücksetzen</button>
+    </div>
+    <p class="mut" id="vokInfo" style="margin:10px 0 0"></p>
+  </section>
+</main>
+
+<script>
+'use strict';
+const LS_STATE = 'trTrainer.state.v1';
+const LS_VOCAB = 'trTrainer.vokabeln.v1';
+const TAGE = [0, 1, 2, 4, 8, 16];          // Wiederholungsabstand je Fach (Index = Fach)
+const $ = id => document.getElementById(id);
+
+let vocab = { felder: {}, eintraege: [] };
+let vokQuelle = '';
+let state = ladeState();
+let aktuell = null;      // aktuelle Karte
+let offen = false;       // Lösung aufgedeckt?
+let letzteId = null;
+
+/* ---------- Speicher ---------- */
+function leerState() {
+  return { version: 1, settings: { richtung: 'tr-de', ziel: 30, auto: false, aus: [] }, karten: {}, tage: {} };
+}
+function pruefeState(s) {
+  if (!s || typeof s !== 'object' || typeof s.karten !== 'object' || s.karten === null) throw new Error('Kein gültiger Lernstand.');
+  const b = leerState();
+  return { version: 1, settings: Object.assign(b.settings, s.settings || {}), karten: s.karten, tage: s.tage || {} };
+}
+function ladeState() {
+  try { const r = localStorage.getItem(LS_STATE); if (r) return pruefeState(JSON.parse(r)); } catch (e) {}
+  return leerState();
+}
+function speichere() {
+  try { localStorage.setItem(LS_STATE, JSON.stringify(state)); }
+  catch (e) { hinweis('Lernstand konnte nicht gespeichert werden (localStorage nicht verfügbar). Bitte regelmäßig exportieren.'); }
+}
+function hinweis(text) { const h = $('hinweis'); h.textContent = text; h.hidden = !text; }
+
+/* ---------- Datum ---------- */
+function tagKey(d = new Date()) {
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function tagStartPlus(n) { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n).getTime(); }
+
+/* ---------- Vokabeln ---------- */
+function normalisiere(data) {
+  const roh = Array.isArray(data) ? data : (data && data.eintraege);
+  if (!Array.isArray(roh)) throw new Error('Erwartet wird {"felder": {...}, "eintraege": [...]}.');
+  const felder = Object.assign({}, (data && !Array.isArray(data) && data.felder) || {});
+  const ids = new Set(), eintraege = [];
+  for (const e of roh) {
+    if (!e || typeof e.tr !== 'string' || typeof e.de !== 'string' || !e.tr.trim() || !e.de.trim()) continue;
+    const feld = String(e.feld || 'sonstige');
+    const id = String(e.id || feld + ':' + e.tr);
+    if (ids.has(id)) continue;
+    ids.add(id);
+    if (!felder[feld]) felder[feld] = feld;
+    eintraege.push({ id, feld, tr: e.tr.trim(), de: e.de.trim(), satz: String(e.satz || '').trim() });
+  }
+  if (!eintraege.length) throw new Error('Keine gültigen Einträge gefunden (jeder Eintrag braucht "tr" und "de").');
+  return { felder, eintraege };
+}
+function setzeVokabeln(data, quelle, cachen) {
+  vocab = normalisiere(data);
+  vokQuelle = quelle;
+  if (cachen) { try { localStorage.setItem(LS_VOCAB, JSON.stringify({ zeit: Date.now(), data: vocab })); } catch (e) {} }
+  baueFelder();
+  naechste();
+}
+async function ladeVokabeln() {
+  try {
+    const r = await fetch('vokabeln.json', { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    setzeVokabeln(await r.json(), 'vokabeln.json (direkt gelesen)', true);
+    return;
+  } catch (e) {}
+  try {
+    const c = JSON.parse(localStorage.getItem(LS_VOCAB));
+    if (c && c.data) {
+      setzeVokabeln(c.data, 'im Browser gespeicherte Kopie vom ' + new Date(c.zeit).toLocaleString('de-DE'), false);
+      return;
+    }
+  } catch (e) {}
+  render();
+}
+function leseDatei(input, cb) {
+  const f = input.files[0];
+  input.value = '';
+  if (!f) return;
+  const r = new FileReader();
+  r.onload = () => { try { cb(JSON.parse(r.result)); } catch (e) { alert('Datei konnte nicht gelesen werden: ' + e.message); } };
+  r.readAsText(f, 'utf-8');
+}
+
+/* ---------- Leitner ---------- */
+function aktive() { const aus = state.settings.aus; return vocab.eintraege.filter(e => !aus.includes(e.feld)); }
+function schlange() {
+  const jetzt = Date.now(), faellig = [], neu = [];
+  for (const e of aktive()) {
+    const k = state.karten[e.id];
+    if (!k) neu.push(e); else if (k.due <= jetzt) faellig.push(e);
+  }
+  faellig.sort((a, b) => (state.karten[a.id].seen || 0) - (state.karten[b.id].seen || 0));
+  return { faellig, neu };
+}
+function naechste() {
+  const { faellig, neu } = schlange();
+  let k = faellig[0] || null;
+  // dieselbe Karte nicht zweimal direkt hintereinander, wenn es Alternativen gibt
+  if (k && k.id === letzteId) k = faellig[1] || (neu.length ? null : k);
+  if (!k && neu.length) k = neu[Math.floor(Math.random() * neu.length)];
+  aktuell = k;
+  offen = false;
+  render();
+  if (aktuell && state.settings.auto && state.settings.richtung === 'tr-de') sprich(aktuell.tr);
+}
+function antworte(gewusst) {
+  if (!aktuell || !offen) return;
+  const k = state.karten[aktuell.id] || { box: 0 };
+  if (gewusst) {
+    k.box = Math.min(5, k.box + 1);
+    k.due = tagStartPlus(TAGE[k.box]);
+    const t = tagKey();
+    state.tage[t] = (state.tage[t] || 0) + 1;
+  } else {
+    k.box = 1;
+    k.due = Date.now();
+  }
+  k.seen = Date.now();
+  state.karten[aktuell.id] = k;
+  letzteId = aktuell.id;
+  speichere();
+  naechste();
+}
+function aufdecken() {
+  if (!aktuell || offen) return;
+  offen = true;
+  render();
+  if (state.settings.auto && state.settings.richtung === 'de-tr') sprich(aktuell.tr);
+}
+
+/* ---------- Audio ---------- */
+function trStimme() {
+  if (!('speechSynthesis' in window)) return null;
+  return speechSynthesis.getVoices().find(v => v.lang.replace('_', '-').toLowerCase().startsWith('tr')) || null;
+}
+function sprich(text) {
+  if (!text || !('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'tr-TR';
+  const v = trStimme();
+  if (v) u.voice = v;
+  u.rate = 0.9;
+  speechSynthesis.speak(u);
+}
+function audioErlaubt() { return aktuell && (offen || state.settings.richtung === 'tr-de'); }
+function sprichWort() { if (audioErlaubt()) sprich(aktuell.tr); }
+function sprichSatz() { if (audioErlaubt()) sprich(aktuell.satz); }
+function stimmenInfo() {
+  const el = $('stimme');
+  if (!('speechSynthesis' in window)) { el.textContent = 'Audio: Dieser Browser unterstützt keine Sprachausgabe.'; return; }
+  const v = trStimme();
+  el.textContent = v ? 'Audio: Stimme „' + v.name + '“ (' + v.lang + ').'
+    : 'Audio: Keine türkische Stimme gefunden. Falls nichts oder mit falscher Aussprache vorgelesen wird, in den Systemeinstellungen eine türkische Stimme (tr-TR) installieren.';
+}
+
+/* ---------- Anzeige ---------- */
+function baueFelder() {
+  const box = $('felder');
+  box.textContent = '';
+  const anz = {};
+  for (const e of vocab.eintraege) anz[e.feld] = (anz[e.feld] || 0) + 1;
+  for (const f of Object.keys(vocab.felder)) {
+    if (!anz[f]) continue;
+    const l = document.createElement('label'), c = document.createElement('input');
+    c.type = 'checkbox';
+    c.checked = !state.settings.aus.includes(f);
+    c.onchange = () => {
+      state.settings.aus = state.settings.aus.filter(x => x !== f);
+      if (!c.checked) state.settings.aus.push(f);
+      speichere(); naechste();
+    };
+    l.append(c, ' ' + vocab.felder[f] + ' (' + anz[f] + ')');
+    box.append(l);
+  }
+}
+function render() {
+  const s = state.settings, hatVok = vocab.eintraege.length > 0;
+  const heute = state.tage[tagKey()] || 0;
+  $('tagText').textContent = 'Heute ' + heute + ' / ' + s.ziel + (heute >= s.ziel ? ' – Tagesziel erreicht' : '');
+  $('tagBar').style.width = Math.min(100, heute / s.ziel * 100) + '%';
+  document.querySelectorAll('input[name=richtung]').forEach(r => { r.checked = r.value === s.richtung; });
+  $('ziel').value = s.ziel;
+  $('auto').checked = s.auto;
+
+  $('laden').hidden = hatVok;
+  $('lern').hidden = !(hatVok && aktuell);
+  $('fertig').hidden = !(hatVok && !aktuell);
+  $('vokInfo').textContent = hatVok
+    ? vocab.eintraege.length + ' Einträge geladen. Quelle: ' + vokQuelle + '. Nach Änderungen an vokabeln.json: Seite neu laden bzw. „Vokabeldatei neu laden“. Der Lernstand hängt an der "id" eines Eintrags.'
+    : 'Noch keine Vokabeln geladen.';
+  if (!hatVok) { $('queueText').textContent = ''; $('stat').textContent = ''; return; }
+
+  const q = schlange();
+  $('queueText').textContent = q.faellig.length + ' fällig · ' + q.neu.length + ' neu';
+
+  if (aktuell) {
+    const trDe = s.richtung === 'tr-de', k = state.karten[aktuell.id];
+    $('feldName').textContent = vocab.felder[aktuell.feld] || aktuell.feld;
+    $('fachName').textContent = k ? 'Fach ' + k.box : 'Neu';
+    const fr = $('frage'), an = $('antwort');
+    fr.textContent = trDe ? aktuell.tr : aktuell.de; fr.lang = trDe ? 'tr' : 'de';
+    an.textContent = trDe ? aktuell.de : aktuell.tr; an.lang = trDe ? 'de' : 'tr';
+    $('satz').textContent = aktuell.satz;
+    $('satz').hidden = !aktuell.satz;
+    $('loesung').hidden = !offen;
+    $('vorher').hidden = offen;
+    $('nachher').hidden = !offen;
+    $('btnWort').disabled = !audioErlaubt();
+    $('btnSatz').disabled = !audioErlaubt() || !aktuell.satz;
+  } else {
+    const akt = aktive();
+    let naechstes = Infinity;
+    for (const e of akt) { const k = state.karten[e.id]; if (k && k.due < naechstes) naechstes = k.due; }
+    $('fertigText').textContent = !akt.length ? 'Kein Themenfeld ausgewählt.'
+      : 'Alle Karten der gewählten Felder sind für heute erledigt. Nächste Wiederholung: '
+        + new Date(naechstes).toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' }) + '.';
+  }
+  renderStat();
+}
+function renderStat() {
+  const t = $('stat'), jetzt = Date.now(), zeilen = {}, sum = [0, 0, 0, 0, 0, 0, 0];
+  for (const e of vocab.eintraege) {
+    const z = zeilen[e.feld] || (zeilen[e.feld] = [0, 0, 0, 0, 0, 0, 0]);
+    const k = state.karten[e.id], b = k ? k.box : 0;
+    z[b]++; sum[b]++;
+    if (k && k.due <= jetzt) { z[6]++; sum[6]++; }
+  }
+  t.textContent = '';
+  const zeile = (name, werte, tag) => {
+    const tr = document.createElement('tr');
+    [name, ...werte].forEach(w => { const c = document.createElement(tag); c.textContent = w; tr.append(c); });
+    t.append(tr);
+  };
+  zeile('Themenfeld', ['Neu', 'Fach 1', 'Fach 2', 'Fach 3', 'Fach 4', 'Fach 5', 'Fällig'], 'th');
+  for (const f of Object.keys(zeilen)) zeile(vocab.felder[f] || f, zeilen[f], 'td');
+  zeile('Gesamt', sum, 'th');
+}
+
+/* ---------- Ereignisse ---------- */
+function setzeRichtung(r) { state.settings.richtung = r; speichere(); offen = false; render(); }
+document.querySelectorAll('input[name=richtung]').forEach(r => { r.onchange = () => setzeRichtung(r.value); });
+$('ziel').onchange = e => {
+  state.settings.ziel = Math.max(1, Math.min(500, parseInt(e.target.value, 10) || 30));
+  speichere(); render();
+};
+$('auto').onchange = e => { state.settings.auto = e.target.checked; speichere(); };
+const klick = (id, fn) => { $(id).onclick = e => { e.currentTarget.blur(); fn(); }; };
+klick('btnZeigen', aufdecken);
+klick('btnJa', () => antworte(true));
+klick('btnNein', () => antworte(false));
+klick('btnWort', sprichWort);
+klick('btnSatz', sprichSatz);
+
+document.querySelectorAll('.vokFile').forEach(inp => {
+  inp.onchange = () => leseDatei(inp, d => {
+    try { setzeVokabeln(d, 'manuell geladen am ' + new Date().toLocaleString('de-DE'), true); }
+    catch (e) { alert('Vokabeldatei ungültig: ' + e.message); }
+  });
+});
+$('impFile').onchange = e => leseDatei(e.target, d => {
+  try {
+    const neu = pruefeState(d);
+    if (!confirm('Aktuellen Lernstand durch den Import ersetzen (' + Object.keys(neu.karten).length + ' Karten mit Lernstand)?')) return;
+    state = neu; speichere(); baueFelder(); naechste();
+  } catch (err) { alert('Import fehlgeschlagen: ' + err.message); }
+});
+$('btnExport').onclick = () => {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 1)], { type: 'application/json' }));
+  a.download = 'tuerkisch-lernstand-' + tagKey() + '.json';
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+};
+$('btnReset').onclick = () => {
+  if (!confirm('Gesamten Lernstand löschen? Das lässt sich nur über einen vorherigen Export rückgängig machen.')) return;
+  const s = state.settings; state = leerState(); state.settings = s;
+  speichere(); naechste();
+};
+
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const t = e.target.tagName;
+  if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return;
+  const k = e.key.toLowerCase();
+  if (k === ' ' || k === 'enter') {
+    if (t === 'BUTTON') return;             // fokussierten Button normal auslösen
+    e.preventDefault(); aufdecken();
+  }
+  else if (k === 'arrowright' || k === '2' || k === 'j') antworte(true);
+  else if (k === 'arrowleft' || k === '1' || k === 'f') antworte(false);
+  else if (k === 'a') sprichWort();
+  else if (k === 's') sprichSatz();
+  else if (k === 'r') setzeRichtung(state.settings.richtung === 'tr-de' ? 'de-tr' : 'tr-de');
+});
+
+if ('speechSynthesis' in window) speechSynthesis.onvoiceschanged = stimmenInfo;
+setTimeout(stimmenInfo, 800);
+render();
+ladeVokabeln();
+</script>
+</body>
+</html>
