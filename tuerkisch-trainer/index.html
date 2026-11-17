@@ -31,12 +31,18 @@
   .ok { border-color:var(--ok); color:var(--ok); }
   .no { border-color:var(--no); color:var(--no); }
   .wide { flex:1 1 180px; padding:12px; font-weight:600; }
+  .klein { padding:4px 10px; font-size:.9rem; }
   table { border-collapse:collapse; width:100%; font-size:.9rem; }
-  th, td { text-align:right; padding:4px 6px; border-bottom:1px solid var(--line); }
+  th, td { text-align:right; padding:4px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
   th:first-child, td:first-child { text-align:left; }
-  input[type=number] { font:inherit; width:5em; padding:4px; }
+  #listeTab td, #listeTab th { text-align:left; }
+  #listeTab td:first-child { cursor:pointer; }
+  input[type=number], input[type=search] { font:inherit; padding:4px; }
+  input[type=number] { width:5em; }
+  input[type=search] { width:100%; margin:10px 0; }
   input[type=file] { position:absolute; width:1px; height:1px; opacity:0; }
-  label { cursor:pointer; }
+  label, summary { cursor:pointer; }
+  summary { font-weight:600; }
   #hinweis { border-color:var(--no); }
   [hidden] { display:none !important; }
 </style>
@@ -84,6 +90,9 @@
         <button id="btnJa" class="wide ok">Gewusst <kbd>→</kbd> <kbd>2</kbd></button>
       </div>
     </div>
+    <div class="row" id="undoRow" style="margin-top:12px" hidden>
+      <button id="btnUndo" class="klein">Letzte Antwort rückgängig <kbd>Z</kbd></button>
+    </div>
   </section>
 
   <section>
@@ -97,15 +106,25 @@
     <div class="row" style="margin-top:10px">
       <label>Tagesziel (gewusste Karten): <input type="number" id="ziel" min="1" max="500"></label>
       <label><input type="checkbox" id="auto"> Begriff automatisch vorlesen</label>
+      <label><input type="checkbox" id="langsam"> langsam vorlesen</label>
     </div>
     <div class="row" style="margin-top:10px" id="felder"></div>
     <p class="mut" id="stimme" style="margin:10px 0 0"></p>
   </section>
 
   <section>
-    <h2>Fortschritt</h2>
+    <h2 id="statTitel">Fortschritt</h2>
     <table id="stat"></table>
-    <p class="mut" style="margin:8px 0 0">Wiederholung: Fach 1 nach 1 Tag, Fach 2 nach 2, Fach 3 nach 4, Fach 4 nach 8, Fach 5 nach 16 Tagen. Nicht gewusst → zurück in Fach 1, kommt in derselben Sitzung wieder.</p>
+    <p class="mut" id="verlauf" style="margin:8px 0 0"></p>
+    <p class="mut" style="margin:8px 0 0">Jede Abfragerichtung hat einen eigenen Lernstand. Wiederholung: Fach 1 nach 1 Tag, Fach 2 nach 2, Fach 3 nach 4, Fach 4 nach 8, Fach 5 nach 16 Tagen. Nicht gewusst → zurück in Fach 1, kommt nach einigen anderen Karten in derselben Sitzung wieder.</p>
+  </section>
+
+  <section>
+    <details id="liste">
+      <summary>Vokabelliste durchsuchen</summary>
+      <input type="search" id="suche" placeholder="Suchen (Türkisch oder Deutsch)" aria-label="Vokabeln durchsuchen">
+      <table id="listeTab"></table>
+    </details>
   </section>
 
   <section>
@@ -125,6 +144,8 @@
 const LS_STATE = 'trTrainer.state.v1';
 const LS_VOCAB = 'trTrainer.vokabeln.v1';
 const TAGE = [0, 1, 2, 4, 8, 16];          // Wiederholungsabstand je Fach (Index = Fach)
+const RICHTUNG = { 'tr-de': 'Türkisch → Deutsch', 'de-tr': 'Deutsch → Türkisch' };
+const ABSTAND = 3;                          // so viele andere Karten vor der Wiederholung einer nicht gewussten
 const $ = id => document.getElementById(id);
 
 let vocab = { felder: {}, eintraege: [] };
@@ -132,16 +153,31 @@ let vokQuelle = '';
 let state = ladeState();
 let aktuell = null;      // aktuelle Karte
 let offen = false;       // Lösung aufgedeckt?
-let letzteId = null;
+let zuletzt = [];        // IDs der zuletzt beantworteten Karten
+let undo = null;         // letzte Antwort, einmal rücknehmbar
 
 /* ---------- Speicher ---------- */
 function leerState() {
-  return { version: 1, settings: { richtung: 'tr-de', ziel: 30, auto: false, aus: [] }, karten: {}, tage: {} };
+  return {
+    version: 2,
+    settings: { richtung: 'tr-de', ziel: 30, auto: false, langsam: false, aus: [] },
+    karten: { 'tr-de': {}, 'de-tr': {} },   // Lernstand je Abfragerichtung
+    tage: {}
+  };
 }
 function pruefeState(s) {
   if (!s || typeof s !== 'object' || typeof s.karten !== 'object' || s.karten === null) throw new Error('Kein gültiger Lernstand.');
   const b = leerState();
-  return { version: 1, settings: Object.assign(b.settings, s.settings || {}), karten: s.karten, tage: s.tage || {} };
+  Object.assign(b.settings, s.settings || {});
+  if (!RICHTUNG[b.settings.richtung]) b.settings.richtung = 'tr-de';
+  if (!Array.isArray(b.settings.aus)) b.settings.aus = [];
+  if (s.version >= 2) {
+    for (const r in RICHTUNG) if (s.karten[r] && typeof s.karten[r] === 'object') b.karten[r] = s.karten[r];
+  } else {
+    b.karten[b.settings.richtung] = s.karten;   // Version 1: ein gemeinsamer Lernstand
+  }
+  if (s.tage && typeof s.tage === 'object') b.tage = s.tage;
+  return b;
 }
 function ladeState() {
   try { const r = localStorage.getItem(LS_STATE); if (r) return pruefeState(JSON.parse(r)); } catch (e) {}
@@ -152,6 +188,7 @@ function speichere() {
   catch (e) { hinweis('Lernstand konnte nicht gespeichert werden (localStorage nicht verfügbar). Bitte regelmäßig exportieren.'); }
 }
 function hinweis(text) { const h = $('hinweis'); h.textContent = text; h.hidden = !text; }
+function K() { return state.karten[state.settings.richtung]; }
 
 /* ---------- Datum ---------- */
 function tagKey(d = new Date()) {
@@ -180,6 +217,7 @@ function normalisiere(data) {
 function setzeVokabeln(data, quelle, cachen) {
   vocab = normalisiere(data);
   vokQuelle = quelle;
+  undo = null;
   if (cachen) { try { localStorage.setItem(LS_VOCAB, JSON.stringify({ zeit: Date.now(), data: vocab })); } catch (e) {} }
   baueFelder();
   naechste();
@@ -212,20 +250,20 @@ function leseDatei(input, cb) {
 /* ---------- Leitner ---------- */
 function aktive() { const aus = state.settings.aus; return vocab.eintraege.filter(e => !aus.includes(e.feld)); }
 function schlange() {
-  const jetzt = Date.now(), faellig = [], neu = [];
+  const jetzt = Date.now(), karten = K(), faellig = [], neu = [];
   for (const e of aktive()) {
-    const k = state.karten[e.id];
+    const k = karten[e.id];
     if (!k) neu.push(e); else if (k.due <= jetzt) faellig.push(e);
   }
-  faellig.sort((a, b) => (state.karten[a.id].seen || 0) - (state.karten[b.id].seen || 0));
+  faellig.sort((a, b) => (karten[a.id].seen || 0) - (karten[b.id].seen || 0));
   return { faellig, neu };
 }
 function naechste() {
   const { faellig, neu } = schlange();
-  let k = faellig[0] || null;
-  // dieselbe Karte nicht zweimal direkt hintereinander, wenn es Alternativen gibt
-  if (k && k.id === letzteId) k = faellig[1] || (neu.length ? null : k);
+  // fällige Karten zuerst, aber gerade beantwortete erst nach einigen anderen wieder
+  let k = faellig.find(e => !zuletzt.includes(e.id)) || null;
   if (!k && neu.length) k = neu[Math.floor(Math.random() * neu.length)];
+  if (!k) k = faellig[0] || null;
   aktuell = k;
   offen = false;
   render();
@@ -233,21 +271,35 @@ function naechste() {
 }
 function antworte(gewusst) {
   if (!aktuell || !offen) return;
-  const k = state.karten[aktuell.id] || { box: 0 };
+  const karten = K(), alt = karten[aktuell.id], k = alt ? Object.assign({}, alt) : { box: 0 }, t = tagKey();
+  undo = { id: aktuell.id, richtung: state.settings.richtung, vorher: alt || null, tag: t, gezaehlt: gewusst };
   if (gewusst) {
     k.box = Math.min(5, k.box + 1);
     k.due = tagStartPlus(TAGE[k.box]);
-    const t = tagKey();
     state.tage[t] = (state.tage[t] || 0) + 1;
   } else {
     k.box = 1;
     k.due = Date.now();
   }
   k.seen = Date.now();
-  state.karten[aktuell.id] = k;
-  letzteId = aktuell.id;
+  karten[aktuell.id] = k;
+  zuletzt.push(aktuell.id);
+  if (zuletzt.length > ABSTAND) zuletzt.shift();
   speichere();
   naechste();
+}
+function rueckgaengig() {
+  if (!undo) return;
+  const u = undo, karten = state.karten[u.richtung];
+  undo = null;
+  if (u.vorher) karten[u.id] = u.vorher; else delete karten[u.id];
+  if (u.gezaehlt && state.tage[u.tag]) { if (--state.tage[u.tag] <= 0) delete state.tage[u.tag]; }
+  state.settings.richtung = u.richtung;
+  zuletzt = zuletzt.filter(x => x !== u.id);
+  aktuell = vocab.eintraege.find(e => e.id === u.id) || null;
+  offen = !!aktuell;
+  speichere();
+  if (aktuell) render(); else naechste();
 }
 function aufdecken() {
   if (!aktuell || offen) return;
@@ -268,7 +320,7 @@ function sprich(text) {
   u.lang = 'tr-TR';
   const v = trStimme();
   if (v) u.voice = v;
-  u.rate = 0.9;
+  u.rate = state.settings.langsam ? 0.65 : 0.9;
   speechSynthesis.speak(u);
 }
 function audioErlaubt() { return aktuell && (offen || state.settings.richtung === 'tr-de'); }
@@ -303,27 +355,30 @@ function baueFelder() {
   }
 }
 function render() {
-  const s = state.settings, hatVok = vocab.eintraege.length > 0;
+  const s = state.settings, hatVok = vocab.eintraege.length > 0, karten = K();
   const heute = state.tage[tagKey()] || 0;
   $('tagText').textContent = 'Heute ' + heute + ' / ' + s.ziel + (heute >= s.ziel ? ' – Tagesziel erreicht' : '');
   $('tagBar').style.width = Math.min(100, heute / s.ziel * 100) + '%';
   document.querySelectorAll('input[name=richtung]').forEach(r => { r.checked = r.value === s.richtung; });
   $('ziel').value = s.ziel;
   $('auto').checked = s.auto;
+  $('langsam').checked = s.langsam;
 
   $('laden').hidden = hatVok;
   $('lern').hidden = !(hatVok && aktuell);
   $('fertig').hidden = !(hatVok && !aktuell);
+  $('undoRow').hidden = !hatVok;
+  $('btnUndo').disabled = !undo;
   $('vokInfo').textContent = hatVok
     ? vocab.eintraege.length + ' Einträge geladen. Quelle: ' + vokQuelle + '. Nach Änderungen an vokabeln.json: Seite neu laden bzw. „Vokabeldatei neu laden“. Der Lernstand hängt an der "id" eines Eintrags.'
     : 'Noch keine Vokabeln geladen.';
-  if (!hatVok) { $('queueText').textContent = ''; $('stat').textContent = ''; return; }
+  if (!hatVok) { $('queueText').textContent = ''; $('stat').textContent = ''; $('verlauf').textContent = ''; return; }
 
   const q = schlange();
-  $('queueText').textContent = q.faellig.length + ' fällig · ' + q.neu.length + ' neu';
+  $('queueText').textContent = RICHTUNG[s.richtung] + ': ' + q.faellig.length + ' fällig · ' + q.neu.length + ' neu';
 
   if (aktuell) {
-    const trDe = s.richtung === 'tr-de', k = state.karten[aktuell.id];
+    const trDe = s.richtung === 'tr-de', k = karten[aktuell.id];
     $('feldName').textContent = vocab.felder[aktuell.feld] || aktuell.feld;
     $('fachName').textContent = k ? 'Fach ' + k.box : 'Neu';
     const fr = $('frage'), an = $('antwort');
@@ -339,18 +394,22 @@ function render() {
   } else {
     const akt = aktive();
     let naechstes = Infinity;
-    for (const e of akt) { const k = state.karten[e.id]; if (k && k.due < naechstes) naechstes = k.due; }
+    for (const e of akt) { const k = karten[e.id]; if (k && k.due < naechstes) naechstes = k.due; }
     $('fertigText').textContent = !akt.length ? 'Kein Themenfeld ausgewählt.'
-      : 'Alle Karten der gewählten Felder sind für heute erledigt. Nächste Wiederholung: '
-        + new Date(naechstes).toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' }) + '.';
+      : 'Alle Karten der gewählten Felder sind in dieser Richtung für heute erledigt. Nächste Wiederholung: '
+        + new Date(naechstes).toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' })
+        + '. Du kannst mit R die Abfragerichtung wechseln und dort weiterlernen.';
   }
   renderStat();
+  renderVerlauf();
+  if ($('liste').open) renderListe();
 }
 function renderStat() {
-  const t = $('stat'), jetzt = Date.now(), zeilen = {}, sum = [0, 0, 0, 0, 0, 0, 0];
+  const t = $('stat'), jetzt = Date.now(), karten = K(), zeilen = {}, sum = [0, 0, 0, 0, 0, 0, 0];
+  $('statTitel').textContent = 'Fortschritt (' + RICHTUNG[state.settings.richtung] + ')';
   for (const e of vocab.eintraege) {
     const z = zeilen[e.feld] || (zeilen[e.feld] = [0, 0, 0, 0, 0, 0, 0]);
-    const k = state.karten[e.id], b = k ? k.box : 0;
+    const k = karten[e.id], b = k ? k.box : 0;
     z[b]++; sum[b]++;
     if (k && k.due <= jetzt) { z[6]++; sum[6]++; }
   }
@@ -364,21 +423,64 @@ function renderStat() {
   for (const f of Object.keys(zeilen)) zeile(vocab.felder[f] || f, zeilen[f], 'td');
   zeile('Gesamt', sum, 'th');
 }
+function renderVerlauf() {
+  const teile = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(); d.setDate(d.getDate() - i);
+    teile.push(d.toLocaleDateString('de-DE', { weekday: 'short' }) + ' ' + (state.tage[tagKey(d)] || 0));
+  }
+  let serie = 0;
+  const d = new Date();
+  if (!state.tage[tagKey(d)]) d.setDate(d.getDate() - 1);
+  while (state.tage[tagKey(d)] > 0) { serie++; d.setDate(d.getDate() - 1); }
+  $('verlauf').textContent = 'Letzte 7 Tage (gewusste Karten, beide Richtungen): ' + teile.join(' · ')
+    + '. Serie: ' + serie + (serie === 1 ? ' Tag.' : ' Tage.');
+}
+function renderListe() {
+  const t = $('listeTab'), q = $('suche').value.trim(), karten = K();
+  const qTr = q.toLocaleLowerCase('tr'), qDe = q.toLowerCase();
+  t.textContent = '';
+  const kopf = document.createElement('tr');
+  ['Türkisch (Klick: vorlesen)', 'Deutsch', 'Fach'].forEach(x => { const th = document.createElement('th'); th.textContent = x; kopf.append(th); });
+  t.append(kopf);
+  for (const e of vocab.eintraege) {
+    if (q && !e.tr.toLocaleLowerCase('tr').includes(qTr) && !e.de.toLowerCase().includes(qDe)) continue;
+    const tr = document.createElement('tr'), a = document.createElement('td'), b = document.createElement('td'), c = document.createElement('td');
+    const w = document.createElement('strong'); w.textContent = e.tr; w.lang = 'tr';
+    const s = document.createElement('div'); s.textContent = e.satz; s.className = 'mut'; s.lang = 'tr';
+    a.append(w, s);
+    a.onclick = () => sprich(e.tr);
+    b.textContent = e.de;
+    const k = karten[e.id];
+    c.textContent = k ? k.box : 'neu';
+    tr.append(a, b, c);
+    t.append(tr);
+  }
+}
 
 /* ---------- Ereignisse ---------- */
-function setzeRichtung(r) { state.settings.richtung = r; speichere(); offen = false; render(); }
+function setzeRichtung(r) {
+  if (r === state.settings.richtung) return;
+  state.settings.richtung = r;
+  speichere();
+  naechste();      // eigener Lernstand je Richtung, also auch eigene Warteschlange
+}
 document.querySelectorAll('input[name=richtung]').forEach(r => { r.onchange = () => setzeRichtung(r.value); });
 $('ziel').onchange = e => {
   state.settings.ziel = Math.max(1, Math.min(500, parseInt(e.target.value, 10) || 30));
   speichere(); render();
 };
 $('auto').onchange = e => { state.settings.auto = e.target.checked; speichere(); };
+$('langsam').onchange = e => { state.settings.langsam = e.target.checked; speichere(); };
 const klick = (id, fn) => { $(id).onclick = e => { e.currentTarget.blur(); fn(); }; };
 klick('btnZeigen', aufdecken);
 klick('btnJa', () => antworte(true));
 klick('btnNein', () => antworte(false));
 klick('btnWort', sprichWort);
 klick('btnSatz', sprichSatz);
+klick('btnUndo', rueckgaengig);
+$('liste').ontoggle = () => { if ($('liste').open) renderListe(); };
+$('suche').oninput = renderListe;
 
 document.querySelectorAll('.vokFile').forEach(inp => {
   inp.onchange = () => leseDatei(inp, d => {
@@ -389,8 +491,10 @@ document.querySelectorAll('.vokFile').forEach(inp => {
 $('impFile').onchange = e => leseDatei(e.target, d => {
   try {
     const neu = pruefeState(d);
-    if (!confirm('Aktuellen Lernstand durch den Import ersetzen (' + Object.keys(neu.karten).length + ' Karten mit Lernstand)?')) return;
-    state = neu; speichere(); baueFelder(); naechste();
+    const n = Object.keys(neu.karten['tr-de']).length + Object.keys(neu.karten['de-tr']).length;
+    if (!confirm('Aktuellen Lernstand durch den Import ersetzen (' + n + ' Karten mit Lernstand)?')) return;
+    state = neu; undo = null; zuletzt = [];
+    speichere(); baueFelder(); naechste();
   } catch (err) { alert('Import fehlgeschlagen: ' + err.message); }
 });
 $('btnExport').onclick = () => {
@@ -401,8 +505,9 @@ $('btnExport').onclick = () => {
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 };
 $('btnReset').onclick = () => {
-  if (!confirm('Gesamten Lernstand löschen? Das lässt sich nur über einen vorherigen Export rückgängig machen.')) return;
+  if (!confirm('Gesamten Lernstand (beide Richtungen) löschen? Das lässt sich nur über einen vorherigen Export rückgängig machen.')) return;
   const s = state.settings; state = leerState(); state.settings = s;
+  undo = null; zuletzt = [];
   speichere(); naechste();
 };
 
@@ -412,13 +517,14 @@ document.addEventListener('keydown', e => {
   if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return;
   const k = e.key.toLowerCase();
   if (k === ' ' || k === 'enter') {
-    if (t === 'BUTTON') return;             // fokussierten Button normal auslösen
+    if (t === 'BUTTON' || t === 'SUMMARY') return;   // fokussiertes Element normal auslösen
     e.preventDefault(); aufdecken();
   }
   else if (k === 'arrowright' || k === '2' || k === 'j') antworte(true);
   else if (k === 'arrowleft' || k === '1' || k === 'f') antworte(false);
   else if (k === 'a') sprichWort();
   else if (k === 's') sprichSatz();
+  else if (k === 'z') rueckgaengig();
   else if (k === 'r') setzeRichtung(state.settings.richtung === 'tr-de' ? 'de-tr' : 'tr-de');
 });
 
