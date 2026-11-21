@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T19:58:01.422Z",
+ "updatedAt": "2026-11-21T20:40:03.156Z",
  "quotes": [
   {
    "id": "brent",
@@ -67,18 +67,6 @@
    "interval": "15m",
    "source": "snapshot",
    "points": [
-    [
-     1794859200,
-     92.33
-    ],
-    [
-     1794860100,
-     92.43
-    ],
-    [
-     1794861000,
-     92.37
-    ],
     [
      1794861900,
      92.35
@@ -3440,6 +3428,17 @@
    "severity": "high"
   },
   {
+   "title": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
+   "link": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+   "source": "Al Jazeera",
+   "pubDate": "2026-11-21T12:45:24.000Z",
+   "description": "Finnish authorities say two drones attack cargo ship that has links to Russia's armed forces.",
+   "categories": [
+    "russia_ukraine"
+   ],
+   "severity": "high"
+  },
+  {
    "title": "Russian crew evacuating ship hit by drones off coast of Finland",
    "link": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
    "source": "Al Jazeera",
@@ -6460,17 +6459,6 @@
     "market"
    ],
    "severity": "high"
-  },
-  {
-   "title": "Two Violating Supertankers Explode in Strait of Hormuz",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRFZFckd0T2lNV3JYVVhOaWVNVXpvRldQcFpQT29JbFk3ZjdXSk9iNHJjZzQxZFI3MHF2aFlnY0NNS1E1a2ZXbHcyYU84YzRveXNOc1VQREEwYXI3R1kzN21Da29QZmFRNEppenFLZGEtRGhET1pPd2ZnM1YtZG9jd2pDQU5tVXRxWEE?oc=5",
-   "source": "Orinoco Tribune",
-   "pubDate": "2026-11-20T21:47:58.000Z",
-   "description": "Two Violating Supertankers Explode in Strait of Hormuz&nbsp;&nbsp;Orinoco Tribune",
-   "categories": [
-    "hormuz_redsea"
-   ],
-   "severity": "high"
   }
  ],
  "regions": [
@@ -6484,15 +6472,15 @@
   {
    "id": "hormuz_redsea",
    "label": "Hormus & Rotes Meer",
-   "count24h": 211,
-   "high24h": 202,
+   "count24h": 210,
+   "high24h": 201,
    "level": "kritisch"
   },
   {
    "id": "russia_ukraine",
    "label": "Russland – Ukraine",
-   "count24h": 55,
-   "high24h": 29,
+   "count24h": 56,
+   "high24h": 30,
    "level": "angespannt"
   },
   {
@@ -6529,9 +6517,9 @@
    "items": 25
   },
   {
-   "name": "@osinttechnical.bsky.social",
+   "name": "@aljazeera.com",
    "kind": "bluesky",
-   "items": 39
+   "items": 40
   },
   {
    "name": "@javierblas.bsky.social",
@@ -6539,22 +6527,22 @@
    "items": 38
   },
   {
-   "name": "@apnews.com",
-   "kind": "bluesky",
-   "items": 40
-  },
-  {
    "name": "@bnonews.com",
    "kind": "bluesky",
    "items": 40
   },
   {
-   "name": "BBC",
-   "kind": "rss",
-   "items": 26
+   "name": "@reuters.com",
+   "kind": "bluesky",
+   "items": 40
   },
   {
-   "name": "@aljazeera.com",
+   "name": "@osinttechnical.bsky.social",
+   "kind": "bluesky",
+   "items": 39
+  },
+  {
+   "name": "@apnews.com",
    "kind": "bluesky",
    "items": 40
   },
@@ -6564,9 +6552,9 @@
    "items": 39
   },
   {
-   "name": "@reuters.com",
-   "kind": "bluesky",
-   "items": 40
+   "name": "BBC",
+   "kind": "rss",
+   "items": 26
   },
   {
    "name": "OilPrice.com",
@@ -6579,24 +6567,14 @@
    "items": 20
   },
   {
-   "name": "t.me/FaytuksNews",
-   "kind": "telegram",
-   "items": 8
-  },
-  {
    "name": "t.me/AuroraIntel",
    "kind": "telegram",
    "items": 17
   },
   {
-   "name": "t.me/IranIntl_En",
+   "name": "t.me/FaytuksNews",
    "kind": "telegram",
-   "items": 13
-  },
-  {
-   "name": "t.me/insiderpaper",
-   "kind": "telegram",
-   "items": 20
+   "items": 8
   },
   {
    "name": "t.me/bnonews",
@@ -6604,9 +6582,24 @@
    "items": 19
   },
   {
+   "name": "t.me/IranIntl_En",
+   "kind": "telegram",
+   "items": 13
+  },
+  {
    "name": "t.me/warmonitors",
    "kind": "telegram",
    "items": 14
+  },
+  {
+   "name": "t.me/insiderpaper",
+   "kind": "telegram",
+   "items": 20
+  },
+  {
+   "name": "Google News #4",
+   "kind": "rss",
+   "items": 0
   },
   {
    "name": "Google News #2",
@@ -6615,11 +6608,6 @@
   },
   {
    "name": "Google News #3",
-   "kind": "rss",
-   "items": 0
-  },
-  {
-   "name": "Google News #4",
    "kind": "rss",
    "items": 0
   },
