@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/fetch_data.mjs)",
+      "Bash(curl -s \"https://stooq.com/q/d/l/?s=cb.f&i=d\")",
+      "Bash(curl -s \"https://stooq.com/q/l/?s=cb.f&e=csv\")"
+    ]
+  }
+}
